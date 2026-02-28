@@ -6,12 +6,11 @@
   "_entityId": "ceYccSV3",
   "children": [
     {
-      "_entityName": "Aris_Original",
       "_tag": {
-        "type": "UGCSceneEntity",
-        "resourceId": ""
+        "type": "EnvWeatherEntity",
+        "resourceId": "Primitive/Empty"
       },
-      "_entityId": "E9UJJ1B9",
+      "_entityId": "U0aquHSf",
       "children": [],
       "prefabVariant": null,
       "activeValue": {
@@ -25,19 +24,19 @@
       "editorLockValue": false,
       "editorVisibleValue": true,
       "position": {
-        "x": -26.29800033569336,
-        "y": 0.009999999776482582,
-        "z": 15.793999671936035
+        "x": 0,
+        "y": 100,
+        "z": 0
       },
       "scale": {
-        "x": 125,
-        "y": 125,
-        "z": 125
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 45,
+        "y": -204,
+        "z": -9
       },
       "BTPath": [
         null
@@ -51,439 +50,97 @@
         4
       ],
       "isTrigger": false,
-      "collidable": false,
+      "collidable": true,
       "physicalLayer": 0,
       "physicalMaterial": null,
-      "aoiSetting": 0,
       "initialTypes": {},
-      "componentList": [
-        "AvatarAble",
-        "Collider",
-        "ColliderShape",
-        "AnimationControllerAble"
-      ],
-      "entityTagData": {
-        "tagPointers": []
+      "componentList": [],
+      "_filters": [],
+      "curWeatherPresetID": 1,
+      "_entityName": "FE_0_ZZ_SKYENV_SKY",
+      "currentWeather": {
+        "lightColor": {
+          "r": 248,
+          "g": 248,
+          "b": 248,
+          "a": 1
+        },
+        "lightIntensity": 1.06,
+        "darkness": 0.03,
+        "shadowStrength": 0.6,
+        "terrainWetness": 0,
+        "lensFlare": 0.65,
+        "fogColor": {
+          "r": 123,
+          "g": 158,
+          "b": 192,
+          "a": 1
+        },
+        "ambientColor": {
+          "r": 149,
+          "g": 149,
+          "b": 149,
+          "a": 1
+        },
+        "nightMode": false,
+        "resId": "UGC_SKYENV_DAY",
+        "enableFog": true,
+        "fogType": 1,
+        "startDistance": 50,
+        "endDistance": 1000,
+        "density": 0.01,
+        "lightRotation": {
+          "x": 45,
+          "y": -204,
+          "z": -9
+        },
+        "skyMaterial": null
       },
-      "materials": [],
-      "colliders": [
-        {
-          "enable": true,
-          "colliderType": "MeshCollider",
-          "meshUUID": {
-            "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Halo.~@FFFUB",
-            "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Halo.mesh",
-            "_tag": {
-              "type": "GFileRefer"
-            },
-            "fileType": "mesh"
+      "aoiSetting": 0,
+      "customWeather": {
+        "lightColor": {
+          "r": 248,
+          "g": 248,
+          "b": 248,
+          "a": 1
+        },
+        "lightIntensity": 1.06,
+        "darkness": 0.03,
+        "shadowStrength": 0.6,
+        "terrainWetness": 0,
+        "lensFlare": 0.65,
+        "fogColor": {
+          "r": 202,
+          "g": 202,
+          "b": 202,
+          "a": 1
+        },
+        "ambientColor": {
+          "r": 149,
+          "g": 149,
+          "b": 149,
+          "a": 1
+        },
+        "nightMode": false,
+        "resId": "UGC_SKYENV_DAY",
+        "enableFog": true,
+        "fogType": 1,
+        "startDistance": 50,
+        "endDistance": 1000,
+        "density": 0.01,
+        "lightRotation": {
+          "x": 45,
+          "y": -204,
+          "z": -9
+        },
+        "skyMaterial": {
+          "fileId": "vbvfc6gdxfr-mgxd2kya-oso8odmzt",
+          "filePath": "Assets\\Scene\\Nền trời.mat",
+          "_tag": {
+            "type": "GFileRefer"
           },
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "size": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "radius": 0.5,
-          "height": 1,
-          "isConvexIfMesh": false
+          "fileType": "material"
         }
-      ],
-      "IsNPC": false,
-      "isCreateAsEmpty": false,
-      "Rigidbody": {
-        "Type": 1,
-        "Mass": 1,
-        "CenterOfMass": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "UseGravity": true,
-        "Drag": 0.05,
-        "AngularDrag": 0.05,
-        "FreezePosX": false,
-        "FreezeRotX": false,
-        "FreezePosY": false,
-        "FreezeRotY": false,
-        "FreezePosZ": false,
-        "FreezeRotZ": false
-      },
-      "ecaScripts": [],
-      "ecaProps": {
-        "CustomLevelObject": {},
-        "LevelObject": {},
-        "Transform": {},
-        "Entity": {},
-        "Visibility": {},
-        "AvatarAble": {},
-        "Collider": {},
-        "ColliderShape": {},
-        "MeshRender": {},
-        "AnimationControllerAble": {}
-      },
-      "propsData": {},
-      "entityVersion": 3,
-      "skeleton": {
-        "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original.sk",
-        "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original.sk",
-        "_tag": {
-          "type": "GFileRefer"
-        },
-        "fileType": "sk"
-      },
-      "boneEntity": {
-        "_entityName": "Aris_Original",
-        "_tag": {
-          "type": "BoneContentEntity"
-        },
-        "_entityId": "YFDHkll6",
-        "children": [
-          {
-            "_entityName": "Nhóm Ngoại Hình",
-            "_tag": {
-              "type": "BoneMeshGroupEntity"
-            },
-            "_entityId": "woJC455O",
-            "children": [
-              {
-                "_entityName": "Aris_Original_Body.mesh",
-                "_tag": {
-                  "type": "BoneMeshEntity"
-                },
-                "_entityId": "w58JVG6A",
-                "children": [],
-                "prefabVariant": null,
-                "activeValue": {
-                  "selfValue": true,
-                  "valueTag": "activeValue"
-                },
-                "unlockedValue": {
-                  "selfValue": true,
-                  "valueTag": "unlockedValue"
-                },
-                "editorLockValue": false,
-                "editorVisibleValue": true,
-                "_mesh": {
-                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Body.~@FFSKIN",
-                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Body.mesh",
-                  "_tag": {
-                    "type": "GFileRefer"
-                  },
-                  "fileType": "mesh"
-                },
-                "_cloth": null,
-                "partType": 0,
-                "causeAnimationTypeChange": false,
-                "outwardType": 0,
-                "materials": [
-                  {
-                    "fileId": "jahn7wida7-mm20g4rz-qi4hgb52pm",
-                    "filePath": "Assets\\Characters\\Aris\\Body.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  },
-                  {
-                    "fileId": "najembab0a-mm20g4wn-nouosp2whef",
-                    "filePath": "Assets\\Characters\\Aris\\Face.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  },
-                  {
-                    "fileId": "nvk29fwr2yg-mm20g4ug-muen4g85lot",
-                    "filePath": "Assets\\Characters\\Aris\\EyeMouth.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  },
-                  {
-                    "fileId": "khtualknkr8-mm20g4yq-ih9t6czmoq",
-                    "filePath": "Assets\\Characters\\Aris\\Hair.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  },
-                  {
-                    "fileId": "khtualknkr8-mm20g4yq-ih9t6czmoq",
-                    "filePath": "Assets\\Characters\\Aris\\Hair.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  }
-                ],
-                "avatarPartInfo": {
-                  "bone": "Aris_Original_Body",
-                  "bindType": 0
-                },
-                "position": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "scale": {
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                },
-                "rotation": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              },
-              {
-                "_entityName": "Aris_Original_Halo.mesh",
-                "_tag": {
-                  "type": "BoneMeshEntity"
-                },
-                "_entityId": "Gvsh49Tc",
-                "children": [],
-                "prefabVariant": null,
-                "activeValue": {
-                  "selfValue": true,
-                  "valueTag": "activeValue"
-                },
-                "unlockedValue": {
-                  "selfValue": true,
-                  "valueTag": "unlockedValue"
-                },
-                "editorLockValue": false,
-                "editorVisibleValue": true,
-                "_mesh": {
-                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Halo.~@FFFUB",
-                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Halo.mesh",
-                  "_tag": {
-                    "type": "GFileRefer"
-                  },
-                  "fileType": "mesh"
-                },
-                "_cloth": null,
-                "partType": 0,
-                "causeAnimationTypeChange": false,
-                "outwardType": 0,
-                "materials": [
-                  {
-                    "fileId": "8ab3f0np7pm-mm20g50y-2o3ec0efy8n",
-                    "filePath": "Assets\\Characters\\Aris\\halo.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  }
-                ],
-                "avatarPartInfo": {
-                  "bone": "Aris_Original_Halo",
-                  "bindType": 1
-                },
-                "position": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "scale": {
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                },
-                "rotation": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              },
-              {
-                "_entityName": "Aris_Original_Weapon.mesh",
-                "_tag": {
-                  "type": "BoneMeshEntity"
-                },
-                "_entityId": "i4eoNbTl",
-                "children": [],
-                "prefabVariant": null,
-                "activeValue": {
-                  "selfValue": true,
-                  "valueTag": "activeValue"
-                },
-                "unlockedValue": {
-                  "selfValue": true,
-                  "valueTag": "unlockedValue"
-                },
-                "editorLockValue": false,
-                "editorVisibleValue": true,
-                "_mesh": {
-                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Weapon.~@FFSKIN",
-                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Weapon.mesh",
-                  "_tag": {
-                    "type": "GFileRefer"
-                  },
-                  "fileType": "mesh"
-                },
-                "_cloth": null,
-                "partType": 0,
-                "causeAnimationTypeChange": false,
-                "outwardType": 0,
-                "materials": [
-                  {
-                    "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
-                    "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  }
-                ],
-                "avatarPartInfo": {
-                  "bone": "Aris_Original_Weapon",
-                  "bindType": 0
-                },
-                "position": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "scale": {
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                },
-                "rotation": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              },
-              {
-                "_entityName": "FX_Aris_Original_Weapon.mesh",
-                "_tag": {
-                  "type": "BoneMeshEntity"
-                },
-                "_entityId": "IJjE1oCa",
-                "children": [],
-                "prefabVariant": null,
-                "activeValue": {
-                  "selfValue": true,
-                  "valueTag": "activeValue"
-                },
-                "unlockedValue": {
-                  "selfValue": true,
-                  "valueTag": "unlockedValue"
-                },
-                "editorLockValue": false,
-                "editorVisibleValue": true,
-                "_mesh": {
-                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-FX_Aris_Original_Weapon.~@FFSKIN",
-                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\FX_Aris_Original_Weapon.mesh",
-                  "_tag": {
-                    "type": "GFileRefer"
-                  },
-                  "fileType": "mesh"
-                },
-                "_cloth": null,
-                "partType": 0,
-                "causeAnimationTypeChange": false,
-                "outwardType": 0,
-                "materials": [
-                  {
-                    "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
-                    "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  }
-                ],
-                "avatarPartInfo": {
-                  "bone": "Aris_Original_Body",
-                  "bindType": 0
-                },
-                "position": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                },
-                "scale": {
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                },
-                "rotation": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              }
-            ],
-            "prefabVariant": null,
-            "activeValue": {
-              "selfValue": true,
-              "valueTag": "activeValue"
-            },
-            "unlockedValue": null,
-            "editorLockValue": false,
-            "editorVisibleValue": true,
-            "groupId": "",
-            "enable": true
-          }
-        ],
-        "prefabVariant": null,
-        "activeValue": {
-          "selfValue": true,
-          "valueTag": "activeValue"
-        },
-        "unlockedValue": {
-          "selfValue": true,
-          "valueTag": "unlockedValue"
-        },
-        "editorLockValue": false,
-        "editorVisibleValue": true,
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "scale": {
-          "x": 1,
-          "y": 1,
-          "z": 1
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "BTPath": [
-          null
-        ],
-        "visible": true,
-        "VisibilityLayer": 0,
-        "modelOptimization": 0,
-        "streamingLayer": "",
-        "attributes": [
-          2,
-          4
-        ],
-        "isTrigger": false,
-        "collidable": true,
-        "physicalLayer": 0,
-        "physicalMaterial": null,
-        "aoiSetting": 0,
-        "initialTypes": {},
-        "componentList": []
       }
     },
     {
@@ -1908,11 +1565,12 @@
       "entityVersion": 3
     },
     {
+      "_entityName": "Aris_Original",
       "_tag": {
-        "type": "EnvWeatherEntity",
-        "resourceId": "Primitive/Empty"
+        "type": "UGCSceneEntity",
+        "resourceId": ""
       },
-      "_entityId": "U0aquHSf",
+      "_entityId": "E9UJJ1B9",
       "children": [],
       "prefabVariant": null,
       "activeValue": {
@@ -1926,19 +1584,19 @@
       "editorLockValue": false,
       "editorVisibleValue": true,
       "position": {
-        "x": 0,
-        "y": 100,
-        "z": 0
+        "x": -26.29800033569336,
+        "y": 0.009999999776482582,
+        "z": 15.793999671936035
       },
       "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
+        "x": 125,
+        "y": 125,
+        "z": 125
       },
       "rotation": {
-        "x": 45,
-        "y": -204,
-        "z": -9
+        "x": 0,
+        "y": 0,
+        "z": 0
       },
       "BTPath": [
         null
@@ -1952,97 +1610,439 @@
         4
       ],
       "isTrigger": false,
-      "collidable": true,
+      "collidable": false,
       "physicalLayer": 0,
       "physicalMaterial": null,
-      "initialTypes": {},
-      "componentList": [],
-      "_filters": [],
-      "curWeatherPresetID": 1,
-      "_entityName": "FE_0_ZZ_SKYENV_SKY",
-      "currentWeather": {
-        "lightColor": {
-          "r": 248,
-          "g": 248,
-          "b": 248,
-          "a": 1
-        },
-        "lightIntensity": 1.06,
-        "darkness": 0.03,
-        "shadowStrength": 0.6,
-        "terrainWetness": 0,
-        "lensFlare": 0.65,
-        "fogColor": {
-          "r": 123,
-          "g": 158,
-          "b": 192,
-          "a": 1
-        },
-        "ambientColor": {
-          "r": 149,
-          "g": 149,
-          "b": 149,
-          "a": 1
-        },
-        "nightMode": false,
-        "resId": "UGC_SKYENV_DAY",
-        "enableFog": true,
-        "fogType": 1,
-        "startDistance": 50,
-        "endDistance": 1000,
-        "density": 0.01,
-        "lightRotation": {
-          "x": 45,
-          "y": -204,
-          "z": -9
-        },
-        "skyMaterial": null
-      },
       "aoiSetting": 0,
-      "customWeather": {
-        "lightColor": {
-          "r": 248,
-          "g": 248,
-          "b": 248,
-          "a": 1
-        },
-        "lightIntensity": 1.06,
-        "darkness": 0.03,
-        "shadowStrength": 0.6,
-        "terrainWetness": 0,
-        "lensFlare": 0.65,
-        "fogColor": {
-          "r": 202,
-          "g": 202,
-          "b": 202,
-          "a": 1
-        },
-        "ambientColor": {
-          "r": 149,
-          "g": 149,
-          "b": 149,
-          "a": 1
-        },
-        "nightMode": false,
-        "resId": "UGC_SKYENV_DAY",
-        "enableFog": true,
-        "fogType": 1,
-        "startDistance": 50,
-        "endDistance": 1000,
-        "density": 0.01,
-        "lightRotation": {
-          "x": 45,
-          "y": -204,
-          "z": -9
-        },
-        "skyMaterial": {
-          "fileId": "vbvfc6gdxfr-mgxd2kya-oso8odmzt",
-          "filePath": "Assets\\Scene\\Nền trời.mat",
-          "_tag": {
-            "type": "GFileRefer"
+      "initialTypes": {},
+      "componentList": [
+        "AvatarAble",
+        "Collider",
+        "ColliderShape",
+        "AnimationControllerAble"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "MeshCollider",
+          "meshUUID": {
+            "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Halo.~@FFFUB",
+            "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Halo.mesh",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "mesh"
           },
-          "fileType": "material"
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
         }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "AvatarAble": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "MeshRender": {},
+        "AnimationControllerAble": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "skeleton": {
+        "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original.sk",
+        "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original.sk",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "sk"
+      },
+      "boneEntity": {
+        "_entityName": "Aris_Original",
+        "_tag": {
+          "type": "BoneContentEntity"
+        },
+        "_entityId": "YFDHkll6",
+        "children": [
+          {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "woJC455O",
+            "children": [
+              {
+                "_entityName": "Aris_Original_Body.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "w58JVG6A",
+                "children": [],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Body.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "jahn7wida7-mm20g4rz-qi4hgb52pm",
+                    "filePath": "Assets\\Characters\\Aris\\Body.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "najembab0a-mm20g4wn-nouosp2whef",
+                    "filePath": "Assets\\Characters\\Aris\\Face.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "nvk29fwr2yg-mm20g4ug-muen4g85lot",
+                    "filePath": "Assets\\Characters\\Aris\\EyeMouth.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "khtualknkr8-mm20g4yq-ih9t6czmoq",
+                    "filePath": "Assets\\Characters\\Aris\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "khtualknkr8-mm20g4yq-ih9t6czmoq",
+                    "filePath": "Assets\\Characters\\Aris\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Aris_Original_Body",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "_entityName": "Aris_Original_Halo.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "Gvsh49Tc",
+                "children": [],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "8ab3f0np7pm-mm20g50y-2o3ec0efy8n",
+                    "filePath": "Assets\\Characters\\Aris\\halo.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Aris_Original_Halo",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "_entityName": "Aris_Original_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "i4eoNbTl",
+                "children": [],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
+                    "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Aris_Original_Weapon",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              {
+                "_entityName": "FX_Aris_Original_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "IJjE1oCa",
+                "children": [],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-FX_Aris_Original_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\FX_Aris_Original_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
+                    "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Aris_Original_Body",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "BTPath": [
+          null
+        ],
+        "visible": true,
+        "VisibilityLayer": 0,
+        "modelOptimization": 0,
+        "streamingLayer": "",
+        "attributes": [
+          2,
+          4
+        ],
+        "isTrigger": false,
+        "collidable": true,
+        "physicalLayer": 0,
+        "physicalMaterial": null,
+        "aoiSetting": 0,
+        "initialTypes": {},
+        "componentList": []
       }
     },
     {
@@ -2075,9 +2075,9 @@
             "z": 0
           },
           "scale": {
-            "x": 125.99999999999996,
-            "y": 125.99999999999996,
-            "z": 125.99999999999996
+            "x": 126,
+            "y": 126,
+            "z": 126
           },
           "rotation": {
             "x": 0,
@@ -2709,9 +2709,9 @@
           "editorLockValue": false,
           "editorVisibleValue": true,
           "position": {
-            "x": -0.15000000596046448,
+            "x": -0.14999961853027344,
             "y": 1.3279999494552612,
-            "z": 0.26399993896484375
+            "z": 0.26400089263916016
           },
           "scale": {
             "x": 1,
@@ -2831,9 +2831,9 @@
             "valueTag": "unlockedValue"
           },
           "position": {
-            "x": -0.240000918507576,
+            "x": -0.23999977111816406,
             "y": 0.7699999809265137,
-            "z": 0.3100000321865082
+            "z": 0.31000328063964844
           },
           "scale": {
             "x": 1,
@@ -4680,9 +4680,9 @@
       "editorLockValue": false,
       "editorVisibleValue": true,
       "position": {
-        "x": -7.4095072746276855,
+        "x": -24.833084106445312,
         "y": 0,
-        "z": -1.4455829858779907
+        "z": 15.707670211791992
       },
       "scale": {
         "x": 1,
@@ -5419,234 +5419,6 @@
         "_levelObjectID": 1,
         "teamIDStr": "Tất cả đội"
       }
-    },
-    {
-      "_tag": {
-        "type": "SceneEditEntity",
-        "resourceId": "Primitive/Empty"
-      },
-      "_entityId": "mcL0fV56",
-      "children": [],
-      "prefabVariant": null,
-      "activeValue": {
-        "selfValue": false,
-        "valueTag": "activeValue"
-      },
-      "unlockedValue": {
-        "selfValue": true,
-        "valueTag": "unlockedValue"
-      },
-      "editorLockValue": false,
-      "editorVisibleValue": true,
-      "position": {
-        "x": -0.036,
-        "y": 0.36,
-        "z": 36.36
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "rotation": {
-        "x": 36.000003814697266,
-        "y": 36,
-        "z": 36
-      },
-      "BTPath": [
-        null
-      ],
-      "visible": true,
-      "VisibilityLayer": 0,
-      "modelOptimization": 0,
-      "streamingLayer": "",
-      "attributes": [
-        2,
-        4
-      ],
-      "isTrigger": false,
-      "collidable": true,
-      "physicalLayer": 0,
-      "physicalMaterial": null,
-      "aoiSetting": 0,
-      "initialTypes": {},
-      "componentList": [],
-      "entityTagData": {
-        "tagPointers": []
-      },
-      "tempIndex": 3,
-      "itemID": 189,
-      "seParent": null,
-      "ecaScripts": [
-        {
-          "fileId": "8u14ajr0fu9-mh48tayj-5yyiz02o5cw",
-          "filePath": "Assets\\ECA\\Đơn vị vũ khí.eca",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "eca"
-        }
-      ],
-      "ecaProps": {
-        "WeaponGenerator": {},
-        "ItemContainerGenerator": {},
-        "Entity": {},
-        "Weapon": {},
-        "FormulableEntity": {
-          "PROP_69308879": 0,
-          "PROP_45460494": 0
-        },
-        "BuffableEntity": {},
-        "InstanceEntity": {}
-      },
-      "_entityName": "3636",
-      "propsData": {
-        "WeaponType": 1,
-        "WeaponSubType": 73,
-        "Damage": 36,
-        "AmmoClipSize": 360,
-        "FireInterval": 0.36,
-        "RepeatFireInterval": 0.36,
-        "Range": 36,
-        "BiteArmor": 0.36,
-        "Armordestroy": 0.36,
-        "MinDamage": 36,
-        "DamageRatioHead": 1.36,
-        "DamageRatioBody": 0.36,
-        "DamageLimbBody": -0.36,
-        "KnockDownDamage": 3.6,
-        "OnceAmmo": 5,
-        "ReloadSpeed": 3.6,
-        "ExtraDamageRate": 3.6,
-        "ScatterSpeed": 0.36,
-        "ScatterRecoverSpeed": 30,
-        "PlayerSpeedFactorFiring": 1.36,
-        "ScatterMove": 3.6,
-        "FireType": 0,
-        "IsSingleShot": false,
-        "IsSilence": false,
-        "SpeedWhileAiming": 3.6,
-        "PlayerSpeedFactor": 1.36,
-        "CombineType": 0,
-        "WeaponSkinID": null,
-        "OverloadByPlayerWeaponSkin": true,
-        "EnableWeaponSkinProp": true,
-        "weaponItemResPath": "INGAME_PICKUP_G36"
-      }
-    },
-    {
-      "_tag": {
-        "type": "SceneEditEntity",
-        "resourceId": "Primitive/Empty"
-      },
-      "_entityId": "ZQbQMgxz",
-      "children": [],
-      "prefabVariant": null,
-      "activeValue": {
-        "selfValue": false,
-        "valueTag": "activeValue"
-      },
-      "unlockedValue": {
-        "selfValue": true,
-        "valueTag": "unlockedValue"
-      },
-      "position": {
-        "x": 0,
-        "y": 0.1,
-        "z": 35
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "BTPath": [
-        null
-      ],
-      "visible": true,
-      "VisibilityLayer": 0,
-      "modelOptimization": 0,
-      "streamingLayer": "",
-      "attributes": [
-        2,
-        4
-      ],
-      "isTrigger": false,
-      "collidable": true,
-      "physicalLayer": 0,
-      "physicalMaterial": null,
-      "aoiSetting": 0,
-      "initialTypes": {},
-      "componentList": [],
-      "entityTagData": {
-        "tagPointers": []
-      },
-      "tempIndex": 4,
-      "itemID": 189,
-      "seParent": null,
-      "ecaScripts": [
-        {
-          "fileId": "8u14ajr0fu9-mh48tayj-5yyiz02o5cw",
-          "filePath": "Assets\\ECA\\Đơn vị vũ khí.eca",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "eca"
-        }
-      ],
-      "ecaProps": {
-        "WeaponGenerator": {},
-        "ItemContainerGenerator": {},
-        "Entity": {},
-        "Weapon": {},
-        "FormulableEntity": {
-          "PROP_69308879": 0,
-          "PROP_45460494": 0
-        },
-        "BuffableEntity": {},
-        "InstanceEntity": {}
-      },
-      "_entityName": "3636 (1)",
-      "propsData": {
-        "WeaponType": 1,
-        "WeaponSubType": 73,
-        "Damage": 1234,
-        "AmmoClipSize": 123,
-        "FireInterval": 0.123,
-        "RepeatFireInterval": 0.123,
-        "Range": 123,
-        "BiteArmor": 1,
-        "Armordestroy": 1,
-        "MinDamage": 1234,
-        "DamageRatioHead": 0,
-        "DamageRatioBody": 0,
-        "DamageLimbBody": 0,
-        "KnockDownDamage": 1,
-        "OnceAmmo": 1,
-        "ReloadSpeed": 1.2,
-        "ExtraDamageRate": 10,
-        "ScatterSpeed": 0.12,
-        "ScatterRecoverSpeed": 30,
-        "PlayerSpeedFactorFiring": 1.23,
-        "ScatterMove": 1.2,
-        "FireType": 0,
-        "IsSingleShot": false,
-        "IsSilence": false,
-        "SpeedWhileAiming": 1.2,
-        "PlayerSpeedFactor": 1.23,
-        "CombineType": 0,
-        "WeaponSkinID": null,
-        "OverloadByPlayerWeaponSkin": true,
-        "EnableWeaponSkinProp": true,
-        "weaponItemResPath": "INGAME_PICKUP_G36"
-      },
-      "editorLockValue": false,
-      "editorVisibleValue": true
     },
     {
       "_tag": {

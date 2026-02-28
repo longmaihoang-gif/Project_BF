@@ -1,7 +1,907 @@
 {
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fna",
+        "id": "a%N7*?@rrB9=qZ)%$kM;",
+        "x": 59,
+        "y": 284,
+        "extraState": [
+          {
+            "id": "_arg2876",
+            "name": "Mục tiêu",
+            "type": "Component",
+            "isOut": false
+          },
+          {
+            "id": "_arg8456",
+            "name": "DMG",
+            "type": "Int",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "Gây DMG",
+          "_arg2876": {
+            "name": "Mục tiêu",
+            "type": "Component"
+          },
+          "_arg8456": {
+            "name": "DMG",
+            "type": "Int"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "exa",
+              "id": "XuM0;?PwR/ImU](B0bjC",
+              "extraState": {
+                "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                "id": "9.bWE,9*F+:=6bHL,Rqs",
+                "name": "Thêm thuộc tính công thức",
+                "params": [
+                  {
+                    "id": "_arg4524",
+                    "name": "ID thuộc tính",
+                    "type": "String",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg8663",
+                    "name": "Loại tính",
+                    "type": "Int",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg1860",
+                    "name": "Đảo ngược",
+                    "type": "Bool",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg3245",
+                    "name": "Giá trị",
+                    "type": "Number",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg6304",
+                    "name": "Có thành công",
+                    "type": "Bool",
+                    "isOut": true
+                  }
+                ],
+                "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+              },
+              "fields": {
+                "T": "W",
+                "_arg6304": {
+                  "name": "Có thành công",
+                  "type": "Bool"
+                }
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "6zYgvmtu`@*j*#ZuMI0f",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "YZeCdgpQ`cN))_:RZd:Z",
+                    "extraState": "a%N7*?@rrB9=qZ)%$kM;_arg2876",
+                    "fields": {
+                      "VR": "Mục tiêu"
+                    }
+                  }
+                },
+                "_arg4524": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "[6(K;gRO90%,^W8sc]Fy",
+                    "extraState": "String"
+                  },
+                  "block": {
+                    "type": "ipt",
+                    "id": "=sk-R)7+lg_^eVzL`s5%",
+                    "fields": {
+                      "V": "HP"
+                    }
+                  }
+                },
+                "_arg8663": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "yPrrw62z+i0RU)0o_r.e",
+                    "extraState": "Int"
+                  },
+                  "block": {
+                    "type": "ipe",
+                    "id": "cr@?8InW)~0o8/S-4^T.",
+                    "extraState": "CustomEnum19796761",
+                    "fields": {
+                      "I": "E89370127"
+                    }
+                  }
+                },
+                "_arg1860": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "EjT+vzNb.FV^,Ky|#m1q",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "ipb",
+                    "id": "JT2KgduA~lD~h/}ymYcH",
+                    "fields": {
+                      "V": "T"
+                    }
+                  }
+                },
+                "_arg3245": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "ra.eOp+BEgHA%(-[[Hg_",
+                    "extraState": "Number"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "Ce3.t?g-XqJ[|-}Town[",
+                    "extraState": "a%N7*?@rrB9=qZ)%$kM;_arg8456",
+                    "fields": {
+                      "VR": "DMG"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "a",
+                  "id": ";gGHttZw+TtpnqF4M,0c",
+                  "extraState": {
+                    "X": 119,
+                    "L": [
+                      1,
+                      2,
+                      3,
+                      4
+                    ],
+                    "O": [
+                      "",
+                      "",
+                      "",
+                      ""
+                    ],
+                    "T": "EntityTakeDamage",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "{k]c+6;zbk4+6{[LQ*rk",
+                        "extraState": "FightingEntity"
+                      },
+                      "block": {
+                        "type": "tya",
+                        "id": "~:Xd#u7a?L)kxB@,|tLM",
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "n(mYRwWNu#obqzp9AaJh",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "E8S@h4Fv~h6?7xq[!0[x",
+                              "extraState": "a%N7*?@rrB9=qZ)%$kM;_arg2876",
+                              "fields": {
+                                "VR": "Mục tiêu"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "OeENwQ3l]6Ai73LC8;sU",
+                        "extraState": "FightingEntity"
+                      },
+                      "block": {
+                        "type": "tya",
+                        "id": "_mM+CAh_|nw-;A+]!Nv@",
+                        "fields": {
+                          "T": "any"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "n(mYRwWNu#obqzp9AaJh",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "+V-c9zJU%QztP+OwrZ]="
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "P3": {
+                      "shadow": {
+                        "type": "ipe",
+                        "id": "-c/-J@UPO+BtI$DCQ:^n",
+                        "extraState": "DamageType",
+                        "fields": {
+                          "I": "Melee"
+                        }
+                      }
+                    },
+                    "P4": {
+                      "shadow": {
+                        "type": "ipi",
+                        "id": "nPwHW~#qK~9Hbg3q$%UF",
+                        "fields": {
+                          "V": 0
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "ife1",
+                      "id": "x*VFRme+AQ*Cqj^,5qQ?",
+                      "extraState": {
+                        "X": 1,
+                        "CIDS": []
+                      },
+                      "inputs": {
+                        "C": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "-9YT~ri24fK.c]USaN+6",
+                            "extraState": "bool"
+                          },
+                          "block": {
+                            "type": "opc",
+                            "id": "sopc_dup_block",
+                            "fields": {
+                              "O": "LE"
+                            },
+                            "inputs": {
+                              "V1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "f~M+rV6L)Ia^$r2Xf-AP",
+                                  "extraState": "number"
+                                },
+                                "block": {
+                                  "type": "exv",
+                                  "id": "d3MpJ/JCcT~%ktB^BjYF",
+                                  "extraState": {
+                                    "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                                    "id": "ckh)MMOD5~`Gmzl0.RK4",
+                                    "name": "Nhận thuộc tính công thức",
+                                    "params": [
+                                      {
+                                        "id": "_arg3535",
+                                        "name": "ID thuộc tính",
+                                        "type": "String",
+                                        "isOut": false
+                                      },
+                                      {
+                                        "id": "_arg3723",
+                                        "name": "Lấy giá trị ban đầu",
+                                        "type": "Bool",
+                                        "isOut": false
+                                      }
+                                    ],
+                                    "returnType": "Int",
+                                    "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                                  },
+                                  "inputs": {
+                                    "H": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "nymn]a+3r-*OiI.C7~^,",
+                                        "extraState": "Component"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "~^BDx^G..Wql8C6Hb5g;",
+                                        "extraState": "a%N7*?@rrB9=qZ)%$kM;_arg2876",
+                                        "fields": {
+                                          "VR": "Mục tiêu"
+                                        }
+                                      }
+                                    },
+                                    "_arg3535": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "0phoG;Gl4lkbXX13j9Zy",
+                                        "extraState": "String"
+                                      },
+                                      "block": {
+                                        "type": "ipt",
+                                        "id": "JW}8LJ]Jo5p5DE6uTa=c",
+                                        "fields": {
+                                          "V": "HP"
+                                        }
+                                      }
+                                    },
+                                    "_arg3723": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "c271#!i#KNKJNL.rh_]M",
+                                        "extraState": "Bool"
+                                      },
+                                      "block": {
+                                        "type": "ipb",
+                                        "id": "(pS{pEFsVm}yl.nKaolX",
+                                        "fields": {
+                                          "V": "F"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "V2": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "BhYdaxeMOw*-#T#1mccI",
+                                  "extraState": "number"
+                                },
+                                "block": {
+                                  "type": "ipn",
+                                  "id": "L^d]WxBnk8w2:SgL/26]",
+                                  "fields": {
+                                    "V": "0"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "D": {
+                          "block": {
+                            "type": "a",
+                            "id": "IHdfo`at{qTMMAZ`onv2",
+                            "extraState": {
+                              "X": 119,
+                              "L": [
+                                1,
+                                2,
+                                3,
+                                4
+                              ],
+                              "O": [
+                                "",
+                                "",
+                                "",
+                                ""
+                              ],
+                              "T": "EntityTakeDamage",
+                              "OT": null
+                            },
+                            "inputs": {
+                              "P1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "{k]c+6;zbk4+6{[LQ*rk",
+                                  "extraState": "FightingEntity"
+                                },
+                                "block": {
+                                  "type": "tya",
+                                  "id": "h#I/NShbToi#N_y=bduq",
+                                  "fields": {
+                                    "T": "any"
+                                  },
+                                  "inputs": {
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "n(mYRwWNu#obqzp9AaJh",
+                                        "extraState": "any"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "b*6|KKkl6?ZQFU),,W.T",
+                                        "extraState": "a%N7*?@rrB9=qZ)%$kM;_arg2876",
+                                        "fields": {
+                                          "VR": "Mục tiêu"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "P2": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "OeENwQ3l]6Ai73LC8;sU",
+                                  "extraState": "FightingEntity"
+                                },
+                                "block": {
+                                  "type": "tya",
+                                  "id": "=I7S+Du:h+A0{AX^AOt?",
+                                  "fields": {
+                                    "T": "any"
+                                  },
+                                  "inputs": {
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "n(mYRwWNu#obqzp9AaJh",
+                                        "extraState": "any"
+                                      },
+                                      "block": {
+                                        "type": "ent",
+                                        "id": "XUszIh|Ysl1B9=V,$-2/"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "P3": {
+                                "shadow": {
+                                  "type": "ipe",
+                                  "id": "E.1}Oh%7%DP|{|6zS)Oy",
+                                  "extraState": "DamageType",
+                                  "fields": {
+                                    "I": "Melee"
+                                  }
+                                }
+                              },
+                              "P4": {
+                                "shadow": {
+                                  "type": "ipi",
+                                  "id": ".a;.YU_c=J1Ve`CCcdNJ",
+                                  "fields": {
+                                    "V": 1000000000
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": ")s*4sKTR}J@/h$/E|*t-",
+        "x": 80,
+        "y": 135,
+        "extraState": {
+          "X": 218,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnRevived",
+          "OT": "Player"
+        },
+        "fields": {
+          "P1": {
+            "name": "Nguồn hồi sinh",
+            "type": "PlayerReviveSourceType"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "exa",
+            "id": ",s^^t%G5,Aud1_n)b9g-",
+            "extraState": {
+              "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+              "id": "h;lzgL{kSb!2%0g1OOgA",
+              "name": "Đặt lại thuộc tính công thức",
+              "params": [
+                {
+                  "id": "_arg6854",
+                  "name": "ID thuộc tính",
+                  "type": "String",
+                  "isOut": false
+                }
+              ],
+              "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+            },
+            "fields": {
+              "T": "W"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "~s?7Y_[w57?7r$mt=7;(",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "T%.TQjXfrF$bHE|Zc;2["
+                }
+              },
+              "_arg6854": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "=Lh|{3gY=)E|:o?(;#Zv",
+                  "extraState": "String"
+                },
+                "block": {
+                  "type": "ipt",
+                  "id": "d7o{_^*L-b_Gr:T7VP{+",
+                  "fields": {
+                    "V": "HP"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "NxN;{@m4DRVVOJ%?2cgV",
+        "x": 1435,
+        "y": 182,
+        "extraState": {
+          "X": 10109,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnReceiveDebugCommand",
+          "OT": null
+        },
+        "fields": {
+          "P1": {
+            "name": "Loại Lệnh",
+            "type": "DebugCommandType"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "t/X|R@^5|`+A=nlBy$n*",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "Dl#V4shd}3~ZO$%nLo@V",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "!Lfu4*FO3}%eLwWT79/^",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "JCGLHC=BjN~hyNKy+/0A",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "#q@K-}-c:.}M}[i^E98G",
+                        "extraState": "NxN;{@m4DRVVOJ%?2cgVP1",
+                        "fields": {
+                          "VR": "Loại Lệnh"
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "[QchfaU_UVKYZ}Yn0cj9",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "ipe",
+                        "id": "wgv?BUn@l}/xG5!W0Fo6",
+                        "extraState": 10108,
+                        "fields": {
+                          "I": "RestoreHP"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "exa",
+                  "id": "kNs98#BrZu6.w.BKnx*-",
+                  "extraState": {
+                    "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                    "id": "h;lzgL{kSb!2%0g1OOgA",
+                    "name": "Đặt lại thuộc tính công thức",
+                    "params": [
+                      {
+                        "id": "_arg6854",
+                        "name": "ID thuộc tính",
+                        "type": "String",
+                        "isOut": false
+                      }
+                    ],
+                    "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                  },
+                  "fields": {
+                    "T": "W"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "~s?7Y_[w57?7r$mt=7;(",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "T:LcHIhbuBqN}_p{@0wp"
+                      }
+                    },
+                    "_arg6854": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": ".05V~{`K(~dkJddrx{j=",
+                        "extraState": "String"
+                      },
+                      "block": {
+                        "type": "ipt",
+                        "id": "L%)?I`Q_xJr9O`f[-{gh",
+                        "fields": {
+                          "V": "HP"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "2tIgokp[o{goB;x+,8ao",
+        "x": 80,
+        "y": -36,
+        "extraState": {
+          "X": 982,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnCustomPropertyChange",
+          "OT": "Entity"
+        },
+        "fields": {
+          "P1": {
+            "name": "Chỉ số thuộc tính",
+            "type": "Property"
+          },
+          "P2": {
+            "name": "Giá trị thuộc tính",
+            "type": "Object"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "exa",
+            "id": "6[_fH+enEH)@s}ib$Ce~",
+            "extraState": {
+              "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+              "id": "9.bWE,9*F+:=6bHL,Rqs",
+              "name": "Thêm thuộc tính công thức",
+              "params": [
+                {
+                  "id": "_arg4524",
+                  "name": "ID thuộc tính",
+                  "type": "String",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg8663",
+                  "name": "Loại tính",
+                  "type": "Int",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg1860",
+                  "name": "Đảo ngược",
+                  "type": "Bool",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg3245",
+                  "name": "Giá trị",
+                  "type": "Number",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg6304",
+                  "name": "Có thành công",
+                  "type": "Bool",
+                  "isOut": true
+                }
+              ],
+              "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+            },
+            "fields": {
+              "T": "W",
+              "_arg6304": {
+                "name": "Có thành công",
+                "type": "Bool"
+              }
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "6zYgvmtu`@*j*#ZuMI0f",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "fP|xxZ1-~!55^E7T?1Pu"
+                }
+              },
+              "_arg4524": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "[6(K;gRO90%,^W8sc]Fy",
+                  "extraState": "String"
+                },
+                "block": {
+                  "type": "ipt",
+                  "id": "7Trm)-|3MgU-b1WqJ.mW",
+                  "fields": {
+                    "V": "HP"
+                  }
+                }
+              },
+              "_arg8663": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "yPrrw62z+i0RU)0o_r.e",
+                  "extraState": "Int"
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "6]l+uruuhoQ*0w5Cqhkx",
+                  "extraState": "CustomEnum19796761",
+                  "fields": {
+                    "I": "E60604668"
+                  }
+                }
+              },
+              "_arg1860": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "EjT+vzNb.FV^,Ky|#m1q",
+                  "extraState": "Bool"
+                },
+                "block": {
+                  "type": "ipb",
+                  "id": "0(U1[0Q3A=sXCvyhc+9O",
+                  "fields": {
+                    "V": "F"
+                  }
+                }
+              },
+              "_arg3245": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "ra.eOp+BEgHA%(-[[Hg_",
+                  "extraState": "Number"
+                },
+                "block": {
+                  "type": "exv",
+                  "id": "%3t}/QdKF3eT,x+$NBPl",
+                  "extraState": {
+                    "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                    "id": "ckh)MMOD5~`Gmzl0.RK4",
+                    "name": "Nhận thuộc tính công thức",
+                    "params": [
+                      {
+                        "id": "_arg3535",
+                        "name": "ID thuộc tính",
+                        "type": "String",
+                        "isOut": false
+                      },
+                      {
+                        "id": "_arg3723",
+                        "name": "Lấy giá trị ban đầu",
+                        "type": "Bool",
+                        "isOut": false
+                      }
+                    ],
+                    "returnType": "Int",
+                    "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "nymn]a+3r-*OiI.C7~^,",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": ":K-4o}){5cJx`F-_/Bm)"
+                      }
+                    },
+                    "_arg3535": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "0phoG;Gl4lkbXX13j9Zy",
+                        "extraState": "String"
+                      },
+                      "block": {
+                        "type": "ipt",
+                        "id": ",RAjrW4O!mOpl6nIo;j}",
+                        "fields": {
+                          "V": "Max_HP"
+                        }
+                      }
+                    },
+                    "_arg3723": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "c271#!i#KNKJNL.rh_]M",
+                        "extraState": "Bool"
+                      },
+                      "block": {
+                        "type": "ipb",
+                        "id": "lNA_qDLd:`ARZe#{ZC`Y",
+                        "fields": {
+                          "V": "F"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
   "graphData": {
     "ownerType": "Entity",
-    "componentTypes": "Player",
+    "componentTypes": "Component",
     "isStatic": false,
     "platform": 2
   }
