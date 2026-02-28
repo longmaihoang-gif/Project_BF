@@ -1,0 +1,133 @@
+{
+  "_tag": {
+    "type": "ECAEnumSetting"
+  },
+  "_entityId": "F9G9PNGC",
+  "enumCount": 0,
+  "enumDefines": {
+    "CustomEnum53935633": {
+      "label": "Trạng thái ưu tiên",
+      "key": "CustomEnum53935633",
+      "type": "Int",
+      "info": [
+        {
+          "label": "Ưu_tiên",
+          "key": "E12367954",
+          "value": 1,
+          "type": "Int"
+        },
+        {
+          "label": "Cùng_bậc",
+          "key": "E14225057",
+          "value": 2,
+          "type": "Int"
+        },
+        {
+          "label": "Không_ưu_tiên",
+          "key": "E77312757",
+          "value": 3,
+          "type": "Int"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
+    },
+    "CustomEnum19889981": {
+      "label": "Trạng thái",
+      "key": "CustomEnum19889981",
+      "type": "String",
+      "info": [
+        {
+          "label": "Rảnh",
+          "key": "E26019769",
+          "value": "rảnh",
+          "type": "String"
+        },
+        {
+          "label": "Đang_bắn",
+          "key": "E14140918",
+          "value": "bắn",
+          "type": "String"
+        },
+        {
+          "label": "Đang_nạp",
+          "key": "E48954540",
+          "value": "nạp đạn",
+          "type": "String"
+        },
+        {
+          "label": "Đang_thực_thi_EX",
+          "key": "E28918009",
+          "value": "ex",
+          "type": "String"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
+    },
+    "CustomEnum19796761": {
+      "label": "Loại tính",
+      "key": "CustomEnum19796761",
+      "type": "Int",
+      "info": [
+        {
+          "label": "Giá_trị_cơ_bản",
+          "key": "E60604668",
+          "type": "Int",
+          "value": 1
+        },
+        {
+          "label": "Hệ_số_cơ_bản",
+          "key": "E12125774",
+          "type": "Int",
+          "value": 2
+        },
+        {
+          "label": "Max",
+          "key": "E80703182",
+          "type": "Int",
+          "value": 3
+        },
+        {
+          "label": "Min",
+          "key": "E94634340",
+          "type": "Int",
+          "value": 4
+        },
+        {
+          "label": "Hệ_số_nhân",
+          "key": "E64700483",
+          "type": "Int",
+          "value": 5
+        },
+        {
+          "label": "Bộ_tích_lũy_nhân",
+          "key": "E48715391",
+          "type": "Int",
+          "value": 6
+        },
+        {
+          "label": "Bộ_tích_lũy_trước",
+          "key": "E89370127",
+          "type": "Int",
+          "value": 7
+        },
+        {
+          "label": "Bộ_tích_lũy_sau",
+          "key": "E54013547",
+          "value": 8,
+          "type": "Int"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
+    }
+  },
+  "enumNameMap": {
+    "Trạng thái ưu tiên": "CustomEnum53935633",
+    "Trạng thái": "CustomEnum19889981",
+    "Loại tính": "CustomEnum19796761"
+  },
+  "children": []
+}
+//"{FE:{"v":"1.16.4187991","c":{"FF":5001},"s":100}

@@ -1,0 +1,89 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "G:?|d/.vBiUd2@RLO(+u",
+        "x": 484,
+        "y": 68,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayAction",
+          "R": "BTreeNodeState",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "print",
+              "id": "0~~f($M=u!k*;oK_s7}x",
+              "fields": {
+                "T": "PrintWarning"
+              },
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "L@/FqDn,LF*!kla:,1]1",
+                    "extraState": "Object"
+                  },
+                  "block": {
+                    "type": "ipt",
+                    "id": "HdflX|,:^w{v@HIXt7p5",
+                    "fields": {
+                      "V": "Phát hiện tín hiệu"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "fnr",
+                  "id": "{QB@wSnsavt2xpY3vdxd",
+                  "extraState": {
+                    "rt": "BTreeNodeState"
+                  },
+                  "inputs": {
+                    "R": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "ZsH4_=-aE9nZ6A4*N?wZ",
+                        "extraState": "BTreeNodeState"
+                      },
+                      "block": {
+                        "type": "ipe",
+                        "id": "U@IwIIh*dmhxpP)$v3}T",
+                        "extraState": 10024,
+                        "fields": {
+                          "I": "Finish"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

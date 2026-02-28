@@ -1,0 +1,231 @@
+{
+  "fileId": "xerne6zary-mgricnak-z3ehcawnxzs",
+  "globalscale": 1,
+  "properties": {
+    "Common": ""
+  },
+  "subDynamicResources": {},
+  "version": "1.6.4",
+  "manifest": {
+    "Meshes": [
+      {
+        "Name": "Ayane_Original_Healdrone_Outline.~@FFSKIN",
+        "MeshName": "Ayane_Original_Healdrone_Outline",
+        "Type": "skin",
+        "OrgExtName": ".~@FFSKIN"
+      },
+      {
+        "Name": "Ayane_Original_Notebook_Outline.~@FFSKIN",
+        "MeshName": "Ayane_Original_Notebook_Outline",
+        "Type": "skin",
+        "OrgExtName": ".~@FFSKIN"
+      }
+    ],
+    "BoneInfos": [
+      {
+        "Name": "FX_Ayane_Original_Healdrone_EX.sk",
+        "BoneNodes": [
+          {
+            "ChildBones": [],
+            "BoneName": "Ayane_Original_Healdrone_Outline"
+          },
+          {
+            "ChildBones": [],
+            "BoneName": "Ayane_Original_Notebook_Outline"
+          },
+          {
+            "ChildBones": [
+              {
+                "ChildBones": [
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_armL_wingA"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_armL_wingB"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_armR_wingA"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_armR_wingB"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_healpack"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_healpack_tongB"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_healpack_tongF"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_healpack_tongL"
+                  },
+                  {
+                    "ChildBones": [],
+                    "BoneName": "bone_dron_healpack_tongR"
+                  }
+                ],
+                "BoneName": "bone_dron_com"
+              }
+            ],
+            "BoneName": "bone_dron_root"
+          },
+          {
+            "ChildBones": [],
+            "BoneName": "bone_notebook"
+          }
+        ],
+        "OrgExtName": ".sk"
+      }
+    ],
+    "Anims": [
+      {
+        "OrgExtName": ".Anim",
+        "Name": "Ayane_Original_Exs.Anim",
+        "Size": 17224,
+        "ClipData": {
+          "Name": "Ayane_Original_Exs",
+          "BakeStart": 0,
+          "BakeStop": 4.066667079925537,
+          "SampleRate": 30
+        },
+        "magicNumber": {
+          "magicNumber1": 100,
+          "magicNumber2": 98,
+          "magicNumber3": 158,
+          "magicNumber4": 134,
+          "version": 1009715
+        }
+      },
+      {
+        "OrgExtName": ".Anim",
+        "Name": "Ayane_Original_Exs_Cutin.Anim",
+        "Size": 12290,
+        "ClipData": {
+          "Name": "Ayane_Original_Exs_Cutin",
+          "BakeStart": 0,
+          "BakeStop": 4.066667079925537,
+          "SampleRate": 30
+        },
+        "magicNumber": {
+          "magicNumber1": 100,
+          "magicNumber2": 98,
+          "magicNumber3": 158,
+          "magicNumber4": 134,
+          "version": 1009715
+        }
+      },
+      {
+        "OrgExtName": ".Anim",
+        "Name": "Ayane_Original_Exs_Cutin_HealDrone.Anim",
+        "Size": 13625,
+        "ClipData": {
+          "Name": "Ayane_Original_Exs_Cutin_HealDrone",
+          "BakeStart": 0,
+          "BakeStop": 4.066667079925537,
+          "SampleRate": 30
+        },
+        "magicNumber": {
+          "magicNumber1": 100,
+          "magicNumber2": 98,
+          "magicNumber3": 158,
+          "magicNumber4": 134,
+          "version": 1009715
+        }
+      },
+      {
+        "OrgExtName": ".Anim",
+        "Name": "Ayane_Original_Healdrone_Tactical_Start.Anim",
+        "Size": 6912,
+        "ClipData": {
+          "Name": "Ayane_Original_Healdrone_Tactical_Start",
+          "BakeStart": 0,
+          "BakeStop": 4.066667079925537,
+          "SampleRate": 30
+        },
+        "magicNumber": {
+          "magicNumber1": 100,
+          "magicNumber2": 98,
+          "magicNumber3": 158,
+          "magicNumber4": 134,
+          "version": 1009715
+        }
+      }
+    ],
+    "ManifestJSON": {
+      "FBXName": "FX_Ayane_Original_Healdrone_EX",
+      "ImportSucceeded": true,
+      "MaterialCount": 2,
+      "MaterialDetail": [
+        {
+          "Index": 0,
+          "MaterialName": "Ayane_Original_Healdrone01"
+        },
+        {
+          "Index": 1,
+          "MaterialName": "Ayane_Original_Healdrone02"
+        }
+      ],
+      "MeshCount": 2,
+      "MeshDetail": [
+        {
+          "MeshName": "Ayane_Original_Healdrone_Outline",
+          "MaterialIndex": [
+            0,
+            1
+          ],
+          "Transform": {
+            "Position": [
+              -0.00776314,
+              0,
+              0
+            ],
+            "Rotation": [
+              -90,
+              0,
+              0
+            ],
+            "Scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "MeshName": "Ayane_Original_Notebook_Outline",
+          "MaterialIndex": [
+            0
+          ],
+          "Transform": {
+            "Position": [
+              0.0000418891,
+              0,
+              0.00280308
+            ],
+            "Rotation": [
+              -90,
+              0,
+              0
+            ],
+            "Scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "enabletangent": true
+}

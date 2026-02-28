@@ -1,0 +1,889 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "%go8-cM_Cxn;!ScK./Sx",
+        "x": 428,
+        "y": -468,
+        "extraState": {
+          "X": 379,
+          "L": [],
+          "O": [],
+          "T": "OnWeaponReload",
+          "OT": "Weapon"
+        },
+        "next": {
+          "block": {
+            "type": "slsv4",
+            "id": "kr:+!S;Wy631KOthirO~",
+            "extraState": {
+              "X": 0,
+              "L": [
+                1,
+                2
+              ],
+              "O": [
+                "o",
+                "o"
+              ],
+              "T": "signal_79527814",
+              "OT": "Component"
+            },
+            "fields": {
+              "TO": "2"
+            },
+            "inputs": {
+              "ow": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "hAoP3rP$1?Cd@mEKK#*V",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "prg",
+                  "id": "Y*GU5,26b}-4zLx[GOKG",
+                  "extraState": {
+                    "X": 1,
+                    "T": "Player"
+                  },
+                  "fields": {
+                    "P": "Owner:Weapon"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "[tNG-DF~[~-14KJo4tgx",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "f:mS1O@KvA*E`gp{a9N_"
+                      }
+                    }
+                  }
+                }
+              },
+              "P1": {
+                "shadow": {
+                  "type": "ipt",
+                  "id": "gl#ibCQ~g_HA=$dZIa:Q",
+                  "fields": {
+                    "V": "Reload"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "1~a!?n+TVE5Q=eo4v!QM",
+                  "extraState": "ListT_any"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "c1ZI[f,i,IiUX%+(IL4r",
+        "x": 401,
+        "y": 207,
+        "extraState": {
+          "X": 386,
+          "L": [],
+          "O": [],
+          "T": "OnFiringEachBullet",
+          "OT": "Weapon"
+        },
+        "next": {
+          "block": {
+            "type": "lcd",
+            "id": "cSvG]lz%7^wa[Bf6(A|%",
+            "fields": {
+              "VD": {
+                "name": "chủ vũ khí",
+                "type": "Player"
+              },
+              "T": "$Auto"
+            },
+            "inputs": {
+              "V": {
+                "shadow": {
+                  "type": "tyd",
+                  "id": "EDlY8b3;gRi:twFlbNbS",
+                  "extraState": "$Auto"
+                },
+                "block": {
+                  "type": "prg",
+                  "id": "{,J{3*^]5-g+L1V3=cCM",
+                  "extraState": {
+                    "X": 1,
+                    "T": "Player"
+                  },
+                  "fields": {
+                    "P": "Owner:Weapon"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "[tNG-DF~[~-14KJo4tgx",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "C{C=31!Jv3a4m2*$%Xjn"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "ife1",
+                "id": "`N,on:dG`!:J$TtPJ~K~",
+                "extraState": {
+                  "X": 1,
+                  "CIDS": []
+                },
+                "inputs": {
+                  "C": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "En5ajT!r$tSPOo[rAP}L",
+                      "extraState": "bool"
+                    },
+                    "block": {
+                      "type": "opc",
+                      "id": "sopc_dup_block",
+                      "fields": {
+                        "O": "GT"
+                      },
+                      "inputs": {
+                        "V1": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "84A?U0S{XYl|`1%Q),ZN",
+                            "extraState": "number"
+                          },
+                          "block": {
+                            "type": "v",
+                            "id": "nALR+JLJ8CSq[}n/p+`v",
+                            "extraState": {
+                              "X": 770,
+                              "L": [],
+                              "O": [],
+                              "T": "GetLocalTimestamp",
+                              "OT": null
+                            }
+                          }
+                        },
+                        "V2": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "*x}JVcZw7@Zmo51+Ly$j",
+                            "extraState": "number"
+                          },
+                          "block": {
+                            "type": "grg",
+                            "id": "+SsKk~/*UTo.wLmR8LL)",
+                            "fields": {
+                              "VR": "vJQ7j7q8K"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "D": {
+                    "block": {
+                      "type": "lcd",
+                      "id": "~n89T^L=jjXqr8w34G/,",
+                      "fields": {
+                        "VD": {
+                          "name": "SFX1",
+                          "type": "ListT_any"
+                        },
+                        "T": "ListT_any"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tyd",
+                            "id": "J;Q-G#e/M[V-u@kcKIel",
+                            "extraState": "ListT_any"
+                          },
+                          "block": {
+                            "type": "lic",
+                            "id": "{JB?ZnymGFT/vS1+-;Ll",
+                            "extraState": {
+                              "X": 3
+                            },
+                            "fields": {
+                              "T": "AudioID"
+                            },
+                            "inputs": {
+                              "I0": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "T!psRL:2x5pkn09]xrI`",
+                                  "extraState": "AudioID"
+                                },
+                                "block": {
+                                  "type": "psd",
+                                  "id": "Ft2~X[Cy{.Z!_zdzs8Rk",
+                                  "fields": {
+                                    "V": "9ts4f7hx1o-mm4pzsq8-t87zi4ebrvs"
+                                  }
+                                }
+                              },
+                              "I1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "ZG?75?#Yx@C8+B2BEapj",
+                                  "extraState": "AudioID"
+                                },
+                                "block": {
+                                  "type": "psd",
+                                  "id": "edZ{AYv6i6rVTn$lJ6rf",
+                                  "fields": {
+                                    "V": "j641r99iqxb-mm4pzsdp-qs62uoz8xi"
+                                  }
+                                }
+                              },
+                              "I2": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "rNFvAaQt9;kzTG!P}eT5",
+                                  "extraState": "AudioID"
+                                },
+                                "block": {
+                                  "type": "psd",
+                                  "id": "1%m}*,ix%_*ff!%^bX#+",
+                                  "fields": {
+                                    "V": "r68yzms1db-mm4pzryf-abc0jibjo86"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "a",
+                          "id": "1[2!4pKOkFqmvJevAvLN",
+                          "extraState": {
+                            "X": 943,
+                            "L": [
+                              1,
+                              2
+                            ],
+                            "O": [
+                              "",
+                              ""
+                            ],
+                            "T": "PlayOneShotSoundV2",
+                            "OT": null
+                          },
+                          "inputs": {
+                            "P1": {
+                              "shadow": {
+                                "type": "psd",
+                                "id": "@9ny},BnHfY!1QpyC-D{",
+                                "fields": {
+                                  "V": ""
+                                }
+                              },
+                              "block": {
+                                "type": "v",
+                                "id": "Q0JOe@^(^/HRp8rE}{I`",
+                                "extraState": {
+                                  "X": 67,
+                                  "L": [
+                                    1,
+                                    2
+                                  ],
+                                  "O": [
+                                    "",
+                                    ""
+                                  ],
+                                  "T": "ListGetElement",
+                                  "OT": null
+                                },
+                                "inputs": {
+                                  "P1": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "Duwi}GaN|#{]{`:UGO3T",
+                                      "extraState": "List"
+                                    },
+                                    "block": {
+                                      "type": "lcg",
+                                      "id": "Ee%6X9.#(FF$$`EHWyZS",
+                                      "extraState": "~n89T^L=jjXqr8w34G/,VD",
+                                      "fields": {
+                                        "VR": "SFX1"
+                                      }
+                                    }
+                                  },
+                                  "P2": {
+                                    "shadow": {
+                                      "type": "ipi",
+                                      "id": "^Jb}~#i!g[}Qb^=WXr=n",
+                                      "fields": {
+                                        "V": 0
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "opa",
+                                      "id": "^pP|qwHt]F$]Hko:c63(",
+                                      "extraState": {
+                                        "X": 1
+                                      },
+                                      "fields": {
+                                        "O": "MD"
+                                      },
+                                      "inputs": {
+                                        "V1": {
+                                          "shadow": {
+                                            "type": "ipn",
+                                            "id": "c{N+Ev]),k#7,L4pV%GA",
+                                            "fields": {
+                                              "V": "0"
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "v",
+                                            "id": "7Z:/y;oMh)6}DT!uf|$P",
+                                            "extraState": {
+                                              "X": 770,
+                                              "L": [],
+                                              "O": [],
+                                              "T": "GetLocalTimestamp",
+                                              "OT": null
+                                            }
+                                          }
+                                        },
+                                        "V2": {
+                                          "shadow": {
+                                            "type": "ipn",
+                                            "id": "}bVNnQX{zE84q,Dm.GrV",
+                                            "fields": {
+                                              "V": "0"
+                                            }
+                                          },
+                                          "block": {
+                                            "type": "v",
+                                            "id": "JOwctFrGvUWq=TkV=.lJ",
+                                            "extraState": {
+                                              "X": 66,
+                                              "L": [
+                                                1
+                                              ],
+                                              "O": [
+                                                ""
+                                              ],
+                                              "T": "ListLength",
+                                              "OT": null
+                                            },
+                                            "inputs": {
+                                              "P1": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "PqdhC.m(#H5]LKNS45l|",
+                                                  "extraState": "List"
+                                                },
+                                                "block": {
+                                                  "type": "lcg",
+                                                  "id": "eLCw,GuE~%/Mv@{hqT*z",
+                                                  "extraState": "~n89T^L=jjXqr8w34G/,VD",
+                                                  "fields": {
+                                                    "VR": "SFX1"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "P2": {
+                              "shadow": {
+                                "type": "ipf",
+                                "id": "+1ndVU]+I%GoHzth%4CA",
+                                "fields": {
+                                  "V": 1
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "grs",
+                              "id": "|iSk$I5Ka@x4NjddaJ:p",
+                              "fields": {
+                                "VR": "vJQ7j7q8K",
+                                "O": "UK"
+                              },
+                              "inputs": {
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "VDU(woA_c+fk{hdxxYn`",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "opa",
+                                    "id": "sopa_dup_block",
+                                    "extraState": {
+                                      "X": 1
+                                    },
+                                    "fields": {
+                                      "O": "AD"
+                                    },
+                                    "inputs": {
+                                      "V1": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "c{N+Ev]),k#7,L4pV%GA",
+                                          "fields": {
+                                            "V": "0"
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "v",
+                                          "id": "*{/*X151nSyYo*.{Bx$7",
+                                          "extraState": {
+                                            "X": 770,
+                                            "L": [],
+                                            "O": [],
+                                            "T": "GetLocalTimestamp",
+                                            "OT": null
+                                          }
+                                        }
+                                      },
+                                      "V2": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "*A?C+z@nSs2i4blUOMme",
+                                          "fields": {
+                                            "V": "5"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "slsv4",
+                    "id": "|C#4]qWt7*=i9Ih(}`}9",
+                    "extraState": {
+                      "X": 0,
+                      "L": [
+                        1,
+                        2
+                      ],
+                      "O": [
+                        "o",
+                        "o"
+                      ],
+                      "T": "signal_79527814",
+                      "OT": "Component"
+                    },
+                    "fields": {
+                      "TO": "2"
+                    },
+                    "inputs": {
+                      "ow": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "4hu?T--m2Rlv7mt;yxQ`",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "a]dj2Af+P*kseUOFq6L;",
+                          "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                          "fields": {
+                            "VR": "chủ vũ khí"
+                          }
+                        }
+                      },
+                      "P1": {
+                        "shadow": {
+                          "type": "ipt",
+                          "id": "#IgP?i@FH+(sS5uqMwUH",
+                          "fields": {
+                            "V": "Play Fire Animation"
+                          }
+                        }
+                      },
+                      "P2": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "nhY8A8rJkHFATt=J;*2C",
+                          "extraState": "ListT_any"
+                        },
+                        "block": {
+                          "type": "lic",
+                          "id": "tJ!JTUvC-HYYrBWPafGf",
+                          "extraState": {
+                            "X": 1
+                          },
+                          "fields": {
+                            "T": "any"
+                          },
+                          "inputs": {
+                            "I0": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "ma(ELmWJ==i}i+UxUoFa",
+                                "extraState": "any"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "zMuH.56|$M|9j0xVB{Mk",
+                                "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                                "fields": {
+                                  "VR": "chủ vũ khí"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "a",
+        "id": "cgd;v*yOJ@reW|BQUl)e",
+        "x": 457,
+        "y": 861,
+        "extraState": {
+          "X": 46,
+          "L": [
+            1,
+            2,
+            3
+          ],
+          "O": [
+            "",
+            "",
+            ""
+          ],
+          "T": "ListSetElement",
+          "OT": null
+        },
+        "inputs": {
+          "P1": {
+            "shadow": {
+              "type": "tys",
+              "id": "=4Yr0/AzvXrd7f5,w5D1",
+              "extraState": "List"
+            },
+            "block": {
+              "type": "exg",
+              "id": ";7NI,;DB99W[KvC7.5XD",
+              "fields": {
+                "G": "3m3usckvnl9-mj2t0ed2-io82zfocpp",
+                "VI": "vsvj10Jpy"
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "PoXDG`jg:X=`p)sbZ3bb",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "l-xPe*6+:=`g}|[?~z;v",
+                    "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                    "fields": {
+                      "VR": "chủ vũ khí"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "P2": {
+            "shadow": {
+              "type": "ipi",
+              "id": "SGcbgk9KIyRLBH.JcgWw",
+              "fields": {
+                "V": 0
+              }
+            }
+          },
+          "P3": {
+            "shadow": {
+              "type": "tys",
+              "id": "F.`mlOFGQh@*[wA=nnNK",
+              "extraState": "Int"
+            }
+          }
+        }
+      },
+      {
+        "type": "v",
+        "id": "s67_dup_block",
+        "x": 454,
+        "y": 814,
+        "extraState": {
+          "X": 67,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "",
+            ""
+          ],
+          "T": "ListGetElement",
+          "OT": null
+        },
+        "inputs": {
+          "P1": {
+            "shadow": {
+              "type": "tys",
+              "id": "Duwi}GaN|#{]{`:UGO3T",
+              "extraState": "List"
+            },
+            "block": {
+              "type": "exg",
+              "id": "!b^z0N?^Q$LByF/0!.k,",
+              "fields": {
+                "G": "3m3usckvnl9-mj2t0ed2-io82zfocpp",
+                "VI": "vsvj10Jpy"
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "PoXDG`jg:X=`p)sbZ3bb",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "l)uXoq@jl=L$_X50.P6?",
+                    "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                    "fields": {
+                      "VR": "chủ vũ khí"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "P2": {
+            "shadow": {
+              "type": "ipi",
+              "id": "P@@t$x}n/x(kZiZ*rH8B",
+              "fields": {
+                "V": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "lcd",
+        "id": "PO!|Z.TeWEfQHC43+@P|",
+        "x": 582,
+        "y": -312,
+        "fields": {
+          "VD": {
+            "name": "thời gian thay đạn được tính",
+            "type": "Int"
+          },
+          "T": "$Auto"
+        },
+        "inputs": {
+          "V": {
+            "shadow": {
+              "type": "tyd",
+              "id": "`aC%dJ@NO[Rqe}wcPBFC",
+              "extraState": "$Auto"
+            },
+            "block": {
+              "type": "v",
+              "id": "]7]w~PX?H402.rot-ixU",
+              "extraState": {
+                "X": 156,
+                "L": [
+                  1
+                ],
+                "O": [
+                  ""
+                ],
+                "T": "Round",
+                "OT": null
+              },
+              "inputs": {
+                "P1": {
+                  "shadow": {
+                    "type": "ipf",
+                    "id": "R}$8VNi2I)lStw?kN|k!",
+                    "fields": {
+                      "V": 0
+                    }
+                  },
+                  "block": {
+                    "type": "opa",
+                    "id": "=3Ps~IFN5r~-.1zp7ehm",
+                    "extraState": {
+                      "X": 3
+                    },
+                    "fields": {
+                      "O": "DI",
+                      "O2": "MU",
+                      "O3": "AD"
+                    },
+                    "inputs": {
+                      "V1": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": "ua5EZzpKq77UI(ghYreL",
+                          "fields": {
+                            "V": "1"
+                          }
+                        }
+                      },
+                      "V2": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": "unw9n`Uw|v_E-KzZ{,+X",
+                          "fields": {
+                            "V": "0"
+                          }
+                        },
+                        "block": {
+                          "type": "prg",
+                          "id": "!{;xmu}ylYF[i6yI@yU$",
+                          "extraState": {
+                            "X": 1,
+                            "T": "Float"
+                          },
+                          "fields": {
+                            "P": "ReloadSpeed:Weapon"
+                          },
+                          "inputs": {
+                            "H": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "[tNG-DF~[~-14KJo4tgx",
+                                "extraState": "Component"
+                              },
+                              "block": {
+                                "type": "ent",
+                                "id": "oXb8RVj1N!IQAf;A(0YV"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "V3": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": "T,GPz[lN[]x/#]][PMG[",
+                          "fields": {
+                            "V": "1000"
+                          }
+                        }
+                      },
+                      "V4": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": ";f7A{`5CNaZ!Ox8FZD~S",
+                          "fields": {
+                            "V": "650"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "Fd8qxq|:#0sIbkuyD/.G",
+            "extraState": {
+              "X": 30,
+              "L": [
+                1
+              ],
+              "O": [
+                ""
+              ],
+              "T": "WaitForSeconds",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "W{![5Gh7]1z#0B|13r],",
+                  "fields": {
+                    "V": 0
+                  }
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "WDjjy+6r/Z$]LV2)7Yrg",
+                  "extraState": "PO!|Z.TeWEfQHC43+@P|VD",
+                  "fields": {
+                    "VR": "thời gian thay đạn được tính"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vJQ7j7q8K",
+      "name": "Firing_Voice_CD",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Weapon",
+    "isStatic": false,
+    "platform": 1
+  }
+}
+//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}

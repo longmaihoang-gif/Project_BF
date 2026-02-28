@@ -1,0 +1,137 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "slr",
+        "id": "GbWem8ZEtjrS;|b;g=.w",
+        "x": -772,
+        "y": 153,
+        "extraState": {
+          "X": 0,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "signal_23183885",
+          "OT": "AnimationControllerAble"
+        },
+        "fields": {
+          "P1": {
+            "name": " Loại hành động",
+            "type": "String"
+          },
+          "P2": {
+            "name": "Phần_trăm_ATK",
+            "type": "Float"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "~Bq^[$DjxAQC{e9LN?Kv",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "ZlNAFd2NvCVRWf|0+Ji_",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "sopc_dup_block",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": ":_YqNm]{n9l)zaX1:H[f",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "NeJ@NJ^^czq|lh):VOU6",
+                        "extraState": "GbWem8ZEtjrS;|b;g=.wP1",
+                        "fields": {
+                          "VR": " Loại hành động"
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "EY2i.c[XMsn5c}`JDm[j",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "ipt",
+                        "id": "=r0yTSXGJR$U@UAh0~u6",
+                        "fields": {
+                          "V": "kết_thúc"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "prs",
+                  "id": "S+5BdG8g{ew+B|E,N(w{",
+                  "fields": {
+                    "P": "Visible:Visibility",
+                    "O": "UK"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "ZPjJkl@!PY3zR%?9Tn?-",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": ")]|2y153l=/1K^_MOayP"
+                      }
+                    },
+                    "V": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "o.U$2L)yX9a`Aa)tlZJI",
+                        "extraState": "Bool"
+                      },
+                      "block": {
+                        "type": "ipb",
+                        "id": "`S(m(k-CcPkj#f4nfg`#",
+                        "fields": {
+                          "V": "F"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject&AvatarAble",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.15.4008519","c":{"FF":5001},"s":100}

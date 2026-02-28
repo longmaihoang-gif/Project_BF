@@ -1,0 +1,225 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "B6QN#!$3JeV]TErYPrwg",
+        "x": 131,
+        "y": -342,
+        "extraState": {
+          "X": 376,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnWeaponBeEquiped",
+          "OT": "Weapon"
+        },
+        "fields": {
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "4]0}aE4mU,8A82c/fCVu",
+            "extraState": {
+              "X": 605,
+              "L": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "O": [
+                "",
+                "",
+                "",
+                "o",
+                "o"
+              ],
+              "T": "AddAttachmentsToPlayer",
+              "OT": null
+            },
+            "fields": {
+              "P4": {
+                "name": "Có thành công không",
+                "type": "Bool"
+              },
+              "P5": {
+                "name": "Phụ kiện",
+                "type": "Entity"
+              }
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "-^IjD/r~Lf60)IPVp0sh",
+                  "extraState": "Player"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "GwoqQ@CkHe!#=jG,l$jJ",
+                  "extraState": "B6QN#!$3JeV]TErYPrwgP1",
+                  "fields": {
+                    "VR": "Người chơi"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "ipe",
+                  "id": ")gmI#$L5Nyy|,e@UiY11",
+                  "extraState": "SwitchWeaponEquipSlot",
+                  "fields": {
+                    "I": "PrimaryWeapon1"
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "pki",
+                  "id": "58SbVGgG]!!m3L|Tl||e",
+                  "extraState": {
+                    "entityType": "Attachment"
+                  },
+                  "fields": {
+                    "V": "1904ad2b0f3195e55a7973704383f41c"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "prs",
+                "id": "E$LJ$bE;mcEuq/dNv,Ts",
+                "fields": {
+                  "P": "SightAmplifyRatio:Attachment",
+                  "O": "UK"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "e%N2-^X/63UCL,:J-B3^",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "tya",
+                      "id": "*-kQru]`FAzer-Z=8`7D",
+                      "fields": {
+                        "T": "Attachment"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "I=s`yOj[R1blL3e/8xAp",
+                            "extraState": "any"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "?2aUzRcH=,9a[/fwC?_G",
+                            "extraState": "4]0}aE4mU,8A82c/fCVuP5",
+                            "fields": {
+                              "VR": "Phụ kiện"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "V": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "~/OxL2G]k?jM}_immmR4",
+                      "extraState": "Int"
+                    },
+                    "block": {
+                      "type": "ipi",
+                      "id": "?K.Q0ov6cg7GzGJa?vc?",
+                      "fields": {
+                        "V": 10
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "prs",
+                    "id": "`EZ+CN^lv71=4XUu%ARL",
+                    "fields": {
+                      "P": "SightFOVAmplifyRatio:Attachment",
+                      "O": "UK"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "e%N2-^X/63UCL,:J-B3^",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "tya",
+                          "id": "$6i`fjt{c^DvwC2ygJ.8",
+                          "fields": {
+                            "T": "Attachment"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "I=s`yOj[R1blL3e/8xAp",
+                                "extraState": "any"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "T5C1Hhoxw8oD[A%~QNPz",
+                                "extraState": "4]0}aE4mU,8A82c/fCVuP5",
+                                "fields": {
+                                  "VR": "Phụ kiện"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "V": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "(==V`6%zP(UE}GT1a8b`",
+                          "extraState": "Float"
+                        },
+                        "block": {
+                          "type": "ipi",
+                          "id": "]dV%qDP[s_tn1v:VV/eE",
+                          "fields": {
+                            "V": 10
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Weapon",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

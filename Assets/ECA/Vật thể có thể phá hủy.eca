@@ -1,0 +1,146 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "|#bI|;Cvl@Yr1~/r29cW",
+        "x": 224,
+        "y": 295,
+        "extraState": {
+          "X": 982,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnCustomPropertyChange",
+          "OT": "Entity"
+        },
+        "fields": {
+          "P1": {
+            "name": "Thuộc tính",
+            "type": "Property"
+          },
+          "P2": {
+            "name": "Giá trị thuộc tính",
+            "type": "Object"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "d2a6Pr#HTZjp/G4hF5??",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": ";n_*i8SI=#};0`8d^uJq",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "sopc_dup_block",
+                  "fields": {
+                    "O": "LE"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": ".XCBxJ1G!GmX0=Mx;J,(",
+                        "extraState": "number"
+                      },
+                      "block": {
+                        "type": "prg",
+                        "id": "`%0iS8.N.)^Qc|@DUw,g",
+                        "extraState": {
+                          "X": 1,
+                          "T": "Int"
+                        },
+                        "fields": {
+                          "P": "PROP_73212736:AimableEntity"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "7,b.}+5rCZ6ur+KPRsV+",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "5tqI|/.Cz)B()VMa5.iy"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "eVTm}A-6tivL?lXdN~xm",
+                        "extraState": "number"
+                      },
+                      "block": {
+                        "type": "ipn",
+                        "id": "gn]P[RS5@3$U4Wi;Rm]L",
+                        "fields": {
+                          "V": "0"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "y9flvSiMf-G#IIA=oS8[",
+                  "extraState": {
+                    "X": 354,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "RemoveEntity",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "b0a0P;AS#}bPH}w$5C{Y",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "jk4K8%v.:U|]v-x8WS-T"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "AimableEntity",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4187991","c":{"FF":5001},"s":100}

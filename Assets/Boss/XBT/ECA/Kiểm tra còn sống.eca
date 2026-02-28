@@ -1,0 +1,97 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 480,
+        "y": 150,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "fnr",
+              "id": "aUn9+`{5I)Z/p|dR6~a;",
+              "extraState": {
+                "rt": "Bool"
+              },
+              "inputs": {
+                "R": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": ";F-}gcWZ=r|NV39M];,h",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "exg",
+                    "id": "NY4QL2yJSkw7#,(?VH,@",
+                    "fields": {
+                      "G": "0vbe2jqjew8-mgxpeqch-o6raa251tsc",
+                      "VI": "vbFecxBUs"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "f1(hV0rU2=v+$8M?WGt,",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "tya",
+                          "id": "M0D$b|]q47TXaW8l,,g7",
+                          "fields": {
+                            "T": "CustomComponent58979682"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "Whaeq%Hd/D05TEN-D=eU",
+                                "extraState": "any"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "x#.9i1gaMR,t9eYkS_EK",
+                                "extraState": "TSnh:mMR.kG_ys0@2{JT_arg6151",
+                                "fields": {
+                                  "VR": "Owner"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

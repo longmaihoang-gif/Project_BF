@@ -1,0 +1,252 @@
+{
+  "content": {
+    "type": "ife1",
+    "id": "e_e(PKj[XTz+b/V:|@T+",
+    "extraState": {
+      "X": 1,
+      "CIDS": []
+    },
+    "inputs": {
+      "C": {
+        "shadow": {
+          "type": "tys",
+          "id": "Y=9L?qny4QacTik.(te2",
+          "extraState": "bool"
+        },
+        "block": {
+          "type": "opc",
+          "id": "3pFBeRy*`$H^m)yl-D-q",
+          "fields": {
+            "O": "EQ"
+          },
+          "inputs": {
+            "V1": {
+              "shadow": {
+                "type": "tys",
+                "id": "=50:dBMDMa?%{73dTcu!",
+                "extraState": "any"
+              },
+              "block": {
+                "type": "exv",
+                "id": "7gZZS@IUX-ZzW3A-g.-D",
+                "extraState": {
+                  "id": "{-iIT(By79IuvAM!C;Ua",
+                  "name": "Kiểm tra ưu tiên (phải có biến uu_tien)",
+                  "params": [
+                    {
+                      "id": "_arg2630",
+                      "name": "Nút",
+                      "type": "BehaviourTreeNode",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg8937",
+                      "name": "Gốc",
+                      "type": "BehaviourTreeAttachable",
+                      "isOut": false
+                    }
+                  ],
+                  "returnType": "CustomEnum53935633",
+                  "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "Q{C26z(5.4p(yTrA^6!0",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "61o01@UQ47~FaHv-Tz#%",
+                      "extraState": {
+                        "X": 95,
+                        "L": [],
+                        "O": [],
+                        "T": "GetGlobalEntity",
+                        "OT": null
+                      }
+                    }
+                  },
+                  "_arg2630": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "X7g[O/T$8fB-W|3U7EnX",
+                      "extraState": "BehaviourTreeNode"
+                    },
+                    "block": {
+                      "type": "ent",
+                      "id": "NoQZ*R+ZL1e$*z%/B6,o"
+                    }
+                  },
+                  "_arg8937": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "vV%`/H/C*TpEDUFo^.Sm",
+                      "extraState": "BehaviourTreeAttachable"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "BArHq~?5x`}m8O.mKAh2",
+                      "extraState": "`U17,hoQwJ|4~Ccyvi1=P2",
+                      "fields": {
+                        "VR": "Người sở hữu"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "V2": {
+              "shadow": {
+                "type": "tys",
+                "id": "4,q(zbvc^CQa3wYEX*G_",
+                "extraState": "any"
+              },
+              "block": {
+                "type": "ipe",
+                "id": "i$?6R/%6][s$twEID1.4",
+                "extraState": "CustomEnum53935633",
+                "fields": {
+                  "I": "E12367954"
+                }
+              }
+            }
+          }
+        }
+      },
+      "D": {
+        "block": {
+          "type": "a",
+          "id": "NWBeU8l`*3141wWwDE,)",
+          "extraState": {
+            "X": 596,
+            "L": [
+              1,
+              2,
+              3
+            ],
+            "O": [
+              "",
+              "",
+              "o"
+            ],
+            "T": "GetBTreeNodeParam",
+            "OT": null
+          },
+          "fields": {
+            "P3": {
+              "name": "Giá trị",
+              "type": "Object"
+            }
+          },
+          "inputs": {
+            "P1": {
+              "shadow": {
+                "type": "tys",
+                "id": "UH=8C-Z)zF;]dk9kT47y",
+                "extraState": "BehaviourTreeNode"
+              },
+              "block": {
+                "type": "ent",
+                "id": ".ABTl/@Q_e(O=SF0pLLf"
+              }
+            },
+            "P2": {
+              "shadow": {
+                "type": "ipt",
+                "id": "LGr(=H3{HBdBIs**2xX;",
+                "fields": {
+                  "V": "uu_tien"
+                }
+              }
+            }
+          },
+          "next": {
+            "block": {
+              "type": "prs",
+              "id": "ua=m8HNQB0U]ENp5VO70",
+              "fields": {
+                "P": "PROP_86297643:BehaviourTree",
+                "O": "UK"
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "z-DMb8DDh*s*7ay^j*^P",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "prg",
+                    "id": "lvb-fb0.4!PTKw1x00JH",
+                    "extraState": {
+                      "X": 1,
+                      "T": "BehaviourTree"
+                    },
+                    "fields": {
+                      "P": "TargetTree:BehaviourTreeAttachable"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "k]jp$D0o@%Qsc^tjv]xX",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "()x~QGPTp)GEFSshMjt$",
+                          "extraState": "`U17,hoQwJ|4~Ccyvi1=P2",
+                          "fields": {
+                            "VR": "Người sở hữu"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "V": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "(,t,?e%}Svx-/r`t5TR(",
+                    "extraState": "Int"
+                  },
+                  "block": {
+                    "type": "tya",
+                    "id": "b8WmLlfwC6WUj867ey/o",
+                    "fields": {
+                      "T": "Int"
+                    },
+                    "inputs": {
+                      "V": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "gFm5M}RH{|SapSWjT]NI",
+                          "extraState": "any"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "+7]=byL]1[d@TdOMmWpv",
+                          "extraState": "NWBeU8l`*3141wWwDE,)P3",
+                          "fields": {
+                            "VR": "Giá trị"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Set độ ưu tiên",
+  "remarks": "Dùng cho cây hành vi",
+  "source": "customized",
+  "id": "jmunfvfikra-mh3i78qs-h301rgx4lp"
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

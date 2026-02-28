@@ -1,0 +1,246 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "RX{yG-ggIpw+@=DEe%od",
+        "x": 27,
+        "y": -45,
+        "extraState": {
+          "X": 143,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerEnter",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "?$pOE.DnJ]:{h(()n^yV",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "|k`ol6xi?l-Bq^9|rXYw",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "ew_m45_K?GK6(_p[M({~",
+                  "extraState": {
+                    "X": 196,
+                    "L": [
+                      1,
+                      2
+                    ],
+                    "O": [
+                      "",
+                      ""
+                    ],
+                    "T": "TypeIs",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "iA?}/H9r7|ju)7up.dyE",
+                        "extraState": "Object"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "UL)+WPkgYVK2GOxCaHBR",
+                        "extraState": "RX{yG-ggIpw+@=DEe%odP1",
+                        "fields": {
+                          "VR": "Mục tiêu truy kích"
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tyi",
+                        "id": "?=g-vF;@*~R{Z`VFOt2?",
+                        "fields": {
+                          "T": "Player"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "MhGPMMvpou@u(XQGBf`S",
+                  "extraState": {
+                    "X": 47,
+                    "L": [
+                      1,
+                      2
+                    ],
+                    "O": [
+                      "",
+                      ""
+                    ],
+                    "T": "ListAppend",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "*UKA]Hxp+BJZ5-fH%shP",
+                        "extraState": "List"
+                      },
+                      "block": {
+                        "type": "grg",
+                        "id": "!KB,wsyfGYUPPL/0vSK3",
+                        "fields": {
+                          "VR": "vTXceObtP"
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "F;z4gK[fkJmrY%im2lpH",
+                        "extraState": "Player"
+                      },
+                      "block": {
+                        "type": "tya",
+                        "id": "stya_dup_block",
+                        "fields": {
+                          "T": "Player"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "#KVP/5l0Lu5vmfB_a!kx",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "%ZT)2K#VX)K4V?5nHnF^",
+                              "extraState": "RX{yG-ggIpw+@=DEe%odP1",
+                              "fields": {
+                                "VR": "Mục tiêu truy kích"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "*_t~M:k6t]Y_Ry=H@kcy",
+        "x": 23,
+        "y": 179,
+        "extraState": {
+          "X": 144,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerLeave",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "G4OE_ycL+U-ZYZ)%}/uc",
+            "extraState": {
+              "X": 48,
+              "L": [
+                1,
+                2
+              ],
+              "O": [
+                "",
+                ""
+              ],
+              "T": "ListRemove",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "aP~=dFGw2n4[~WMq:qUp",
+                  "extraState": "List"
+                },
+                "block": {
+                  "type": "grg",
+                  "id": "v{/CaF5Rp$)1.s#}uq)t",
+                  "fields": {
+                    "VR": "vTXceObtP"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "f0?!]=_NIKxr1hL2vODY",
+                  "extraState": "Object"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "F*F__F#J#[F;Vz5])v-y",
+                  "extraState": "*_t~M:k6t]Y_Ry=H@kcyP1",
+                  "fields": {
+                    "VR": "Mục tiêu truy kích"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vTXceObtP",
+      "name": "Quản lý người chơi trong vùng",
+      "type": "ListT_Player",
+      "value": []
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject&ColliderShape&Collider",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.15.4008519","c":{"FF":5001},"s":100}

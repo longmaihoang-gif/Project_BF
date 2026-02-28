@@ -1,0 +1,691 @@
+{
+  "_tag": {
+    "type": "ecaDesc",
+    "resourceId": ""
+  },
+  "_entityId": "kx6eTQhg",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "TypeDefines": {
+    "CustomComponent58979682": {
+      "label": "Blue Archive Entity",
+      "name": "CustomComponent58979682",
+      "bases": [
+        "Component",
+        "LevelObject"
+      ],
+      "ecaScripts": [],
+      "typeID": 100000,
+      "PropDefines": [
+        {
+          "propID": 100041,
+          "name": "PROP_21463864",
+          "label": "ATG",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100044,
+          "name": "PROP_26258567",
+          "label": "Max_ATG",
+          "type": "Int",
+          "value": 1000,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100045,
+          "name": "PROP_78070534",
+          "label": "Groggy_gauge",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100049,
+          "name": "PROP_80258781",
+          "label": "Max_Groggy",
+          "type": "Int",
+          "value": 500,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      ]
+    },
+    "BehaviourTree": {
+      "label": "Cây hành vi",
+      "name": "BehaviourTree",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 290,
+      "PropDefines": [
+        {
+          "propID": 100005,
+          "name": "PROP_86297643",
+          "label": "ID_ưu_tiên_hiện_tại",
+          "type": "Int",
+          "value": -1,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100004,
+          "name": "PROP_92418689",
+          "label": "Đang_hành_động",
+          "type": "Bool",
+          "value": false,
+          "disabledType": true,
+          "param": {
+            "size": "small"
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "CustomComponent72836610": {
+      "label": "Tên lửa",
+      "name": "CustomComponent72836610",
+      "bases": [
+        "Component",
+        "LevelObject"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "58a0mb874db-mhnjqaic-92lgrn083c",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 100009,
+      "PropDefines": [
+        {
+          "propID": 100016,
+          "name": "PROP_46507763",
+          "label": "Target",
+          "type": "AimableEntity",
+          "value": null,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100014,
+          "name": "PROP_22148546",
+          "label": "Speed",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100011,
+          "name": "PROP_54313817",
+          "label": "DMG",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      ]
+    },
+    "Component": {
+      "label": "Thành phần cơ bản",
+      "name": "Component",
+      "bases": [],
+      "ecaScripts": [
+        {
+          "fileId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 164,
+      "PropDefines": [
+        {
+          "propID": 100002,
+          "name": "PROP_65527156",
+          "label": "ID_Character",
+          "type": "String",
+          "value": "",
+          "observable": false,
+          "disabledType": true
+        },
+        {
+          "propID": 100046,
+          "name": "PROP_67151468",
+          "label": "Thuộc_tính_công_thức_hóa",
+          "type": "ListT_any",
+          "value": {
+            "type": "ListT_any",
+            "value": []
+          },
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "CustomComponent69248688": {
+      "label": "Nhân vật",
+      "name": "CustomComponent69248688",
+      "bases": [
+        "Component"
+      ],
+      "ecaScripts": [],
+      "typeID": 100013,
+      "PropDefines": [
+        {
+          "propID": 100017,
+          "name": "PROP_64294803",
+          "label": "HP",
+          "type": "Int",
+          "value": 100,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100019,
+          "name": "PROP_89677012",
+          "label": "Max_HP",
+          "type": "Int",
+          "value": 100,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100021,
+          "name": "PROP_80495566",
+          "label": "DEF",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100023,
+          "name": "PROP_62818034",
+          "label": "Healing",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100024,
+          "name": "PROP_85653665",
+          "label": "Crit_Res",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100025,
+          "name": "PROP_60131149",
+          "label": "Crit_DMG_Res",
+          "type": "Float",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100027,
+          "name": "PROP_56678400",
+          "label": "CC_Power",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100028,
+          "name": "PROP_51241278",
+          "label": "CC_Res",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100031,
+          "name": "PROP_37239249",
+          "label": "Move_Speed",
+          "type": "Int",
+          "value": 1000,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100033,
+          "name": "PROP_76757107",
+          "label": "DMG_Dealt_Rate",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100015,
+          "name": "PROP_80555382",
+          "label": "DMG_Resist_Rate",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100018,
+          "name": "PROP_31500304",
+          "label": "EX_DMG_Dealt_Rate",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100020,
+          "name": "PROP_60263185",
+          "label": "EX_DMG_Resist_Rate",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        }
+      ]
+    },
+    "CustomComponent66995561": {
+      "label": "Vũ khí tấn công",
+      "name": "CustomComponent66995561",
+      "bases": [
+        "Component"
+      ],
+      "ecaScripts": [],
+      "typeID": 100026,
+      "PropDefines": [
+        {
+          "propID": 100029,
+          "name": "PROP_90094561",
+          "label": "ATK",
+          "type": "Int",
+          "value": 10,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100030,
+          "name": "PROP_89262212",
+          "label": "DEF_Piercing",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100032,
+          "name": "PROP_23349817",
+          "label": "Crit",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100034,
+          "name": "PROP_47520624",
+          "label": "Crit_DMG",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        },
+        {
+          "propID": 100035,
+          "name": "PROP_88994474",
+          "label": "Range",
+          "type": "Int",
+          "value": 20,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100036,
+          "name": "PROP_54984013",
+          "label": "Max_Ammo",
+          "type": "Int",
+          "value": 5,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100037,
+          "name": "PROP_24518322",
+          "label": "Current_Ammo",
+          "type": "Int",
+          "value": 5,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100038,
+          "name": "PROP_20761948",
+          "label": "ATK_Speed",
+          "type": "Float",
+          "value": 1,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 2
+          }
+        }
+      ]
+    },
+    "FormulableEntity": {
+      "label": "Thực thể có thuộc tính công thức hóa",
+      "name": "FormulableEntity",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 93,
+      "PropDefines": [],
+      "IsPartial": true
+    },
+    "Player": {
+      "label": "Thành phần đơn vị người chơi",
+      "name": "Player",
+      "bases": [
+        "FightingEntity",
+        "ScoreableEntity",
+        "RankableEntity",
+        "Visibility",
+        "BuffableEntity",
+        "FormulableEntity",
+        "AnimationControllerAble"
+      ],
+      "ecaScripts": [],
+      "typeID": 14,
+      "PropDefines": [],
+      "IsPartial": true
+    },
+    "Global": {
+      "label": "Đơn vị game",
+      "name": "Global",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 11,
+      "PropDefines": [
+        {
+          "propID": 100040,
+          "name": "PROP_70189471",
+          "label": "Global_Time",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "CustomComponent61606995": {
+      "label": "Thực thể áp dụng hiệu ứng",
+      "name": "CustomComponent61606995",
+      "bases": [
+        "Component"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "6jyzklvb5eb-mjnylc5q-8yewbxx517u",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 100042,
+      "PropDefines": [
+        {
+          "propID": 100048,
+          "name": "PROP_77155796",
+          "label": "Danh_sách_hiệu_ứng",
+          "type": "ListT_any",
+          "value": {
+            "type": "ListT_any",
+            "value": []
+          },
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ]
+    },
+    "AimableEntity": {
+      "label": "Thành phần có thể bị ngắm",
+      "name": "AimableEntity",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "g6echgkgd5b-ml3jhvz5-rixgapfs0bg",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 107,
+      "PropDefines": [
+        {
+          "propID": 100001,
+          "name": "PROP_73212736",
+          "label": "HP",
+          "type": "Int",
+          "value": 1,
+          "observable": true,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "Weapon": {
+      "label": "Vũ khí",
+      "name": "Weapon",
+      "bases": [
+        "FormulableEntity",
+        "BuffableEntity"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "0clddx01c2gj-mm00nm71-1emnwne3zfc",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        },
+        {
+          "fileId": "y88fzaemg2q-mm2x4bbz-x8mp95qlnmq",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 79,
+      "PropDefines": [],
+      "IsPartial": true
+    },
+    "CustomHud": {
+      "label": "UI tùy chỉnh",
+      "name": "CustomHud",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 22,
+      "PropDefines": [],
+      "IsPartial": true
+    }
+  }
+}
+//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}

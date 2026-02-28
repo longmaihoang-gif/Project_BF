@@ -1,0 +1,615 @@
+{
+  "_tag": {
+    "type": "ResourceRegisteration"
+  },
+  "_entityId": "JsXbGuFg",
+  "Resource": {
+    "ui": {
+      "id": "ui",
+      "children": []
+    },
+    "scene": {
+      "id": "scene",
+      "children": []
+    },
+    "prefab": {
+      "id": "prefab",
+      "children": []
+    },
+    "ugcscript": {
+      "id": "ugcscript",
+      "children": []
+    },
+    "eca": {
+      "id": "eca",
+      "children": []
+    },
+    "texture": {
+      "id": "texture",
+      "children": [
+        {
+          "refer": {
+            "fileId": "gwnk1s7c9en-mjnzaw60-yo3aae972oh",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_buff_ATK_SPD.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_atk_spd",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "vzytwrqhuv-mjnzaw17-oizhotrd22f",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_buff_ATK.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_atk",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "jmk7cfn3wl-mjnzawfc-fku9n14unx4",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_buff_Crit_Res.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_crit_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "r99o7olnlj-mjnzawal-vpi47ywxzmr",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_buff_Crit.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_crit",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "xchykkxzkm-mjnzawk7-k29i740gtha",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_CriticalDamage.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_crit_dmg",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "5u46hsmh4sj-mjnzawpd-u9mfunn9eda",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_CriticalDamageRateResist.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_crit_dmg_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "01egryy6xg5b-mjnzawub-4781bv5ege",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_DamagedRatio.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_dmg_resist",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6n7znan92h7-mjnzawze-opcpnb9y3t",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_DamageRatio.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_dmg_dealt",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "n15o2jazz9-mjnzax4f-e55yducxi7",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_DEF.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_def",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "by3z95edmii-mjnzaxb8-jmhfy8o1dbe",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_EnhanceExDamageRate.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_ex_skill_dmg_dealt",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "xlmveymyitp-mjnzaxgv-c5bq616f7an",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_HealEffectiveness.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_recovery_boost",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "vh9jq458ruq-mjnzaxly-qh69hxr9oei",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_HealPower.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_healing",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "hpxfwplywo-mjnzaxr2-dn3ogczmxs",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_HIT.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_accuracy",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "9rqby0fpzyo-mjnzaxw2-3y6epuppp4x",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_Mag_Count.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_mag_count",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "lybdpv935v-mjnzay10-jk49eo6k8sg",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_MAXHP.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_max_hp",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "l49mg7ge86-mjnzaylo-xkl10lveb59",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_OppressionResist.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_cc_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "65zpe6iqfi9-mjnzayc3-ors2ngdrrdi",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_MoveSpeed.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_mov_spd",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "d9gt3kgcqws-mjnzaygx-ofpeubm4ptb",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_OppressionPower.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_cc_power",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "p0z2i9ut4e-mjnzayr0-t2mbz76nv4o",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_Penetration.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_defense_piercing",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "rkplby378d-mjnzaywg-oxfpg76jook",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_Range.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_normal_attack_range",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "8jnjbsz8crv-mjnzaz32-i1gxdriwkgg",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Buff_ReduceExDamagedRate.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "buff_ex_skill_dmg_resist",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "7iun6cn0eoq-mjnzazad-2j4kcqmtrus",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_AmmoCount.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_mag_count",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "o6vbe5bd4xk-mjnzazh0-pl9qdvob9g",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_ATK.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_atk",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "t60vri1xaq8-mjnzazo7-py5a6vnlt2",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_AttackSpeed.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_atk_spd",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "lvf6m4j0amq-mjnzazt2-t4fv7m9muki",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_CriticalChance.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_crit",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "aovff52bzrv-mjnzazy0-k9abwil3gwh",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_CriticalChanceResistPoint.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_crit_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "wxcdmhc9tub-mjnzb02y-5w98xxvkc76",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_CriticalDamage.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_crit_dmg",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "gaqb0at4g49-mjnzb08e-tnqz3zueujm",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_CriticalDamageRateResist.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_crit_dmg_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "qagylo6wu3k-mjnzb0eg-bfdm50vlcxb",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_DamagedRatio.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_dmg_resist",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "jqh95704t7r-mjnzb0jj-i3ckndrj1xs",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_DamageRatio.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_dmg_dealt",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "746qzurud1n-mjnzb0oo-1jgha15mgiu",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_DEF.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_def",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "i8xi56hdjg-mjnzb0ty-hl8aexfh7el",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_EnhanceExDamageRate.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_ex_skill_dmg_dealt",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6qvivjyr8y5-mjnzb0z1-8026a0ie8e",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_HealEffectiveness.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_recovery_boost",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "tg6vrj3bj2n-mjnzb143-2ala0dpa0eg",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_HealPower.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_healing",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "pq6qi0x7bci-mjnzb19a-sz6552mgudi",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_HIT.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_accuracy",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "66y4bm243ea-mjnzb1em-3xzzrcezzol",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_MAXHP.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_max_hp",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "ma4q7ti9ghi-mjnzb1ju-h0gffx21gx",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_MoveSpeed.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_mov_spd",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "fw9s24zm4qa-mjnzb1ow-hk39htxxmi",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_OppressionPower.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_cc_power",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "fyegfzq15d9-mjnzb1tz-s3j7pinfour",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_OppressionResist.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_cc_res",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "u8dwvt258pk-mjnzb1z6-cmv55kyqbm",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_Penetration.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_defense_piercing",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "n7uywn3t0b8-mjnzb24m-18so1pz1m3z",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_Range.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_normal_attack_range",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "9cidr7mrtjf-mjnzb29d-nowpbbvhj5m",
+            "filePath": "Assets\\Effect icon\\Combat_Icon_Debuff_ReduceExDamagedRate.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "debuff_ex_skill_dmg_resist",
+          "children": []
+        }
+      ]
+    },
+    "effecttype": {
+      "id": "effecttype",
+      "children": []
+    },
+    "sound": {
+      "id": "sound",
+      "children": []
+    },
+    "fitem": {
+      "id": "fitem",
+      "children": []
+    },
+    "fScenePrefab": {
+      "id": "fScenePrefab",
+      "children": []
+    },
+    "clothskin": {
+      "id": "clothskin",
+      "children": []
+    },
+    "weaponskin": {
+      "id": "weaponskin",
+      "children": []
+    },
+    "vehicleskin": {
+      "id": "vehicleskin",
+      "children": []
+    },
+    "emoteskin": {
+      "id": "emoteskin",
+      "children": []
+    },
+    "csv": {
+      "id": "csv",
+      "children": []
+    },
+    "internalhudtype": {
+      "id": "internalhudtype",
+      "children": []
+    },
+    "textureResource": {
+      "id": "textureResource",
+      "children": []
+    },
+    "mesh": {
+      "id": "mesh",
+      "children": []
+    },
+    "material": {
+      "id": "material",
+      "children": []
+    },
+    "ac": {
+      "id": "ac",
+      "children": []
+    },
+    "particles": {
+      "id": "particles",
+      "children": []
+    },
+    "playerdata": {
+      "id": "playerdata",
+      "children": []
+    },
+    "xbt": {
+      "id": "xbt",
+      "children": []
+    },
+    "pfm": {
+      "id": "pfm",
+      "children": []
+    },
+    "skilltype": {
+      "id": "skilltype",
+      "children": []
+    }
+  },
+  "children": []
+}
+//"{FE:{"v":"1.15.4049104","c":{"FF":5001},"s":100}

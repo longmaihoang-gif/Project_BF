@@ -1,0 +1,123 @@
+{
+  "_entityName": "T_43_YU_WS_MODULE_DATABASE",
+  "_tag": {
+    "type": "ff.DataStorage"
+  },
+  "_entityId": "h41sCgRG",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 31,
+  "storageOpen": true,
+  "rankSheets": [
+    {
+      "sheetOrder": 1,
+      "sheetName": "Bảng Xếp Hạng1",
+      "sheetId": "kOzz7l3F",
+      "type": "Int",
+      "keyType": "String",
+      "usePlayerID": true,
+      "columns": [
+        {
+          "name": "col1",
+          "type": "Int",
+          "saved": true
+        },
+        {
+          "name": "col2",
+          "type": "Float",
+          "saved": true
+        }
+      ]
+    }
+  ],
+  "dataSheets": [
+    {
+      "sheetName": "Kho Dữ Liệu1",
+      "sheetId": "wrbebhEh",
+      "type": "Int",
+      "keyType": "String"
+    }
+  ],
+  "statisticalSheets": [],
+  "multicolumnSheets": [
+    {
+      "sheetName": "Đơn vị hiệu ứng",
+      "sheetId": "cJRPSyQC",
+      "type": "MultiColumn",
+      "columns": [
+        {
+          "name": "ID_Hiệu_ứng",
+          "type": "String",
+          "saved": true
+        },
+        {
+          "name": "Loại_Buff",
+          "type": "Int",
+          "saved": true
+        },
+        {
+          "name": "Cường_độ",
+          "type": "BaseData",
+          "saved": true
+        },
+        {
+          "name": "Thời_gian",
+          "type": "Int",
+          "saved": true
+        },
+        {
+          "name": "Thẻ",
+          "type": "ListT_String",
+          "saved": true
+        }
+      ],
+      "keyType": "String"
+    }
+  ],
+  "craftlandLeadboard": null,
+  "showSwitch": true,
+  "multicolumnSheetsClient": [
+    {
+      "sheetName": "Kho Dữ Liệu Cục Bộ Đa Cột1",
+      "sheetId": "i6VlFYXa",
+      "type": "MultiColumnClient",
+      "columns": [
+        {
+          "name": "col1",
+          "type": "Int",
+          "saved": true
+        },
+        {
+          "name": "col2",
+          "type": "Float",
+          "saved": true
+        },
+        {
+          "name": "col3",
+          "type": "Bool",
+          "saved": true
+        }
+      ],
+      "keyType": "String"
+    }
+  ],
+  "dataSheetsClient": [
+    {
+      "sheetName": "Kho Dữ Liệu Cục Bộ1",
+      "sheetId": "ulbhhR02",
+      "type": "Int",
+      "keyType": "String"
+    }
+  ]
+}
+//"{FE:{"v":"1.16.4170774","c":{"FF":5001},"s":100}

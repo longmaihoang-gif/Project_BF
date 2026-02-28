@@ -1,0 +1,229 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 256,
+        "y": 175,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "ife1",
+              "id": "7L$ZxqzVwiDxUhYyT+Y*",
+              "extraState": {
+                "X": 1,
+                "CIDS": []
+              },
+              "inputs": {
+                "C": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "JL}sHPQ@/ykN/zG_}d|a",
+                    "extraState": "bool"
+                  },
+                  "block": {
+                    "type": "grg",
+                    "id": "}rn7Z(ldm+f6]%kG#pvL",
+                    "fields": {
+                      "VR": "vXgr9frLY"
+                    }
+                  }
+                },
+                "D": {
+                  "block": {
+                    "type": "fca",
+                    "id": "uNoyuaaEsV$B]KQ=n]rb",
+                    "extraState": {
+                      "id": "4^(pg,W}u,,^4)3B!#)_",
+                      "name": "Cooldown",
+                      "params": [],
+                      "returnType": null
+                    },
+                    "fields": {
+                      "T": "S"
+                    },
+                    "next": {
+                      "block": {
+                        "type": "fnr",
+                        "id": "aUn9+`{5I)Z/p|dR6~a;",
+                        "extraState": {
+                          "rt": "Bool"
+                        },
+                        "inputs": {
+                          "R": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "4H=:y(UB-(n#LSyo~?$`",
+                              "extraState": "Bool"
+                            },
+                            "block": {
+                              "type": "ipb",
+                              "id": "B0c)EX2MQacLVGPFEgK)",
+                              "fields": {
+                                "V": "T"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "fnr",
+                  "id": "m$z|Wz1febA^pAm9uUm!",
+                  "extraState": {
+                    "rt": "Bool"
+                  },
+                  "inputs": {
+                    "R": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "_B5Eylb?F_J~0DW1;R~m",
+                        "extraState": "Bool"
+                      },
+                      "block": {
+                        "type": "ipb",
+                        "id": "$.`BZ^./-^{`E+k?A5cB",
+                        "fields": {
+                          "V": "F"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fna",
+        "id": "4^(pg,W}u,,^4)3B!#)_",
+        "x": 879,
+        "y": 458,
+        "extraState": [],
+        "fields": {
+          "N": "Cooldown"
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "grs",
+              "id": "IUgp`{0.XWD-J7#bo$)j",
+              "fields": {
+                "VR": "vXgr9frLY",
+                "O": "UK"
+              },
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "X]Zxrmw1hS6M-mM[x(yq",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "ipb",
+                    "id": "J]hGT5rgGTwfV1TrKaWL",
+                    "fields": {
+                      "V": "F"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "a",
+                  "id": "`7qg6iV5^/:pB$+YEG*#",
+                  "extraState": {
+                    "X": 30,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "WaitForSeconds",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "ipi",
+                        "id": "z@}0CrH419OTdb}%-]NS",
+                        "fields": {
+                          "V": 12977
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "grs",
+                      "id": "YLR85;kP-S;x5fPd~B+D",
+                      "fields": {
+                        "VR": "vXgr9frLY",
+                        "O": "UK"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "^:}dT,}pr0~w`{O.*5P4",
+                            "extraState": "Bool"
+                          },
+                          "block": {
+                            "type": "ipb",
+                            "id": "`NLsr|!=;Zea.3q@mz.*",
+                            "fields": {
+                              "V": "T"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vXgr9frLY",
+      "name": "Kích hoạt",
+      "type": "Bool",
+      "value": true
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity&BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4187991","c":{"FF":5001},"s":100}

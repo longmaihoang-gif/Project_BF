@@ -1,0 +1,85 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 480,
+        "y": 150,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "fnr",
+              "id": "aUn9+`{5I)Z/p|dR6~a;",
+              "extraState": {
+                "rt": "Bool"
+              },
+              "inputs": {
+                "R": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "/y.1P,TNCopEr11[nog1",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "prg",
+                    "id": "^7Qsld|:o3YsT]hx|.!7",
+                    "extraState": {
+                      "X": 2,
+                      "T": "Bool"
+                    },
+                    "fields": {
+                      "P": "TargetTree:BehaviourTreeAttachable",
+                      "P2": "PROP_92418689:BehaviourTree"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "]#y_7=YGa/V.-hO4%]31",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "LsA,h!TWgA~o^5NZ_}U,",
+                          "extraState": "TSnh:mMR.kG_ys0@2{JT_arg6151",
+                          "fields": {
+                            "VR": "Owner"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.14.3883376","c":{"FF":5001},"s":100}

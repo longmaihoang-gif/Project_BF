@@ -1,0 +1,192 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "-*zlX-H)lX0E^`o#3ge2",
+        "x": -18,
+        "y": -471,
+        "extraState": {
+          "X": 379,
+          "L": [],
+          "O": [],
+          "T": "OnWeaponReload",
+          "OT": "Weapon"
+        },
+        "next": {
+          "block": {
+            "type": "exa",
+            "id": "MJ7?a6P8szRIP7sb3Wjc",
+            "extraState": {
+              "graphId": "jgnprbau9hp-mhj8buaj-3833m43ppih",
+              "id": "29l;eZae3/WJgV@D$t!!",
+              "name": "Bật tắt nút thông thường",
+              "params": [
+                {
+                  "id": "_arg7515",
+                  "name": "trạng thái",
+                  "type": "PlayerBehaviorStatus",
+                  "isOut": false
+                }
+              ],
+              "tooltip": "Assets\\ECA\\Người chơi.eca"
+            },
+            "fields": {
+              "T": "W"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "=z|F,9c[{2QSKUI=xV*m",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "prg",
+                  "id": "vT!=Jsef;KG~v;uX0z5j",
+                  "extraState": {
+                    "X": 1,
+                    "T": "Player"
+                  },
+                  "fields": {
+                    "P": "Owner:Weapon"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "[tNG-DF~[~-14KJo4tgx",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "pmI/7%VUh%E#AR7aN/a}"
+                      }
+                    }
+                  }
+                }
+              },
+              "_arg7515": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "4pVj2Yml=xENCNV,/pZu",
+                  "extraState": "PlayerBehaviorStatus"
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "^f#XOK_(5((_1c^4Pe|$",
+                  "extraState": 342,
+                  "fields": {
+                    "I": "Enable"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exa",
+                "id": "l#B8$XxZ?S7FP,ZB(g%)",
+                "extraState": {
+                  "graphId": "axgmr7bc9te-mcyecgxq-tidvew226xl",
+                  "id": "h;lzgL{kSb!2%0g1OOgA",
+                  "name": "Đặt lại thuộc tính công thức",
+                  "params": [
+                    {
+                      "id": "_arg9278",
+                      "name": "Thành phần",
+                      "type": "Component",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg6854",
+                      "name": "ID thuộc tính",
+                      "type": "String",
+                      "isOut": false
+                    }
+                  ],
+                  "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức.eca"
+                },
+                "fields": {
+                  "T": "W"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "P}VJ_Qw|.0mYeu[DC@6G",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "yloC@+Cc-p=7*?.^|xk#",
+                      "extraState": {
+                        "X": 95,
+                        "L": [],
+                        "O": [],
+                        "T": "GetGlobalEntity",
+                        "OT": null
+                      }
+                    }
+                  },
+                  "_arg9278": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "VU#_)XReemGk#eXh?lR)",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "prg",
+                      "id": "U38$^Xb%Hd,|mDeUT@KJ",
+                      "extraState": {
+                        "X": 1,
+                        "T": "Player"
+                      },
+                      "fields": {
+                        "P": "Owner:Weapon"
+                      },
+                      "inputs": {
+                        "H": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "1ArSmf+cp:QPf[z5o!hJ",
+                            "extraState": "Component"
+                          },
+                          "block": {
+                            "type": "ent",
+                            "id": "Z@Tc)h4Z9f`X+UgF}sjB"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "_arg6854": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "-65=#p,+5$Q#~-]=9,K;",
+                      "extraState": "String"
+                    },
+                    "block": {
+                      "type": "ipt",
+                      "id": "PZmWNe^CO9uL]gj~#{yz",
+                      "fields": {
+                        "V": "Current_Mag_Count"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Weapon",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}

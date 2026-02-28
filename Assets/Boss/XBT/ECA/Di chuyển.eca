@@ -1,0 +1,1791 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "G:?|d/.vBiUd2@RLO(+u",
+        "x": -992,
+        "y": -387,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayAction",
+          "R": "BTreeNodeState",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "ife1",
+              "id": "p:7/zmzmnHSOn{G:4kzo",
+              "extraState": {
+                "X": 2,
+                "CIDS": []
+              },
+              "inputs": {
+                "C": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "TEImjOmDN/t*tVRzs27.",
+                    "extraState": "bool"
+                  },
+                  "block": {
+                    "type": "exg",
+                    "id": "/qw|[Db(Je|yI$,c$}Y7",
+                    "fields": {
+                      "G": "0vbe2jqjew8-mgxpeqch-o6raa251tsc",
+                      "VI": "vbFecxBUs"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "OuC~9j!U(|(h?hnYw6_p",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "tya",
+                          "id": "}Yl-}D=2KdEsa7(^^fjN",
+                          "fields": {
+                            "T": "CustomComponent58979682"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "JIrLJlf4~FWisq(9+A5}",
+                                "extraState": "any"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "mxlE)R`L)!gxbI#XemKg",
+                                "extraState": "G:?|d/.vBiUd2@RLO(+u_arg6151",
+                                "fields": {
+                                  "VR": "Owner"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "D": {
+                  "block": {
+                    "type": "fnr",
+                    "id": "mJ/kzpa=V%f4b_$gw,z]",
+                    "extraState": {
+                      "rt": "BTreeNodeState"
+                    },
+                    "inputs": {
+                      "R": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "(Nz#D5FLi[z2_F]L]#(.",
+                          "extraState": "BTreeNodeState"
+                        },
+                        "block": {
+                          "type": "grg",
+                          "id": "id#7;~.JUHL|WXVt[=AO",
+                          "fields": {
+                            "VR": "vDw45k34d"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "D_else": {
+                  "block": {
+                    "type": "fnr",
+                    "id": "%Nb58a](@,-pyJn1$bre",
+                    "extraState": {
+                      "rt": "BTreeNodeState"
+                    },
+                    "inputs": {
+                      "R": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "^^L+X]O,nxp/7-nL9UNo",
+                          "extraState": "BTreeNodeState"
+                        },
+                        "block": {
+                          "type": "ipe",
+                          "id": "E(jYBK7DNFuOFAvHm}q#",
+                          "extraState": 10024,
+                          "fields": {
+                            "I": "Finish"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "fXeqyLn6n#UqAIWZO6o{",
+        "x": -14,
+        "y": -710,
+        "extraState": {
+          "X": 8004,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnNodeEnter",
+          "OT": "BehaviourTreeNode"
+        },
+        "fields": {
+          "P1": {
+            "name": "Tên nút",
+            "type": "String"
+          },
+          "P2": {
+            "name": "Người sở hữu",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "+(tvWKT%cq@x,R|#/5LO",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "Y=9L?qny4QacTik.(te2",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "h2X=!ZYNqnHs?AQzx`$x",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "Y;z8TwVOzwE:flNL*1uA",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "exv",
+                        "id": "(yL{qoF!{4wYEv:0svZI",
+                        "extraState": {
+                          "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                          "id": "{-iIT(By79IuvAM!C;Ua",
+                          "name": "Kiểm tra ưu tiên (phải có biến uu_tien)",
+                          "params": [
+                            {
+                              "id": "_arg2630",
+                              "name": "Nút",
+                              "type": "BehaviourTreeNode",
+                              "isOut": false
+                            },
+                            {
+                              "id": "_arg8937",
+                              "name": "Gốc",
+                              "type": "BehaviourTreeAttachable",
+                              "isOut": false
+                            }
+                          ],
+                          "returnType": "CustomEnum53935633",
+                          "tooltip": "Assets\\ECA\\Toàn bản đồ.eca"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "Q{C26z(5.4p(yTrA^6!0",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "v",
+                              "id": "h#6eT.WVgzS(/cPO,2CA",
+                              "extraState": {
+                                "X": 95,
+                                "L": [],
+                                "O": [],
+                                "T": "GetGlobalEntity",
+                                "OT": null
+                              }
+                            }
+                          },
+                          "_arg2630": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "Ac*_+Nk4Mro3VWn$y|Rl",
+                              "extraState": "BehaviourTreeNode"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "3A35;#7t_BPjsKD@%xLu"
+                            }
+                          },
+                          "_arg8937": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "VfCbc7y;-zp7Ix:vvI;(",
+                              "extraState": "BehaviourTreeAttachable"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "+}UWR]AyV9sk2~XnXBg^",
+                              "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                              "fields": {
+                                "VR": "Người sở hữu"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "lcfpG7m)zp?IG#EU]VR!",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "ipe",
+                        "id": "y8V1FKjr;id-Ihr:B37x",
+                        "extraState": "CustomEnum53935633",
+                        "fields": {
+                          "I": "E12367954"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "W$ubYk|Hxy[n*kbSxCLn",
+                  "extraState": {
+                    "X": 596,
+                    "L": [
+                      1,
+                      2,
+                      3
+                    ],
+                    "O": [
+                      "",
+                      "",
+                      "o"
+                    ],
+                    "T": "GetBTreeNodeParam",
+                    "OT": null
+                  },
+                  "fields": {
+                    "P3": {
+                      "name": "Giá trị",
+                      "type": "Object"
+                    }
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "UH=8C-Z)zF;]dk9kT47y",
+                        "extraState": "BehaviourTreeNode"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "[I=Q-1Y%c[9AC%dgiz|?"
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "ipt",
+                        "id": ",o!Oe6`)xxeRpW=Dlv1C",
+                        "fields": {
+                          "V": "uu_tien"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "prs",
+                      "id": "z7C_6PTnQsQHL`/`LY`@",
+                      "fields": {
+                        "P": "PROP_86297643:BehaviourTree",
+                        "O": "UK"
+                      },
+                      "inputs": {
+                        "H": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "z-DMb8DDh*s*7ay^j*^P",
+                            "extraState": "Component"
+                          },
+                          "block": {
+                            "type": "prg",
+                            "id": "0ZU:=53nI|TaYA6XOs[P",
+                            "extraState": {
+                              "X": 1,
+                              "T": "BehaviourTree"
+                            },
+                            "fields": {
+                              "P": "TargetTree:BehaviourTreeAttachable"
+                            },
+                            "inputs": {
+                              "H": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "k]jp$D0o@%Qsc^tjv]xX",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "3,Q_:$D_~]$ao2(;s`ZL",
+                                  "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                  "fields": {
+                                    "VR": "Người sở hữu"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "V": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "%X00lUn@4gM5bymdYNAt",
+                            "extraState": "Int"
+                          },
+                          "block": {
+                            "type": "tya",
+                            "id": "N?Ma3=/0p7sNN=)b(2E^",
+                            "fields": {
+                              "T": "Int"
+                            },
+                            "inputs": {
+                              "V": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "gFm5M}RH{|SapSWjT]NI",
+                                  "extraState": "any"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "8a`%?8QmClUGBz)w1Lyh",
+                                  "extraState": "W$ubYk|Hxy[n*kbSxCLnP3",
+                                  "fields": {
+                                    "VR": "Giá trị"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "lcd",
+                          "id": "?.:o?r8+{tIW-OL=)3AD",
+                          "fields": {
+                            "VD": {
+                              "name": "hướng đi",
+                              "type": "Vector3"
+                            },
+                            "T": "$Auto"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tyd",
+                                "id": "QejpLej0klTP)rdtbrVV",
+                                "extraState": "$Auto"
+                              },
+                              "block": {
+                                "type": "v",
+                                "id": "hu-yA/ciemh/MWS4xMjL",
+                                "extraState": {
+                                  "X": 56,
+                                  "L": [
+                                    1,
+                                    2,
+                                    3
+                                  ],
+                                  "O": [
+                                    "",
+                                    "",
+                                    ""
+                                  ],
+                                  "T": "NewVector",
+                                  "OT": null
+                                },
+                                "inputs": {
+                                  "P1": {
+                                    "shadow": {
+                                      "type": "ipf",
+                                      "id": "Wgc%4BZLQwve#vjoGZ2f",
+                                      "fields": {
+                                        "V": 0
+                                      }
+                                    }
+                                  },
+                                  "P2": {
+                                    "shadow": {
+                                      "type": "ipf",
+                                      "id": "*s2yh?f$!S@FGH3[(a4O",
+                                      "fields": {
+                                        "V": 0
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "v",
+                                      "id": "$/HS{7Ac|+[0^{6h@pQh",
+                                      "extraState": {
+                                        "X": 69,
+                                        "L": [
+                                          1,
+                                          2
+                                        ],
+                                        "O": [
+                                          "",
+                                          ""
+                                        ],
+                                        "T": "RandomFloat",
+                                        "OT": null
+                                      },
+                                      "inputs": {
+                                        "P1": {
+                                          "shadow": {
+                                            "type": "ipf",
+                                            "id": "JxH.p/lo{rM:Cr|bkjLZ",
+                                            "fields": {
+                                              "V": 0
+                                            }
+                                          }
+                                        },
+                                        "P2": {
+                                          "shadow": {
+                                            "type": "ipf",
+                                            "id": "r[p$oDnEU9x6)%mL{7H-",
+                                            "fields": {
+                                              "V": 360
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "P3": {
+                                    "shadow": {
+                                      "type": "ipf",
+                                      "id": "er4)GzwE{:#a2(,jGjZb",
+                                      "fields": {
+                                        "V": 0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "a",
+                              "id": "RI6LJML?vBIMy?ag=uV,",
+                              "extraState": {
+                                "X": 475,
+                                "L": [
+                                  1,
+                                  2,
+                                  3
+                                ],
+                                "O": [
+                                  "",
+                                  "",
+                                  ""
+                                ],
+                                "T": "SetReplicationDataSmoothly",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "v]7u`#h`-YQqsa~32)Xy",
+                                    "extraState": "entity"
+                                  },
+                                  "block": {
+                                    "type": "tya",
+                                    "id": "ze_~bFpZ$7@{afm(SkB2",
+                                    "fields": {
+                                      "T": "CustomComponent58979682"
+                                    },
+                                    "inputs": {
+                                      "V": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "JIrLJlf4~FWisq(9+A5}",
+                                          "extraState": "any"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "~r)#6#F%Wv#_Z?g6`}8l",
+                                          "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                          "fields": {
+                                            "VR": "Người sở hữu"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "P2": {
+                                  "shadow": {
+                                    "type": "p",
+                                    "id": "/;KulV:m@9-~UcWFrkhi",
+                                    "extraState": 3,
+                                    "fields": {
+                                      "P": "Rotation:Transform"
+                                    }
+                                  }
+                                },
+                                "P3": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "nwz69F[`85JKDrmeGqz]",
+                                    "extraState": "Vector3"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "H}-.aidKDZU9:A,27J[p",
+                                    "extraState": "?.:o?r8+{tIW-OL=)3ADVD",
+                                    "fields": {
+                                      "VR": "hướng đi"
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "a",
+                                  "id": "Ec~Zo,$cs2BR2!s;F%wS",
+                                  "extraState": {
+                                    "X": 8001,
+                                    "L": [
+                                      1,
+                                      2,
+                                      3,
+                                      4
+                                    ],
+                                    "O": [
+                                      "",
+                                      "",
+                                      "",
+                                      ""
+                                    ],
+                                    "T": "PlayAnimationByController",
+                                    "OT": null
+                                  },
+                                  "inputs": {
+                                    "P1": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "=QvW(Oc|aLcCS3uofFJs",
+                                        "extraState": "AnimationControllerAble"
+                                      },
+                                      "block": {
+                                        "type": "tya",
+                                        "id": "si*[2xe?Y(,s7+ZLvOTM",
+                                        "fields": {
+                                          "T": "AnimationControllerAble"
+                                        },
+                                        "inputs": {
+                                          "V": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "0V-YX?z]-=8,etG2u/{j",
+                                              "extraState": "any"
+                                            },
+                                            "block": {
+                                              "type": "v",
+                                              "id": "hI|e?VL_Mb0p-J6DHYu3",
+                                              "extraState": {
+                                                "X": 786,
+                                                "L": [
+                                                  1,
+                                                  2
+                                                ],
+                                                "O": [
+                                                  "",
+                                                  ""
+                                                ],
+                                                "T": "GetChildByName",
+                                                "OT": null
+                                              },
+                                              "inputs": {
+                                                "P1": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "#2)HBP,ysVxhD4mCa#:%",
+                                                    "extraState": "Entity"
+                                                  },
+                                                  "block": {
+                                                    "type": "lcg",
+                                                    "id": "qF{`vy/uxK,aBX+jI@Lf",
+                                                    "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                    "fields": {
+                                                      "VR": "Người sở hữu"
+                                                    }
+                                                  }
+                                                },
+                                                "P2": {
+                                                  "shadow": {
+                                                    "type": "ipt",
+                                                    "id": "Q,_lWuikKGVMmqk2RIs]",
+                                                    "fields": {
+                                                      "V": "CH0263"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "P2": {
+                                      "shadow": {
+                                        "type": "ipe",
+                                        "id": "!s^|Q95rFa,I,A+$(9t+",
+                                        "extraState": "AnimationControllerStates",
+                                        "fields": {
+                                          "I": "Move"
+                                        }
+                                      }
+                                    },
+                                    "P3": {
+                                      "shadow": {
+                                        "type": "ipf",
+                                        "id": "A0q?C;{.dY,Hk}7(XP2{",
+                                        "fields": {
+                                          "V": 1
+                                        }
+                                      },
+                                      "block": {
+                                        "type": "opa",
+                                        "id": "`RiC]t/H:5wY:mW/oiVs",
+                                        "extraState": {
+                                          "X": 1
+                                        },
+                                        "fields": {
+                                          "O": "MU"
+                                        },
+                                        "inputs": {
+                                          "V1": {
+                                            "shadow": {
+                                              "type": "ipn",
+                                              "id": ":xHJWJt4InXAPyW-L(ir",
+                                              "fields": {
+                                                "V": "2.5"
+                                              }
+                                            },
+                                            "block": {
+                                              "type": "exv",
+                                              "id": "5q=@=;GnJT?u~m_E0?KP",
+                                              "collapsed": true,
+                                              "extraState": {
+                                                "graphId": "axgmr7bc9te-mcyecgxq-tidvew226xl",
+                                                "id": "ckh)MMOD5~`Gmzl0.RK4",
+                                                "name": "Nhận thuộc tính công thức",
+                                                "params": [
+                                                  {
+                                                    "id": "_arg8223",
+                                                    "name": "Thành phần",
+                                                    "type": "Component",
+                                                    "isOut": false
+                                                  },
+                                                  {
+                                                    "id": "_arg3535",
+                                                    "name": "ID thuộc tính",
+                                                    "type": "String",
+                                                    "isOut": false
+                                                  },
+                                                  {
+                                                    "id": "_arg3723",
+                                                    "name": "Lấy giá trị ban đầu",
+                                                    "type": "Bool",
+                                                    "isOut": false
+                                                  }
+                                                ],
+                                                "returnType": "Int",
+                                                "tooltip": "Assets\\Hàm thuộc tính công thức.eca"
+                                              },
+                                              "inputs": {
+                                                "H": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "qOzS=G]#;fbYgq5GL5Dn",
+                                                    "extraState": "Component"
+                                                  },
+                                                  "block": {
+                                                    "type": "v",
+                                                    "id": "SRAmFy0~Fyf]XRh$QV%S",
+                                                    "extraState": {
+                                                      "X": 95,
+                                                      "L": [],
+                                                      "O": [],
+                                                      "T": "GetGlobalEntity",
+                                                      "OT": null
+                                                    }
+                                                  }
+                                                },
+                                                "_arg8223": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "M@nzzM9}=!(V65%]Pta6",
+                                                    "extraState": "Component"
+                                                  },
+                                                  "block": {
+                                                    "type": "lcg",
+                                                    "id": "!im(9bk723N-ey}GR}Mb",
+                                                    "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                    "fields": {
+                                                      "VR": "Người sở hữu"
+                                                    }
+                                                  }
+                                                },
+                                                "_arg3535": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "Lu`$(b5[$KiHhmTgNV*v",
+                                                    "extraState": "String"
+                                                  },
+                                                  "block": {
+                                                    "type": "ipt",
+                                                    "id": "@)#TEXaxBZA,ix:2f.O*",
+                                                    "fields": {
+                                                      "V": "MOV_SPD (%)"
+                                                    }
+                                                  }
+                                                },
+                                                "_arg3723": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "aCPW.1y^l[=/r~#S/L75",
+                                                    "extraState": "Bool"
+                                                  },
+                                                  "block": {
+                                                    "type": "ipb",
+                                                    "id": "WYFL*WR9/?YqN%UgYlO,",
+                                                    "fields": {
+                                                      "V": "F"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "V2": {
+                                            "shadow": {
+                                              "type": "ipn",
+                                              "id": "*A?C+z@nSs2i4blUOMme",
+                                              "fields": {
+                                                "V": "0.01"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "P4": {
+                                      "shadow": {
+                                        "type": "ipe",
+                                        "id": "xdG@9UDm:x}{eGxf/}4=",
+                                        "extraState": "AnimationOverrideLoopType",
+                                        "fields": {
+                                          "I": "DontChange"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "a",
+                                      "id": "UXJkJt]~CgCsvksmPaXf",
+                                      "extraState": {
+                                        "X": 638,
+                                        "L": [
+                                          1
+                                        ],
+                                        "O": [
+                                          ""
+                                        ],
+                                        "T": "Wakeup",
+                                        "OT": null
+                                      },
+                                      "inputs": {
+                                        "P1": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "WrAf`@,)c5@;a7}e(QNn",
+                                            "extraState": "Rigidbody"
+                                          },
+                                          "block": {
+                                            "type": "tya",
+                                            "id": "C;g2xv7$8O!HB:/`)!Vz",
+                                            "fields": {
+                                              "T": "Rigidbody"
+                                            },
+                                            "inputs": {
+                                              "V": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "blCpQ/X_E]@Ds2Sm*uaz",
+                                                  "extraState": "any"
+                                                },
+                                                "block": {
+                                                  "type": "lcg",
+                                                  "id": "_TQ:NOfJ;^Jk;[b3}UC$",
+                                                  "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                  "fields": {
+                                                    "VR": "Người sở hữu"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "lpi",
+                                          "id": "|D]fpR8U2agyFsS$[rq{",
+                                          "fields": {
+                                            "X": {
+                                              "name": "i",
+                                              "type": "int"
+                                            }
+                                          },
+                                          "inputs": {
+                                            "FR": {
+                                              "shadow": {
+                                                "type": "ipi",
+                                                "id": "b8s~=R;5`qgj$0rEZ7.R",
+                                                "fields": {
+                                                  "V": 0
+                                                }
+                                              }
+                                            },
+                                            "TO": {
+                                              "shadow": {
+                                                "type": "ipi",
+                                                "id": "!3_hJqy?dRe[_2lq(!-y",
+                                                "fields": {
+                                                  "V": 20
+                                                }
+                                              }
+                                            },
+                                            "ST": {
+                                              "shadow": {
+                                                "type": "ipi",
+                                                "id": "OHIy;,=oz}DM62V:Mc[4",
+                                                "fields": {
+                                                  "V": 1
+                                                }
+                                              }
+                                            },
+                                            "D": {
+                                              "block": {
+                                                "type": "ife1",
+                                                "id": "ItCvSF51nFp)(Vx,?JH[",
+                                                "extraState": {
+                                                  "X": 1,
+                                                  "CIDS": []
+                                                },
+                                                "inputs": {
+                                                  "C": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "Y=9L?qny4QacTik.(te2",
+                                                      "extraState": "bool"
+                                                    },
+                                                    "block": {
+                                                      "type": "opc",
+                                                      "id": "zMqrwDg;GxsZhX(fR2Jf",
+                                                      "fields": {
+                                                        "O": "EQ"
+                                                      },
+                                                      "inputs": {
+                                                        "V1": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "LX2dr+~#m(R%3HCkm=@e",
+                                                            "extraState": "any"
+                                                          },
+                                                          "block": {
+                                                            "type": "exv",
+                                                            "id": ",-ManO]UXAau$8X?P3uv",
+                                                            "extraState": {
+                                                              "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                                                              "id": "{-iIT(By79IuvAM!C;Ua",
+                                                              "name": "Kiểm tra ưu tiên (phải có biến uu_tien)",
+                                                              "params": [
+                                                                {
+                                                                  "id": "_arg2630",
+                                                                  "name": "Nút",
+                                                                  "type": "BehaviourTreeNode",
+                                                                  "isOut": false
+                                                                },
+                                                                {
+                                                                  "id": "_arg8937",
+                                                                  "name": "Gốc",
+                                                                  "type": "BehaviourTreeAttachable",
+                                                                  "isOut": false
+                                                                }
+                                                              ],
+                                                              "returnType": "CustomEnum53935633",
+                                                              "tooltip": "Assets\\ECA\\Toàn bản đồ.eca"
+                                                            },
+                                                            "inputs": {
+                                                              "H": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "Q{C26z(5.4p(yTrA^6!0",
+                                                                  "extraState": "Component"
+                                                                },
+                                                                "block": {
+                                                                  "type": "v",
+                                                                  "id": "Q3g[`fjWrGg@L%L{.N`l",
+                                                                  "extraState": {
+                                                                    "X": 95,
+                                                                    "L": [],
+                                                                    "O": [],
+                                                                    "T": "GetGlobalEntity",
+                                                                    "OT": null
+                                                                  }
+                                                                }
+                                                              },
+                                                              "_arg2630": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "|,Uelpyw(G=$KJl%PtnL",
+                                                                  "extraState": "BehaviourTreeNode"
+                                                                },
+                                                                "block": {
+                                                                  "type": "ent",
+                                                                  "id": ",o9SZ}wtFsf/[@Wf2;FO"
+                                                                }
+                                                              },
+                                                              "_arg8937": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "eue$|V9oI9w{n.(59!49",
+                                                                  "extraState": "BehaviourTreeAttachable"
+                                                                },
+                                                                "block": {
+                                                                  "type": "lcg",
+                                                                  "id": "ZiSAp@qk}4iWZ27alCZb",
+                                                                  "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                  "fields": {
+                                                                    "VR": "Người sở hữu"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "V2": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "Te{oEZ3UY91I(#UCMW2t",
+                                                            "extraState": "any"
+                                                          },
+                                                          "block": {
+                                                            "type": "ipe",
+                                                            "id": "g*eq]}2)_!k3RD[H0`o:",
+                                                            "extraState": "CustomEnum53935633",
+                                                            "fields": {
+                                                              "I": "E77312757"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "D": {
+                                                    "block": {
+                                                      "type": "lpb",
+                                                      "id": "FiB@-.d[Z@|_)Idb.^b@"
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "a",
+                                                    "id": "!:d_lT8E{d$3{nul9hiX",
+                                                    "extraState": {
+                                                      "X": 475,
+                                                      "L": [
+                                                        1,
+                                                        2,
+                                                        3
+                                                      ],
+                                                      "O": [
+                                                        "",
+                                                        "",
+                                                        ""
+                                                      ],
+                                                      "T": "SetReplicationDataSmoothly",
+                                                      "OT": null
+                                                    },
+                                                    "inputs": {
+                                                      "P1": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "v]7u`#h`-YQqsa~32)Xy",
+                                                          "extraState": "entity"
+                                                        },
+                                                        "block": {
+                                                          "type": "tya",
+                                                          "id": "mYZxxV[0_i1o494_:bAf",
+                                                          "fields": {
+                                                            "T": "Rigidbody"
+                                                          },
+                                                          "inputs": {
+                                                            "V": {
+                                                              "shadow": {
+                                                                "type": "tys",
+                                                                "id": "blCpQ/X_E]@Ds2Sm*uaz",
+                                                                "extraState": "any"
+                                                              },
+                                                              "block": {
+                                                                "type": "lcg",
+                                                                "id": "zV}rxQCcVvG0|R_!{JXm",
+                                                                "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                "fields": {
+                                                                  "VR": "Người sở hữu"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "P2": {
+                                                        "shadow": {
+                                                          "type": "p",
+                                                          "id": "qDZ+oXYH[`_MAe|adXr`",
+                                                          "extraState": 3,
+                                                          "fields": {
+                                                            "P": "Velocity:Rigidbody"
+                                                          }
+                                                        }
+                                                      },
+                                                      "P3": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "l)@6hmOa|)BGx.,?jUgt",
+                                                          "extraState": "Vector3"
+                                                        },
+                                                        "block": {
+                                                          "type": "v3op",
+                                                          "id": "$=8an@J7Gg^g)7XF]GB2",
+                                                          "extraState": {
+                                                            "O": "Multiplication"
+                                                          },
+                                                          "fields": {
+                                                            "O": "Multiplication"
+                                                          },
+                                                          "inputs": {
+                                                            "V1": {
+                                                              "shadow": {
+                                                                "type": "ipv",
+                                                                "id": "LJ!u@]ir14Qzl^jGV}-U",
+                                                                "fields": {
+                                                                  "V1": 0,
+                                                                  "V2": 0,
+                                                                  "V3": 0
+                                                                }
+                                                              },
+                                                              "block": {
+                                                                "type": "v",
+                                                                "id": "mCetN5L{}1lzv^fk.088",
+                                                                "extraState": {
+                                                                  "X": 825,
+                                                                  "L": [
+                                                                    1
+                                                                  ],
+                                                                  "O": [
+                                                                    ""
+                                                                  ],
+                                                                  "T": "EularAngleToVector3",
+                                                                  "OT": null
+                                                                },
+                                                                "inputs": {
+                                                                  "P1": {
+                                                                    "shadow": {
+                                                                      "type": "ipv",
+                                                                      "id": "}napm(G={m?j`tc~IF@[",
+                                                                      "fields": {
+                                                                        "V1": 0,
+                                                                        "V2": 0,
+                                                                        "V3": 0
+                                                                      }
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "lcg",
+                                                                      "id": "?hTLTnh8b;cwu}iv:%L(",
+                                                                      "extraState": "?.:o?r8+{tIW-OL=)3ADVD",
+                                                                      "fields": {
+                                                                        "VR": "hướng đi"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "V2": {
+                                                              "shadow": {
+                                                                "type": "ipf",
+                                                                "id": "Eod=IHWO0Wl=jI)PxyY5",
+                                                                "fields": {
+                                                                  "V": 2.5
+                                                                }
+                                                              },
+                                                              "block": {
+                                                                "type": "opa",
+                                                                "id": "sopa_dup_block",
+                                                                "extraState": {
+                                                                  "X": 2
+                                                                },
+                                                                "fields": {
+                                                                  "O": "MU",
+                                                                  "O2": "MU"
+                                                                },
+                                                                "inputs": {
+                                                                  "V1": {
+                                                                    "shadow": {
+                                                                      "type": "ipn",
+                                                                      "id": "c{N+Ev]),k#7,L4pV%GA",
+                                                                      "fields": {
+                                                                        "V": "2"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "V2": {
+                                                                    "shadow": {
+                                                                      "type": "ipn",
+                                                                      "id": "m/X38taa(v;!][#=7vp.",
+                                                                      "fields": {
+                                                                        "V": "0.01"
+                                                                      }
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "exv",
+                                                                      "id": "Wz8w+H~yAkM0CIch0=,$",
+                                                                      "collapsed": true,
+                                                                      "extraState": {
+                                                                        "graphId": "axgmr7bc9te-mcyecgxq-tidvew226xl",
+                                                                        "id": "ckh)MMOD5~`Gmzl0.RK4",
+                                                                        "name": "Nhận thuộc tính công thức",
+                                                                        "params": [
+                                                                          {
+                                                                            "id": "_arg8223",
+                                                                            "name": "Thành phần",
+                                                                            "type": "Component",
+                                                                            "isOut": false
+                                                                          },
+                                                                          {
+                                                                            "id": "_arg3535",
+                                                                            "name": "ID thuộc tính",
+                                                                            "type": "String",
+                                                                            "isOut": false
+                                                                          },
+                                                                          {
+                                                                            "id": "_arg3723",
+                                                                            "name": "Lấy giá trị ban đầu",
+                                                                            "type": "Bool",
+                                                                            "isOut": false
+                                                                          }
+                                                                        ],
+                                                                        "returnType": "Int",
+                                                                        "tooltip": "Assets\\Hàm thuộc tính công thức.eca"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "H": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "qOzS=G]#;fbYgq5GL5Dn",
+                                                                            "extraState": "Component"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "v",
+                                                                            "id": "s95_dup_block",
+                                                                            "extraState": {
+                                                                              "X": 95,
+                                                                              "L": [],
+                                                                              "O": [],
+                                                                              "T": "GetGlobalEntity",
+                                                                              "OT": null
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "_arg8223": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "]%?[ZePXHA_BA[0XaeRW",
+                                                                            "extraState": "Component"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "u16VDSSq)LbLNE+5.6{3",
+                                                                            "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                            "fields": {
+                                                                              "VR": "Người sở hữu"
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "_arg3535": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "6gx|G)-`v5G~_(#]GRX0",
+                                                                            "extraState": "String"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "ipt",
+                                                                            "id": "cw=Gm^kn%M)[T3]ggogY",
+                                                                            "fields": {
+                                                                              "V": "MOV_SPD (%)"
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "_arg3723": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "w5]=HrJ$H;e^)yv{%D52",
+                                                                            "extraState": "Bool"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "ipb",
+                                                                            "id": "s9.c8#+QNg7Mnv.D#tPr",
+                                                                            "fields": {
+                                                                              "V": "F"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "V3": {
+                                                                    "shadow": {
+                                                                      "type": "ipn",
+                                                                      "id": "+4tX:G#==Ni`ra=o3V~r",
+                                                                      "fields": {
+                                                                        "V": "0.01"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "next": {
+                                                      "block": {
+                                                        "type": "a",
+                                                        "id": "jA1HU?(G5K.;M#nx/2{_",
+                                                        "extraState": {
+                                                          "X": 30,
+                                                          "L": [
+                                                            1
+                                                          ],
+                                                          "O": [
+                                                            ""
+                                                          ],
+                                                          "T": "WaitForSeconds",
+                                                          "OT": null
+                                                        },
+                                                        "inputs": {
+                                                          "P1": {
+                                                            "shadow": {
+                                                              "type": "ipi",
+                                                              "id": "ohDd=@3Mo_52}n@_Kd^s",
+                                                              "fields": {
+                                                                "V": 77
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "a",
+                                              "id": "w-)*0@BUuPaeR4/Bwd,/",
+                                              "extraState": {
+                                                "X": 637,
+                                                "L": [
+                                                  1
+                                                ],
+                                                "O": [
+                                                  ""
+                                                ],
+                                                "T": "Sleep",
+                                                "OT": null
+                                              },
+                                              "inputs": {
+                                                "P1": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "T?z4Q4`-_!QZRmMfDno?",
+                                                    "extraState": "Rigidbody"
+                                                  },
+                                                  "block": {
+                                                    "type": "tya",
+                                                    "id": "vg=*Cdy+AvfC87AFts|-",
+                                                    "fields": {
+                                                      "T": "Rigidbody"
+                                                    },
+                                                    "inputs": {
+                                                      "V": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "blCpQ/X_E]@Ds2Sm*uaz",
+                                                          "extraState": "any"
+                                                        },
+                                                        "block": {
+                                                          "type": "lcg",
+                                                          "id": "abOQI!V%9dp)I{}g}Ot)",
+                                                          "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                          "fields": {
+                                                            "VR": "Người sở hữu"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "grs",
+                                                  "id": "$hFf/#LVGoFYbdhynJLD",
+                                                  "fields": {
+                                                    "VR": "vDw45k34d",
+                                                    "O": "UK"
+                                                  },
+                                                  "inputs": {
+                                                    "V": {
+                                                      "shadow": {
+                                                        "type": "tys",
+                                                        "id": "(){oEe.S^;72tSmdLDH*",
+                                                        "extraState": "BTreeNodeState"
+                                                      },
+                                                      "block": {
+                                                        "type": "ipe",
+                                                        "id": "$Z,#WqI;0_$VDJ_a60M/",
+                                                        "extraState": 10024,
+                                                        "fields": {
+                                                          "I": "Finish"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "ife1",
+                                                      "id": "bdM313j8(n29FZHXa%L+",
+                                                      "extraState": {
+                                                        "X": 1,
+                                                        "CIDS": []
+                                                      },
+                                                      "inputs": {
+                                                        "C": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "Y=9L?qny4QacTik.(te2",
+                                                            "extraState": "bool"
+                                                          },
+                                                          "block": {
+                                                            "type": "opc",
+                                                            "id": "eOy0xd#~uw?IC-eKw[,/",
+                                                            "fields": {
+                                                              "O": "NE"
+                                                            },
+                                                            "inputs": {
+                                                              "V1": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "f^[XfW~53l(]A`z/9YvR",
+                                                                  "extraState": "any"
+                                                                },
+                                                                "block": {
+                                                                  "type": "exv",
+                                                                  "id": "7v`1}0f$k7!vaLNt0:Hc",
+                                                                  "extraState": {
+                                                                    "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                                                                    "id": "{-iIT(By79IuvAM!C;Ua",
+                                                                    "name": "Kiểm tra ưu tiên (phải có biến uu_tien)",
+                                                                    "params": [
+                                                                      {
+                                                                        "id": "_arg2630",
+                                                                        "name": "Nút",
+                                                                        "type": "BehaviourTreeNode",
+                                                                        "isOut": false
+                                                                      },
+                                                                      {
+                                                                        "id": "_arg8937",
+                                                                        "name": "Gốc",
+                                                                        "type": "BehaviourTreeAttachable",
+                                                                        "isOut": false
+                                                                      }
+                                                                    ],
+                                                                    "returnType": "CustomEnum53935633",
+                                                                    "tooltip": "Assets\\ECA\\Toàn bản đồ.eca"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "H": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "Q{C26z(5.4p(yTrA^6!0",
+                                                                        "extraState": "Component"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "v",
+                                                                        "id": "l6UpNH?-:!3$V0f*O`I9",
+                                                                        "extraState": {
+                                                                          "X": 95,
+                                                                          "L": [],
+                                                                          "O": [],
+                                                                          "T": "GetGlobalEntity",
+                                                                          "OT": null
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "_arg2630": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "C+U$6gXpyM.n+a6lB$.*",
+                                                                        "extraState": "BehaviourTreeNode"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "ent",
+                                                                        "id": "ND}0M.W{i;YEa}gkrWd2"
+                                                                      }
+                                                                    },
+                                                                    "_arg8937": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "fa-DJG@4V-*)~WO0ci|m",
+                                                                        "extraState": "BehaviourTreeAttachable"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "TS=pEIaf%SlO88=2NW?D",
+                                                                        "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                        "fields": {
+                                                                          "VR": "Người sở hữu"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "V2": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "RV*YvKa]sE1*BzDQ[,yr",
+                                                                  "extraState": "any"
+                                                                },
+                                                                "block": {
+                                                                  "type": "ipe",
+                                                                  "id": "ufOtXZcZ@sVDh-~CK82*",
+                                                                  "extraState": "CustomEnum53935633",
+                                                                  "fields": {
+                                                                    "I": "E77312757"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "D": {
+                                                          "block": {
+                                                            "type": "a",
+                                                            "id": "Xx8_*o]p@GkK4Xl=uC,*",
+                                                            "extraState": {
+                                                              "X": 8001,
+                                                              "L": [
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4
+                                                              ],
+                                                              "O": [
+                                                                "",
+                                                                "",
+                                                                "",
+                                                                ""
+                                                              ],
+                                                              "T": "PlayAnimationByController",
+                                                              "OT": null
+                                                            },
+                                                            "inputs": {
+                                                              "P1": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "~;wLI(siT00OcI0=tDqQ",
+                                                                  "extraState": "AnimationControllerAble"
+                                                                },
+                                                                "block": {
+                                                                  "type": "tya",
+                                                                  "id": "/i/b2F$fcXY^NbsAhF?@",
+                                                                  "fields": {
+                                                                    "T": "AnimationControllerAble"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "V": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "0V-YX?z]-=8,etG2u/{j",
+                                                                        "extraState": "any"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "v",
+                                                                        "id": "^o9JC3Elg~UkI=kcNfo#",
+                                                                        "extraState": {
+                                                                          "X": 786,
+                                                                          "L": [
+                                                                            1,
+                                                                            2
+                                                                          ],
+                                                                          "O": [
+                                                                            "",
+                                                                            ""
+                                                                          ],
+                                                                          "T": "GetChildByName",
+                                                                          "OT": null
+                                                                        },
+                                                                        "inputs": {
+                                                                          "P1": {
+                                                                            "shadow": {
+                                                                              "type": "tys",
+                                                                              "id": "#2)HBP,ysVxhD4mCa#:%",
+                                                                              "extraState": "Entity"
+                                                                            },
+                                                                            "block": {
+                                                                              "type": "lcg",
+                                                                              "id": "^EIhVU`]A7$]Y,T*0)14",
+                                                                              "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                              "fields": {
+                                                                                "VR": "Người sở hữu"
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "P2": {
+                                                                            "shadow": {
+                                                                              "type": "ipt",
+                                                                              "id": "0C[NPs{8qpc)Bc=^q@#$",
+                                                                              "fields": {
+                                                                                "V": "CH0263"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "P2": {
+                                                                "shadow": {
+                                                                  "type": "ipe",
+                                                                  "id": "P6i]r`%P/l%3dHVr/2U%",
+                                                                  "extraState": "AnimationControllerStates",
+                                                                  "fields": {
+                                                                    "I": "Idle"
+                                                                  }
+                                                                }
+                                                              },
+                                                              "P3": {
+                                                                "shadow": {
+                                                                  "type": "ipf",
+                                                                  "id": ":U{BSyVp@l%EIN1b`!Vy",
+                                                                  "fields": {
+                                                                    "V": 1
+                                                                  }
+                                                                }
+                                                              },
+                                                              "P4": {
+                                                                "shadow": {
+                                                                  "type": "ipe",
+                                                                  "id": ":DN8yonFpnifv.Dg:84Z",
+                                                                  "extraState": "AnimationOverrideLoopType",
+                                                                  "fields": {
+                                                                    "I": "DontChange"
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "prs",
+                                                                "id": "_zI(_SAe%v^?:|xp4P0O",
+                                                                "fields": {
+                                                                  "P": "PROP_86297643:BehaviourTree",
+                                                                  "O": "UK"
+                                                                },
+                                                                "inputs": {
+                                                                  "H": {
+                                                                    "shadow": {
+                                                                      "type": "tys",
+                                                                      "id": "c`|q-]7$9/Vq1}/hOI=c",
+                                                                      "extraState": "Component"
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "prg",
+                                                                      "id": "z_of$WctIio30|aG7~vI",
+                                                                      "extraState": {
+                                                                        "X": 1,
+                                                                        "T": "BehaviourTree"
+                                                                      },
+                                                                      "fields": {
+                                                                        "P": "TargetTree:BehaviourTreeAttachable"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "H": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "5.XM7c[XwaL5*GkYQqg6",
+                                                                            "extraState": "Component"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "UT{1xXL6]3J_J%pAADyW",
+                                                                            "extraState": "fXeqyLn6n#UqAIWZO6o{P2",
+                                                                            "fields": {
+                                                                              "VR": "Người sở hữu"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "V": {
+                                                                    "shadow": {
+                                                                      "type": "tys",
+                                                                      "id": "ENKHzd.!y5D+1u7uqxYs",
+                                                                      "extraState": "Int"
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "ipi",
+                                                                      "id": "ANr}nhQ8mKw6w=4rXtMx",
+                                                                      "fields": {
+                                                                        "V": -1
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "ipt",
+        "id": "^rftY9q--GsR*,/*:IZ}",
+        "x": -494,
+        "y": -558,
+        "fields": {
+          "V": "Hoàn thành di chuyển"
+        }
+      },
+      {
+        "type": "ipt",
+        "id": ".}N6PPX.]rZGV2YR^ML(",
+        "x": -497,
+        "y": -601,
+        "fields": {
+          "V": "Đang chạy"
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vDw45k34d",
+      "name": "Hoàn thành",
+      "type": "BTreeNodeState",
+      "value": {
+        "type": "BTreeNodeState",
+        "value": "Running"
+      }
+    },
+    {
+      "id": "vpdcToetV",
+      "name": "i",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4179668","c":{"FF":5001},"s":100}

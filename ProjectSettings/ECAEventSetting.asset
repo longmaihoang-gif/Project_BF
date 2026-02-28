@@ -1,0 +1,122 @@
+{
+  "_tag": {
+    "type": "ecaEventDesc"
+  },
+  "_entityId": "sOWAgy2P",
+  "customEventDefines": {
+    "signal_23183885": {
+      "name": "Thực hiện hành động",
+      "eventType": 1,
+      "enitityType": "AnimationControllerAble",
+      "typeID": 100000,
+      "props": [
+        {
+          "name": " Loại hành động",
+          "value": "String",
+          "key": 1
+        },
+        {
+          "name": "Phần_trăm_ATK",
+          "value": "Float",
+          "key": 2
+        }
+      ],
+      "propCount": 2,
+      "apiTargetV2": "both",
+      "version": 45,
+      "key": "signal_23183885"
+    },
+    "signal_47785448": {
+      "name": "Hiển thị hiệu ứng phụ kiện",
+      "eventType": 0,
+      "enitityType": "Component",
+      "typeID": 100001,
+      "props": [
+        {
+          "name": "Loại",
+          "value": "String",
+          "key": 1
+        },
+        {
+          "name": "Trạng thái đi kèm (nếu có)",
+          "value": "Bool",
+          "key": 2
+        }
+      ],
+      "propCount": 2,
+      "apiTargetV2": "both",
+      "version": 45,
+      "key": "signal_47785448"
+    },
+    "signal_20152632": {
+      "name": "Chỉnh phụ kiện",
+      "eventType": 1,
+      "enitityType": "AnimationControllerAble",
+      "typeID": 100002,
+      "props": [
+        {
+          "name": "Tên",
+          "value": "String",
+          "key": 1
+        },
+        {
+          "name": "Trạng thái",
+          "value": "Bool",
+          "key": 2
+        }
+      ],
+      "propCount": 2,
+      "apiTargetV2": "both",
+      "version": 45,
+      "key": "signal_20152632"
+    },
+    "signal_79527814": {
+      "name": "tùy chỉnh",
+      "eventType": 0,
+      "enitityType": "Component",
+      "typeID": 100003,
+      "props": [
+        {
+          "name": "ID",
+          "value": "String",
+          "key": 1
+        },
+        {
+          "name": "Các tham số",
+          "value": "ListT_any",
+          "key": 2
+        }
+      ],
+      "propCount": 6,
+      "apiTargetV2": "both",
+      "version": 45,
+      "key": "signal_79527814"
+    },
+    "signal_39132127": {
+      "name": "sự kiện 1",
+      "eventType": 0,
+      "enitityType": "Component",
+      "typeID": 100004,
+      "props": [
+        {
+          "name": "ID",
+          "value": "String",
+          "key": 1
+        }
+      ],
+      "propCount": 1,
+      "apiTargetV2": "both",
+      "version": 45,
+      "key": "signal_39132127"
+    }
+  },
+  "customName": {
+    "Thực hiện hành động": "signal_23183885",
+    "Hiển thị hiệu ứng phụ kiện": "signal_47785448",
+    "Chỉnh phụ kiện": "signal_20152632",
+    "tùy chỉnh": "signal_79527814",
+    "sự kiện 1": "signal_39132127"
+  },
+  "children": []
+}
+//"{FE:{"v":"1.16.4187991","c":{"FF":5001},"s":100}

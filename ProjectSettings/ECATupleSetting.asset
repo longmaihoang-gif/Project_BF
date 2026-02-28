@@ -1,0 +1,118 @@
+{
+  "_tag": {
+    "type": "ECATupleSettingAsset"
+  },
+  "_entityId": "VYQEUao7",
+  "tupleDefines": {
+    "kOzz7l3F_Value": {
+      "label": "Bảng Xếp Hạng1_Value",
+      "name": "kOzz7l3F_Value",
+      "info": [
+        {
+          "label": "Value",
+          "name": "Value",
+          "type": "Int",
+          "index": 0
+        },
+        {
+          "label": "col1",
+          "name": "col1",
+          "type": "Int",
+          "index": 1
+        },
+        {
+          "label": "col2",
+          "name": "col2",
+          "type": "Float",
+          "index": 2
+        }
+      ]
+    },
+    "kOzz7l3F": {
+      "label": "Bảng Xếp Hạng1",
+      "name": "kOzz7l3F",
+      "info": [
+        {
+          "label": "Rank",
+          "name": "Rank",
+          "type": "Int",
+          "index": 0
+        },
+        {
+          "label": "Key",
+          "name": "Key",
+          "type": "String",
+          "index": 1
+        },
+        {
+          "label": "Value",
+          "name": "Value",
+          "type": "kOzz7l3F_Value",
+          "index": 2
+        }
+      ]
+    },
+    "cJRPSyQC": {
+      "label": "Đơn vị hiệu ứng",
+      "name": "cJRPSyQC",
+      "info": [
+        {
+          "label": "ID_Hiệu_ứng",
+          "name": "ID_Hiệu_ứng",
+          "type": "String",
+          "index": 0
+        },
+        {
+          "label": "Loại_Buff",
+          "name": "Loại_Buff",
+          "type": "Int",
+          "index": 1
+        },
+        {
+          "label": "Cường_độ",
+          "name": "Cường_độ",
+          "type": "BaseData",
+          "index": 2
+        },
+        {
+          "label": "Thời_gian",
+          "name": "Thời_gian",
+          "type": "Int",
+          "index": 3
+        },
+        {
+          "label": "Thẻ",
+          "name": "Thẻ",
+          "type": "ListT_String",
+          "index": 4
+        }
+      ]
+    },
+    "i6VlFYXa": {
+      "label": "Kho Dữ Liệu Cục Bộ Đa Cột1",
+      "name": "i6VlFYXa",
+      "info": [
+        {
+          "label": "col1",
+          "name": "col1",
+          "type": "Int",
+          "index": 0
+        },
+        {
+          "label": "col2",
+          "name": "col2",
+          "type": "Float",
+          "index": 1
+        },
+        {
+          "label": "col3",
+          "name": "col3",
+          "type": "Bool",
+          "index": 2
+        }
+      ]
+    }
+  },
+  "children": []
+}
+//"{FE:{"v":"1.16.4170774","c":{"FF":5001},"s":100}
