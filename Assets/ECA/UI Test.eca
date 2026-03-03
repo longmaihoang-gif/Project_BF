@@ -1,0 +1,218 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "hbe",
+        "id": "aWRN:[MGAx4s~1d3;2Su",
+        "x": 86,
+        "y": 154,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "Kích hoạt AI",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": "sprs_dup_block",
+            "fields": {
+              "P": "BTreeID:BehaviourTreeAttachable",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "CZZc18:s[1`8r2F8wU1#",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "pke",
+                  "id": "jWMyN*L]PEWW*P=R/(aN",
+                  "fields": {
+                    "HD": "hffztsqqso7-lw7lmhnn-2mwx0ree7c5",
+                    "E": "COqvXgaI"
+                  }
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "E_6_uU.5uEK`Z?%EW5rY",
+                  "extraState": "BTreeID"
+                },
+                "block": {
+                  "type": "pxbt",
+                  "id": "GX8;J;DC3m|n|8yT,M2~",
+                  "fields": {
+                    "V": "5b37ec0u3ou-mgxpf8qx-jehdhlypmi"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "a",
+                "id": "s354_dup_block",
+                "extraState": {
+                  "X": 354,
+                  "L": [
+                    1
+                  ],
+                  "O": [
+                    ""
+                  ],
+                  "T": "RemoveEntity",
+                  "OT": null
+                },
+                "inputs": {
+                  "P1": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "N-A.,o3Bf@%Bl(hGD{cR",
+                      "extraState": "entity"
+                    },
+                    "block": {
+                      "type": "ent",
+                      "id": "nS{YFF]*18^R49Xa!hBu"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "hbe",
+        "id": "7-dE(ANM`P$wMG)9+h!T",
+        "x": 81,
+        "y": 314,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "test",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Player",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "hH5o98=aFjS{gd{w-0DW",
+            "extraState": {
+              "X": 8001,
+              "L": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "O": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "T": "PlayAnimationByController",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "bob2b-7#[L+bPo[#o{ja",
+                  "extraState": "AnimationControllerAble"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "6HG5kf@IpRK2Bod!^x0Z",
+                  "extraState": "7-dE(ANM`P$wMG)9+h!TP1",
+                  "fields": {
+                    "VR": "Player"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "ast",
+                  "id": "oxXAGXSskilrDOYN|(8A",
+                  "fields": {
+                    "HD": "",
+                    "E": ""
+                  }
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "Cs}k92ri)tyPJg}6HqG,",
+                  "extraState": 10025,
+                  "fields": {
+                    "I": "Action"
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "ipf",
+                  "id": "@`LL%;%0gW3NMcyAf}AI",
+                  "fields": {
+                    "V": 1
+                  }
+                }
+              },
+              "P4": {
+                "shadow": {
+                  "type": "ipe",
+                  "id": "Tr-iEQ%h7bS$WdCPJvl_",
+                  "extraState": "AnimationOverrideLoopType",
+                  "fields": {
+                    "I": "DontChange"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomHud",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}

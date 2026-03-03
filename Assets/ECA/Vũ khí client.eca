@@ -25,8 +25,8 @@
                 2
               ],
               "O": [
-                "",
-                ""
+                "o",
+                "o"
               ],
               "T": "signal_79527814",
               "OT": "Component"
@@ -38,7 +38,7 @@
               "ow": {
                 "shadow": {
                   "type": "tys",
-                  "id": "hAoP3rP$1?Cd@mEKK#*V",
+                  "id": "A`7~}J!iVee60ZhE@2U.",
                   "extraState": "Component"
                 },
                 "block": {
@@ -89,8 +89,8 @@
       {
         "type": "e",
         "id": "c1ZI[f,i,IiUX%+(IL4r",
-        "x": 401,
-        "y": 207,
+        "x": 431,
+        "y": -315,
         "extraState": {
           "X": 386,
           "L": [],
@@ -113,7 +113,7 @@
               "V": {
                 "shadow": {
                   "type": "tyd",
-                  "id": "aW]Dg=};%7PI-;!%o|O#",
+                  "id": "5K+cxC@WTx]XU=c3-KQ%",
                   "extraState": "$Auto"
                 },
                 "block": {
@@ -167,7 +167,7 @@
                         "V1": {
                           "shadow": {
                             "type": "tys",
-                            "id": "6|qT*X!I9hIk}huwsjw?",
+                            "id": "qN}w]yD-VkK#Uf81WK+%",
                             "extraState": "number"
                           },
                           "block": {
@@ -185,14 +185,67 @@
                         "V2": {
                           "shadow": {
                             "type": "tys",
-                            "id": "2Z1(/]Gi$ta%+G0=F^kF",
+                            "id": "QL7g=]b)!C~!^=@y2h0Z",
                             "extraState": "number"
                           },
                           "block": {
-                            "type": "grg",
-                            "id": "+SsKk~/*UTo.wLmR8LL)",
-                            "fields": {
-                              "VR": "vJQ7j7q8K"
+                            "type": "v",
+                            "id": "]s{3z3OD57$6zCbnAm)H",
+                            "extraState": {
+                              "X": 67,
+                              "L": [
+                                1,
+                                2
+                              ],
+                              "O": [
+                                "",
+                                ""
+                              ],
+                              "T": "ListGetElement",
+                              "OT": null
+                            },
+                            "inputs": {
+                              "P1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "g2TF]RjbeF_V@z3llZ7g",
+                                  "extraState": "List"
+                                },
+                                "block": {
+                                  "type": "exg",
+                                  "id": "1;axwlpsgf?q{dy^]{FD",
+                                  "fields": {
+                                    "G": "3m3usckvnl9-mj2t0ed2-io82zfocpp",
+                                    "VI": "vsvj10Jpy"
+                                  },
+                                  "inputs": {
+                                    "H": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "W96N@NtzOLYEv7TKKFi$",
+                                        "extraState": "Component"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "G*L`/26/R%HQBmpscWIk",
+                                        "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                                        "fields": {
+                                          "VR": "chủ vũ khí"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "P2": {
+                                "shadow": {
+                                  "type": "ipi",
+                                  "id": "bb!H,?)hCC2EeaBa.ot9",
+                                  "fields": {
+                                    "V": 0
+                                  }
+                                }
+                              }
                             }
                           }
                         }
@@ -214,58 +267,88 @@
                         "V": {
                           "shadow": {
                             "type": "tyd",
-                            "id": "Mhwq=:5~=a,u@7u$RED|",
+                            "id": "(+?)PDj}w~F69(bSG5$R",
                             "extraState": "ListT_any"
                           },
                           "block": {
-                            "type": "lic",
-                            "id": "{JB?ZnymGFT/vS1+-;Ll",
-                            "extraState": {
-                              "X": 3
-                            },
+                            "type": "tya",
+                            "id": "S.K]6O;U^z=P*JCVigAM",
                             "fields": {
-                              "T": "AudioID"
+                              "T": "ListT_any"
                             },
                             "inputs": {
-                              "I0": {
+                              "V": {
                                 "shadow": {
                                   "type": "tys",
-                                  "id": "9,^?5aJn8|@r+wOCG/Q*",
-                                  "extraState": "AudioID"
+                                  "id": ":/Fnx@F6jo`thhuY5Ci+",
+                                  "extraState": "any"
                                 },
                                 "block": {
-                                  "type": "psd",
-                                  "id": "Ft2~X[Cy{.Z!_zdzs8Rk",
-                                  "fields": {
-                                    "V": "9ts4f7hx1o-mm4pzsq8-t87zi4ebrvs"
-                                  }
-                                }
-                              },
-                              "I1": {
-                                "shadow": {
-                                  "type": "tys",
-                                  "id": "m(i[^OIe|bx..}7~B-rn",
-                                  "extraState": "AudioID"
-                                },
-                                "block": {
-                                  "type": "psd",
-                                  "id": "edZ{AYv6i6rVTn$lJ6rf",
-                                  "fields": {
-                                    "V": "j641r99iqxb-mm4pzsdp-qs62uoz8xi"
-                                  }
-                                }
-                              },
-                              "I2": {
-                                "shadow": {
-                                  "type": "tys",
-                                  "id": "z**QOPxu{hgx%R.hrA:]",
-                                  "extraState": "AudioID"
-                                },
-                                "block": {
-                                  "type": "psd",
-                                  "id": "1%m}*,ix%_*ff!%^bX#+",
-                                  "fields": {
-                                    "V": "r68yzms1db-mm4pzryf-abc0jibjo86"
+                                  "type": "v",
+                                  "id": "BW7qR@^7SB;(%lAjMS8l",
+                                  "extraState": {
+                                    "X": 550,
+                                    "L": [
+                                      1,
+                                      2
+                                    ],
+                                    "O": [
+                                      "",
+                                      ""
+                                    ],
+                                    "T": "MapGetValue",
+                                    "OT": null
+                                  },
+                                  "inputs": {
+                                    "P1": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "9-d-O:CQ-)Q[o)m)Qywl",
+                                        "extraState": "Map"
+                                      },
+                                      "block": {
+                                        "type": "prg",
+                                        "id": "`$bF?ug1it,LGT+RA(#x",
+                                        "extraState": {
+                                          "X": 1,
+                                          "T": "Map"
+                                        },
+                                        "fields": {
+                                          "P": "PROP_35012420:Component"
+                                        },
+                                        "inputs": {
+                                          "H": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "um7@4BnBKX6L31w#Cz;$",
+                                              "extraState": "Component"
+                                            },
+                                            "block": {
+                                              "type": "lcg",
+                                              "id": "K^kL=C`iOaHt$bg(X/P{",
+                                              "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                                              "fields": {
+                                                "VR": "chủ vũ khí"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "P2": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "Lsem=`OZc/:*cC{r5g|A",
+                                        "extraState": "Object"
+                                      },
+                                      "block": {
+                                        "type": "ipt",
+                                        "id": "ZY1J(4B^4_OaaX2K:,kG",
+                                        "fields": {
+                                          "V": "Fire_Vocal"
+                                        }
+                                      }
+                                    }
                                   }
                                 }
                               }
@@ -428,22 +511,74 @@
                           },
                           "next": {
                             "block": {
-                              "type": "grs",
-                              "id": "|iSk$I5Ka@x4NjddaJ:p",
-                              "fields": {
-                                "VR": "vJQ7j7q8K",
-                                "O": "UK"
+                              "type": "a",
+                              "id": "x55FDK@~z:K,qB?[%b1K",
+                              "extraState": {
+                                "X": 46,
+                                "L": [
+                                  1,
+                                  2,
+                                  3
+                                ],
+                                "O": [
+                                  "",
+                                  "",
+                                  ""
+                                ],
+                                "T": "ListSetElement",
+                                "OT": null
                               },
                               "inputs": {
-                                "V": {
+                                "P1": {
                                   "shadow": {
                                     "type": "tys",
-                                    "id": "`TF_gnrXO%5#K6m13t]9",
+                                    "id": "=4Yr0/AzvXrd7f5,w5D1",
+                                    "extraState": "List"
+                                  },
+                                  "block": {
+                                    "type": "exg",
+                                    "id": "^9Ih]aEc+iS$@x3nOgXd",
+                                    "fields": {
+                                      "G": "3m3usckvnl9-mj2t0ed2-io82zfocpp",
+                                      "VI": "vsvj10Jpy"
+                                    },
+                                    "inputs": {
+                                      "H": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "W96N@NtzOLYEv7TKKFi$",
+                                          "extraState": "Component"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "A.4jsx4v*T/eP~(CD~2P",
+                                          "extraState": "cSvG]lz%7^wa[Bf6(A|%VD",
+                                          "fields": {
+                                            "VR": "chủ vũ khí"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "P2": {
+                                  "shadow": {
+                                    "type": "ipi",
+                                    "id": "YX4J$=1.y#z|/XY2)oJA",
+                                    "fields": {
+                                      "V": 0
+                                    }
+                                  }
+                                },
+                                "P3": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "Ezsi|5yINwLQg~!2o4KR",
                                     "extraState": "Int"
                                   },
                                   "block": {
                                     "type": "opa",
-                                    "id": "sopa_dup_block",
+                                    "id": "ANl(o~I*8G/]V2o6=0*:",
                                     "extraState": {
                                       "X": 1
                                     },
@@ -461,7 +596,7 @@
                                         },
                                         "block": {
                                           "type": "v",
-                                          "id": "*{/*X151nSyYo*.{Bx$7",
+                                          "id": "H#|3}/p1ZkAi*|5txZec",
                                           "extraState": {
                                             "X": 770,
                                             "L": [],
@@ -474,7 +609,7 @@
                                       "V2": {
                                         "shadow": {
                                           "type": "ipn",
-                                          "id": "*A?C+z@nSs2i4blUOMme",
+                                          "id": "#o3}ZG2*vEu{s3VL*]Fo",
                                           "fields": {
                                             "V": "5"
                                           }
@@ -502,8 +637,8 @@
                         2
                       ],
                       "O": [
-                        "",
-                        ""
+                        "o",
+                        "o"
                       ],
                       "T": "signal_79527814",
                       "OT": "Component"
@@ -515,7 +650,7 @@
                       "ow": {
                         "shadow": {
                           "type": "tys",
-                          "id": "4hu?T--m2Rlv7mt;yxQ`",
+                          "id": "KPVMe_o!Jq818Ij6^~-:",
                           "extraState": "Component"
                         },
                         "block": {
@@ -539,7 +674,7 @@
                       "P2": {
                         "shadow": {
                           "type": "tys",
-                          "id": "nhY8A8rJkHFATt=J;*2C",
+                          "id": "u7wz8pCjLT}9=[L*W$cE",
                           "extraState": "ListT_any"
                         },
                         "block": {
@@ -710,175 +845,9 @@
             }
           }
         }
-      },
-      {
-        "type": "lcd",
-        "id": "PO!|Z.TeWEfQHC43+@P|",
-        "x": 582,
-        "y": -312,
-        "fields": {
-          "VD": {
-            "name": "thời gian thay đạn được tính",
-            "type": "Int"
-          },
-          "T": "$Auto"
-        },
-        "inputs": {
-          "V": {
-            "shadow": {
-              "type": "tyd",
-              "id": "ZWF4l.nY`6rYKc-L4v)-",
-              "extraState": "$Auto"
-            },
-            "block": {
-              "type": "v",
-              "id": "]7]w~PX?H402.rot-ixU",
-              "extraState": {
-                "X": 156,
-                "L": [
-                  1
-                ],
-                "O": [
-                  ""
-                ],
-                "T": "Round",
-                "OT": null
-              },
-              "inputs": {
-                "P1": {
-                  "shadow": {
-                    "type": "ipf",
-                    "id": "R}$8VNi2I)lStw?kN|k!",
-                    "fields": {
-                      "V": 0
-                    }
-                  },
-                  "block": {
-                    "type": "opa",
-                    "id": "=3Ps~IFN5r~-.1zp7ehm",
-                    "extraState": {
-                      "X": 3
-                    },
-                    "fields": {
-                      "O": "DI",
-                      "O2": "MU",
-                      "O3": "AD"
-                    },
-                    "inputs": {
-                      "V1": {
-                        "shadow": {
-                          "type": "ipn",
-                          "id": "ua5EZzpKq77UI(ghYreL",
-                          "fields": {
-                            "V": "1"
-                          }
-                        }
-                      },
-                      "V2": {
-                        "shadow": {
-                          "type": "ipn",
-                          "id": "unw9n`Uw|v_E-KzZ{,+X",
-                          "fields": {
-                            "V": "0"
-                          }
-                        },
-                        "block": {
-                          "type": "prg",
-                          "id": "!{;xmu}ylYF[i6yI@yU$",
-                          "extraState": {
-                            "X": 1,
-                            "T": "Float"
-                          },
-                          "fields": {
-                            "P": "ReloadSpeed:Weapon"
-                          },
-                          "inputs": {
-                            "H": {
-                              "shadow": {
-                                "type": "tys",
-                                "id": "[tNG-DF~[~-14KJo4tgx",
-                                "extraState": "Component"
-                              },
-                              "block": {
-                                "type": "ent",
-                                "id": "oXb8RVj1N!IQAf;A(0YV"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "V3": {
-                        "shadow": {
-                          "type": "ipn",
-                          "id": "T,GPz[lN[]x/#]][PMG[",
-                          "fields": {
-                            "V": "1000"
-                          }
-                        }
-                      },
-                      "V4": {
-                        "shadow": {
-                          "type": "ipn",
-                          "id": ";f7A{`5CNaZ!Ox8FZD~S",
-                          "fields": {
-                            "V": "650"
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "next": {
-          "block": {
-            "type": "a",
-            "id": "Fd8qxq|:#0sIbkuyD/.G",
-            "extraState": {
-              "X": 30,
-              "L": [
-                1
-              ],
-              "O": [
-                ""
-              ],
-              "T": "WaitForSeconds",
-              "OT": null
-            },
-            "inputs": {
-              "P1": {
-                "shadow": {
-                  "type": "ipi",
-                  "id": "W{![5Gh7]1z#0B|13r],",
-                  "fields": {
-                    "V": 0
-                  }
-                },
-                "block": {
-                  "type": "lcg",
-                  "id": "WDjjy+6r/Z$]LV2)7Yrg",
-                  "extraState": "PO!|Z.TeWEfQHC43+@P|VD",
-                  "fields": {
-                    "VR": "thời gian thay đạn được tính"
-                  }
-                }
-              }
-            }
-          }
-        }
       }
     ]
   },
-  "variables": [
-    {
-      "id": "vJQ7j7q8K",
-      "name": "Firing_Voice_CD",
-      "type": "Int",
-      "value": 0
-    }
-  ],
   "graphData": {
     "ownerType": "Entity",
     "componentTypes": "Weapon",
