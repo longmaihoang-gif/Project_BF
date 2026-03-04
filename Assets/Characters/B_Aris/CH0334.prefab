@@ -1,5 +1,5 @@
 {
-  "_entityName": "Aris_Armed",
+  "_entityName": "CH0334",
   "_tag": {
     "type": "Prefab"
   },
@@ -173,7 +173,10 @@
                   "selfValue": true,
                   "valueTag": "activeValue"
                 },
-                "unlockedValue": null,
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
                 "editorLockValue": false,
                 "editorVisibleValue": true,
                 "_mesh": {
@@ -227,63 +230,6 @@
                 }
               },
               {
-                "_entityName": "CH0334_Halo.mesh",
-                "_tag": {
-                  "type": "BoneMeshEntity"
-                },
-                "_entityId": "ucwUHrB4",
-                "children": [],
-                "prefabVariant": null,
-                "activeValue": {
-                  "selfValue": true,
-                  "valueTag": "activeValue"
-                },
-                "unlockedValue": null,
-                "editorLockValue": false,
-                "editorVisibleValue": true,
-                "_mesh": {
-                  "fileId": "y4ikkvqvg4-mm8u6y54-ppphswzpioi-CH0334_Halo.~@FFFUB",
-                  "filePath": "fab://Assets\\Characters\\B_Aris\\CH0334.fbx\\CH0334_Halo.mesh",
-                  "_tag": {
-                    "type": "GFileRefer"
-                  },
-                  "fileType": "mesh"
-                },
-                "_cloth": null,
-                "partType": 0,
-                "causeAnimationTypeChange": false,
-                "outwardType": 0,
-                "materials": [
-                  {
-                    "fileId": "wun692tz2mo-mkuhn42u-wo521iv2dl",
-                    "filePath": "Assets\\Characters\\B_Aris\\halo.mat",
-                    "_tag": {
-                      "type": "GFileRefer"
-                    },
-                    "fileType": "material"
-                  }
-                ],
-                "avatarPartInfo": {
-                  "bone": "Bip001 Head",
-                  "bindType": 1
-                },
-                "position": {
-                  "x": -0.003,
-                  "y": -0.002,
-                  "z": 0
-                },
-                "scale": {
-                  "x": 1,
-                  "y": 1,
-                  "z": 1
-                },
-                "rotation": {
-                  "x": 0,
-                  "y": 270,
-                  "z": -180
-                }
-              },
-              {
                 "_entityName": "CH0334_Head_Body.mesh",
                 "_tag": {
                   "type": "BoneMeshEntity"
@@ -295,7 +241,10 @@
                   "selfValue": true,
                   "valueTag": "activeValue"
                 },
-                "unlockedValue": null,
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
                 "editorLockValue": false,
                 "editorVisibleValue": true,
                 "_mesh": {
@@ -392,7 +341,10 @@
                   "selfValue": true,
                   "valueTag": "activeValue"
                 },
-                "unlockedValue": null,
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
                 "editorLockValue": false,
                 "editorVisibleValue": true,
                 "_mesh": {
@@ -450,7 +402,7 @@
             "enable": true
           },
           {
-            "_entityName": "Bộ giáp",
+            "_entityName": "Giáp",
             "_tag": {
               "type": "BoneMeshGroupEntity"
             },
@@ -468,7 +420,10 @@
                   "selfValue": true,
                   "valueTag": "activeValue"
                 },
-                "unlockedValue": null,
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
                 "editorLockValue": false,
                 "editorVisibleValue": true,
                 "_mesh": {
@@ -532,6 +487,85 @@
             "editorVisibleValue": true,
             "groupId": "",
             "enable": true
+          },
+          {
+            "_entityName": "Halo",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "w6y73IF4",
+            "children": [
+              {
+                "_entityName": "CH0334_Halo.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "ucwUHrB4",
+                "children": [],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "y4ikkvqvg4-mm8u6y54-ppphswzpioi-CH0334_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\B_Aris\\CH0334.fbx\\CH0334_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "wun692tz2mo-mkuhn42u-wo521iv2dl",
+                    "filePath": "Assets\\Characters\\B_Aris\\halo.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": -0.003,
+                  "y": -0.002,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 270,
+                  "z": -180
+                }
+              }
+            ],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true
           }
         ],
         "prefabVariant": null,
@@ -539,7 +573,10 @@
           "selfValue": true,
           "valueTag": "activeValue"
         },
-        "unlockedValue": null,
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
         "editorLockValue": false,
         "editorVisibleValue": true,
         "position": {

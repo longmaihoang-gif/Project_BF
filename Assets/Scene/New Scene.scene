@@ -1769,7 +1769,25 @@
                 "prefabVariant": null
               }
             ],
-            "_entityName": "Bộ giáp",
+            "_entityName": "Giáp",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true,
+            "prefabVariant": null
+          },
+          {
+            "_entityId": "nAjVgfxw",
+            "children": [],
+            "_entityName": "Halo",
             "_tag": {
               "type": "BoneMeshGroupEntity"
             },
@@ -1848,7 +1866,7 @@
       "prefabVariant": {
         "prefabFile": {
           "fileId": "kqmmw80o4j-mkuo494w-sp6c1q7i0fm",
-          "filePath": "Assets\\Characters\\B_Aris\\Aris_Armed.prefab",
+          "filePath": "Assets\\Characters\\B_Aris\\CH0334.prefab",
           "_tag": {
             "type": "GFileRefer"
           },
@@ -2686,7 +2704,7 @@
           },
           "kAP5IML0": {
             "_entityId": "uUMCGq3r",
-            "_entityName": "Bộ giáp",
+            "_entityName": "Giáp",
             "activeValue": {
               "selfValue": true,
               "valueTag": "activeValue"
@@ -2750,6 +2768,19 @@
               "y": 0,
               "z": 0
             }
+          },
+          "nAjVgfxw": {
+            "_entityId": "w6y73IF4",
+            "_entityName": "Halo",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true
           }
         }
       }
@@ -6004,7 +6035,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 2,
+      "tempIndex": 1,
       "itemID": 143,
       "seParent": null,
       "ecaScripts": [
@@ -6089,7 +6120,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 3,
+      "tempIndex": 2,
       "itemID": 273,
       "seParent": null,
       "ecaScripts": [
@@ -6204,7 +6235,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 4,
+          "tempIndex": 3,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -6348,7 +6379,7 @@
               "entityTagData": {
                 "tagPointers": []
               },
-              "tempIndex": 5,
+              "tempIndex": 4,
               "itemID": 224,
               "seParent": null,
               "ecaScripts": [
@@ -6548,7 +6579,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 6,
+      "tempIndex": 5,
       "itemID": 223,
       "seParent": null,
       "ecaScripts": [
@@ -6642,7 +6673,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 10,
+      "tempIndex": 6,
       "itemID": 223,
       "seParent": null,
       "ecaScripts": [
@@ -6736,7 +6767,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 11,
+      "tempIndex": 7,
       "itemID": 91,
       "seParent": null,
       "ecaScripts": [
@@ -6783,6 +6814,252 @@
           "z": 1
         }
       }
+    },
+    {
+      "_entityName": "Kích hoạt tùy ý",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "fmXWd5pT",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": -28.559999465942383,
+        "y": 0.009999999776482582,
+        "z": 15.625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": true,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "ColliderShape",
+        "Collider"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Box",
+          "meshUUID": null,
+          "position": {
+            "x": 0,
+            "y": 0.5,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [
+        {
+          "fileId": "w5g2f6g1yt-mmakesu2-ul0xuyyow7a",
+          "filePath": "Assets\\ECA\\Kích hoạt tùy ý.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "ColliderShape": {},
+        "Collider": {}
+      },
+      "propsData": {},
+      "entityVersion": 3
+    },
+    {
+      "_entityName": "Kích hoạt tùy ý (1)",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "XTzIqr6a",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": null,
+      "position": {
+        "x": -27.268835067749023,
+        "y": 0.009999999776482582,
+        "z": 15.72933292388916
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": true,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "ColliderShape",
+        "Collider"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Box",
+          "meshUUID": null,
+          "position": {
+            "x": 0,
+            "y": 0.5,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [
+        {
+          "fileId": "8gpa5aga7ug-mmakh0gd-g1cw6f6lf2g",
+          "filePath": "Assets\\ECA\\Kei_Player.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "ColliderShape": {},
+        "Collider": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "editorLockValue": false,
+      "editorVisibleValue": true
     }
   ],
   "prefabVariant": null,

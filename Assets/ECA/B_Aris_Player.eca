@@ -1,0 +1,199 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "/A?+}s?DZ:bZyzD#tO{@",
+        "x": 186,
+        "y": -120,
+        "extraState": {
+          "X": 143,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerEnter",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "lcd",
+            "id": "nw3,g0YcUFc+aoH~`Y3w",
+            "fields": {
+              "VD": {
+                "name": "player",
+                "type": "Player"
+              },
+              "T": "Player"
+            },
+            "inputs": {
+              "V": {
+                "shadow": {
+                  "type": "tyd",
+                  "id": "5oRh#QoH:[*.#XuKJ!G$",
+                  "extraState": "Player"
+                },
+                "block": {
+                  "type": "tya",
+                  "id": "A@pw]a0`Y+cydzx]H($u",
+                  "fields": {
+                    "T": "any"
+                  },
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "#KVP/5l0Lu5vmfB_a!kx",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "+.ALY[[~S?Kq|*)z_CRz",
+                        "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
+                        "fields": {
+                          "VR": "Mục tiêu truy kích"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "a",
+                "id": "0^211$9e}k{p3W^@F)1Y",
+                "extraState": {
+                  "X": 472,
+                  "L": [
+                    1,
+                    2
+                  ],
+                  "O": [
+                    "",
+                    ""
+                  ],
+                  "T": "RemoveScript",
+                  "OT": null
+                },
+                "inputs": {
+                  "P1": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "F2vX*EP:%RZ7Rz?g:(Q)",
+                      "extraState": "entity"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "()`Y+A5O#l**Zji+b#hY",
+                      "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                      "fields": {
+                        "VR": "player"
+                      }
+                    }
+                  },
+                  "P2": {
+                    "shadow": {
+                      "type": "psc",
+                      "id": "D5{Zg|g,TvrkEj=/JAV8",
+                      "fields": {
+                        "V": "wjjwllu1q8-mmai8kch-ctgfnt8rjlt"
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "a",
+                    "id": "{Nq/2P+;;XQ82k%e)ch*",
+                    "extraState": {
+                      "X": 31,
+                      "L": [],
+                      "O": [],
+                      "T": "WaitForNextFrame",
+                      "OT": null
+                    },
+                    "next": {
+                      "block": {
+                        "type": "a",
+                        "id": "GiqKUdV~P},`pK3)BfA@",
+                        "extraState": {
+                          "X": 31,
+                          "L": [],
+                          "O": [],
+                          "T": "WaitForNextFrame",
+                          "OT": null
+                        },
+                        "next": {
+                          "block": {
+                            "type": "a",
+                            "id": "?-fOo-xcT4nJ!0[g@=iG",
+                            "extraState": {
+                              "X": 471,
+                              "L": [
+                                1,
+                                2
+                              ],
+                              "O": [
+                                "",
+                                ""
+                              ],
+                              "T": "AddScript",
+                              "OT": null
+                            },
+                            "inputs": {
+                              "P1": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "MLesA}EWwKVYO:$c]~*_",
+                                  "extraState": "entity"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "T)?o$0Tfyp[]PN2MQ7m-",
+                                  "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                                  "fields": {
+                                    "VR": "player"
+                                  }
+                                }
+                              },
+                              "P2": {
+                                "shadow": {
+                                  "type": "psc",
+                                  "id": "LXRv8c/%w{bSCr20e^T1",
+                                  "fields": {
+                                    "V": "csgraiuw1ie-mma69jkx-y7oz01ar15l"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject&ColliderShape&Collider",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}
