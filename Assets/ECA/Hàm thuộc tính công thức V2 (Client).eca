@@ -1,0 +1,1922 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "xQe^S6=xRu71}=$*p%B4",
+        "x": -92,
+        "y": 163,
+        "extraState": [
+          {
+            "id": "_arg128",
+            "name": "int",
+            "type": "Int",
+            "isOut": false
+          },
+          {
+            "id": "_arg9409",
+            "name": "số",
+            "type": "Number",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "Nhân lấy phần nguyên",
+          "R": "Int",
+          "_arg128": {
+            "name": "int",
+            "type": "Int"
+          },
+          "_arg9409": {
+            "name": "số",
+            "type": "Number"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "ife1",
+              "id": "=Q#4c`(~2=vSMBek[#we",
+              "extraState": {
+                "X": 2,
+                "CIDS": []
+              },
+              "inputs": {
+                "C": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "jsbO@p5x;[1N[.5__*lj",
+                    "extraState": "bool"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "#q`wd:F$#~,N-7n-5eRs",
+                    "extraState": {
+                      "X": 196,
+                      "L": [
+                        1,
+                        2
+                      ],
+                      "O": [
+                        "",
+                        ""
+                      ],
+                      "T": "TypeIs",
+                      "OT": null
+                    },
+                    "inputs": {
+                      "P1": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "bz5aBHy)bKRdH3!Lk|;j",
+                          "extraState": "Object"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "){q3x0zhi$dpmU]rT#!:",
+                          "extraState": "xQe^S6=xRu71}=$*p%B4_arg9409",
+                          "fields": {
+                            "VR": "số"
+                          }
+                        }
+                      },
+                      "P2": {
+                        "shadow": {
+                          "type": "tyi",
+                          "id": "uD%Lzy!ZPY,=Q7W{lWfI",
+                          "fields": {
+                            "T": "Int"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "D": {
+                  "block": {
+                    "type": "fnr",
+                    "id": "VfYQHj7SeVOz#TK.Zk1@",
+                    "extraState": {
+                      "rt": "Int"
+                    },
+                    "inputs": {
+                      "R": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "m|*kqLVV8fnz*8;XdD85",
+                          "extraState": "Int"
+                        },
+                        "block": {
+                          "type": "tya",
+                          "id": "c`?^?+M@D7FfK-_m3L|E",
+                          "fields": {
+                            "T": "Int"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "/XF[g:/{n}8ztskVys$`",
+                                "extraState": "any"
+                              },
+                              "block": {
+                                "type": "opa",
+                                "id": "c)$-BZ2=BcX.?S{h1T;t",
+                                "extraState": {
+                                  "X": 1
+                                },
+                                "fields": {
+                                  "O": "MU"
+                                },
+                                "inputs": {
+                                  "V1": {
+                                    "shadow": {
+                                      "type": "ipn",
+                                      "id": "c{N+Ev]),k#7,L4pV%GA",
+                                      "fields": {
+                                        "V": "0"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "lcg",
+                                      "id": "yvq~@|dlSx!cU0;m_@?2",
+                                      "extraState": "xQe^S6=xRu71}=$*p%B4_arg128",
+                                      "fields": {
+                                        "VR": "int"
+                                      }
+                                    }
+                                  },
+                                  "V2": {
+                                    "shadow": {
+                                      "type": "ipn",
+                                      "id": "TF=^C#9L5#rb2Wn@jTx@",
+                                      "fields": {
+                                        "V": "100"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "lcg",
+                                      "id": "_3knw`L%gIo`|Q9-il_,",
+                                      "extraState": "xQe^S6=xRu71}=$*p%B4_arg9409",
+                                      "fields": {
+                                        "VR": "số"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "D_else": {
+                  "block": {
+                    "type": "lcd",
+                    "id": "SQ}l4Ro*:vEXq5/zK{1!",
+                    "fields": {
+                      "VD": {
+                        "name": "tử",
+                        "type": "Int"
+                      },
+                      "T": "Int"
+                    },
+                    "inputs": {
+                      "V": {
+                        "shadow": {
+                          "type": "tyd",
+                          "id": "g+bKoq+EUmB]2+S!h=:e",
+                          "extraState": "Int"
+                        },
+                        "block": {
+                          "type": "v",
+                          "id": "/yP}~(bp}BLMdG=2G1%s",
+                          "extraState": {
+                            "X": 156,
+                            "L": [
+                              1
+                            ],
+                            "O": [
+                              ""
+                            ],
+                            "T": "Round",
+                            "OT": null
+                          },
+                          "inputs": {
+                            "P1": {
+                              "shadow": {
+                                "type": "ipf",
+                                "id": "#V4TEj^?^I}do/o01=~h",
+                                "fields": {
+                                  "V": 0
+                                }
+                              },
+                              "block": {
+                                "type": "opa",
+                                "id": "qw78Yc*_;pT5]gY?bVhM",
+                                "extraState": {
+                                  "X": 1
+                                },
+                                "fields": {
+                                  "O": "MU"
+                                },
+                                "inputs": {
+                                  "V1": {
+                                    "shadow": {
+                                      "type": "ipn",
+                                      "id": "c{N+Ev]),k#7,L4pV%GA",
+                                      "fields": {
+                                        "V": "0"
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "tya",
+                                      "id": "5O}R~Snr[uUhVR!r~i(^",
+                                      "fields": {
+                                        "T": "Float"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "wJ08$_ELwX)XCv(6X}Q?",
+                                            "extraState": "any"
+                                          },
+                                          "block": {
+                                            "type": "lcg",
+                                            "id": "MCG**|cUbe[+r%El?ZrO",
+                                            "extraState": "xQe^S6=xRu71}=$*p%B4_arg9409",
+                                            "fields": {
+                                              "VR": "số"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "V2": {
+                                    "shadow": {
+                                      "type": "ipn",
+                                      "id": "TCyutA8}1#_Y}fro;aCI",
+                                      "fields": {
+                                        "V": "100"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "fnr",
+                        "id": "0cxxSZ|@z!#7ZuPC-kL!",
+                        "extraState": {
+                          "rt": "Int"
+                        },
+                        "inputs": {
+                          "R": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "F+F!nL^El3M9rD7g4igW",
+                              "extraState": "Int"
+                            },
+                            "block": {
+                              "type": "opa",
+                              "id": "v}m^)ILk*{L.AdOn12^u",
+                              "extraState": {
+                                "X": 1
+                              },
+                              "fields": {
+                                "O": "AD"
+                              },
+                              "inputs": {
+                                "V1": {
+                                  "shadow": {
+                                    "type": "ipn",
+                                    "id": "c{N+Ev]),k#7,L4pV%GA",
+                                    "fields": {
+                                      "V": "0"
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "opa",
+                                    "id": "zk*rPr-~(MiKK(=2ak?1",
+                                    "extraState": {
+                                      "X": 2
+                                    },
+                                    "fields": {
+                                      "O": "DI",
+                                      "O2": "MU"
+                                    },
+                                    "inputs": {
+                                      "V1": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "=-DbP.WMpxI?}kFv6^df",
+                                          "fields": {
+                                            "V": "0"
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "9`qZ#2HN(HUY/JBcSR;i",
+                                          "extraState": "xQe^S6=xRu71}=$*p%B4_arg128",
+                                          "fields": {
+                                            "VR": "int"
+                                          }
+                                        }
+                                      },
+                                      "V2": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "{OE7,L8@!7tSXyjM?^k;",
+                                          "fields": {
+                                            "V": "100"
+                                          }
+                                        }
+                                      },
+                                      "V3": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "P2R|OLn^.GoC1)O?PPb|",
+                                          "fields": {
+                                            "V": "0"
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "yT)GEGM2KcqkY])c:pbb",
+                                          "extraState": "SQ}l4Ro*:vEXq5/zK{1!VD",
+                                          "fields": {
+                                            "VR": "tử"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "V2": {
+                                  "shadow": {
+                                    "type": "ipn",
+                                    "id": "27xgi[;`@LM4WKa315`n",
+                                    "fields": {
+                                      "V": "0"
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "opa",
+                                    "id": "wYaRS(nxO1tr(Fvb9,bt",
+                                    "extraState": {
+                                      "X": 1
+                                    },
+                                    "fields": {
+                                      "O": "DI"
+                                    },
+                                    "inputs": {
+                                      "V1": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "+_l)Nh|RBA[,Ti#%.]gg",
+                                          "fields": {
+                                            "V": "0"
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "opa",
+                                          "id": "3^zH=v?EvB9fp/6,p7wi",
+                                          "extraState": {
+                                            "X": 3
+                                          },
+                                          "fields": {
+                                            "O": "MD",
+                                            "O2": "MU",
+                                            "O3": "AD"
+                                          },
+                                          "inputs": {
+                                            "V1": {
+                                              "shadow": {
+                                                "type": "ipn",
+                                                "id": "+_l)Nh|RBA[,Ti#%.]gg",
+                                                "fields": {
+                                                  "V": "0"
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "lcg",
+                                                "id": "Hf_]R%2i|(YAcF_IhlN;",
+                                                "extraState": "xQe^S6=xRu71}=$*p%B4_arg128",
+                                                "fields": {
+                                                  "VR": "int"
+                                                }
+                                              }
+                                            },
+                                            "V2": {
+                                              "shadow": {
+                                                "type": "ipn",
+                                                "id": "T~@U:jl]j}c4#NwJ/c0P",
+                                                "fields": {
+                                                  "V": "100"
+                                                }
+                                              }
+                                            },
+                                            "V3": {
+                                              "shadow": {
+                                                "type": "ipn",
+                                                "id": "(6^2_`2PPr5T$kkc;l6d",
+                                                "fields": {
+                                                  "V": "0"
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "lcg",
+                                                "id": "S,O=?G._dKa+0)Gjv0MZ",
+                                                "extraState": "SQ}l4Ro*:vEXq5/zK{1!VD",
+                                                "fields": {
+                                                  "VR": "tử"
+                                                }
+                                              }
+                                            },
+                                            "V4": {
+                                              "shadow": {
+                                                "type": "ipn",
+                                                "id": "i*a.Qiy-7yNXr2`ilhKb",
+                                                "fields": {
+                                                  "V": "50"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "V2": {
+                                        "shadow": {
+                                          "type": "ipn",
+                                          "id": "yrv07Qa:-o%#)~P#9*x-",
+                                          "fields": {
+                                            "V": "100"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fnv",
+        "id": "ckh)MMOD5~`Gmzl0.RK4",
+        "x": -99,
+        "y": 548,
+        "extraState": [
+          {
+            "id": "_arg3535",
+            "name": "ID thuộc tính",
+            "type": "String",
+            "isOut": false
+          },
+          {
+            "id": "_arg3723",
+            "name": "Lấy giá trị ban đầu",
+            "type": "Bool",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "Nhận thuộc tính công thức",
+          "R": "Int",
+          "_arg3535": {
+            "name": "ID thuộc tính",
+            "type": "String"
+          },
+          "_arg3723": {
+            "name": "Lấy giá trị ban đầu",
+            "type": "Bool"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "lcd",
+              "id": "?((MurF@Aym5Q=z]GT0x",
+              "fields": {
+                "VD": {
+                  "name": "Tên thuộc tính",
+                  "type": "String"
+                },
+                "T": "String"
+              },
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "tyd",
+                    "id": "HrSw:@2KM}SJ]{Q=QBRf",
+                    "extraState": "String"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "6OWJeyN`|qjD~Mc/|`cH",
+                    "extraState": {
+                      "X": 657,
+                      "L": [
+                        1
+                      ],
+                      "O": [
+                        ""
+                      ],
+                      "T": "StringLower",
+                      "OT": null
+                    },
+                    "inputs": {
+                      "P1": {
+                        "shadow": {
+                          "type": "ipt",
+                          "id": ";QTAajMY2=i.RS0jQy51",
+                          "fields": {
+                            "V": ""
+                          }
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "m%c{Y5a=29G.;}zhLHLB",
+                          "extraState": "ckh)MMOD5~`Gmzl0.RK4_arg3535",
+                          "fields": {
+                            "VR": "ID thuộc tính"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "lcd",
+                  "id": "?atn3$nk_#{bQp6RFRwb",
+                  "fields": {
+                    "VD": {
+                      "name": "Ds tên thuộc tính",
+                      "type": "ListT_String"
+                    },
+                    "T": "ListT_String"
+                  },
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "tyd",
+                        "id": "-]_5Oht1+opQnDF0A(Na",
+                        "extraState": "ListT_String"
+                      },
+                      "block": {
+                        "type": "lic",
+                        "id": ",HM!WwFD.6hf]VDA.8TJ",
+                        "extraState": {
+                          "X": 0
+                        },
+                        "fields": {
+                          "T": "String"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "lcd",
+                      "id": "CM@Zk*t`/;:nZxoXCfht",
+                      "fields": {
+                        "VD": {
+                          "name": "Kết quả",
+                          "type": "Int"
+                        },
+                        "T": "Int"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tyd",
+                            "id": "ovmr{7_Ayu/NL]-cY..0",
+                            "extraState": "Int"
+                          },
+                          "block": {
+                            "type": "ipn",
+                            "id": "940gVS(;O8nH3mo:]J*:",
+                            "fields": {
+                              "V": "0"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "ipcm",
+                          "id": "WM9,g)Qg_mQCZzx16g8s",
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "ipta",
+                                "id": "~Imy0?F[*5f$UK!;rx4+",
+                                "fields": {
+                                  "V": "Tạo 1 danh sách tên thuộc tính"
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "lpe",
+                              "id": "B4qdoC3@U{TM5,?8lY,6",
+                              "fields": {
+                                "X": {
+                                  "name": "key",
+                                  "type": "Int"
+                                },
+                                "I": {
+                                  "name": "value",
+                                  "type": "any"
+                                }
+                              },
+                              "inputs": {
+                                "RN": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": ",P9N[GX$=B6{*`r}tq?X",
+                                    "extraState": "List|Map__Danh sách và Từ điển"
+                                  },
+                                  "block": {
+                                    "type": "prg",
+                                    "id": "5ln[(v/#!5zp$ZR,-dgO",
+                                    "extraState": {
+                                      "X": 1,
+                                      "T": "ListT_any"
+                                    },
+                                    "fields": {
+                                      "P": "PROP_67151468:Component"
+                                    },
+                                    "inputs": {
+                                      "H": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "d+7l@nP#m;Vtx9K1d{;C",
+                                          "extraState": "Component"
+                                        },
+                                        "block": {
+                                          "type": "ent",
+                                          "id": "[eT#v-@G,Qfa/]]K9rJP"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "D": {
+                                  "block": {
+                                    "type": "a",
+                                    "id": "Y0b_^i*gO*;8Nf!26ih2",
+                                    "extraState": {
+                                      "X": 47,
+                                      "L": [
+                                        1,
+                                        2
+                                      ],
+                                      "O": [
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "ListAppend",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "nQ?]5NwPk1(Y{~*_2#5K",
+                                          "extraState": "List"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "2@4*6({`L458G9J*Nt}.",
+                                          "extraState": "?atn3$nk_#{bQp6RFRwbVD",
+                                          "fields": {
+                                            "VR": "Ds tên thuộc tính"
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "!s9K0%tW!0(G]eO)sXn~",
+                                          "extraState": "String"
+                                        },
+                                        "block": {
+                                          "type": "v",
+                                          "id": "PU!]!w~LgcaTrKT/jB|[",
+                                          "extraState": {
+                                            "X": 198,
+                                            "L": [
+                                              1
+                                            ],
+                                            "O": [
+                                              ""
+                                            ],
+                                            "T": "ToString",
+                                            "OT": null
+                                          },
+                                          "inputs": {
+                                            "P1": {
+                                              "shadow": {
+                                                "type": "tys",
+                                                "id": "d)(n;^R8SIy$0Ylv!1!T",
+                                                "extraState": "Object"
+                                              },
+                                              "block": {
+                                                "type": "v",
+                                                "id": "r*EP@h33rK8sLS2hJ,E`",
+                                                "extraState": {
+                                                  "X": 67,
+                                                  "L": [
+                                                    1,
+                                                    2
+                                                  ],
+                                                  "O": [
+                                                    "",
+                                                    ""
+                                                  ],
+                                                  "T": "ListGetElement",
+                                                  "OT": null
+                                                },
+                                                "inputs": {
+                                                  "P1": {
+                                                    "shadow": {
+                                                      "type": "tys",
+                                                      "id": "!Zo~t3I)T*iW4?Y/c/ey",
+                                                      "extraState": "List"
+                                                    },
+                                                    "block": {
+                                                      "type": "v",
+                                                      "id": "ATsJCY]XW_@LM[+E6B+U",
+                                                      "extraState": {
+                                                        "X": 67,
+                                                        "L": [
+                                                          1,
+                                                          2
+                                                        ],
+                                                        "O": [
+                                                          "",
+                                                          ""
+                                                        ],
+                                                        "T": "ListGetElement",
+                                                        "OT": null
+                                                      },
+                                                      "inputs": {
+                                                        "P1": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "u.-B^4E]~a1izs9,#sAA",
+                                                            "extraState": "List"
+                                                          },
+                                                          "block": {
+                                                            "type": "prg",
+                                                            "id": "_;NQ!X_aUUmN3)N`vYhr",
+                                                            "extraState": {
+                                                              "X": 1,
+                                                              "T": "ListT_any"
+                                                            },
+                                                            "fields": {
+                                                              "P": "PROP_67151468:Component"
+                                                            },
+                                                            "inputs": {
+                                                              "H": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "d+7l@nP#m;Vtx9K1d{;C",
+                                                                  "extraState": "Component"
+                                                                },
+                                                                "block": {
+                                                                  "type": "ent",
+                                                                  "id": "{Q}S$A_KQUJm.HNV]cyg"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "P2": {
+                                                          "shadow": {
+                                                            "type": "ipi",
+                                                            "id": "Vuf9W4%r-%hKaH|qBLR,",
+                                                            "fields": {
+                                                              "V": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "lcg",
+                                                            "id": "oWX+b?6{(05+G5wKY-IL",
+                                                            "extraState": "B4qdoC3@U{TM5,?8lY,6X",
+                                                            "fields": {
+                                                              "VR": "key"
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "P2": {
+                                                    "shadow": {
+                                                      "type": "ipi",
+                                                      "id": "5s.a#m33N4*Itb}aF$4d",
+                                                      "fields": {
+                                                        "V": 0
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "ife1",
+                                  "id": ";U2x9PA:@q+/Mt`twnj8",
+                                  "extraState": {
+                                    "X": 2,
+                                    "CIDS": []
+                                  },
+                                  "inputs": {
+                                    "C": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "9TSaI@,XH0}(cqT32aA$",
+                                        "extraState": "bool"
+                                      },
+                                      "block": {
+                                        "type": "v",
+                                        "id": "fAHs!m1?jTIF#+E{$/@{",
+                                        "extraState": {
+                                          "X": 171,
+                                          "L": [
+                                            1,
+                                            2
+                                          ],
+                                          "O": [
+                                            "",
+                                            ""
+                                          ],
+                                          "T": "ListContains",
+                                          "OT": null
+                                        },
+                                        "inputs": {
+                                          "P1": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "Eb6|p@qN,5SSK%Vjpo,@",
+                                              "extraState": "List"
+                                            },
+                                            "block": {
+                                              "type": "lcg",
+                                              "id": "$T~u{s!c_i`@fNqu/`_g",
+                                              "extraState": "?atn3$nk_#{bQp6RFRwbVD",
+                                              "fields": {
+                                                "VR": "Ds tên thuộc tính"
+                                              }
+                                            }
+                                          },
+                                          "P2": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "!_5J*{]bL;}m;AmM/!!r",
+                                              "extraState": "Object"
+                                            },
+                                            "block": {
+                                              "type": "lcg",
+                                              "id": "uo(HP4%lWg;*~c.0Aknt",
+                                              "extraState": "?((MurF@Aym5Q=z]GT0xVD",
+                                              "fields": {
+                                                "VR": "Tên thuộc tính"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "D": {
+                                      "block": {
+                                        "type": "lcd",
+                                        "id": "ui;(FNsUeh`q]+XjG0R}",
+                                        "fields": {
+                                          "VD": {
+                                            "name": "Bộ thuộc tính",
+                                            "type": "ListT_any"
+                                          },
+                                          "T": "ListT_any"
+                                        },
+                                        "inputs": {
+                                          "V": {
+                                            "shadow": {
+                                              "type": "tyd",
+                                              "id": "zv,rhVa)oJ~=rcq9b0tE",
+                                              "extraState": "ListT_any"
+                                            },
+                                            "block": {
+                                              "type": "v",
+                                              "id": "5XS]Hnkcrg}mHn1QJf|^",
+                                              "extraState": {
+                                                "X": 67,
+                                                "L": [
+                                                  1,
+                                                  2
+                                                ],
+                                                "O": [
+                                                  "",
+                                                  ""
+                                                ],
+                                                "T": "ListGetElement",
+                                                "OT": null
+                                              },
+                                              "inputs": {
+                                                "P1": {
+                                                  "shadow": {
+                                                    "type": "tys",
+                                                    "id": "u.-B^4E]~a1izs9,#sAA",
+                                                    "extraState": "List"
+                                                  },
+                                                  "block": {
+                                                    "type": "prg",
+                                                    "id": "zAH,+R?O]YV0}qOKl~M5",
+                                                    "extraState": {
+                                                      "X": 1,
+                                                      "T": "ListT_any"
+                                                    },
+                                                    "fields": {
+                                                      "P": "PROP_67151468:Component"
+                                                    },
+                                                    "inputs": {
+                                                      "H": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "d+7l@nP#m;Vtx9K1d{;C",
+                                                          "extraState": "Component"
+                                                        },
+                                                        "block": {
+                                                          "type": "ent",
+                                                          "id": "PB+tI{|YKmTjk1,0XED]"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "P2": {
+                                                  "shadow": {
+                                                    "type": "ipi",
+                                                    "id": "GQ!g-ri,-uF[HixBQSEL",
+                                                    "fields": {
+                                                      "V": 0
+                                                    }
+                                                  },
+                                                  "block": {
+                                                    "type": "v",
+                                                    "id": "eQ)vf_01|2(o+#9RG^^6",
+                                                    "extraState": {
+                                                      "X": 173,
+                                                      "L": [
+                                                        1,
+                                                        2
+                                                      ],
+                                                      "O": [
+                                                        "",
+                                                        ""
+                                                      ],
+                                                      "T": "ListIndexOf",
+                                                      "OT": null
+                                                    },
+                                                    "inputs": {
+                                                      "P1": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "Xcfa}oR=Rka#Ql=+aq}W",
+                                                          "extraState": "List"
+                                                        },
+                                                        "block": {
+                                                          "type": "lcg",
+                                                          "id": "/twwnQHtd@{-Y3N@@ceL",
+                                                          "extraState": "?atn3$nk_#{bQp6RFRwbVD",
+                                                          "fields": {
+                                                            "VR": "Ds tên thuộc tính"
+                                                          }
+                                                        }
+                                                      },
+                                                      "P2": {
+                                                        "shadow": {
+                                                          "type": "tys",
+                                                          "id": "Y1LE`VsiTzCzh*pue#(f",
+                                                          "extraState": "Object"
+                                                        },
+                                                        "block": {
+                                                          "type": "lcg",
+                                                          "id": "z_u`cv;;iSu~{hm7%;$e",
+                                                          "extraState": "?((MurF@Aym5Q=z]GT0xVD",
+                                                          "fields": {
+                                                            "VR": "Tên thuộc tính"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "ife1",
+                                            "id": "^`u-)(=6R,RINFHSm[O{",
+                                            "extraState": {
+                                              "X": 2,
+                                              "CIDS": []
+                                            },
+                                            "inputs": {
+                                              "C": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "yY;zSNpbD=/3tFyWZ{pe",
+                                                  "extraState": "bool"
+                                                },
+                                                "block": {
+                                                  "type": "lcg",
+                                                  "id": "VaVE!uF4;.s%cz~;k{xS",
+                                                  "extraState": "ckh)MMOD5~`Gmzl0.RK4_arg3723",
+                                                  "fields": {
+                                                    "VR": "Lấy giá trị ban đầu"
+                                                  }
+                                                }
+                                              },
+                                              "D": {
+                                                "block": {
+                                                  "type": "lcs",
+                                                  "id": "myfCOQ!FTb^u/Rdeqmc/",
+                                                  "extraState": "CM@Zk*t`/;:nZxoXCfhtVD",
+                                                  "fields": {
+                                                    "VR": "Kết quả",
+                                                    "O": "UK"
+                                                  },
+                                                  "inputs": {
+                                                    "V": {
+                                                      "shadow": {
+                                                        "type": "tys",
+                                                        "id": "vdhLre3/+[/pFq7]M`0c",
+                                                        "extraState": "Int"
+                                                      },
+                                                      "block": {
+                                                        "type": "v",
+                                                        "id": "xE3R,k?`L?#An$8$[Zm~",
+                                                        "extraState": {
+                                                          "X": 67,
+                                                          "L": [
+                                                            1,
+                                                            2
+                                                          ],
+                                                          "O": [
+                                                            "",
+                                                            ""
+                                                          ],
+                                                          "T": "ListGetElement",
+                                                          "OT": null
+                                                        },
+                                                        "inputs": {
+                                                          "P1": {
+                                                            "shadow": {
+                                                              "type": "tys",
+                                                              "id": "u.-B^4E]~a1izs9,#sAA",
+                                                              "extraState": "List"
+                                                            },
+                                                            "block": {
+                                                              "type": "lcg",
+                                                              "id": "Ce{K]yG`j5uaS)P+N8D}",
+                                                              "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                              "fields": {
+                                                                "VR": "Bộ thuộc tính"
+                                                              }
+                                                            }
+                                                          },
+                                                          "P2": {
+                                                            "shadow": {
+                                                              "type": "ipi",
+                                                              "id": "h_#am:kU1^FAXy^`/xWk",
+                                                              "fields": {
+                                                                "V": 1
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "D_else": {
+                                                "block": {
+                                                  "type": "lcs",
+                                                  "id": "1QY~Pdn`vN8E;jJ*jD+h",
+                                                  "extraState": "CM@Zk*t`/;:nZxoXCfhtVD",
+                                                  "fields": {
+                                                    "VR": "Kết quả",
+                                                    "O": "UK"
+                                                  },
+                                                  "inputs": {
+                                                    "V": {
+                                                      "shadow": {
+                                                        "type": "tys",
+                                                        "id": ";:qS_zK?3^H}o?X:dM!N",
+                                                        "extraState": "Int"
+                                                      },
+                                                      "block": {
+                                                        "type": "tya",
+                                                        "id": "{n)6DDjP+s~dkTKl*c#e",
+                                                        "fields": {
+                                                          "T": "Int"
+                                                        },
+                                                        "inputs": {
+                                                          "V": {
+                                                            "shadow": {
+                                                              "type": "tys",
+                                                              "id": "5TC[K|~^?:kz@)?aAv{7",
+                                                              "extraState": "any"
+                                                            },
+                                                            "block": {
+                                                              "type": "opa",
+                                                              "id": "{;o~K:;q{T-cV?z~{/pq",
+                                                              "extraState": {
+                                                                "X": 1
+                                                              },
+                                                              "fields": {
+                                                                "O": "AD"
+                                                              },
+                                                              "inputs": {
+                                                                "V1": {
+                                                                  "shadow": {
+                                                                    "type": "ipn",
+                                                                    "id": "XCjr~ANdeUti!~P}llXC",
+                                                                    "fields": {
+                                                                      "V": "0"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "fcv",
+                                                                    "id": "B5V-BK~]]6rj;co2qNne",
+                                                                    "extraState": {
+                                                                      "id": "xQe^S6=xRu71}=$*p%B4",
+                                                                      "name": "Nhân lấy phần nguyên",
+                                                                      "params": [
+                                                                        {
+                                                                          "id": "_arg128",
+                                                                          "name": "int",
+                                                                          "type": "Int",
+                                                                          "isOut": false
+                                                                        },
+                                                                        {
+                                                                          "id": "_arg9409",
+                                                                          "name": "số",
+                                                                          "type": "Number",
+                                                                          "isOut": false
+                                                                        }
+                                                                      ],
+                                                                      "returnType": "Int"
+                                                                    },
+                                                                    "inputs": {
+                                                                      "_arg128": {
+                                                                        "shadow": {
+                                                                          "type": "tys",
+                                                                          "id": "Nj6[0C|Vz73Qry-b3sQh",
+                                                                          "extraState": "Int"
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "fcv",
+                                                                          "id": "l?3Y?h,~~y~l|:]`M#~Q",
+                                                                          "extraState": {
+                                                                            "id": "xQe^S6=xRu71}=$*p%B4",
+                                                                            "name": "Nhân lấy phần nguyên",
+                                                                            "params": [
+                                                                              {
+                                                                                "id": "_arg128",
+                                                                                "name": "int",
+                                                                                "type": "Int",
+                                                                                "isOut": false
+                                                                              },
+                                                                              {
+                                                                                "id": "_arg9409",
+                                                                                "name": "số",
+                                                                                "type": "Number",
+                                                                                "isOut": false
+                                                                              }
+                                                                            ],
+                                                                            "returnType": "Int"
+                                                                          },
+                                                                          "inputs": {
+                                                                            "_arg128": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "V7Ua^IwCE?tRa/}gXqy[",
+                                                                                "extraState": "Int"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "tya",
+                                                                                "id": "8db*WQ:6zE!$~(_1vvmv",
+                                                                                "fields": {
+                                                                                  "T": "Int"
+                                                                                },
+                                                                                "inputs": {
+                                                                                  "V": {
+                                                                                    "shadow": {
+                                                                                      "type": "tys",
+                                                                                      "id": "G}ECIH(5A?i1EvbqaAgv",
+                                                                                      "extraState": "any"
+                                                                                    },
+                                                                                    "block": {
+                                                                                      "type": "opa",
+                                                                                      "id": "$=o)E96ak!@2tcXZW*l,",
+                                                                                      "extraState": {
+                                                                                        "X": 1
+                                                                                      },
+                                                                                      "fields": {
+                                                                                        "O": "AD"
+                                                                                      },
+                                                                                      "inputs": {
+                                                                                        "V1": {
+                                                                                          "shadow": {
+                                                                                            "type": "ipn",
+                                                                                            "id": "4}dXtkf;D?l7o2|(G@$5",
+                                                                                            "fields": {
+                                                                                              "V": "0"
+                                                                                            }
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "fcv",
+                                                                                            "id": "?QOHqvHg}oiy.#*aWg^q",
+                                                                                            "extraState": {
+                                                                                              "id": "xQe^S6=xRu71}=$*p%B4",
+                                                                                              "name": "Nhân lấy phần nguyên",
+                                                                                              "params": [
+                                                                                                {
+                                                                                                  "id": "_arg128",
+                                                                                                  "name": "int",
+                                                                                                  "type": "Int",
+                                                                                                  "isOut": false
+                                                                                                },
+                                                                                                {
+                                                                                                  "id": "_arg9409",
+                                                                                                  "name": "số",
+                                                                                                  "type": "Number",
+                                                                                                  "isOut": false
+                                                                                                }
+                                                                                              ],
+                                                                                              "returnType": "Int"
+                                                                                            },
+                                                                                            "inputs": {
+                                                                                              "_arg128": {
+                                                                                                "shadow": {
+                                                                                                  "type": "tys",
+                                                                                                  "id": "6Xf%uR:yF41NRH8!AP}r",
+                                                                                                  "extraState": "Int"
+                                                                                                },
+                                                                                                "block": {
+                                                                                                  "type": "v",
+                                                                                                  "id": "Rb@V#uqhig3_uB=IvB[F",
+                                                                                                  "extraState": {
+                                                                                                    "X": 67,
+                                                                                                    "L": [
+                                                                                                      1,
+                                                                                                      2
+                                                                                                    ],
+                                                                                                    "O": [
+                                                                                                      "",
+                                                                                                      ""
+                                                                                                    ],
+                                                                                                    "T": "ListGetElement",
+                                                                                                    "OT": null
+                                                                                                  },
+                                                                                                  "inputs": {
+                                                                                                    "P1": {
+                                                                                                      "shadow": {
+                                                                                                        "type": "tys",
+                                                                                                        "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                                                        "extraState": "List"
+                                                                                                      },
+                                                                                                      "block": {
+                                                                                                        "type": "lcg",
+                                                                                                        "id": "eMh9yW-DX_N?)w_rwUwj",
+                                                                                                        "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                                                        "fields": {
+                                                                                                          "VR": "Bộ thuộc tính"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "P2": {
+                                                                                                      "shadow": {
+                                                                                                        "type": "ipi",
+                                                                                                        "id": "!,Se)d3$g+r|$cK~u/#j",
+                                                                                                        "fields": {
+                                                                                                          "V": 1
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "_arg9409": {
+                                                                                                "shadow": {
+                                                                                                  "type": "tys",
+                                                                                                  "id": "*ts;Nv!`!ee44CY)Cw*h",
+                                                                                                  "extraState": "Number"
+                                                                                                },
+                                                                                                "block": {
+                                                                                                  "type": "v",
+                                                                                                  "id": "yY|s1sVjf-2!D$36f2wT",
+                                                                                                  "extraState": {
+                                                                                                    "X": 67,
+                                                                                                    "L": [
+                                                                                                      1,
+                                                                                                      2
+                                                                                                    ],
+                                                                                                    "O": [
+                                                                                                      "",
+                                                                                                      ""
+                                                                                                    ],
+                                                                                                    "T": "ListGetElement",
+                                                                                                    "OT": null
+                                                                                                  },
+                                                                                                  "inputs": {
+                                                                                                    "P1": {
+                                                                                                      "shadow": {
+                                                                                                        "type": "tys",
+                                                                                                        "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                                                        "extraState": "List"
+                                                                                                      },
+                                                                                                      "block": {
+                                                                                                        "type": "lcg",
+                                                                                                        "id": "WNLFng,nBBD|JD7(6|yL",
+                                                                                                        "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                                                        "fields": {
+                                                                                                          "VR": "Bộ thuộc tính"
+                                                                                                        }
+                                                                                                      }
+                                                                                                    },
+                                                                                                    "P2": {
+                                                                                                      "shadow": {
+                                                                                                        "type": "ipi",
+                                                                                                        "id": "8_-sJxJmT|N#v(7^wD-i",
+                                                                                                        "fields": {
+                                                                                                          "V": 2
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "V2": {
+                                                                                          "shadow": {
+                                                                                            "type": "ipn",
+                                                                                            "id": "6]3Ep4O@g{)_wkV-w)JP",
+                                                                                            "fields": {
+                                                                                              "V": "0"
+                                                                                            }
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "v",
+                                                                                            "id": "T~5[He[G=.KLk@f4+hr-",
+                                                                                            "extraState": {
+                                                                                              "X": 67,
+                                                                                              "L": [
+                                                                                                1,
+                                                                                                2
+                                                                                              ],
+                                                                                              "O": [
+                                                                                                "",
+                                                                                                ""
+                                                                                              ],
+                                                                                              "T": "ListGetElement",
+                                                                                              "OT": null
+                                                                                            },
+                                                                                            "inputs": {
+                                                                                              "P1": {
+                                                                                                "shadow": {
+                                                                                                  "type": "tys",
+                                                                                                  "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                                                  "extraState": "List"
+                                                                                                },
+                                                                                                "block": {
+                                                                                                  "type": "lcg",
+                                                                                                  "id": "PFEo+UdvS1snEGJ#rEA[",
+                                                                                                  "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                                                  "fields": {
+                                                                                                    "VR": "Bộ thuộc tính"
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "P2": {
+                                                                                                "shadow": {
+                                                                                                  "type": "ipi",
+                                                                                                  "id": "^#y[VG+Wb9t2c,35Oclq",
+                                                                                                  "fields": {
+                                                                                                    "V": 7
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "_arg9409": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": ":#TQf2S4o0MY^2KJk1d]",
+                                                                                "extraState": "Number"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "v",
+                                                                                "id": "7lS,*5-#Ko}sizO@94IM",
+                                                                                "extraState": {
+                                                                                  "X": 67,
+                                                                                  "L": [
+                                                                                    1,
+                                                                                    2
+                                                                                  ],
+                                                                                  "O": [
+                                                                                    "",
+                                                                                    ""
+                                                                                  ],
+                                                                                  "T": "ListGetElement",
+                                                                                  "OT": null
+                                                                                },
+                                                                                "inputs": {
+                                                                                  "P1": {
+                                                                                    "shadow": {
+                                                                                      "type": "tys",
+                                                                                      "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                                      "extraState": "List"
+                                                                                    },
+                                                                                    "block": {
+                                                                                      "type": "lcg",
+                                                                                      "id": "[-WpG8uvA?h?9*IdN4C.",
+                                                                                      "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                                      "fields": {
+                                                                                        "VR": "Bộ thuộc tính"
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "P2": {
+                                                                                    "shadow": {
+                                                                                      "type": "ipi",
+                                                                                      "id": "W@#KHg~{].@Ox%JlO.nO",
+                                                                                      "fields": {
+                                                                                        "V": 5
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "_arg9409": {
+                                                                        "shadow": {
+                                                                          "type": "tys",
+                                                                          "id": "/zpTR`z^w*A:HmNr%C?(",
+                                                                          "extraState": "Number"
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "opa",
+                                                                          "id": "u@eQJ)DMBEQ6Ij=13YQ.",
+                                                                          "extraState": {
+                                                                            "X": 1
+                                                                          },
+                                                                          "fields": {
+                                                                            "O": "AD"
+                                                                          },
+                                                                          "inputs": {
+                                                                            "V1": {
+                                                                              "shadow": {
+                                                                                "type": "ipn",
+                                                                                "id": "PVv}gS*keu0[Tdc#U6K9",
+                                                                                "fields": {
+                                                                                  "V": "1"
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "V2": {
+                                                                              "shadow": {
+                                                                                "type": "ipn",
+                                                                                "id": "X3G(7%`(fU+,Z71]ouUp",
+                                                                                "fields": {
+                                                                                  "V": "0"
+                                                                                }
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "v",
+                                                                                "id": "N2p6^zK7v:zs+*P~kf0i",
+                                                                                "extraState": {
+                                                                                  "X": 67,
+                                                                                  "L": [
+                                                                                    1,
+                                                                                    2
+                                                                                  ],
+                                                                                  "O": [
+                                                                                    "",
+                                                                                    ""
+                                                                                  ],
+                                                                                  "T": "ListGetElement",
+                                                                                  "OT": null
+                                                                                },
+                                                                                "inputs": {
+                                                                                  "P1": {
+                                                                                    "shadow": {
+                                                                                      "type": "tys",
+                                                                                      "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                                      "extraState": "List"
+                                                                                    },
+                                                                                    "block": {
+                                                                                      "type": "lcg",
+                                                                                      "id": "^r=e]+~U-#eT|MOib7;P",
+                                                                                      "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                                      "fields": {
+                                                                                        "VR": "Bộ thuộc tính"
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "P2": {
+                                                                                    "shadow": {
+                                                                                      "type": "ipi",
+                                                                                      "id": "yhk~0oO_F#6R%]Ke23)V",
+                                                                                      "fields": {
+                                                                                        "V": 6
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "V2": {
+                                                                  "shadow": {
+                                                                    "type": "ipn",
+                                                                    "id": "WOyf~*IiWHHJ;zAl]pg1",
+                                                                    "fields": {
+                                                                      "V": "0"
+                                                                    }
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "v",
+                                                                    "id": "j=M+$AsYYyo.%Kk}`ZzL",
+                                                                    "extraState": {
+                                                                      "X": 67,
+                                                                      "L": [
+                                                                        1,
+                                                                        2
+                                                                      ],
+                                                                      "O": [
+                                                                        "",
+                                                                        ""
+                                                                      ],
+                                                                      "T": "ListGetElement",
+                                                                      "OT": null
+                                                                    },
+                                                                    "inputs": {
+                                                                      "P1": {
+                                                                        "shadow": {
+                                                                          "type": "tys",
+                                                                          "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                          "extraState": "List"
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "lcg",
+                                                                          "id": "r5WLvxbmvSj}dR}-WQ2z",
+                                                                          "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                          "fields": {
+                                                                            "VR": "Bộ thuộc tính"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "P2": {
+                                                                        "shadow": {
+                                                                          "type": "ipi",
+                                                                          "id": "7-K|*vX@!+;@0Xis=m:z",
+                                                                          "fields": {
+                                                                            "V": 8
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "lcs",
+                                                      "id": "WQGDX*FpHHq0~*}HRehu",
+                                                      "extraState": "CM@Zk*t`/;:nZxoXCfhtVD",
+                                                      "fields": {
+                                                        "VR": "Kết quả",
+                                                        "O": "UK"
+                                                      },
+                                                      "inputs": {
+                                                        "V": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "R5]fQlV~9p^E/9nf.#7/",
+                                                            "extraState": "Int"
+                                                          },
+                                                          "block": {
+                                                            "type": "v",
+                                                            "id": "ioxW+CP*Xm89%(MQbTp2",
+                                                            "extraState": {
+                                                              "X": 507,
+                                                              "L": [
+                                                                1,
+                                                                2
+                                                              ],
+                                                              "O": [
+                                                                "",
+                                                                ""
+                                                              ],
+                                                              "T": "Min",
+                                                              "OT": null
+                                                            },
+                                                            "inputs": {
+                                                              "P1": {
+                                                                "shadow": {
+                                                                  "type": "ipn",
+                                                                  "id": "!+4M4vY#QtU0OgZ]LGcv",
+                                                                  "fields": {
+                                                                    "V": "0"
+                                                                  }
+                                                                },
+                                                                "block": {
+                                                                  "type": "v",
+                                                                  "id": ":udYGaRl$O2]^a[}gCIu",
+                                                                  "extraState": {
+                                                                    "X": 67,
+                                                                    "L": [
+                                                                      1,
+                                                                      2
+                                                                    ],
+                                                                    "O": [
+                                                                      "",
+                                                                      ""
+                                                                    ],
+                                                                    "T": "ListGetElement",
+                                                                    "OT": null
+                                                                  },
+                                                                  "inputs": {
+                                                                    "P1": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                        "extraState": "List"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "hP;#u,g%HnX?{1)7Uf{a",
+                                                                        "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                        "fields": {
+                                                                          "VR": "Bộ thuộc tính"
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "P2": {
+                                                                      "shadow": {
+                                                                        "type": "ipi",
+                                                                        "id": "9I^{#f:Opm!R2Vyl)T`e",
+                                                                        "fields": {
+                                                                          "V": 3
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "P2": {
+                                                                "shadow": {
+                                                                  "type": "ipn",
+                                                                  "id": "%oc,:e#_$47{_gv,UQ`o",
+                                                                  "fields": {
+                                                                    "V": "0"
+                                                                  }
+                                                                },
+                                                                "block": {
+                                                                  "type": "v",
+                                                                  "id": "kM%3oW;.2BQGfDC5U2%K",
+                                                                  "extraState": {
+                                                                    "X": 505,
+                                                                    "L": [
+                                                                      1,
+                                                                      2
+                                                                    ],
+                                                                    "O": [
+                                                                      "",
+                                                                      ""
+                                                                    ],
+                                                                    "T": "Max",
+                                                                    "OT": null
+                                                                  },
+                                                                  "inputs": {
+                                                                    "P1": {
+                                                                      "shadow": {
+                                                                        "type": "ipn",
+                                                                        "id": "Bc?|-C{h69T1I_a9y+ML",
+                                                                        "fields": {
+                                                                          "V": "0"
+                                                                        }
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "-3vo7A=h9I(Y[es/eZXH",
+                                                                        "extraState": "CM@Zk*t`/;:nZxoXCfhtVD",
+                                                                        "fields": {
+                                                                          "VR": "Kết quả"
+                                                                        }
+                                                                      }
+                                                                    },
+                                                                    "P2": {
+                                                                      "shadow": {
+                                                                        "type": "ipn",
+                                                                        "id": "G{tongxena.MC6HPUZAM",
+                                                                        "fields": {
+                                                                          "V": "0"
+                                                                        }
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "v",
+                                                                        "id": "eq9{[jp@[h~,;EZhup8I",
+                                                                        "extraState": {
+                                                                          "X": 67,
+                                                                          "L": [
+                                                                            1,
+                                                                            2
+                                                                          ],
+                                                                          "O": [
+                                                                            "",
+                                                                            ""
+                                                                          ],
+                                                                          "T": "ListGetElement",
+                                                                          "OT": null
+                                                                        },
+                                                                        "inputs": {
+                                                                          "P1": {
+                                                                            "shadow": {
+                                                                              "type": "tys",
+                                                                              "id": "u.-B^4E]~a1izs9,#sAA",
+                                                                              "extraState": "List"
+                                                                            },
+                                                                            "block": {
+                                                                              "type": "lcg",
+                                                                              "id": "kOUk^Sl[7aS=U:?_WM,D",
+                                                                              "extraState": "ui;(FNsUeh`q]+XjG0R}VD",
+                                                                              "fields": {
+                                                                                "VR": "Bộ thuộc tính"
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "P2": {
+                                                                            "shadow": {
+                                                                              "type": "ipi",
+                                                                              "id": "^2J4Ig`6F^[~b]95C5RS",
+                                                                              "fields": {
+                                                                                "V": 4
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "D_else": {
+                                      "block": {
+                                        "type": "print",
+                                        "id": "q%Pi-K5eF2i~[{3#24yK",
+                                        "fields": {
+                                          "T": "PrintError"
+                                        },
+                                        "inputs": {
+                                          "V": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "YT?(Wn?-HoCIGwS}fDkm",
+                                              "extraState": "Object"
+                                            },
+                                            "block": {
+                                              "type": "ipt",
+                                              "id": "8DhL~b{_jc+SvV~fmSFl",
+                                              "fields": {
+                                                "V": "Không tìm thấy thuộc tính"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "fnr",
+                                      "id": "xhpHl~Vjc9Sky1D,oetM",
+                                      "extraState": {
+                                        "rt": "Int"
+                                      },
+                                      "inputs": {
+                                        "R": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "dg8uoeT/%6!-yr!@NN?~",
+                                            "extraState": "Int"
+                                          },
+                                          "block": {
+                                            "type": "lcg",
+                                            "id": "T*A?59hplD4ue5KWYQ-W",
+                                            "extraState": "CM@Zk*t`/;:nZxoXCfhtVD",
+                                            "fields": {
+                                              "VR": "Kết quả"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity",
+    "isStatic": false,
+    "platform": 1
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

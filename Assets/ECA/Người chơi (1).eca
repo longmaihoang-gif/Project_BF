@@ -1,0 +1,260 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "-T3Umeh)ONWGkL.*60Oh",
+        "x": 202,
+        "y": 143,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": ",I#+D8464N9^t=Q2m_51",
+            "extraState": {
+              "X": 52,
+              "L": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "O": [
+                "",
+                "",
+                "",
+                "o"
+              ],
+              "T": "AddItemToCharacter",
+              "OT": null
+            },
+            "fields": {
+              "P4": {
+                "name": "Thực thể được tạo",
+                "type": "ListT_Entity"
+              }
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "J?rDN2!jE[9oA?1nWlOw",
+                  "extraState": "Player"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "55;coJQynOZLJ/f[w-(i"
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "pki",
+                  "id": ":J,fC/7At]*wFwrf2$@D",
+                  "fields": {
+                    "V": "0d72e1119f4bb2a233503ed6d2ca8456"
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "~[:;R)LTWHyy);aIcwGt",
+                  "fields": {
+                    "V": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "FGd9pc6g:[jx.YLH==N8",
+        "x": 182,
+        "y": 283,
+        "extraState": {
+          "X": 213,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnObtainItem",
+          "OT": "Player"
+        },
+        "fields": {
+          "P1": {
+            "name": "ID vật phẩm",
+            "type": "ItemGoodsIDType"
+          },
+          "P2": {
+            "name": "Vật phẩm",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "2~+t75BH]NZ}V!65izS8",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "^TG3h+KOE|IYnxcn2o?F",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "sopc_dup_block",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "HWmIa{43rL.%+`KL$bde",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "x1oA#H8remSOA$@RAO^L",
+                        "extraState": "FGd9pc6g:[jx.YLH==N8P1",
+                        "fields": {
+                          "VR": "ID vật phẩm"
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "}99xh_nzA_wyzuv;,#2E",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "pki",
+                        "id": "/~_Jq:`{8c94=9favf4b",
+                        "fields": {
+                          "V": "0d72e1119f4bb2a233503ed6d2ca8456"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "lcd",
+                  "id": "GboGmQJ/ykQom5X`lM_g",
+                  "fields": {
+                    "VD": {
+                      "name": "keo",
+                      "type": "IceWall"
+                    },
+                    "T": "$Auto"
+                  },
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "tyd",
+                        "id": "NEOj!AaMTUoYYU7$qiDu",
+                        "extraState": "$Auto"
+                      },
+                      "block": {
+                        "type": "tya",
+                        "id": "Hoxk]3KN6BFYiH;xwb67",
+                        "fields": {
+                          "T": "IceWall"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "cDJR$g+vQzuGk+$0Y8sU",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "G.$3uQ,-?a4,iHUCxSD8",
+                              "extraState": "FGd9pc6g:[jx.YLH==N8P2",
+                              "fields": {
+                                "VR": "Vật phẩm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "prs",
+                      "id": "XCEAw:EC0y+~-WEdW-pR",
+                      "fields": {
+                        "P": "LifeTime:IceWall",
+                        "O": "UK"
+                      },
+                      "inputs": {
+                        "H": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "?{N{ju-b0R5!ALr/k-%,",
+                            "extraState": "Component"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "Z~K=;iHzbuTcR-6^(*=S",
+                            "extraState": "GboGmQJ/ykQom5X`lM_gVD",
+                            "fields": {
+                              "VR": "keo"
+                            }
+                          }
+                        },
+                        "V": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "?sK[F{J`1owAA$84NSz*",
+                            "extraState": "Float"
+                          },
+                          "block": {
+                            "type": "ipf",
+                            "id": ",yMP8K{4~kmZdkDG=W5[",
+                            "fields": {
+                              "V": 3
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Player",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

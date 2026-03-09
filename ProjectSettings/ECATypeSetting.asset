@@ -191,6 +191,13 @@
             "type": "GFileRefer"
           },
           "fileType": "eca"
+        },
+        {
+          "fileId": "5g47w2xblf7-mmirdgmk-w2z1pv34r8l",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
         }
       ],
       "typeID": 164,
@@ -576,7 +583,21 @@
       ],
       "ecaScripts": [],
       "typeID": 14,
-      "PropDefines": [],
+      "PropDefines": [
+        {
+          "propID": 100007,
+          "name": "PROP_95345138",
+          "label": "Thu_phóng_camera_khi_dùng_EX",
+          "type": "Bool",
+          "value": true,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ],
       "IsPartial": true
     },
     "Global": {
@@ -714,4 +735,4 @@
     }
   }
 }
-//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

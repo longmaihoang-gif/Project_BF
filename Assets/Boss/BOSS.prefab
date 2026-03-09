@@ -1,0 +1,3179 @@
+{
+  "_entityName": "BOSS",
+  "_tag": {
+    "type": "Prefab"
+  },
+  "_entityId": "CXTdS8gS",
+  "children": [
+    {
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "XuWbOpSc",
+      "children": [
+        {
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "YTQhwHXL",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 126,
+            "y": 126,
+            "z": 126
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "AnimationControllerAble",
+            "Collider",
+            "ColliderShape",
+            "AimableEntity",
+            "AimAssistEntity"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [
+            null
+          ],
+          "colliders": [
+            {
+              "colliderType": "Capsule",
+              "enable": true,
+              "isTrigger": false,
+              "position": {
+                "x": 0,
+                "y": 0.005,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "radius": 0.002,
+              "height": 0.01,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [
+            {
+              "fileId": "jff7bu897z-mh49u9ou-ivinxyn7shp",
+              "filePath": "Assets\\ECA\\CH0263.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            }
+          ],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "Collider": {},
+            "ColliderShape": {},
+            "MeshRender": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "1f8u0acqhpr-mgq8ijy3-qxm1dbggqp",
+                "filePath": "Assets\\New Boss\\Animator\\Shiroko_Terror.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            },
+            "AimableEntity": {
+              "PROP_73212736": 1
+            },
+            "AimAssistEntity": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "_entityName": "CH0263",
+          "skeleton": {
+            "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263.sk",
+            "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_entityId": "hlDPOkv6",
+            "children": [
+              {
+                "_entityId": "aTr2wtrW",
+                "children": [
+                  {
+                    "_entityId": "ZKlxy8Zl",
+                    "children": [],
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Body.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Body.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "olexl4mygeb-mcq4tuzt-hg3so240qbp",
+                        "filePath": "Assets\\New Boss\\Textures\\Body.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "i72bzyfvkxq-mcq4tv90-eal8snllpft",
+                        "filePath": "Assets\\New Boss\\Textures\\Face.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "ue9vuvgbu7p-mcq4tvme-yalv9j1b6hr",
+                        "filePath": "Assets\\New Boss\\Textures\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "ue9vuvgbu7p-mcq4tvme-yalv9j1b6hr",
+                        "filePath": "Assets\\New Boss\\Textures\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "owmvt4u1lh9-mcra5vui-8yaltln7vvq",
+                        "filePath": "Assets\\New Boss\\Textures\\EyeMouth.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "CH0263",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "CH0263_Body.mesh",
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityId": "Jwsu1OYC",
+                    "children": [],
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX01_Outline.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX01_Outline.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "chmwebg46s-mhjz6m1d-aeqjwm57h6r",
+                        "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "CH0263",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "CH0263_EX01_Outline.mesh",
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityId": "zuu24lgP",
+                    "children": [],
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX02_Outline.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX02_Outline.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "chmwebg46s-mhjz6m1d-aeqjwm57h6r",
+                        "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "CH0263",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "CH0263_EX02_Outline.mesh",
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityId": "CULSlARc",
+                    "children": [],
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Prop_Outline.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Prop_Outline.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "448ons2ilpl-mhjz5r7m-0kwrv00sjyx",
+                        "filePath": "Assets\\New Boss\\Textures\\SkillProp.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "CH0263",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "CH0263_Prop_Outline.mesh",
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityId": "rnm0s93I",
+                    "children": [],
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Weapon.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Weapon.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "j16spxu62q8-mcq4tvgv-zbaqopgf4yo",
+                        "filePath": "Assets\\New Boss\\Textures\\Gun.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "CH0263",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "CH0263_Weapon.mesh",
+                    "prefabVariant": null
+                  }
+                ],
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "_entityName": "Nhóm Ngoại Hình",
+                "prefabVariant": null
+              },
+              {
+                "_entityId": "mDj6krQM",
+                "children": [
+                  {
+                    "_entityName": "CH0263_Halo.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "SydTzZT9",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Halo.~@FFFUB",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Halo.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "gvm20uso9uo-mcra5wm8-buvw3to9kfe",
+                        "filePath": "Assets\\New Boss\\Textures\\Halo.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "Bip001 Head",
+                      "bindType": 1
+                    },
+                    "position": {
+                      "x": -0.004,
+                      "y": -0.003,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 90,
+                      "y": -90,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "entityTag97594827",
+                "enable": true,
+                "_entityName": "Halo",
+                "prefabVariant": null
+              }
+            ],
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "_entityName": "CH0263",
+            "prefabVariant": null
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": null
+        },
+        {
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "WL2IkaYw",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -0.14999961853027344,
+            "y": 1.3279999494552612,
+            "z": 0.26400089263916016
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "MeshRender",
+            "ColliderShape",
+            "Collider"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [
+            null
+          ],
+          "colliders": [
+            {
+              "enable": true,
+              "colliderType": "Box",
+              "meshUUID": null,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "isTrigger": false,
+              "radius": 0.5,
+              "height": 1,
+              "physicalMaterialUUID": null,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "MeshRender": {},
+            "ColliderShape": {},
+            "Collider": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "mesh": null,
+          "_entityName": "EX01_fire",
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": null
+        },
+        {
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "SjtsJ6FN",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -0.23999977111816406,
+            "y": 0.7699999809265137,
+            "z": 0.31000328063964844
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "MeshRender",
+            "ColliderShape",
+            "Collider"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [
+            null
+          ],
+          "colliders": [
+            {
+              "enable": true,
+              "colliderType": "Box",
+              "meshUUID": null,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "isTrigger": false,
+              "radius": 0.5,
+              "height": 1,
+              "physicalMaterialUUID": null,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "MeshRender": {},
+            "ColliderShape": {},
+            "Collider": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "mesh": null,
+          "_entityName": "EX02_fire",
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": null
+        },
+        {
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "hdJ9U8OA",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 100,
+            "y": 100,
+            "z": 100
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": false,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": true,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "AnimationControllerAble"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [
+            null
+          ],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [
+            {
+              "fileId": "97iz8ei3pxv-mhpxa6ro-k3r6ejc5paa",
+              "filePath": "Assets\\ECA\\EX_03.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            }
+          ],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "MeshRender": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "09j4yc1mmbg2-mgriitkm-fw1rka3ivvv",
+                "filePath": "Assets\\New Boss\\Animator\\Heal drone.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            }
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "_entityName": "EX_03",
+          "skeleton": {
+            "fileId": "xerne6zary-mgricnak-z3ehcawnxzs-FX_Ayane_Original_Healdrone_EX.sk",
+            "filePath": "fab://Assets\\New Boss\\FBX\\FX_Ayane_Original_Healdrone_EX.fbx\\FX_Ayane_Original_Healdrone_EX.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "_entityId": "J6VS0Skp",
+            "children": [
+              {
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "B76UPa3d",
+                "children": [
+                  {
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "rQgNpfEZ",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "xerne6zary-mgricnak-z3ehcawnxzs-Ayane_Original_Healdrone_Outline.~@FFSKIN",
+                      "filePath": "fab://Assets\\New Boss\\FBX\\FX_Ayane_Original_Healdrone_EX.fbx\\Ayane_Original_Healdrone_Outline.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "chmwebg46s-mhjz6m1d-aeqjwm57h6r",
+                        "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "m1o81j8yihg-mgrifw0s-rut1s7rnrx",
+                        "filePath": "Assets\\New Boss\\Textures\\FX (1).mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "FX_Ayane_Original_Healdrone_EX",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "_entityName": "Ayane_Original_Healdrone_Outline.mesh",
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "_entityName": "Nhóm Ngoại Hình",
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "_entityName": "FX_Ayane_Original_Healdrone_EX",
+            "prefabVariant": null
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "4tv5x53ayw-mgriime4-e12g8dxsms5",
+              "filePath": "Assets\\Boss\\FX\\FX_Ayane_Original_Healdrone_EX.prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "hdJ9U8OA": {
+                "_entityId": "b9E9Lhbq",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "scale": {
+                  "x": 100,
+                  "y": 100,
+                  "z": 100
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "AvatarAble"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "materials": [
+                  null
+                ],
+                "colliders": [],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "AvatarAble": {},
+                  "MeshRender": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "skeleton": {
+                  "fileId": "xerne6zary-mgricnak-z3ehcawnxzs-FX_Ayane_Original_Healdrone_EX.sk",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\FX_Ayane_Original_Healdrone_EX.fbx\\FX_Ayane_Original_Healdrone_EX.sk",
+                  "fileType": "sk"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "J6VS0Skp": {
+                "_entityId": "y5QpXlpI",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [],
+                "_entityName": "FX_Ayane_Original_Healdrone_EX"
+              },
+              "B76UPa3d": {
+                "_entityId": "WyYN3RmA",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "_entityName": "Nhóm Ngoại Hình"
+              },
+              "rQgNpfEZ": {
+                "_entityId": "sue04kTs",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "xerne6zary-mgricnak-z3ehcawnxzs-Ayane_Original_Healdrone_Outline.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\FX_Ayane_Original_Healdrone_EX.fbx\\Ayane_Original_Healdrone_Outline.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "xpod6lb61s-mcra5whg-r6irc9hbsce",
+                    "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "m1o81j8yihg-mgrifw0s-rut1s7rnrx",
+                    "filePath": "Assets\\New Boss\\Textures\\FX (1).mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "FX_Ayane_Original_Healdrone_EX",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "Ayane_Original_Healdrone_Outline.mesh"
+              }
+            }
+          }
+        }
+      ],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "CustomComponent58979682",
+        "BehaviourTreeAttachable",
+        "AimableEntity",
+        "AimAssistEntity",
+        "CustomComponent61606995",
+        "Rigidbody",
+        "PhysicalMover",
+        "Collider",
+        "ColliderShape"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [
+        null
+      ],
+      "colliders": [
+        {
+          "colliderType": "Capsule",
+          "enable": true,
+          "isTrigger": false,
+          "position": {
+            "x": 0,
+            "y": 0.575,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "radius": 0.2,
+          "height": 1.15,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": true,
+      "Rigidbody": {
+        "Type": 2,
+        "Mass": 60,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 1,
+        "AngularDrag": 1,
+        "FreezePosX": false,
+        "FreezeRotX": true,
+        "FreezePosY": false,
+        "FreezeRotY": true,
+        "FreezePosZ": false,
+        "FreezeRotZ": true
+      },
+      "ecaScripts": [
+        {
+          "fileId": "0vbe2jqjew8-mgxpeqch-o6raa251tsc",
+          "filePath": "Assets\\ECA\\BOSS.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "PhysicalCCT": {
+          "SlopeLimit": 45,
+          "StepOffset": 0.3,
+          "SkinWidth": 0.08,
+          "MinMoveDistance": 0,
+          "Radius": 0.2,
+          "Height": 1,
+          "Gravity": {
+            "x": 0,
+            "y": -9.8,
+            "z": 0
+          },
+          "Mass": 60,
+          "IsServerDriven": true,
+          "UsePhysicalCCT": true,
+          "UseCustomPushForce": false,
+          "CustomPushForce": 120,
+          "EnableRotateWithGravity": false,
+          "PhysicalLayer": 1
+        },
+        "Collider": {},
+        "AimableEntity": {
+          "PROP_73212736": 1
+        },
+        "AimAssistEntity": {},
+        "MeshRender": {},
+        "AnimationControllerAble": {
+          "acRef": null
+        },
+        "CustomComponent58979682": {
+          "PROP_32068469": 100,
+          "PROP_86417241": 100,
+          "PROP_54364834": true,
+          "PROP_73179091": 33,
+          "PROP_37733662": 30,
+          "PROP_37802977": 30,
+          "PROP_21463864": 0,
+          "PROP_26258567": 1000,
+          "PROP_78070534": 0,
+          "PROP_80258781": 500
+        },
+        "AvatarAble": {},
+        "BehaviourTreeAttachable": {},
+        "Rigidbody": {},
+        "ColliderShape": {},
+        "CustomComponent61606995": {
+          "PROP_77155796": []
+        },
+        "PhysicalMover": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "_entityName": "BOSS",
+      "skeleton": {
+        "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263.sk",
+        "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263.sk",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "sk"
+      },
+      "boneEntity": {
+        "_tag": {
+          "type": "BoneContentEntity"
+        },
+        "_entityId": "ruXR8hUU",
+        "children": [
+          {
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "It5pPq47",
+            "children": [
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "ZrV99hlg",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Body.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_Body.mesh",
+                "prefabVariant": null
+              },
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "nYKA8kz0",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX01_Outline.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX01_Outline.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_EX01_Outline.mesh",
+                "prefabVariant": null
+              },
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "KSqjij1R",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX02_Outline.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX02_Outline.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_EX02_Outline.mesh",
+                "prefabVariant": null
+              },
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "xflbWq8E",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263_Halo.mesh",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_Halo.mesh",
+                "prefabVariant": null
+              },
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "Ksl4IfQX",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Prop_Outline.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Prop_Outline.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_Prop_Outline.mesh",
+                "prefabVariant": null
+              },
+              {
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "vyQLZfPA",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  null
+                ],
+                "avatarPartInfo": {
+                  "bone": "CH0263",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "_entityName": "CH0263_Weapon.mesh",
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true,
+            "_entityName": "Nhóm Ngoại Hình",
+            "prefabVariant": null
+          }
+        ],
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "BTPath": [
+          null
+        ],
+        "visible": true,
+        "VisibilityLayer": 0,
+        "modelOptimization": 0,
+        "streamingLayer": "",
+        "attributes": [
+          2,
+          4
+        ],
+        "isTrigger": false,
+        "collidable": true,
+        "physicalLayer": 0,
+        "physicalMaterial": null,
+        "aoiSetting": 0,
+        "initialTypes": {},
+        "componentList": [],
+        "_entityName": "BOSS",
+        "prefabVariant": null
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": {
+        "prefabFile": {
+          "fileId": "3265y3on4dl-mgxkl1fk-egbsh36brr6",
+          "filePath": "Assets\\Boss\\FBX\\BOSS.prefab",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "Prefab"
+        },
+        "snapShots": {
+          "KG60MO8Y": {
+            "_entityId": "tUI0Ppq2",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": true,
+            "editorVisibleValue": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": false,
+            "physicalLayer": 1,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "Collider",
+              "ColliderShape",
+              "AimableEntity",
+              "AimAssistEntity"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [
+              null
+            ],
+            "colliders": [
+              {
+                "colliderType": "Capsule",
+                "enable": true,
+                "isTrigger": false,
+                "position": {
+                  "x": 0,
+                  "y": 0.5,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "radius": 0.2,
+                "height": 1,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": true,
+            "Rigidbody": {
+              "Type": 1,
+              "Mass": 1,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 0.05,
+              "AngularDrag": 0.05,
+              "FreezePosX": false,
+              "FreezeRotX": false,
+              "FreezePosY": false,
+              "FreezeRotY": false,
+              "FreezePosZ": false,
+              "FreezeRotZ": false
+            },
+            "ecaScripts": [
+              {
+                "fileId": "drwx6rjufzr-mgxljimj-e2azrumm1ha",
+                "filePath": "Assets\\ECA\\Hitbox.eca",
+                "fileType": "eca"
+              }
+            ],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "Collider": {},
+              "ColliderShape": {},
+              "AimableEntity": {},
+              "AimAssistEntity": {},
+              "MeshRender": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "_entityName": "Hitbox"
+          },
+          "nvO9Rovf": {
+            "_entityId": "Fk6kDMk0",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Halo.~@FFFUB",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Halo.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "gvm20uso9uo-mcra5wm8-buvw3to9kfe",
+                "filePath": "Assets\\New Boss\\Textures\\Halo.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263_Halo",
+              "bindType": 1
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Halo.mesh"
+          },
+          "XuWbOpSc": {
+            "_entityId": "qnTazYaR",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "scale": {
+              "x": 1.25,
+              "y": 1.25,
+              "z": 1.25
+            },
+            "BTPath": [
+              {
+                "fileId": "5b37ec0u3ou-mgxpf8qx-jehdhlypmi",
+                "filePath": "Assets\\New Boss\\AI Boss.xbt",
+                "fileType": "xbt"
+              }
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "CustomComponent58979682",
+              "BehaviourTreeAttachable",
+              "AimableEntity",
+              "AimAssistEntity",
+              "PhysicalCCT"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [
+              null
+            ],
+            "colliders": [
+              {
+                "colliderType": "Capsule",
+                "enable": true,
+                "isTrigger": false,
+                "position": {
+                  "x": 0,
+                  "y": 0.5,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "radius": 0.15,
+                "height": 0.95,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": true,
+            "Rigidbody": {
+              "Type": 2,
+              "Mass": 60,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0.1,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 3,
+              "AngularDrag": 5,
+              "FreezePosX": false,
+              "FreezeRotX": true,
+              "FreezePosY": false,
+              "FreezeRotY": true,
+              "FreezePosZ": false,
+              "FreezeRotZ": true
+            },
+            "ecaScripts": [
+              {
+                "fileId": "0vbe2jqjew8-mgxpeqch-o6raa251tsc",
+                "filePath": "Assets\\ECA\\BOSS.eca",
+                "fileType": "eca"
+              }
+            ],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "PhysicalCCT": {
+                "SlopeLimit": 45,
+                "StepOffset": 0.3,
+                "SkinWidth": 0.08,
+                "MinMoveDistance": 0,
+                "Radius": 0.2,
+                "Height": 1,
+                "Gravity": {
+                  "x": 0,
+                  "y": -9.8,
+                  "z": 0
+                },
+                "Mass": 60,
+                "IsServerDriven": true,
+                "UsePhysicalCCT": true,
+                "UseCustomPushForce": false,
+                "CustomPushForce": 120,
+                "EnableRotateWithGravity": false,
+                "PhysicalLayer": 0
+              },
+              "Collider": {},
+              "AimableEntity": {},
+              "AimAssistEntity": {},
+              "MeshRender": {},
+              "AnimationControllerAble": {
+                "acRef": null
+              },
+              "CustomComponent58979682": {
+                "PROP_32068469": 100,
+                "PROP_86417241": 100,
+                "PROP_54364834": true,
+                "PROP_73179091": 10,
+                "PROP_37733662": 30,
+                "PROP_37802977": 30
+              },
+              "AvatarAble": {},
+              "BehaviourTreeAttachable": {},
+              "Rigidbody": {},
+              "ColliderShape": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "skeleton": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263.sk",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263.sk",
+              "fileType": "sk"
+            }
+          },
+          "YTQhwHXL": {
+            "_entityId": "UlXL3JJ2",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": true,
+            "editorVisibleValue": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 100,
+              "y": 100,
+              "z": 100
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": false,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "AvatarAble",
+              "AnimationControllerAble",
+              "Collider",
+              "ColliderShape",
+              "AimableEntity",
+              "AimAssistEntity"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [
+              null
+            ],
+            "colliders": [
+              {
+                "colliderType": "Capsule",
+                "enable": true,
+                "isTrigger": false,
+                "position": {
+                  "x": 0,
+                  "y": 0.005,
+                  "z": 0
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "radius": 0.002,
+                "height": 0.01,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": false,
+            "Rigidbody": {
+              "Type": 1,
+              "Mass": 1,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 0.05,
+              "AngularDrag": 0.05,
+              "FreezePosX": false,
+              "FreezeRotX": false,
+              "FreezePosY": false,
+              "FreezeRotY": false,
+              "FreezePosZ": false,
+              "FreezeRotZ": false
+            },
+            "ecaScripts": [
+              {
+                "fileId": "drwx6rjufzr-mgxljimj-e2azrumm1ha",
+                "filePath": "Assets\\ECA\\Hitbox.eca",
+                "fileType": "eca"
+              },
+              {
+                "fileId": "jff7bu897z-mh49u9ou-ivinxyn7shp",
+                "filePath": "Assets\\ECA\\CH0263.eca",
+                "fileType": "eca"
+              }
+            ],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "AvatarAble": {},
+              "Collider": {},
+              "ColliderShape": {},
+              "MeshRender": {},
+              "AnimationControllerAble": {
+                "acRef": {
+                  "fileId": "1f8u0acqhpr-mgq8ijy3-qxm1dbggqp",
+                  "filePath": "Assets\\New Boss\\Animator\\Shiroko_Terror.ac",
+                  "fileType": "ac"
+                }
+              },
+              "AimableEntity": {},
+              "AimAssistEntity": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "_entityName": "CH0263",
+            "skeleton": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263.sk",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263.sk",
+              "fileType": "sk"
+            }
+          },
+          "WL2IkaYw": {
+            "_entityId": "9PGNnfuQ",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "position": {
+              "x": -0.15039999783039093,
+              "y": 1.3279999494552612,
+              "z": 0.2640000283718109
+            },
+            "scale": {
+              "x": 0.4000000059604645,
+              "y": 0.4000000059604645,
+              "z": 0.4000000059604645
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": false,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "MeshRender",
+              "ColliderShape",
+              "Collider"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [
+              null
+            ],
+            "colliders": [
+              {
+                "enable": true,
+                "colliderType": "Box",
+                "meshUUID": null,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "isTrigger": false,
+                "radius": 0.5,
+                "height": 1,
+                "physicalMaterialUUID": null,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": false,
+            "Rigidbody": {
+              "Type": 1,
+              "Mass": 1,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 0.05,
+              "AngularDrag": 0.05,
+              "FreezePosX": false,
+              "FreezeRotX": false,
+              "FreezePosY": false,
+              "FreezeRotY": false,
+              "FreezePosZ": false,
+              "FreezeRotZ": false
+            },
+            "ecaScripts": [],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "MeshRender": {},
+              "ColliderShape": {},
+              "Collider": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "mesh": null,
+            "_entityName": "EX01_fire"
+          },
+          "hlDPOkv6": {
+            "_entityId": "VfQ1NDk0",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "_entityName": "CH0263"
+          },
+          "aTr2wtrW": {
+            "_entityId": "X0himuxB",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true,
+            "_entityName": "Nhóm Ngoại Hình"
+          },
+          "ZKlxy8Zl": {
+            "_entityId": "4mGJIJBn",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Body.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Body.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "olexl4mygeb-mcq4tuzt-hg3so240qbp",
+                "filePath": "Assets\\New Boss\\Textures\\Body.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "i72bzyfvkxq-mcq4tv90-eal8snllpft",
+                "filePath": "Assets\\New Boss\\Textures\\Face.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "ue9vuvgbu7p-mcq4tvme-yalv9j1b6hr",
+                "filePath": "Assets\\New Boss\\Textures\\Hair.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "ue9vuvgbu7p-mcq4tvme-yalv9j1b6hr",
+                "filePath": "Assets\\New Boss\\Textures\\Hair.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "owmvt4u1lh9-mcra5vui-8yaltln7vvq",
+                "filePath": "Assets\\New Boss\\Textures\\EyeMouth.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Body.mesh"
+          },
+          "Jwsu1OYC": {
+            "_entityId": "8lXTWa0N",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX01_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX01_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "chmwebg46s-mhjz6m1d-aeqjwm57h6r",
+                "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_EX01_Outline.mesh"
+          },
+          "zuu24lgP": {
+            "_entityId": "ik8dtLvH",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX02_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX02_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "chmwebg46s-mhjz6m1d-aeqjwm57h6r",
+                "filePath": "Assets\\New Boss\\Textures\\EX.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_EX02_Outline.mesh"
+          },
+          "CULSlARc": {
+            "_entityId": "8ae9vgSW",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Prop_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Prop_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "448ons2ilpl-mhjz5r7m-0kwrv00sjyx",
+                "filePath": "Assets\\New Boss\\Textures\\SkillProp.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Prop_Outline.mesh"
+          },
+          "rnm0s93I": {
+            "_entityId": "JiBtca0V",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "j16spxu62q8-mcq4tvgv-zbaqopgf4yo",
+                "filePath": "Assets\\New Boss\\Textures\\Gun.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Weapon.mesh"
+          },
+          "mDj6krQM": {
+            "_entityId": "BlDYFBYE",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag97594827",
+            "enable": false,
+            "_entityName": "Halo"
+          },
+          "ruXR8hUU": {
+            "_entityId": "BKQl6Obq",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "_entityName": "BOSS"
+          },
+          "It5pPq47": {
+            "_entityId": "JRy94iff",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "",
+            "enable": true,
+            "_entityName": "Nhóm Ngoại Hình"
+          },
+          "ZrV99hlg": {
+            "_entityId": "WgDB20Ee",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Body.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Body.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Body.mesh"
+          },
+          "nYKA8kz0": {
+            "_entityId": "rJ7gk4Xu",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX01_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX01_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_EX01_Outline.mesh"
+          },
+          "KSqjij1R": {
+            "_entityId": "aniRoA21",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_EX02_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_EX02_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_EX02_Outline.mesh"
+          },
+          "xflbWq8E": {
+            "_entityId": "1ZRLAXvD",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Halo.~@FFFUB",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Halo.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263_Halo.mesh",
+              "bindType": 1
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Halo.mesh"
+          },
+          "Ksl4IfQX": {
+            "_entityId": "czCMNhPs",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Prop_Outline.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Prop_Outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Prop_Outline.mesh"
+          },
+          "vyQLZfPA": {
+            "_entityId": "gQjMiRDW",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "oihwheoeye-mgq7p0eo-p2hmo2aumme-CH0263_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\New Boss\\FBX\\CH0263.fbx\\CH0263_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              null
+            ],
+            "avatarPartInfo": {
+              "bone": "CH0263",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "_entityName": "CH0263_Weapon.mesh"
+          }
+        }
+      }
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "HintCraftlandCombineMesh": false,
+  "discriminator": "ISceneLike"
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

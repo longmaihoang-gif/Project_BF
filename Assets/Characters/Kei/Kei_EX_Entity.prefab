@@ -1,0 +1,865 @@
+{
+  "_entityName": "Kei_EX_Entity",
+  "_tag": {
+    "type": "Prefab"
+  },
+  "_entityId": "T5G1OfMD",
+  "children": [
+    {
+      "_entityName": "Kei_EX_Entity",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "bmDoBWn7",
+      "children": [
+        {
+          "_entityName": "Kei_EX_Outline",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "rkgtyH2w",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": -1.6539993286132812
+          },
+          "scale": {
+            "x": 125,
+            "y": 125,
+            "z": 125
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "AnimationControllerAble"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [
+            {
+              "fileId": "eliizakght8-mmirn4qe-o3vju9j0m9g",
+              "filePath": "Assets\\ECA\\Kei_EX_Outline.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            }
+          ],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "Collider": {},
+            "ColliderShape": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "hu0zqux9ivp-mmai8kc5-2qq3uejo13t",
+                "filePath": "Assets\\Characters\\Kei\\CH0335.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            },
+            "MeshRender": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "skeleton": {
+            "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335.sk",
+            "filePath": "fab://Assets\\Characters\\Kei\\CH0335.fbx\\CH0335.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_entityName": "CH0335",
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "_entityId": "P78KH9gh",
+            "children": [
+              {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "bFIimVKd",
+                "children": [
+                  {
+                    "_entityName": "CH0335_Prop_Outlline.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "zRXoqkjO",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Prop_Outlline.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Kei\\CH0335.fbx\\CH0335_Prop_Outlline.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "fnqle4052w6-mkcb5485-2szqhh81zys",
+                        "filePath": "Assets\\Characters\\Kei\\outline.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "prefabVariant": null
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "mnni4gns4x-mmhv987a-k9kjjpbc3z",
+              "filePath": "Assets\\Characters\\Kei\\Kei_EX.prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "rkgtyH2w": {
+                "_entityId": "vL2PajIK",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "scale": {
+                  "x": 124.99999999999997,
+                  "y": 124.99999999999997,
+                  "z": 124.99999999999997
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "AvatarAble",
+                  "Collider",
+                  "ColliderShape"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "materials": [],
+                "colliders": [],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "AvatarAble": {},
+                  "Collider": {},
+                  "ColliderShape": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "skeleton": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335.sk",
+                  "filePath": "fab://Assets\\Characters\\Kei\\CH0335.fbx\\CH0335.sk",
+                  "fileType": "sk"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "P78KH9gh": {
+                "_entityName": "CH0335",
+                "_entityId": "xWLRzpo0",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": []
+              },
+              "bFIimVKd": {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_entityId": "yjuay3ml",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true
+              },
+              "zRXoqkjO": {
+                "_entityName": "CH0335_Prop_Outlline.mesh",
+                "_entityId": "H3zrYXrn",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Prop_Outlline.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Kei\\CH0335.fbx\\CH0335_Prop_Outlline.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "fnqle4052w6-mkcb5485-2szqhh81zys",
+                    "filePath": "Assets\\Characters\\Kei\\outline.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "_entityName": "VFX",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": "Primitive/Empty"
+          },
+          "_entityId": "ZTeDnSWl",
+          "children": [
+            {
+              "_entityName": "Hiệu ứng hình ảnh",
+              "_tag": {
+                "type": "SceneEditEntity",
+                "resourceId": "Primitive/Empty"
+              },
+              "_entityId": "tkm1yggS",
+              "children": [],
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 10,
+                "y": 10.000003814697266,
+                "z": 50.000030517578125
+              },
+              "rotation": {
+                "x": 270,
+                "y": 0,
+                "z": 0
+              },
+              "BTPath": [
+                null
+              ],
+              "visible": true,
+              "VisibilityLayer": 0,
+              "modelOptimization": 0,
+              "streamingLayer": "",
+              "attributes": [
+                2,
+                4
+              ],
+              "isTrigger": false,
+              "collidable": true,
+              "physicalLayer": 0,
+              "physicalMaterial": null,
+              "aoiSetting": 0,
+              "initialTypes": {},
+              "componentList": [],
+              "entityTagData": {
+                "tagPointers": []
+              },
+              "tempIndex": 17,
+              "itemID": 224,
+              "seParent": null,
+              "ecaScripts": [
+                null
+              ],
+              "ecaProps": {
+                "EffectEntityGenerator": {},
+                "ItemContainerGenerator": {},
+                "Entity": {},
+                "EffectEntity": {},
+                "Playable": {},
+                "Loopable": {},
+                "LevelObject": {},
+                "Transform": {},
+                "Visibility": {}
+              },
+              "propsData": {
+                "effectColor": {
+                  "r": 196,
+                  "g": 37,
+                  "b": 89,
+                  "a": 0.5
+                },
+                "playSpeed": 100,
+                "autoPlay": true,
+                "effectTypeResId": "",
+                "effectTexture": "",
+                "effectTextureRef": null,
+                "effectTypeRef": {
+                  "fileId": "EffectType_UGC_T_34_LY_WS_VFX3",
+                  "filePath": "lib://ffEffects/T_34_LY_WS_VFX3",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "effecttype"
+                },
+                "effectType": "UGC_T_34_LY_WS_VFX3",
+                "isLoop": 0
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "prefabVariant": null
+            },
+            {
+              "_entityName": "Hiệu ứng hình ảnh (1)",
+              "_tag": {
+                "type": "SceneEditEntity",
+                "resourceId": "Primitive/Empty"
+              },
+              "_entityId": "d1WFdC3B",
+              "children": [],
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0.009999999776482582,
+                "z": 0
+              },
+              "scale": {
+                "x": 6,
+                "y": 0.10000000149011612,
+                "z": 6
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "BTPath": [
+                null
+              ],
+              "visible": true,
+              "VisibilityLayer": 0,
+              "modelOptimization": 0,
+              "streamingLayer": "",
+              "attributes": [
+                2,
+                4
+              ],
+              "isTrigger": false,
+              "collidable": true,
+              "physicalLayer": 0,
+              "physicalMaterial": null,
+              "aoiSetting": 0,
+              "initialTypes": {},
+              "componentList": [],
+              "entityTagData": {
+                "tagPointers": []
+              },
+              "tempIndex": 18,
+              "itemID": 224,
+              "seParent": null,
+              "ecaScripts": [
+                null
+              ],
+              "ecaProps": {
+                "EffectEntityGenerator": {},
+                "ItemContainerGenerator": {},
+                "Entity": {},
+                "EffectEntity": {},
+                "Playable": {},
+                "Loopable": {},
+                "LevelObject": {},
+                "Transform": {},
+                "Visibility": {}
+              },
+              "propsData": {
+                "effectColor": {
+                  "r": 196,
+                  "g": 37,
+                  "b": 89,
+                  "a": 0.8
+                },
+                "playSpeed": 50,
+                "autoPlay": true,
+                "effectTypeResId": "",
+                "effectTexture": "",
+                "effectTextureRef": null,
+                "effectTypeRef": {
+                  "fileId": "EffectType_UGC_T_37_WZY_WS_VFX4",
+                  "filePath": "lib://ffEffects/T_28_C_G_ICE_NAME",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "effecttype"
+                },
+                "effectType": "UGC_T_37_WZY_WS_VFX4",
+                "isLoop": 1
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "prefabVariant": null
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.00001,
+            "y": 0.00001,
+            "z": 0.00001
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": true,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": true,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {}
+          },
+          "propsData": {},
+          "entityVersion": 3
+        }
+      ],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": true,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "Collider",
+        "ColliderShape"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "colliderType": "Sphere",
+          "enable": true,
+          "isTrigger": false,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "radius": 3.14,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": true,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [
+        {
+          "fileId": "3x5kxe7q0fk-mmirihk6-ph9fsej6swk",
+          "filePath": "Assets\\Characters\\Kei\\Kei_EX_Entity.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "MeshRender": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": null
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "HintCraftlandCombineMesh": false,
+  "discriminator": "ISceneLike"
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

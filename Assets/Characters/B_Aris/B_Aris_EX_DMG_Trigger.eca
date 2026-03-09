@@ -1,0 +1,712 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "PZ;{EjRHG{-dv.[B5[au",
+        "x": 433,
+        "y": 137,
+        "extraState": {
+          "X": 143,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerEnter",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "~,gIiB|VLbZG=EBnr|!:",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "ow:fZE;+Q`kmW0zMCEpZ",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opl",
+                  "id": "sopl_dup_block",
+                  "extraState": {
+                    "X": 2
+                  },
+                  "fields": {
+                    "O": "AND",
+                    "O2": "AND"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "GJZ`sc(@hSuHi5dC9kG4",
+                        "extraState": "bool"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "u3`}=nC=D1+-UpJU$ShU",
+                        "extraState": {
+                          "X": 196,
+                          "L": [
+                            1,
+                            2
+                          ],
+                          "O": [
+                            "",
+                            ""
+                          ],
+                          "T": "TypeIs",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "fc6w4eX7ORXNc/uCtlf~",
+                              "extraState": "Object"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "j3g6p13.#+RmOFJTW_tN",
+                              "extraState": "PZ;{EjRHG{-dv.[B5[auP1",
+                              "fields": {
+                                "VR": "Mục tiêu truy kích"
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tyi",
+                              "id": "N-ihyG%I:^yDCOURyzs}",
+                              "fields": {
+                                "T": "Player"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "NvMpN=:%.jNH=Qx+t[qo",
+                        "extraState": "bool"
+                      },
+                      "block": {
+                        "type": "opc",
+                        "id": "sopc_dup_block",
+                        "fields": {
+                          "O": "NE"
+                        },
+                        "inputs": {
+                          "V1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "kJ~C9sQQAGv*g2hL[)A8",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "q/(27B45so#RQ^kd`|d-",
+                              "extraState": "PZ;{EjRHG{-dv.[B5[auP1",
+                              "fields": {
+                                "VR": "Mục tiêu truy kích"
+                              }
+                            }
+                          },
+                          "V2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "d(c8PnEc6dAZ02.}1dhu",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "grg",
+                              "id": "l/G4S5l-+5~0;kfuAV}F",
+                              "fields": {
+                                "VR": "vRpwD9huL"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V3": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "j0)I:cp,xii@tnfh)feO",
+                        "extraState": "bool"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "905:?P1*Ob/9]_:w=#,7",
+                        "extraState": {
+                          "X": 171,
+                          "L": [
+                            1,
+                            2
+                          ],
+                          "O": [
+                            "",
+                            ""
+                          ],
+                          "T": "ListContains",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "+weax=KW]bF1!k}MxZ!#",
+                              "extraState": "List"
+                            },
+                            "block": {
+                              "type": "v",
+                              "id": "N,o#;jT@YEa4C7Z$=+v%",
+                              "extraState": {
+                                "X": 749,
+                                "L": [
+                                  1
+                                ],
+                                "O": [
+                                  ""
+                                ],
+                                "T": "GetActualAttackAbleEntity",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "nM,~T=87Y$LhIlo,-MuB",
+                                    "extraState": "Entity"
+                                  },
+                                  "block": {
+                                    "type": "grg",
+                                    "id": "GzYx8nuax+A-IjvPFlDX",
+                                    "fields": {
+                                      "VR": "vRpwD9huL"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "cqN:-Z?q$ESU|;jICs)^",
+                              "extraState": "Object"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "}e~@}kTRw4aTu2yG-P_f",
+                              "extraState": "PZ;{EjRHG{-dv.[B5[auP1",
+                              "fields": {
+                                "VR": "Mục tiêu truy kích"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "!Ys+exY@*#!kFwE#Q+YL",
+                  "extraState": {
+                    "X": 47,
+                    "L": [
+                      1,
+                      2
+                    ],
+                    "O": [
+                      "",
+                      ""
+                    ],
+                    "T": "ListAppend",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "pDs6Pwc0DKO#L;)8DAcz",
+                        "extraState": "List"
+                      },
+                      "block": {
+                        "type": "grg",
+                        "id": "Nh.4%~EDg+$@fivwi?H{",
+                        "fields": {
+                          "VR": "v0GJT88wa"
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "}3p}P6hxz[UU(_7I)jc9",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "aT01[_Yj*}).I+8:xC=C",
+                        "extraState": "PZ;{EjRHG{-dv.[B5[auP1",
+                        "fields": {
+                          "VR": "Mục tiêu truy kích"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "gT/[yNjyJI0gIwizKVEZ",
+        "x": 421,
+        "y": 364,
+        "extraState": {
+          "X": 144,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerLeave",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "`O~9^/r(MQewfDuJJA/6",
+            "extraState": {
+              "X": 48,
+              "L": [
+                1,
+                2
+              ],
+              "O": [
+                "",
+                ""
+              ],
+              "T": "ListRemove",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "|M9n#Eq@UNET^7#saV_D",
+                  "extraState": "List"
+                },
+                "block": {
+                  "type": "grg",
+                  "id": "{Ux+,h)6v`1Q@1G%0xA#",
+                  "fields": {
+                    "VR": "v0GJT88wa"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "/-b;d,nD*jmJYiY5k}sz",
+                  "extraState": "Object"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "]Sc||pmlkD,Hlg[vl{6s",
+                  "extraState": "gT/[yNjyJI0gIwizKVEZP1",
+                  "fields": {
+                    "VR": "Mục tiêu truy kích"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "Xs;JN_r{R%=-#+h54sm+",
+        "x": 436,
+        "y": -174,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "lpi",
+            "id": "u?biT1Vbt+qg6[YNeAT(",
+            "fields": {
+              "X": {
+                "name": "i",
+                "type": "int"
+              }
+            },
+            "inputs": {
+              "FR": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "R?~v[d?$!W0bhJ-}t|ax",
+                  "fields": {
+                    "V": 0
+                  }
+                }
+              },
+              "TO": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "Ti-FWBES:g7D[dyj?kRk",
+                  "fields": {
+                    "V": 100000
+                  }
+                }
+              },
+              "ST": {
+                "shadow": {
+                  "type": "ipi",
+                  "id": "vAa|(y=y`!*2Z#A_KZay",
+                  "fields": {
+                    "V": 1
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "thA_q!1P({Y7Z,[dzkCq",
+                  "extraState": {
+                    "X": 30,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "WaitForSeconds",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "ipi",
+                        "id": "[r6ptQpUdyQDa@;3swtz",
+                        "fields": {
+                          "V": 77
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "lpe",
+                      "id": "HCgLZz0h|Z{UUu/_U7kA",
+                      "fields": {
+                        "X": {
+                          "name": "key",
+                          "type": "Int"
+                        },
+                        "I": {
+                          "name": "player",
+                          "type": "any"
+                        }
+                      },
+                      "inputs": {
+                        "RN": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "n$uDmqo.@t(Q,%*nQR!*",
+                            "extraState": "List|Map__Danh sách và Từ điển"
+                          },
+                          "block": {
+                            "type": "grg",
+                            "id": "[i]CV*r#4K}RK~-3!24w",
+                            "fields": {
+                              "VR": "v0GJT88wa"
+                            }
+                          }
+                        },
+                        "D": {
+                          "block": {
+                            "type": "exa",
+                            "id": "IDvxG!l0ywxYq$-rlgz.",
+                            "extraState": {
+                              "id": "a%N7*?@rrB9=qZ)%$kM;",
+                              "name": "Gây DMG",
+                              "params": [
+                                {
+                                  "id": "_arg2876",
+                                  "name": "Mục tiêu",
+                                  "type": "Component",
+                                  "isOut": false
+                                },
+                                {
+                                  "id": "_arg8456",
+                                  "name": "DMG",
+                                  "type": "Int",
+                                  "isOut": false
+                                },
+                                {
+                                  "id": "_arg363",
+                                  "name": "Sát thương cuối cùng",
+                                  "type": "Int",
+                                  "isOut": true
+                                }
+                              ],
+                              "returnType": null,
+                              "graphId": "v05jol0s58c-mm678008-89tvvum86pk"
+                            },
+                            "fields": {
+                              "T": "S",
+                              "_arg363": {
+                                "name": "Sát thương cuối cùng",
+                                "type": "Int"
+                              }
+                            },
+                            "inputs": {
+                              "H": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "RAYOO_2)M)`Nba7P3O?R",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "grg",
+                                  "id": "MH=/_pXko?:(ldJXERrC",
+                                  "fields": {
+                                    "VR": "vRpwD9huL"
+                                  }
+                                }
+                              },
+                              "_arg2876": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "5pKmp+P;%9Ld7@v,n%6[",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "nPqRIu(rAjsca`!RVom8",
+                                  "extraState": "HCgLZz0h|Z{UUu/_U7kAI",
+                                  "fields": {
+                                    "VR": "player"
+                                  }
+                                }
+                              },
+                              "_arg8456": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "/v|Q|L3Pub+=Xv^T6f*B",
+                                  "extraState": "Int"
+                                },
+                                "block": {
+                                  "type": "exv",
+                                  "id": "Hl%Pno*yq5hh!F@+1RqO",
+                                  "extraState": {
+                                    "graphId": "axgmr7bc9te-mcyecgxq-tidvew226xl",
+                                    "id": "xQe^S6=xRu71}=$*p%B4",
+                                    "name": "Nhân lấy phần nguyên",
+                                    "params": [
+                                      {
+                                        "id": "_arg128",
+                                        "name": "int",
+                                        "type": "Int",
+                                        "isOut": false
+                                      },
+                                      {
+                                        "id": "_arg9409",
+                                        "name": "số",
+                                        "type": "Number",
+                                        "isOut": false
+                                      }
+                                    ],
+                                    "returnType": "Int",
+                                    "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức.eca"
+                                  },
+                                  "inputs": {
+                                    "H": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "cT*8,1UPTIW)polfbuln",
+                                        "extraState": "Component"
+                                      },
+                                      "block": {
+                                        "type": "v",
+                                        "id": "s95_dup_block",
+                                        "extraState": {
+                                          "X": 95,
+                                          "L": [],
+                                          "O": [],
+                                          "T": "GetGlobalEntity",
+                                          "OT": null
+                                        }
+                                      }
+                                    },
+                                    "_arg128": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "ku_tFh.v!wlI3b-76L|p",
+                                        "extraState": "Int"
+                                      },
+                                      "block": {
+                                        "type": "exv",
+                                        "id": "J_#!C+iq:ban3r8_9K_6",
+                                        "extraState": {
+                                          "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                                          "id": "ckh)MMOD5~`Gmzl0.RK4",
+                                          "name": "Nhận thuộc tính công thức",
+                                          "params": [
+                                            {
+                                              "id": "_arg3535",
+                                              "name": "ID thuộc tính",
+                                              "type": "String",
+                                              "isOut": false
+                                            },
+                                            {
+                                              "id": "_arg3723",
+                                              "name": "Lấy giá trị ban đầu",
+                                              "type": "Bool",
+                                              "isOut": false
+                                            }
+                                          ],
+                                          "returnType": "Int",
+                                          "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                                        },
+                                        "inputs": {
+                                          "H": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "PWeh{Hlvhs.pIB#/a@2N",
+                                              "extraState": "Component"
+                                            },
+                                            "block": {
+                                              "type": "grg",
+                                              "id": "0?^uNY~GYNmSKSj8r#45",
+                                              "fields": {
+                                                "VR": "vRpwD9huL"
+                                              }
+                                            }
+                                          },
+                                          "_arg3535": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "j5G$44729q;=8D*#EKbv",
+                                              "extraState": "String"
+                                            },
+                                            "block": {
+                                              "type": "ipt",
+                                              "id": "W5!24d]G#MKZ^KJ2XA6`",
+                                              "fields": {
+                                                "V": "ATK"
+                                              }
+                                            }
+                                          },
+                                          "_arg3723": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "7R2AGtixnfY[^+}4}Y!e",
+                                              "extraState": "Bool"
+                                            },
+                                            "block": {
+                                              "type": "ipb",
+                                              "id": "ibMQ|P)dz/V2t@Y76q2S",
+                                              "fields": {
+                                                "V": "F"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "_arg9409": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "d,XR!wDBqnNJh,SAdks2",
+                                        "extraState": "Number"
+                                      },
+                                      "block": {
+                                        "type": "grg",
+                                        "id": "5S5|aNMBMj3,q/]1eKmu",
+                                        "fields": {
+                                          "VR": "vWEx02aqF"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "v0GJT88wa",
+      "name": "Danh sách người chơi dính đòn",
+      "type": "ListT_any",
+      "value": []
+    },
+    {
+      "id": "vRpwD9huL",
+      "name": "Chủ",
+      "type": "Player",
+      "value": null
+    },
+    {
+      "id": "vWEx02aqF",
+      "name": "Phần trăm ATK",
+      "type": "Float",
+      "value": 0.25
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject&ColliderShape&Collider",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

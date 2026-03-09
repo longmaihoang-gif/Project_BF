@@ -170,8 +170,14 @@
             "_entityId": "lp3Q9uY8",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -202,8 +208,14 @@
             "_entityId": "Ji656EK8",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -234,8 +246,14 @@
             "_entityId": "vyUTjRdc",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -266,8 +284,14 @@
             "_entityId": "CVN6GTXi",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -500,7 +524,384 @@
           "type": "ACEventFrameGroup"
         },
         "_entityId": "rSvOhTlJ",
-        "children": [],
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "eVTd4vQF",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 22,
+            "EventFrameName": "Khung hình Sự kiện 1",
+            "startTime": 0.733,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "KbAeRN8t",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 27,
+            "EventFrameName": "Khung hình Sự kiện 2",
+            "startTime": 0.9,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "KEFggGrx",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 32,
+            "EventFrameName": "Khung hình Sự kiện 3",
+            "startTime": 1.066,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "psjc60Jy",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 37,
+            "EventFrameName": "Khung hình Sự kiện 4",
+            "startTime": 1.233,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "a6i0xjHs",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 51,
+            "EventFrameName": "Khung hình Sự kiện 8",
+            "startTime": 1.7,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "Play_SFX"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "SAfHqa0P",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 111,
+            "EventFrameName": "Khung hình Sự kiện 5",
+            "startTime": 3.6,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn_laser"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              },
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "Update_hướng"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "YoqruZnS",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 171,
+            "EventFrameName": "Khung hình Sự kiện 6",
+            "startTime": 5.7,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "ngắt_laser"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              },
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "Ngưng_Update_hướng"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "gjHmjro6",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 237,
+            "EventFrameName": "Khung hình Sự kiện 7",
+            "startTime": 7.9,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "EX_End"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
         "prefabVariant": null,
         "activeValue": {
           "selfValue": true,
@@ -663,76 +1064,6 @@
               "postExtrapolate": 0,
               "startTime": 0,
               "endTime": 1.433
-            },
-            {
-              "_entityName": "CH0334_Normal_Attack_Delay.anim",
-              "_tag": {
-                "type": "ACClipEntity"
-              },
-              "_entityId": "G7T7wHQl",
-              "children": [],
-              "prefabVariant": null,
-              "activeValue": {
-                "selfValue": true,
-                "valueTag": "activeValue"
-              },
-              "unlockedValue": {
-                "selfValue": true,
-                "valueTag": "unlockedValue"
-              },
-              "editorLockValue": false,
-              "editorVisibleValue": true,
-              "speed": 1,
-              "loop": false,
-              "fadeInTime": 0,
-              "enablefadeTime": true,
-              "clipRefer": {
-                "fileId": "y4ikkvqvg4-mm8u6y54-ppphswzpioi-CH0334_Normal_Attack_Delay.Anim",
-                "filePath": "fab://Assets\\Character\\B_Aris\\CH0334.fbx\\CH0334_Normal_Attack_Delay.anim",
-                "_tag": {
-                  "type": "GFileRefer"
-                },
-                "fileType": "anim"
-              },
-              "wrapMode": 1,
-              "postExtrapolate": 0,
-              "startTime": 1.433,
-              "endTime": 2.6660000000000004
-            },
-            {
-              "_entityName": "CH0334_Victory_End.anim",
-              "_tag": {
-                "type": "ACClipEntity"
-              },
-              "_entityId": "wqO56ZgP",
-              "children": [],
-              "prefabVariant": null,
-              "activeValue": {
-                "selfValue": true,
-                "valueTag": "activeValue"
-              },
-              "unlockedValue": {
-                "selfValue": true,
-                "valueTag": "unlockedValue"
-              },
-              "editorLockValue": false,
-              "editorVisibleValue": true,
-              "speed": 1,
-              "loop": false,
-              "fadeInTime": 0,
-              "enablefadeTime": true,
-              "clipRefer": {
-                "fileId": "y4ikkvqvg4-mm8u6y54-ppphswzpioi-CH0334_Normal_Attack_End.Anim",
-                "filePath": "fab://Assets\\Character\\B_Aris\\CH0334.fbx\\CH0334_Normal_Attack_End.anim",
-                "_tag": {
-                  "type": "GFileRefer"
-                },
-                "fileType": "anim"
-              },
-              "wrapMode": 3,
-              "postExtrapolate": 0,
-              "startTime": 2.666,
-              "endTime": 3.266
             }
           ],
           "prefabVariant": null,
@@ -807,7 +1138,7 @@
                   {
                     "type": "Float",
                     "label": "Phần_trăm_ATK",
-                    "newValue": 0
+                    "newValue": 1
                   }
                 ],
                 "hideParam": false
@@ -850,7 +1181,7 @@
                   {
                     "type": "Float",
                     "label": "Phần_trăm_ATK",
-                    "newValue": 0
+                    "newValue": 1
                   }
                 ],
                 "hideParam": false
@@ -893,7 +1224,7 @@
                   {
                     "type": "Float",
                     "label": "Phần_trăm_ATK",
-                    "newValue": 0
+                    "newValue": 1
                   }
                 ],
                 "hideParam": false
@@ -936,7 +1267,7 @@
                   {
                     "type": "Float",
                     "label": "Phần_trăm_ATK",
-                    "newValue": 0
+                    "newValue": 1
                   }
                 ],
                 "hideParam": false
@@ -1771,4 +2102,4 @@
   },
   "bpcFile": null
 }
-//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
