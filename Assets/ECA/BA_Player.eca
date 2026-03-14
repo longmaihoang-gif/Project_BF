@@ -1,0 +1,299 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "/A?+}s?DZ:bZyzD#tO{@",
+        "x": 186,
+        "y": -120,
+        "extraState": {
+          "X": 143,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnTriggerEnter",
+          "OT": "Collider"
+        },
+        "fields": {
+          "P1": {
+            "name": "Mục tiêu truy kích",
+            "type": "Entity"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "V#-:|`F!E~LKF6Wi#%Xh",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "lZ}QZ2R~!TsR#^W-L}3B",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "-L.Y|zoe!]BCVAg?z~nw",
+                  "extraState": {
+                    "X": 72,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "Not",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "ipb",
+                        "id": "ue|3*svUV;[c]*YJ%tp!",
+                        "fields": {
+                          "V": "F"
+                        }
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "HTsoS;x.Ilpcm4];;1q1",
+                        "extraState": {
+                          "X": 352,
+                          "L": [
+                            1,
+                            2
+                          ],
+                          "O": [
+                            "",
+                            ""
+                          ],
+                          "T": "HasTag",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "8Vr}pi*f11#8M~%yK)?Y",
+                              "extraState": "entity"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "peQW4W:YV=$U~qkJ#3WN",
+                              "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
+                              "fields": {
+                                "VR": "Mục tiêu truy kích"
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "iptag",
+                              "id": "XkOC.X{CkyLGvungj9B3",
+                              "fields": {
+                                "P2": ""
+                              }
+                            },
+                            "block": {
+                              "type": "ipt",
+                              "id": "LG1)|%rp[P6@Vzs*p7I@",
+                              "fields": {
+                                "V": "Selected"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "A1{c4sK}LrPjo-K)tHTo",
+                  "extraState": {
+                    "X": 350,
+                    "L": [
+                      1,
+                      2
+                    ],
+                    "O": [
+                      "",
+                      ""
+                    ],
+                    "T": "AddTag",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "4|z,L=w,-C1[@q?zFlLC",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "skbYQh*[HJyD(R+KH1so",
+                        "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
+                        "fields": {
+                          "VR": "Mục tiêu truy kích"
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "iptag",
+                        "id": "ORPji#|MZYCG3ef^BI$w",
+                        "fields": {
+                          "P2": ""
+                        }
+                      },
+                      "block": {
+                        "type": "ipt",
+                        "id": "xjrzklIU~(kf0BDoL6j}",
+                        "fields": {
+                          "V": "Selected"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "lcd",
+                      "id": "nw3,g0YcUFc+aoH~`Y3w",
+                      "fields": {
+                        "VD": {
+                          "name": "player",
+                          "type": "Player"
+                        },
+                        "T": "Player"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tyd",
+                            "id": "bG(ptrdF,2eiNOXlRe^L",
+                            "extraState": "Player"
+                          },
+                          "block": {
+                            "type": "tya",
+                            "id": "A@pw]a0`Y+cydzx]H($u",
+                            "fields": {
+                              "T": "any"
+                            },
+                            "inputs": {
+                              "V": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                  "extraState": "any"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "+.ALY[[~S?Kq|*)z_CRz",
+                                  "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
+                                  "fields": {
+                                    "VR": "Mục tiêu truy kích"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "a",
+                          "id": "?-fOo-xcT4nJ!0[g@=iG",
+                          "extraState": {
+                            "X": 471,
+                            "L": [
+                              1,
+                              2
+                            ],
+                            "O": [
+                              "",
+                              ""
+                            ],
+                            "T": "AddScript",
+                            "OT": null
+                          },
+                          "inputs": {
+                            "P1": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "MLesA}EWwKVYO:$c]~*_",
+                                "extraState": "entity"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "T)?o$0Tfyp[]PN2MQ7m-",
+                                "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                                "fields": {
+                                  "VR": "player"
+                                }
+                              }
+                            },
+                            "P2": {
+                              "shadow": {
+                                "type": "psc",
+                                "id": "LXRv8c/%w{bSCr20e^T1",
+                                "fields": {
+                                  "V": "csgraiuw1ie-mma69jkx-y7oz01ar15l"
+                                }
+                              },
+                              "block": {
+                                "type": "prg",
+                                "id": "v72s+xtiS~|#}!ez+G_u",
+                                "extraState": {
+                                  "X": 1,
+                                  "T": "GraphID"
+                                },
+                                "fields": {
+                                  "P": "PROP_28297356:CustomComponent39337248"
+                                },
+                                "inputs": {
+                                  "H": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "??hr;P6S]P}B:Z9|%P6L",
+                                      "extraState": "Component"
+                                    },
+                                    "block": {
+                                      "type": "ent",
+                                      "id": "`p5{.^C#J7rd%c2d,y,#"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject&Collider&ColliderShape&CustomComponent39337248",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

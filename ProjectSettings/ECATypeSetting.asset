@@ -262,8 +262,7 @@
           "observable": false,
           "disabledType": true,
           "param": {
-            "compType": "InputEditor",
-            "disabled": true
+            "precision": 2
           }
         }
       ],
@@ -606,6 +605,18 @@
           "observable": false,
           "disabledType": true,
           "param": {
+            "size": "small"
+          }
+        },
+        {
+          "propID": 100012,
+          "name": "PROP_92841564",
+          "label": "Có_tiêu_tốn_đạn",
+          "type": "Bool",
+          "value": true,
+          "observable": false,
+          "disabledType": true,
+          "param": {
             "compType": "InputEditor",
             "disabled": true
           }
@@ -745,6 +756,38 @@
       "typeID": 22,
       "PropDefines": [],
       "IsPartial": true
+    },
+    "CustomComponent39337248": {
+      "label": "Character Select Trigger",
+      "name": "CustomComponent39337248",
+      "bases": [
+        "Component"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "w5g2f6g1yt-mmakesu2-ul0xuyyow7a",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 100008,
+      "PropDefines": [
+        {
+          "propID": 100022,
+          "name": "PROP_28297356",
+          "label": "ECA_Player",
+          "type": "GraphID",
+          "value": null,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ]
     }
   }
 }
