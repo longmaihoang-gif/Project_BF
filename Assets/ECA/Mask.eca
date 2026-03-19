@@ -1,0 +1,115 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "On;BrfkXy8`*sT.rz9fS",
+        "x": 179,
+        "y": 199,
+        "extraState": {
+          "X": 776,
+          "L": [],
+          "O": [],
+          "T": "OnFixedUpdate",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "hjYm-H;jc[tiPJkl]*XP",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "0c6x8)YcM4t=cJkNRTz?",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "P[Xz9BrN^l7!y1P$k`@=",
+                  "extraState": {
+                    "X": 70,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "IsNil",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "TsTPg;%RSV]G[VcivH!C",
+                        "extraState": "Object"
+                      },
+                      "block": {
+                        "type": "grg",
+                        "id": "FlsRnU|#,=pnSUf`9h{H",
+                        "fields": {
+                          "VR": "vo6eYYNjN"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "pTJW}p#?)ooOp-7P_+m{",
+                  "extraState": {
+                    "X": 354,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "RemoveEntity",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "pYiDh:Wg?0C.6hS@9j$Q",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "`-+Hdh=0PT1Zmzw#27]q"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vo6eYYNjN",
+      "name": "Object",
+      "type": "Component",
+      "value": null
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity",
+    "isStatic": false,
+    "platform": 1
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

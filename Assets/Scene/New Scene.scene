@@ -305,7 +305,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 3,
+      "tempIndex": 2,
       "itemID": 143,
       "seParent": null,
       "ecaScripts": [
@@ -387,7 +387,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 4,
+      "tempIndex": 3,
       "itemID": 91,
       "seParent": null,
       "ecaScripts": [
@@ -503,7 +503,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 2,
+          "tempIndex": 4,
           "itemID": 297,
           "seParent": null,
           "ecaScripts": [
@@ -7745,6 +7745,986 @@
       "editorVisibleValue": true
     },
     {
+      "_entityName": "CH0258_02",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "hsQXDNCv",
+      "children": [],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -33.578147888183594,
+        "y": 0.009999999776482582,
+        "z": 15.837358474731445
+      },
+      "scale": {
+        "x": 125,
+        "y": 125,
+        "z": 125
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": false,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "AvatarAble",
+        "Collider",
+        "ColliderShape",
+        "AnimationControllerAble"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "MeshCollider",
+          "meshUUID": {
+            "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Halo.~@FFFUB",
+            "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Halo.mesh",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "mesh"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "AvatarAble": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "AnimationControllerAble": {},
+        "MeshRender": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "skeleton": {
+        "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_01.sk",
+        "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_01.sk",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "sk"
+      },
+      "boneEntity": {
+        "_entityName": "CH0258_01",
+        "_tag": {
+          "type": "BoneContentEntity"
+        },
+        "_entityId": "c8cZrWnO",
+        "children": [
+          {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "uzJhM9KD",
+            "children": [
+              {
+                "_entityName": "CH0258_Body.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "eyqrqJIs",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Body.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "lsqvpehmbmg-mmwtfa64-kuw2i1t22pj",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Body.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "69vgzy0ocy-mmwtfaaf-fxfz7rme4k",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Face.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "i7bxvypaffl-mmwtfacg-e3ys99jz8z",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "lbnw1cuaujj-mmwtfa8b-v4mvn6e3ta",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\EyeMouth.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "i7bxvypaffl-mmwtfacg-e3ys99jz8z",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "CH0258_Halo.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "wLcUhvic",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "554lib2mdtc-mmwtfaei-pljoprnm3id",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\halo.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": -0.0035,
+                  "y": -0.0025,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": -90,
+                  "z": -180
+                },
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "CH0258_Shield_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "TaJPwxHa",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Shield_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Shield_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "f7s8edquoo-mmwtfage-zpwlbd3xo58",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Shield.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "CH0258_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "jYm8wHlc",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "n9q8667v4st-mmwtfaiy-5etr7zdhebi",
+                    "filePath": "Assets\\Characters\\B_Hoshino\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true,
+            "prefabVariant": null
+          }
+        ],
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "BTPath": [
+          null
+        ],
+        "visible": true,
+        "VisibilityLayer": 0,
+        "modelOptimization": 0,
+        "streamingLayer": "",
+        "attributes": [
+          2,
+          4
+        ],
+        "isTrigger": false,
+        "collidable": true,
+        "physicalLayer": 0,
+        "physicalMaterial": null,
+        "aoiSetting": 0,
+        "initialTypes": {},
+        "componentList": [],
+        "prefabVariant": null
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": {
+        "prefabFile": {
+          "fileId": "90tlucyhtq7-mmwtnsgu-cizg59zms8h",
+          "filePath": "Assets\\Characters\\B_Hoshino\\CH0258_02.prefab",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "Prefab"
+        },
+        "snapShots": {
+          "hsQXDNCv": {
+            "_entityId": "ZRCkzKXu",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "scale": {
+              "x": 125,
+              "y": 125,
+              "z": 125
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": false,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "AvatarAble",
+              "Collider",
+              "ColliderShape",
+              "AnimationControllerAble"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [],
+            "colliders": [
+              {
+                "enable": true,
+                "colliderType": "MeshCollider",
+                "meshUUID": {
+                  "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Halo.mesh",
+                  "fileType": "mesh"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "radius": 0.5,
+                "height": 1,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": false,
+            "Rigidbody": {
+              "Type": 1,
+              "Mass": 1,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 0.05,
+              "AngularDrag": 0.05,
+              "FreezePosX": false,
+              "FreezeRotX": false,
+              "FreezePosY": false,
+              "FreezeRotY": false,
+              "FreezePosZ": false,
+              "FreezeRotZ": false
+            },
+            "ecaScripts": [],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "AvatarAble": {},
+              "Collider": {},
+              "ColliderShape": {},
+              "AnimationControllerAble": {},
+              "MeshRender": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "skeleton": {
+              "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_01.sk",
+              "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_01.sk",
+              "fileType": "sk"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true
+          },
+          "c8cZrWnO": {
+            "_entityName": "CH0258_01",
+            "_entityId": "e8VpaaBv",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": []
+          },
+          "uzJhM9KD": {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_entityId": "pnlMCpfl",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true
+          },
+          "eyqrqJIs": {
+            "_entityName": "CH0258_Body.mesh",
+            "_entityId": "UzKOIFLN",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Body.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Body.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "lsqvpehmbmg-mmwtfa64-kuw2i1t22pj",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Body.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "69vgzy0ocy-mmwtfaaf-fxfz7rme4k",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Face.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "i7bxvypaffl-mmwtfacg-e3ys99jz8z",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Hair.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "lbnw1cuaujj-mmwtfa8b-v4mvn6e3ta",
+                "filePath": "Assets\\Characters\\B_Hoshino\\EyeMouth.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "i7bxvypaffl-mmwtfacg-e3ys99jz8z",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Hair.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "wLcUhvic": {
+            "_entityName": "CH0258_Halo.mesh",
+            "_entityId": "XMFpmo6l",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Halo.~@FFFUB",
+              "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Halo.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "554lib2mdtc-mmwtfaei-pljoprnm3id",
+                "filePath": "Assets\\Characters\\B_Hoshino\\halo.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "Bip001 Head",
+              "bindType": 1
+            },
+            "position": {
+              "x": -0.0035,
+              "y": -0.0025,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": -90,
+              "z": -180
+            }
+          },
+          "TaJPwxHa": {
+            "_entityName": "CH0258_Shield_Weapon.mesh",
+            "_entityId": "bvpCSIJB",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Shield_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Shield_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "f7s8edquoo-mmwtfage-zpwlbd3xo58",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Shield.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "jYm8wHlc": {
+            "_entityName": "CH0258_Weapon.mesh",
+            "_entityId": "ZriwnZiE",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\B_Hoshino\\CH0258_01.fbx\\CH0258_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "n9q8667v4st-mmwtfaiy-5etr7zdhebi",
+                "filePath": "Assets\\Characters\\B_Hoshino\\Weapon.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "_entityName": "B_Hoshino_trigger",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "e9FDrgn0",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -33.58547592163086,
+        "y": 0.009999999776482582,
+        "z": 15.625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": true,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "ColliderShape",
+        "Collider",
+        "CustomComponent39337248"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Box",
+          "meshUUID": null,
+          "position": {
+            "x": 0,
+            "y": 0.5,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "ColliderShape": {},
+        "Collider": {},
+        "MeshRender": {},
+        "CustomComponent39337248": {
+          "PROP_28297356": null
+        }
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "editorLockValue": false,
+      "editorVisibleValue": true
+    },
+    {
       "_entityName": "Trang Trí Tân Tiến",
       "_tag": {
         "type": "SceneEditEntity",
@@ -7764,9 +8744,9 @@
       "editorLockValue": false,
       "editorVisibleValue": true,
       "position": {
-        "x": -28.592504501342773,
+        "x": -28.497718811035156,
         "y": -0.019999999552965164,
-        "z": 17.528305053710938
+        "z": 17.527999877929688
       },
       "scale": {
         "x": 1,
@@ -8025,6 +9005,76 @@
       "editorVisibleValue": true
     },
     {
+      "_entityName": "Trang Trí Tân Tiến (5)",
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "YwosKomD",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -33.54719161987305,
+        "y": -0.019999999552965164,
+        "z": 17.527999877929688
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 270,
+        "y": 90,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": false,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "tempIndex": 20,
+      "itemID": 328,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "DummyLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "Collider": {}
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true
+    },
+    {
       "_entityName": "Trang Trí Tân Tiến (2)",
       "_tag": {
         "type": "SceneEditEntity",
@@ -8042,7 +9092,7 @@
         "valueTag": "unlockedValue"
       },
       "position": {
-        "x": -27.436067581176758,
+        "x": -27.25020980834961,
         "y": -0.019999999552965164,
         "z": 17.527999877929688
       },

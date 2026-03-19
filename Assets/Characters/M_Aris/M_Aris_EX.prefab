@@ -25,7 +25,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "position": {
             "x": 0,
             "y": 0,
@@ -62,7 +65,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 100,
+          "tempIndex": 25,
           "itemID": 224,
           "seParent": null,
           "ecaScripts": [
@@ -118,7 +121,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "position": {
             "x": 0,
             "y": 0,
@@ -155,7 +161,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 101,
+          "tempIndex": 26,
           "itemID": 224,
           "seParent": null,
           "ecaScripts": [
@@ -251,7 +257,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 102,
+          "tempIndex": 27,
           "itemID": 224,
           "seParent": null,
           "ecaScripts": [
@@ -347,7 +353,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 103,
+          "tempIndex": 28,
           "itemID": 224,
           "seParent": null,
           "ecaScripts": [
@@ -443,7 +449,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 104,
+          "tempIndex": 29,
           "itemID": 224,
           "seParent": null,
           "ecaScripts": [
@@ -499,7 +505,10 @@
             "selfValue": true,
             "valueTag": "activeValue"
           },
-          "unlockedValue": null,
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
           "position": {
             "x": 0,
             "y": 0,
@@ -619,13 +628,145 @@
           "editorLockValue": false,
           "editorVisibleValue": true,
           "prefabVariant": null
+        },
+        {
+          "_entityName": "DMG_Trigger",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": "Primitive/Empty"
+          },
+          "_entityId": "sR1P86q0",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": true,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "Collider",
+            "ColliderShape",
+            "Rigidbody"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [],
+          "colliders": [
+            {
+              "colliderType": "Capsule",
+              "enable": true,
+              "isTrigger": false,
+              "position": {
+                "x": 0,
+                "y": -0.35,
+                "z": 0
+              },
+              "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "radius": 0.38,
+              "height": 1.5,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": true,
+          "Rigidbody": {
+            "Type": 3,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [
+            {
+              "fileId": "sxzo5mqumll-mmh6lfk5-pezbi60no2",
+              "filePath": "Assets\\Characters\\M_Aris\\M_Aris_DMG_Trigger.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            }
+          ],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "Collider": {},
+            "ColliderShape": {},
+            "MeshRender": {},
+            "Rigidbody": {}
+          },
+          "propsData": {},
+          "entityVersion": 3
         }
       ],
       "activeValue": {
         "selfValue": true,
         "valueTag": "activeValue"
       },
-      "unlockedValue": null,
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
       "position": {
         "x": 0,
         "y": 0,
@@ -660,7 +801,8 @@
       "initialTypes": {},
       "componentList": [
         "Collider",
-        "ColliderShape"
+        "ColliderShape",
+        "Rigidbody"
       ],
       "entityTagData": {
         "tagPointers": []
@@ -668,16 +810,16 @@
       "materials": [],
       "colliders": [
         {
-          "colliderType": "Sphere",
+          "colliderType": "Capsule",
           "enable": true,
           "isTrigger": false,
           "position": {
             "x": 0,
-            "y": 0,
+            "y": -0.35,
             "z": 0
           },
           "rotation": {
-            "x": 0,
+            "x": 90,
             "y": 0,
             "z": 0
           },
@@ -687,14 +829,14 @@
             "z": 1
           },
           "radius": 0.4,
-          "height": 1,
+          "height": 1.5,
           "isConvexIfMesh": false
         }
       ],
       "IsNPC": false,
       "isCreateAsEmpty": true,
       "Rigidbody": {
-        "Type": 1,
+        "Type": 3,
         "Mass": 1,
         "CenterOfMass": {
           "x": 0,
@@ -728,7 +870,9 @@
         "Entity": {},
         "Visibility": {},
         "Collider": {},
-        "ColliderShape": {}
+        "ColliderShape": {},
+        "MeshRender": {},
+        "Rigidbody": {}
       },
       "propsData": {},
       "entityVersion": 3,
@@ -742,7 +886,10 @@
     "selfValue": true,
     "valueTag": "activeValue"
   },
-  "unlockedValue": null,
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
   "editorLockValue": false,
   "editorVisibleValue": true,
   "HintCraftlandCombineMesh": false,

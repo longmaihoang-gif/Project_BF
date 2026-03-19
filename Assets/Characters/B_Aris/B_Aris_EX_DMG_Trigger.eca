@@ -58,9 +58,9 @@
                       },
                       "block": {
                         "type": "v",
-                        "id": "u3`}=nC=D1+-UpJU$ShU",
+                        "id": "}5dE%Q3j#3{t7}BA#Pli",
                         "extraState": {
-                          "X": 196,
+                          "X": 473,
                           "L": [
                             1,
                             2
@@ -69,15 +69,15 @@
                             "",
                             ""
                           ],
-                          "T": "TypeIs",
+                          "T": "ExistScript",
                           "OT": null
                         },
                         "inputs": {
                           "P1": {
                             "shadow": {
                               "type": "tys",
-                              "id": "fc6w4eX7ORXNc/uCtlf~",
-                              "extraState": "Object"
+                              "id": "F5~Tc/nY!tcqgRu{_$Ft",
+                              "extraState": "entity"
                             },
                             "block": {
                               "type": "lcg",
@@ -90,10 +90,10 @@
                           },
                           "P2": {
                             "shadow": {
-                              "type": "tyi",
-                              "id": "N-ihyG%I:^yDCOURyzs}",
+                              "type": "psc",
+                              "id": "57yb-}!^Rigw*Y+fD6%s",
                               "fields": {
-                                "T": "Player"
+                                "V": "v05jol0s58c-mm678008-89tvvum86pk"
                               }
                             }
                           }
@@ -116,7 +116,7 @@
                           "V1": {
                             "shadow": {
                               "type": "tys",
-                              "id": "Q`$$Qf^v)#U@b.+wt?/q",
+                              "id": "-D|$Fh]Fdh}$JYrR{hI~",
                               "extraState": "any"
                             },
                             "block": {
@@ -131,7 +131,7 @@
                           "V2": {
                             "shadow": {
                               "type": "tys",
-                              "id": "=PeP(GdEtQ~:3?oI]vsm",
+                              "id": "`v#V{,1^Lj-ZAo5C3;c7",
                               "extraState": "any"
                             },
                             "block": {
@@ -262,7 +262,7 @@
                     "P2": {
                       "shadow": {
                         "type": "tys",
-                        "id": "plg(n;rEWoPkB$SV7eWP",
+                        "id": "S+Rzl:gBV_fjc%jyP)jn",
                         "extraState": "any"
                       },
                       "block": {
@@ -464,7 +464,6 @@
                             "type": "exa",
                             "id": "IDvxG!l0ywxYq$-rlgz.",
                             "extraState": {
-                              "graphId": "v05jol0s58c-mm678008-89tvvum86pk",
                               "id": "a%N7*?@rrB9=qZ)%$kM;",
                               "name": "Gây DMG",
                               "params": [
@@ -481,19 +480,36 @@
                                   "isOut": false
                                 },
                                 {
+                                  "id": "_arg4453",
+                                  "name": "Thuộc tính sát thương",
+                                  "type": "Map",
+                                  "isOut": false
+                                },
+                                {
                                   "id": "_arg363",
                                   "name": "Sát thương cuối cùng",
                                   "type": "Int",
                                   "isOut": true
+                                },
+                                {
+                                  "id": "_arg2667",
+                                  "name": "Tính chất sát thương",
+                                  "type": "ListT_String",
+                                  "isOut": true
                                 }
                               ],
-                              "tooltip": "Assets\\ECA\\Combat.eca"
+                              "returnType": null,
+                              "graphId": "v05jol0s58c-mm678008-89tvvum86pk"
                             },
                             "fields": {
                               "T": "S",
                               "_arg363": {
                                 "name": "Sát thương cuối cùng",
                                 "type": "Int"
+                              },
+                              "_arg2667": {
+                                "name": "Tính chất sát thương",
+                                "type": "ListT_String"
                               }
                             },
                             "inputs": {
@@ -514,7 +530,7 @@
                               "_arg2876": {
                                 "shadow": {
                                   "type": "tys",
-                                  "id": "/b~!cpN$Vu#j;=r(=LEK",
+                                  "id": "Z{@2/%?7KSt]]_9Qyb)g",
                                   "extraState": "Component"
                                 },
                                 "block": {
@@ -529,7 +545,7 @@
                               "_arg8456": {
                                 "shadow": {
                                   "type": "tys",
-                                  "id": "ePJ~g;s}v2sR$~Uc#-(_",
+                                  "id": "%f{sD81+~=u0bFq}*).?",
                                   "extraState": "Int"
                                 },
                                 "block": {
@@ -578,7 +594,7 @@
                                     "_arg128": {
                                       "shadow": {
                                         "type": "tys",
-                                        "id": "GE6eg39TY{vY5~Z^@jd-",
+                                        "id": "6K$wfL/Iw;X5}m]]gJ;,",
                                         "extraState": "Int"
                                       },
                                       "block": {
@@ -623,7 +639,7 @@
                                           "_arg3535": {
                                             "shadow": {
                                               "type": "tys",
-                                              "id": "/mY$@$vZA7[CsyK+!XO`",
+                                              "id": "$C2MXjUZ]{;B,-jUO4jw",
                                               "extraState": "String"
                                             },
                                             "block": {
@@ -637,7 +653,7 @@
                                           "_arg3723": {
                                             "shadow": {
                                               "type": "tys",
-                                              "id": "t(/69Q0(0K=7vf@+M^C}",
+                                              "id": "4uzc9I35yz7lo*.L`3K#",
                                               "extraState": "Bool"
                                             },
                                             "block": {
@@ -654,7 +670,7 @@
                                     "_arg9409": {
                                       "shadow": {
                                         "type": "tys",
-                                        "id": "s8i)ZwMEM..+;mN=:J0r",
+                                        "id": "_Z_j;y|-L!)q?wh$zY69",
                                         "extraState": "Number"
                                       },
                                       "block": {
@@ -663,6 +679,47 @@
                                         "fields": {
                                           "VR": "vWEx02aqF"
                                         }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "_arg4453": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "xGCXem6-vT2S@}N5/u`E",
+                                  "extraState": "Map"
+                                },
+                                "block": {
+                                  "type": "lid",
+                                  "id": "`4@i7Y-8HdR3w{~=jQs%",
+                                  "extraState": {
+                                    "X": 1
+                                  },
+                                  "fields": {
+                                    "T1": "String",
+                                    "T2": "any"
+                                  },
+                                  "inputs": {
+                                    "K0": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "+e3|kK)W-M_-1$S%X_|f",
+                                        "extraState": "String__Key"
+                                      },
+                                      "block": {
+                                        "type": "ipt",
+                                        "id": "*J*$~RUlFK-G]T0IZ!PF",
+                                        "fields": {
+                                          "V": "EX"
+                                        }
+                                      }
+                                    },
+                                    "V0": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "OqZeHUHaFh@1C{+l_FUL",
+                                        "extraState": "any__Value"
                                       }
                                     }
                                   }

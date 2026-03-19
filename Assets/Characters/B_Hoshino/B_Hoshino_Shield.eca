@@ -1,0 +1,582 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "Hh$(xe~slQ%fxoJxa|p.",
+        "x": 284,
+        "y": -143,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": "|t]z=?.Rj=sn)_94e:uq",
+            "fields": {
+              "P": "PROP_65527156:Component",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "Eyy+!=(3K_rQmTmL}kme",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "Rx=Sc9!bi4OJw].{t)[9"
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "c66XT~N8Ket+ooJurdmy",
+                  "extraState": "String"
+                },
+                "block": {
+                  "type": "ipt",
+                  "id": "9DDkrVt$v3j)l8eto3n%",
+                  "fields": {
+                    "V": "hoshino_armed"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exa",
+                "id": "KHjE#ia.qq$XBDlIn]pm",
+                "extraState": {
+                  "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                  "id": "jKJrfO;Fu,JB=U~mUzGZ",
+                  "name": "Lắp bộ thuộc tính",
+                  "params": [
+                    {
+                      "id": "_arg3047",
+                      "name": "Thực thể",
+                      "type": "Component",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg5082",
+                      "name": "ID bộ thuộc tính",
+                      "type": "String",
+                      "isOut": false
+                    }
+                  ],
+                  "tooltip": "Assets\\ECA\\Toàn bản đồ.eca"
+                },
+                "fields": {
+                  "T": "W"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "fLstm{P#@8wb)c}pDy!j",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "s95_dup_block",
+                      "extraState": {
+                        "X": 95,
+                        "L": [],
+                        "O": [],
+                        "T": "GetGlobalEntity",
+                        "OT": null
+                      }
+                    }
+                  },
+                  "_arg3047": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "N-po.uS@NEJNKTzoeKM_",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "ent",
+                      "id": "`mJ9|xgqn+Ljg$MP/u:1"
+                    }
+                  },
+                  "_arg5082": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "mPKyR/5df|rNxP(1BS^t",
+                      "extraState": "String"
+                    },
+                    "block": {
+                      "type": "ipt",
+                      "id": "w}51MIkjF6[-zJelg2%z",
+                      "fields": {
+                        "V": "empty"
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "a",
+                    "id": "%TG7!K@2EwiT-II8w^S:",
+                    "extraState": {
+                      "X": 471,
+                      "L": [
+                        1,
+                        2
+                      ],
+                      "O": [
+                        "",
+                        ""
+                      ],
+                      "T": "AddScript",
+                      "OT": null
+                    },
+                    "inputs": {
+                      "P1": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "IsUT@r@7/#^/r5]]7WCf",
+                          "extraState": "entity"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "0fa:7`psO`E5NTS6^D%."
+                        }
+                      },
+                      "P2": {
+                        "shadow": {
+                          "type": "psc",
+                          "id": "HaR1n?e6@EW;}LTG%uxk",
+                          "fields": {
+                            "V": "v05jol0s58c-mm678008-89tvvum86pk"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "lpi",
+                        "id": "WbK~le.`}~v*gXdBx3rz",
+                        "fields": {
+                          "X": {
+                            "name": "i",
+                            "type": "int"
+                          }
+                        },
+                        "inputs": {
+                          "FR": {
+                            "shadow": {
+                              "type": "ipi",
+                              "id": "|QYM-ow)dvC@8xI0VXB(",
+                              "fields": {
+                                "V": 0
+                              }
+                            }
+                          },
+                          "TO": {
+                            "shadow": {
+                              "type": "ipi",
+                              "id": "nb^)K}OU3Z9dcfSpHHo)",
+                              "fields": {
+                                "V": 1000000
+                              }
+                            }
+                          },
+                          "ST": {
+                            "shadow": {
+                              "type": "ipi",
+                              "id": "1#XY*ND1,j?=Uy9+YJ,$",
+                              "fields": {
+                                "V": 1
+                              }
+                            }
+                          },
+                          "D": {
+                            "block": {
+                              "type": "a",
+                              "id": "hU8Q2H#@gl%HVj,bS$4`",
+                              "extraState": {
+                                "X": 30,
+                                "L": [
+                                  1
+                                ],
+                                "O": [
+                                  ""
+                                ],
+                                "T": "WaitForSeconds",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "ipi",
+                                    "id": "x0Z)#NdSMtBzVi=Ts/Zb",
+                                    "fields": {
+                                      "V": 3000
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "slr",
+        "id": "ZsO]XDv^r-0RIP%e#]@Q",
+        "x": 288,
+        "y": 125,
+        "extraState": {
+          "X": 0,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "",
+            ""
+          ],
+          "T": "signal_79527814",
+          "OT": "Component"
+        },
+        "fields": {
+          "P1": {
+            "name": "ID",
+            "type": "String"
+          },
+          "P2": {
+            "name": "Các tham số",
+            "type": "ListT_any"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "J8gmV=siw5G(k@^URb3N",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "+c|Wq[guQUIb-*;Wh-;e",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "sopc_dup_block",
+                  "fields": {
+                    "O": "LE"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "]P%E7K73KL##I+%H.f(9",
+                        "extraState": "number"
+                      },
+                      "block": {
+                        "type": "exv",
+                        "id": "Tc;!{MmAVq:Uz@b!A/^Q",
+                        "extraState": {
+                          "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                          "id": "ckh)MMOD5~`Gmzl0.RK4",
+                          "name": "Nhận thuộc tính công thức",
+                          "params": [
+                            {
+                              "id": "_arg3535",
+                              "name": "ID thuộc tính",
+                              "type": "String",
+                              "isOut": false
+                            },
+                            {
+                              "id": "_arg3723",
+                              "name": "Lấy giá trị ban đầu",
+                              "type": "Bool",
+                              "isOut": false
+                            }
+                          ],
+                          "returnType": "Int",
+                          "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "BeLrEq2oj(+2`,8+8pUX",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "7)1Uevh6seZ4g2o.^-#-"
+                            }
+                          },
+                          "_arg3535": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "7,y02i59:*}h]:$Z:yD*",
+                              "extraState": "String"
+                            },
+                            "block": {
+                              "type": "ipt",
+                              "id": "x0.KC^K/BN3=h.h#G1*p",
+                              "fields": {
+                                "V": "HP"
+                              }
+                            }
+                          },
+                          "_arg3723": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "SvOitJ0:hKL?}{6F6|0w",
+                              "extraState": "Bool"
+                            },
+                            "block": {
+                              "type": "ipb",
+                              "id": "pk#vfELFgoaV)O}EK(^D",
+                              "fields": {
+                                "V": "F"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "(Y-9N*hBrFP*VjrX5k_J",
+                        "extraState": "number"
+                      },
+                      "block": {
+                        "type": "ipn",
+                        "id": "OMS#J.sn|9(U!]DVHVE!",
+                        "fields": {
+                          "V": "0"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "a",
+                  "id": "Qv^u?`CtX.xko4CkNSC]",
+                  "extraState": {
+                    "X": 354,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "RemoveEntity",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "XW8kbVKXq}$X=R.{:M!*",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "L2RqfWqYNge-_:!XqIK("
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "TWFi~-eOuz]@+=^I{{My",
+        "x": 271,
+        "y": 372,
+        "extraState": {
+          "X": 582,
+          "L": [],
+          "O": [],
+          "T": "OnDestroy",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "exa",
+            "id": "H8wKG8Xw8o7$0{.Q*H,1",
+            "extraState": {
+              "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+              "id": "=BIsZX#a:9qpy.O_GA-S",
+              "name": "Tạo âm thanh nhanh",
+              "params": [
+                {
+                  "id": "_arg8220",
+                  "name": "tài nguyên",
+                  "type": "AudioID",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg8390",
+                  "name": "tầm tối thiểu",
+                  "type": "Int",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg854",
+                  "name": "tầm tối đa",
+                  "type": "Int",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg4063",
+                  "name": "vị trí",
+                  "type": "Vector3",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg8051",
+                  "name": "Thời gian tồn tại(ms)",
+                  "type": "Int",
+                  "isOut": false
+                },
+                {
+                  "id": "_arg8745",
+                  "name": "Đối tượng theo dõi (nếu có)",
+                  "type": "Entity",
+                  "isOut": false
+                }
+              ],
+              "tooltip": "Assets\\ECA\\Toàn bản đồ.eca"
+            },
+            "fields": {
+              "T": "S"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "i7z~be(%Vk|C{C!u}_t$",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "g=_e;/.GE8HowUzGa$No",
+                  "extraState": {
+                    "X": 95,
+                    "L": [],
+                    "O": [],
+                    "T": "GetGlobalEntity",
+                    "OT": null
+                  }
+                }
+              },
+              "_arg8220": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "t`LR8}j4Qp^o3#(^+sL!",
+                  "extraState": "AudioID"
+                },
+                "block": {
+                  "type": "psd",
+                  "id": "KNmPsG-=pDOk?y/q%u1_",
+                  "fields": {
+                    "V": "x68h1akdjt-mmwwiiv9-1f5eh5ki9oa"
+                  }
+                }
+              },
+              "_arg8390": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "MX({+ML=5Aw=,o9D|/X{",
+                  "extraState": "Int"
+                },
+                "block": {
+                  "type": "ipi",
+                  "id": "S--QGSp(4N31eN9]hx[[",
+                  "fields": {
+                    "V": 5
+                  }
+                }
+              },
+              "_arg854": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "uVx?k+jred/(/bjpD!Me",
+                  "extraState": "Int"
+                },
+                "block": {
+                  "type": "ipi",
+                  "id": "@G~!.Nv5qS~*TDxIqkz#",
+                  "fields": {
+                    "V": 10
+                  }
+                }
+              },
+              "_arg4063": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "yLW^?:sGa.o{dZ}(.wzA",
+                  "extraState": "Vector3"
+                }
+              },
+              "_arg8051": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "I@kIX$Sn3VBKNTJkR3ql",
+                  "extraState": "Int"
+                },
+                "block": {
+                  "type": "ipi",
+                  "id": "PCq3/}Z=wrUV@j^z8[wZ",
+                  "fields": {
+                    "V": 2000
+                  }
+                }
+              },
+              "_arg8745": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "lcX,$g|OmOrqa8NR)qso",
+                  "extraState": "Entity"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "~Fl0{eq8(g}j|c]O.~Sk"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomLevelObject",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
