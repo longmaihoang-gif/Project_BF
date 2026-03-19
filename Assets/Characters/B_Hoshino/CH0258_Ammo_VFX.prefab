@@ -1,16 +1,824 @@
 {
+  "_entityName": "CH0258_Ammo_VFX",
   "_tag": {
     "type": "Prefab"
   },
-  "_entityId": "bfbVEEAw",
+  "_entityId": "o53hzzPZ",
   "children": [
     {
+      "_entityName": "CH0201_Ammo_VFX",
       "_tag": {
-        "type": "SceneEditEntity",
+        "type": "UGCSceneEntity",
         "resourceId": "Primitive/Empty"
       },
-      "_entityId": "M3m2liyd",
-      "children": [],
+      "_entityId": "ws0XI9PX",
+      "children": [
+        {
+          "_entityName": "Cylinder",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "JiAUrx3h",
+          "children": [
+            {
+              "_entityName": "Cone001",
+              "_tag": {
+                "type": "UGCSceneEntity",
+                "resourceId": ""
+              },
+              "_entityId": "ModLIwjC",
+              "children": [],
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "position": {
+                "x": 0,
+                "y": 0.550015389919281,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 0.10000000149011612,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "BTPath": [
+                null
+              ],
+              "visible": true,
+              "VisibilityLayer": 0,
+              "modelOptimization": 0,
+              "streamingLayer": "",
+              "attributes": [
+                2,
+                4
+              ],
+              "isTrigger": false,
+              "collidable": false,
+              "physicalLayer": 0,
+              "physicalMaterial": null,
+              "aoiSetting": 0,
+              "initialTypes": {},
+              "componentList": [
+                "MeshRender",
+                "ColliderShape",
+                "Collider"
+              ],
+              "entityTagData": {
+                "tagPointers": []
+              },
+              "materials": [
+                {
+                  "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+                  "filePath": "Assets\\Materials\\New Material.mat",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "material"
+                }
+              ],
+              "colliders": [
+                {
+                  "enable": true,
+                  "colliderType": "MeshCollider",
+                  "meshUUID": {
+                    "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                    "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "mesh"
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "radius": 0.5,
+                  "height": 1,
+                  "isConvexIfMesh": false
+                }
+              ],
+              "IsNPC": false,
+              "isCreateAsEmpty": false,
+              "Rigidbody": {
+                "Type": 1,
+                "Mass": 1,
+                "CenterOfMass": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "UseGravity": true,
+                "Drag": 0.05,
+                "AngularDrag": 0.05,
+                "FreezePosX": false,
+                "FreezeRotX": false,
+                "FreezePosY": false,
+                "FreezeRotY": false,
+                "FreezePosZ": false,
+                "FreezeRotZ": false
+              },
+              "ecaScripts": [],
+              "ecaProps": {
+                "CustomLevelObject": {},
+                "LevelObject": {},
+                "Transform": {},
+                "Entity": {},
+                "Visibility": {},
+                "MeshRender": {},
+                "ColliderShape": {},
+                "Collider": {}
+              },
+              "propsData": {},
+              "entityVersion": 3,
+              "mesh": {
+                "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "mesh"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "prefabVariant": null
+            },
+            {
+              "_entityName": "Cone001 (1)",
+              "_tag": {
+                "type": "UGCSceneEntity",
+                "resourceId": ""
+              },
+              "_entityId": "Mks8eKUd",
+              "children": [],
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "position": {
+                "x": 0,
+                "y": -0.9000188112258911,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 0.800000011920929,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 180
+              },
+              "BTPath": [
+                null
+              ],
+              "visible": true,
+              "VisibilityLayer": 0,
+              "modelOptimization": 0,
+              "streamingLayer": "",
+              "attributes": [
+                2,
+                4
+              ],
+              "isTrigger": false,
+              "collidable": false,
+              "physicalLayer": 0,
+              "physicalMaterial": null,
+              "aoiSetting": 0,
+              "initialTypes": {},
+              "componentList": [
+                "MeshRender",
+                "ColliderShape",
+                "Collider"
+              ],
+              "entityTagData": {
+                "tagPointers": []
+              },
+              "materials": [
+                {
+                  "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+                  "filePath": "Assets\\Materials\\New Material.mat",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "material"
+                }
+              ],
+              "colliders": [
+                {
+                  "enable": true,
+                  "colliderType": "MeshCollider",
+                  "meshUUID": {
+                    "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                    "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "mesh"
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "size": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "radius": 0.5,
+                  "height": 1,
+                  "isConvexIfMesh": false
+                }
+              ],
+              "IsNPC": false,
+              "isCreateAsEmpty": false,
+              "Rigidbody": {
+                "Type": 1,
+                "Mass": 1,
+                "CenterOfMass": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "UseGravity": true,
+                "Drag": 0.05,
+                "AngularDrag": 0.05,
+                "FreezePosX": false,
+                "FreezeRotX": false,
+                "FreezePosY": false,
+                "FreezeRotY": false,
+                "FreezePosZ": false,
+                "FreezeRotZ": false
+              },
+              "ecaScripts": [],
+              "ecaProps": {
+                "CustomLevelObject": {},
+                "LevelObject": {},
+                "Transform": {},
+                "Entity": {},
+                "Visibility": {},
+                "MeshRender": {},
+                "ColliderShape": {},
+                "Collider": {}
+              },
+              "propsData": {},
+              "entityVersion": 3,
+              "mesh": {
+                "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "mesh"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "prefabVariant": null
+            }
+          ],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0.2
+          },
+          "scale": {
+            "x": 0.019999999552965164,
+            "y": 0.15000000596046448,
+            "z": 0.019999999552965164
+          },
+          "rotation": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "MeshRender",
+            "ColliderShape",
+            "Collider"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [
+            {
+              "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+              "filePath": "Assets\\Materials\\New Material.mat",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "material"
+            }
+          ],
+          "colliders": [
+            {
+              "enable": true,
+              "colliderType": "MeshCollider",
+              "meshUUID": {
+                "fileId": "wehss29x://bd350b6d-6306-4bc9-834b-1246ecda5e40-Cylinder001.~@FFFUB",
+                "filePath": "wehss29x://Meshes/cylinder.fbx/Cylinder001",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "mesh"
+              },
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "radius": 0.5,
+              "height": 1,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "MeshRender": {},
+            "ColliderShape": {},
+            "Collider": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "mesh": {
+            "fileId": "wehss29x://bd350b6d-6306-4bc9-834b-1246ecda5e40-Cylinder001.~@FFFUB",
+            "filePath": "wehss29x://Meshes/cylinder.fbx/Cylinder001",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "mesh"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "ub1a15xqeo-mmmyzi04-7y7ph3zl6ou",
+              "filePath": "Assets\\Characters\\M_Momoi\\CH0201_Ammo_VFX.prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "JiAUrx3h": {
+                "_entityId": "NUh6sb4C",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "scale": {
+                  "x": 0.02,
+                  "y": 0.6,
+                  "z": 0.02
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "MeshRender",
+                  "ColliderShape",
+                  "Collider"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "materials": [
+                  {
+                    "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+                    "filePath": "Assets\\Materials\\New Material.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "colliders": [
+                  {
+                    "enable": true,
+                    "colliderType": "MeshCollider",
+                    "meshUUID": {
+                      "fileId": "wehss29x://bd350b6d-6306-4bc9-834b-1246ecda5e40-Cylinder001.~@FFFUB",
+                      "filePath": "wehss29x://Meshes/cylinder.fbx/Cylinder001",
+                      "fileType": "mesh"
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "size": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "radius": 0.5,
+                    "height": 1,
+                    "isConvexIfMesh": false
+                  }
+                ],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "MeshRender": {},
+                  "ColliderShape": {},
+                  "Collider": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "mesh": {
+                  "fileId": "wehss29x://bd350b6d-6306-4bc9-834b-1246ecda5e40-Cylinder001.~@FFFUB",
+                  "filePath": "wehss29x://Meshes/cylinder.fbx/Cylinder001",
+                  "fileType": "mesh"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "ModLIwjC": {
+                "_entityName": "Cone001",
+                "_entityId": "TzToQGhA",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "position": {
+                  "x": 0,
+                  "y": 0.5499988198280334,
+                  "z": -0.000002980235194627312
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 0.10000000149011612,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "MeshRender",
+                  "ColliderShape",
+                  "Collider"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "materials": [
+                  {
+                    "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+                    "filePath": "Assets\\Materials\\New Material.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "colliders": [
+                  {
+                    "enable": true,
+                    "colliderType": "MeshCollider",
+                    "meshUUID": {
+                      "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                      "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                      "fileType": "mesh"
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "size": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "radius": 0.5,
+                    "height": 1,
+                    "isConvexIfMesh": false
+                  }
+                ],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "MeshRender": {},
+                  "ColliderShape": {},
+                  "Collider": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "mesh": {
+                  "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                  "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                  "fileType": "mesh"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "Mks8eKUd": {
+                "_entityName": "Cone001 (1)",
+                "_entityId": "Kr536nJJ",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "position": {
+                  "x": 0,
+                  "y": -1,
+                  "z": 0.000005960470389254624
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 180
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "physicalMaterial": null,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "MeshRender",
+                  "ColliderShape",
+                  "Collider"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "materials": [
+                  {
+                    "fileId": "59tiujn82li-mmmy7qgh-9lqoxrfk4i6",
+                    "filePath": "Assets\\Materials\\New Material.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "colliders": [
+                  {
+                    "enable": true,
+                    "colliderType": "MeshCollider",
+                    "meshUUID": {
+                      "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                      "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                      "fileType": "mesh"
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "size": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "radius": 0.5,
+                    "height": 1,
+                    "isConvexIfMesh": false
+                  }
+                ],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "MeshRender": {},
+                  "ColliderShape": {},
+                  "Collider": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "mesh": {
+                  "fileId": "wehss29x://c2ce394e-c59e-4f72-8f2b-9f287d9cb292-Cone001.~@FFFUB",
+                  "filePath": "wehss29x://Meshes/cone.fbx/Cone001",
+                  "fileType": "mesh"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              }
+            }
+          }
+        }
+      ],
       "activeValue": {
         "selfValue": true,
         "valueTag": "activeValue"
@@ -25,9 +833,9 @@
         "z": 0
       },
       "scale": {
-        "x": 0.001,
-        "y": 0.001,
-        "z": 0.001
+        "x": 1,
+        "y": 1,
+        "z": 1
       },
       "rotation": {
         "x": 0,
@@ -55,45 +863,39 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 199,
-      "itemID": 224,
-      "seParent": null,
+      "materials": [],
+      "colliders": [],
+      "IsNPC": false,
+      "isCreateAsEmpty": true,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
       "ecaScripts": [],
       "ecaProps": {
-        "EffectEntityGenerator": {},
-        "ItemContainerGenerator": {},
-        "Entity": {},
-        "EffectEntity": {},
-        "Playable": {},
-        "Loopable": {},
+        "CustomLevelObject": {},
         "LevelObject": {},
         "Transform": {},
-        "Visibility": {}
+        "Entity": {},
+        "Visibility": {},
+        "MeshRender": {}
       },
-      "_entityName": "Hiệu ứng bắn",
-      "propsData": {
-        "effectColor": {
-          "r": 196,
-          "g": 37,
-          "b": 89,
-          "a": 1
-        },
-        "playSpeed": 100,
-        "autoPlay": true,
-        "effectTypeResId": "",
-        "effectTexture": "",
-        "effectTextureRef": null,
-        "effectTypeRef": {
-          "fileId": "EffectType_WS_VFX_LIGHTING",
-          "filePath": "lib://ffEffects/T_47_HJ_WS_VFX_LIGHTING",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "effecttype"
-        },
-        "effectType": "WS_VFX_LIGHTING",
-        "isLoop": 0
-      },
+      "propsData": {},
+      "entityVersion": 3,
       "editorLockValue": false,
       "editorVisibleValue": true,
       "prefabVariant": null
@@ -110,7 +912,7 @@
   },
   "editorLockValue": false,
   "editorVisibleValue": true,
-  "discriminator": "ISceneLike",
-  "_entityName": "CH0335_Ammo_VFX"
+  "HintCraftlandCombineMesh": false,
+  "discriminator": "ISceneLike"
 }
-//"{FE:{"v":"1.16.4197289","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
