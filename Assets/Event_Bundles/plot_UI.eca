@@ -1,0 +1,216 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "hbe",
+        "id": "#StFmIJk1ZKMwT#A*/h~",
+        "x": 219,
+        "y": 180,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "Play",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "slsv4",
+            "id": "WPnnq])0lRYT/Z.g*q+^",
+            "extraState": {
+              "X": 0,
+              "L": [
+                1,
+                2
+              ],
+              "O": [
+                "",
+                ""
+              ],
+              "T": "signal_79527814",
+              "OT": "Component"
+            },
+            "fields": {
+              "TO": "1"
+            },
+            "inputs": {
+              "ow": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "{cX500$7J.N#~B.$sY01",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "FOTEzW!o8+ME.`Cqmj5q",
+                  "extraState": {
+                    "X": 121,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "GetEntityOwner",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "G+E.Sh5/A(C|q5-+u+R^",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "Xr]PT.:L.]-iPMsC!vo["
+                      }
+                    }
+                  }
+                }
+              },
+              "P1": {
+                "shadow": {
+                  "type": "ipt",
+                  "id": "A00r(`}Ga8Nbj`V[V~sz",
+                  "fields": {
+                    "V": "Run_plot"
+                  }
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "1+(p_|7Q@IXrokWO2|B6",
+                  "extraState": "ListT_any"
+                },
+                "block": {
+                  "type": "lic",
+                  "id": "eXNVc`w?#6Bp=O8}VEra",
+                  "extraState": {
+                    "X": 2
+                  },
+                  "fields": {
+                    "T": "any"
+                  },
+                  "inputs": {
+                    "I0": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "5D#C]F!OI*BJ:}x9YU#H",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "hYWmnp[PJk(Tx@`Ql,P8",
+                        "extraState": {
+                          "X": 121,
+                          "L": [
+                            1
+                          ],
+                          "O": [
+                            ""
+                          ],
+                          "T": "GetEntityOwner",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "G+E.Sh5/A(C|q5-+u+R^",
+                              "extraState": "entity"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "R{.)m;JW?vtJa-I9Nbl7"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "I1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "0CAju.kU(K#8^R=YA-NZ",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "grg",
+                        "id": "Xmk!NE%%%ywSN2mBemfk",
+                        "fields": {
+                          "VR": "va1NLd4SV"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "a",
+                "id": "|h9O,sm.b~a|fwmUa8[+",
+                "extraState": {
+                  "X": 354,
+                  "L": [
+                    1
+                  ],
+                  "O": [
+                    ""
+                  ],
+                  "T": "RemoveEntity",
+                  "OT": null
+                },
+                "inputs": {
+                  "P1": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "AcCqzVJ3@k`FbGBnu5wJ",
+                      "extraState": "entity"
+                    },
+                    "block": {
+                      "type": "ent",
+                      "id": "ErOzP%]u.!ht*z=+T%H~"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "va1NLd4SV",
+      "name": "ID plot",
+      "type": "CsvID",
+      "value": null
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomHud",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}

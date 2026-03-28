@@ -722,6 +722,32 @@
             "min": -2147483648,
             "max": 2147483647
           }
+        },
+        {
+          "propID": 100007,
+          "name": "PROP_20802540",
+          "label": "Có_độ_bền",
+          "type": "Bool",
+          "value": false,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "size": "small"
+          }
+        },
+        {
+          "propID": 100005,
+          "name": "PROP_44059301",
+          "label": "HP",
+          "type": "Int",
+          "value": 0,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
         }
       ],
       "IsPartial": true
@@ -761,7 +787,21 @@
       ],
       "ecaScripts": [],
       "typeID": 22,
-      "PropDefines": [],
+      "PropDefines": [
+        {
+          "propID": 100006,
+          "name": "PROP_69014822",
+          "label": "Plot",
+          "type": "CsvID",
+          "value": null,
+          "observable": false,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ],
       "IsPartial": true
     },
     "CustomComponent39337248": {

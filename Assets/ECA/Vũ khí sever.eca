@@ -16,124 +16,40 @@
         },
         "next": {
           "block": {
-            "type": "exa",
-            "id": "MJ7?a6P8szRIP7sb3Wjc",
-            "extraState": {
-              "graphId": "jgnprbau9hp-mhj8buaj-3833m43ppih",
-              "id": "29l;eZae3/WJgV@D$t!!",
-              "name": "Bật tắt nút thông thường",
-              "params": [
-                {
-                  "id": "_arg7515",
-                  "name": "trạng thái",
-                  "type": "PlayerBehaviorStatus",
-                  "isOut": false
-                },
-                {
-                  "id": "_arg1891",
-                  "name": "có bao gồm nút tấn công",
-                  "type": "Bool",
-                  "isOut": false
-                }
-              ],
-              "tooltip": "Assets\\ECA\\Người chơi.eca"
-            },
-            "fields": {
-              "T": "W"
-            },
+            "type": "ipcm",
+            "id": "?+W1vHwiJlM*wOLv,8n*",
             "inputs": {
-              "H": {
+              "V": {
                 "shadow": {
-                  "type": "tys",
-                  "id": "=z|F,9c[{2QSKUI=xV*m",
-                  "extraState": "Component"
-                },
-                "block": {
-                  "type": "prg",
-                  "id": "vT!=Jsef;KG~v;uX0z5j",
-                  "extraState": {
-                    "X": 1,
-                    "T": "Player"
-                  },
+                  "type": "ipta",
+                  "id": "qSG(%J~,y2;@SP(R[H4s",
                   "fields": {
-                    "P": "Owner:Weapon"
-                  },
-                  "inputs": {
-                    "H": {
-                      "shadow": {
-                        "type": "tys",
-                        "id": "[tNG-DF~[~-14KJo4tgx",
-                        "extraState": "Component"
-                      },
-                      "block": {
-                        "type": "ent",
-                        "id": "pmI/7%VUh%E#AR7aN/a}"
-                      }
-                    }
-                  }
-                }
-              },
-              "_arg7515": {
-                "shadow": {
-                  "type": "tys",
-                  "id": "VPu^t9rXhaEl?O]s1_A3",
-                  "extraState": "PlayerBehaviorStatus"
-                },
-                "block": {
-                  "type": "ipe",
-                  "id": "^f#XOK_(5((_1c^4Pe|$",
-                  "extraState": 342,
-                  "fields": {
-                    "I": "Enable"
-                  }
-                }
-              },
-              "_arg1891": {
-                "shadow": {
-                  "type": "tys",
-                  "id": ".~[O`jB3gjDeR=O|M0)e",
-                  "extraState": "Bool"
-                },
-                "block": {
-                  "type": "ipb",
-                  "id": "B:GR%kQ?Qx3[7#s,EZ]_",
-                  "fields": {
-                    "V": "T"
+                    "V": "Kích hoạt sau khi thay đạn"
                   }
                 }
               }
             },
             "next": {
               "block": {
-                "type": "exa",
-                "id": "qY_(5-nE;$a1EDLh-X/f",
-                "extraState": {
-                  "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
-                  "id": "h;lzgL{kSb!2%0g1OOgA",
-                  "name": "Đặt lại thuộc tính công thức",
-                  "params": [
-                    {
-                      "id": "_arg6854",
-                      "name": "ID thuộc tính",
-                      "type": "String",
-                      "isOut": false
-                    }
-                  ],
-                  "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
-                },
+                "type": "lcd",
+                "id": "Eg(zz9gd8A9$s8~C!CDN",
                 "fields": {
-                  "T": "W"
+                  "VD": {
+                    "name": "Người chơi",
+                    "type": "Player"
+                  },
+                  "T": "Player"
                 },
                 "inputs": {
-                  "H": {
+                  "V": {
                     "shadow": {
-                      "type": "tys",
-                      "id": "wL{AxQ+F9%l%R*4~FT]V",
-                      "extraState": "Component"
+                      "type": "tyd",
+                      "id": "K,)fH/JYbLVnBa|[^)Tu",
+                      "extraState": "Player"
                     },
                     "block": {
                       "type": "prg",
-                      "id": "U38$^Xb%Hd,|mDeUT@KJ",
+                      "id": "QzrY60wU/RY#N?/Z%{~_",
                       "extraState": {
                         "X": 1,
                         "T": "Player"
@@ -145,28 +61,197 @@
                         "H": {
                           "shadow": {
                             "type": "tys",
-                            "id": "1ArSmf+cp:QPf[z5o!hJ",
+                            "id": "[tNG-DF~[~-14KJo4tgx",
                             "extraState": "Component"
                           },
                           "block": {
                             "type": "ent",
-                            "id": "Z@Tc)h4Z9f`X+UgF}sjB"
+                            "id": "^e7/nOz[gO][~B[CGe31"
                           }
                         }
                       }
                     }
-                  },
-                  "_arg6854": {
-                    "shadow": {
-                      "type": "tys",
-                      "id": "ya2?.sN5L4r`sC.kG$$H",
-                      "extraState": "String"
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "exa",
+                    "id": "MJ7?a6P8szRIP7sb3Wjc",
+                    "extraState": {
+                      "graphId": "jgnprbau9hp-mhj8buaj-3833m43ppih",
+                      "id": "29l;eZae3/WJgV@D$t!!",
+                      "name": "Bật tắt nút thông thường",
+                      "params": [
+                        {
+                          "id": "_arg7515",
+                          "name": "trạng thái",
+                          "type": "PlayerBehaviorStatus",
+                          "isOut": false
+                        },
+                        {
+                          "id": "_arg1891",
+                          "name": "có bao gồm nút tấn công",
+                          "type": "Bool",
+                          "isOut": false
+                        }
+                      ],
+                      "tooltip": "Assets\\ECA\\Người chơi.eca"
                     },
-                    "block": {
-                      "type": "ipt",
-                      "id": "PZmWNe^CO9uL]gj~#{yz",
-                      "fields": {
-                        "V": "Current_Mag_Count"
+                    "fields": {
+                      "T": "W"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "=z|F,9c[{2QSKUI=xV*m",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": ")%YBSwk4IFQMLiZef$.M",
+                          "extraState": "Eg(zz9gd8A9$s8~C!CDNVD",
+                          "fields": {
+                            "VR": "Người chơi"
+                          }
+                        }
+                      },
+                      "_arg7515": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "O[Kx2^Ti%jJsh3T7,EzZ",
+                          "extraState": "PlayerBehaviorStatus"
+                        },
+                        "block": {
+                          "type": "ipe",
+                          "id": "^f#XOK_(5((_1c^4Pe|$",
+                          "extraState": 342,
+                          "fields": {
+                            "I": "Enable"
+                          }
+                        }
+                      },
+                      "_arg1891": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "{sZ]O*JC6P@*4_)-7|}`",
+                          "extraState": "Bool"
+                        },
+                        "block": {
+                          "type": "ipb",
+                          "id": "B:GR%kQ?Qx3[7#s,EZ]_",
+                          "fields": {
+                            "V": "T"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "exa",
+                        "id": "qY_(5-nE;$a1EDLh-X/f",
+                        "extraState": {
+                          "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                          "id": "h;lzgL{kSb!2%0g1OOgA",
+                          "name": "Đặt lại thuộc tính công thức",
+                          "params": [
+                            {
+                              "id": "_arg6854",
+                              "name": "ID thuộc tính",
+                              "type": "String",
+                              "isOut": false
+                            }
+                          ],
+                          "tooltip": "Assets\\ECA\\Hàm thuộc tính công thức V2.eca"
+                        },
+                        "fields": {
+                          "T": "W"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "wL{AxQ+F9%l%R*4~FT]V",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "K+!=39twK!,zWpp8aPGd",
+                              "extraState": "Eg(zz9gd8A9$s8~C!CDNVD",
+                              "fields": {
+                                "VR": "Người chơi"
+                              }
+                            }
+                          },
+                          "_arg6854": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "Z|d!4nN]n~FR1lh~-E#r",
+                              "extraState": "String"
+                            },
+                            "block": {
+                              "type": "ipt",
+                              "id": "PZmWNe^CO9uL]gj~#{yz",
+                              "fields": {
+                                "V": "Current_Mag_Count"
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "exa",
+                            "id": "Q@6dEDAUhd?[QX00E3~q",
+                            "extraState": {
+                              "id": "nuwPlPb|$yo~HGXwnPyJ",
+                              "name": "Set trạng thái của EX Skill",
+                              "params": [
+                                {
+                                  "id": "_arg9279",
+                                  "name": "Mở",
+                                  "type": "Bool",
+                                  "isOut": false
+                                }
+                              ],
+                              "returnType": null,
+                              "graphId": "jgnprbau9hp-mhj8buaj-3833m43ppih"
+                            },
+                            "fields": {
+                              "T": "W"
+                            },
+                            "inputs": {
+                              "H": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "r43a:Z2n4)sxxTU~oY5P",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "$8tv]4cZ!,p%K}oNhV^,",
+                                  "extraState": "Eg(zz9gd8A9$s8~C!CDNVD",
+                                  "fields": {
+                                    "VR": "Người chơi"
+                                  }
+                                }
+                              },
+                              "_arg9279": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "-0rCl!F,pX1JN6v=RJ9+",
+                                  "extraState": "Bool"
+                                },
+                                "block": {
+                                  "type": "ipb",
+                                  "id": ";}P70jT6z8j;*AOIwx|(",
+                                  "fields": {
+                                    "V": "T"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
