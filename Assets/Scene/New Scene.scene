@@ -352,7 +352,7 @@
         "valueTag": "unlockedValue"
       },
       "position": {
-        "x": -38.84400177001953,
+        "x": -40.32416915893555,
         "y": 0.009999999776482582,
         "z": 16.03700065612793
       },
@@ -469,13 +469,13 @@
           "editorVisibleValue": true,
           "position": {
             "x": 0.04500007629394531,
-            "y": 0.968500018119812,
+            "y": 0.968999981880188,
             "z": -0.19499969482421875
           },
           "scale": {
             "x": 0.10000000149011612,
-            "y": 0.1000000610947609,
-            "z": 0.05000003054738045
+            "y": 0.10000000149011612,
+            "z": 0.05000000074505806
           },
           "rotation": {
             "x": 90,
@@ -538,9 +538,9 @@
       "editorLockValue": false,
       "editorVisibleValue": true,
       "position": {
-        "x": -21.110288619995117,
+        "x": -23.446990966796875,
         "y": 0.009999999776482582,
-        "z": 15.898191452026367
+        "z": 15.89799976348877
       },
       "scale": {
         "x": 1,
@@ -3412,6 +3412,98 @@
             "groupId": "",
             "enable": true,
             "prefabVariant": null
+          },
+          {
+            "_entityId": "pIMLWqtn",
+            "children": [],
+            "_entityName": "Aris_weapon",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag35568987",
+            "enable": true
+          },
+          {
+            "_entityId": "FJ1MhWuS",
+            "children": [
+              {
+                "_entityId": "bWkl3Kln",
+                "children": [],
+                "_entityName": "Aris_Original_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
+                    "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001_Weapon",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0.0006,
+                  "z": 0.004
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 90
+                }
+              }
+            ],
+            "_entityName": "Aris_Main_weapon",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag35568987",
+            "enable": false
           }
         ],
         "activeValue": {
@@ -3458,7 +3550,9 @@
         "prefabVariant": null,
         "activeGroupMapping": {
           "": [
-            "vJs70tZS"
+            "IC0BSJAu",
+            "uUMCGq3r",
+            "w6y73IF4"
           ],
           "entityTag50320028": [],
           "entityTag34903933": [],
@@ -3467,9 +3561,12 @@
           "entityTag21234458": [],
           "entityTag39054755": [],
           "entityTag32883213": [],
-          "entityTag35568987": [],
+          "entityTag35568987": [
+            "Qv1B8KRB"
+          ],
           "entityTag72256492": [],
-          "entityTag97594827": []
+          "entityTag97594827": [],
+          "entityTag55908710": []
         }
       },
       "editorLockValue": false,
@@ -3652,7 +3749,9 @@
             "editorVisibleValue": true,
             "activeGroupMapping": {
               "": [
-                "vJs70tZS"
+                "IC0BSJAu",
+                "uUMCGq3r",
+                "w6y73IF4"
               ],
               "entityTag50320028": [],
               "entityTag34903933": [],
@@ -3661,9 +3760,12 @@
               "entityTag21234458": [],
               "entityTag39054755": [],
               "entityTag32883213": [],
-              "entityTag35568987": [],
+              "entityTag35568987": [
+                "Qv1B8KRB"
+              ],
               "entityTag72256492": [],
-              "entityTag97594827": []
+              "entityTag97594827": [],
+              "entityTag55908710": []
             }
           },
           "mTJyErpH": {
@@ -4392,6 +4494,79 @@
             "editorVisibleValue": true,
             "groupId": "",
             "enable": true
+          },
+          "pIMLWqtn": {
+            "_entityId": "Qv1B8KRB",
+            "_entityName": "Aris_weapon",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag35568987",
+            "enable": true
+          },
+          "FJ1MhWuS": {
+            "_entityId": "vR51c6FZ",
+            "_entityName": "Aris_Main_weapon",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag35568987",
+            "enable": false
+          },
+          "bWkl3Kln": {
+            "_entityId": "jzyOu8Tb",
+            "_entityName": "Aris_Original_Weapon.mesh",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "_mesh": {
+              "fileId": "41i78hxnlz6-mm20fhiw-mjftrf8tjh-Aris_Original_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\Aris\\Aris_Original.fbx\\Aris_Original_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "pkis0ql0mbn-mm20g536-x7anb8qvpxc",
+                "filePath": "Assets\\Characters\\Aris\\Weapon.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "Bip001_Weapon",
+              "bindType": 1
+            },
+            "position": {
+              "x": 0,
+              "y": 0.0006,
+              "z": 0.004
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 90
+            }
           }
         }
       }
@@ -9746,6 +9921,1264 @@
       "editorVisibleValue": true
     },
     {
+      "_entityName": "Maki_Original",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "HN3ivp7V",
+      "children": [],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -36.314998626708984,
+        "y": 0.009999999776482582,
+        "z": 15.790868759155273
+      },
+      "scale": {
+        "x": 125,
+        "y": 125,
+        "z": 125
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": false,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "AvatarAble",
+        "Collider",
+        "ColliderShape",
+        "AnimationControllerAble"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "MeshCollider",
+          "meshUUID": {
+            "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Halo.~@FFFUB",
+            "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Halo.mesh",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "mesh"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "AvatarAble": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "AnimationControllerAble": {
+          "acRef": {
+            "fileId": "bdi6fy100oi-mncnqhms-v26b2ru6k7n",
+            "filePath": "Assets\\Characters\\Maki\\Maki_Original.ac",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ac"
+          }
+        },
+        "MeshRender": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "skeleton": {
+        "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original.sk",
+        "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original.sk",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "sk"
+      },
+      "boneEntity": {
+        "_entityName": "Maki_Original",
+        "_tag": {
+          "type": "BoneContentEntity"
+        },
+        "_entityId": "rI3IoNUC",
+        "children": [
+          {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "FQxEqKHM",
+            "children": [
+              {
+                "_entityName": "Maki_Original_Body.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "t604mpM3",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Body.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "2wak86kp6i3-mncnqhpx-e47kp9r35yv",
+                    "filePath": "Assets\\Characters\\Maki\\Body.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "i3xkcc8zai8-mncnqhx5-r3bgdor6ys",
+                    "filePath": "Assets\\Characters\\Maki\\Face.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "wwh4047nzo-mncnqi0p-dcu9j8p3h8v",
+                    "filePath": "Assets\\Characters\\Maki\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "5x7a1dj6e5x-mncnqhu9-o994kjqux9b",
+                    "filePath": "Assets\\Characters\\Maki\\EyeMouth.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "wwh4047nzo-mncnqi0p-dcu9j8p3h8v",
+                    "filePath": "Assets\\Characters\\Maki\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "Maki_Original_Mount_outline.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "YdEy8Zvs",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Mount_outline.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Mount_outline.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "6rr9jrcoy3l-mncnqi8w-bp8lpu7vub",
+                    "filePath": "Assets\\Characters\\Maki\\Mount.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "Maki_Original_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "mmB05Y1q",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "i8vfilwzi4l-mncnqibh-asgplorgycc",
+                    "filePath": "Assets\\Characters\\Maki\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true,
+            "prefabVariant": null
+          },
+          {
+            "_entityName": "Halo",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "AQIEtWaz",
+            "children": [
+              {
+                "_entityName": "Maki_Original_Halo.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "eOaMUhxz",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "gu63ki2vf2k-mncnqi3b-e8n2vcusrgn",
+                    "filePath": "Assets\\Characters\\Maki\\halo.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": -0.004,
+                  "y": -0.001,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 180
+                },
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag97594827",
+            "enable": true,
+            "prefabVariant": null
+          },
+          {
+            "_entityId": "iA5Zq3In",
+            "children": [],
+            "_entityName": "prop",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag55908710",
+            "enable": true
+          },
+          {
+            "_entityId": "V2fFyjRz",
+            "children": [],
+            "_entityName": "Maki_weapon",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag35568987",
+            "enable": true
+          },
+          {
+            "_entityId": "tjuHeuBE",
+            "children": [
+              {
+                "_entityId": "mkmCk2MP",
+                "children": [],
+                "_entityName": "CH0230_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dfk6pt5zh14-mn1jxoj7-9j123c27jai-CH0230_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\D_Hina\\CH0230.fbx\\CH0230_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "yenmvtk7z8-mn1k3ppa-xt4ocd6vp",
+                    "filePath": "Assets\\Characters\\D_Hina\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            ],
+            "_entityName": "Hina_weapon",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag35568987",
+            "enable": false
+          }
+        ],
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "BTPath": [
+          null
+        ],
+        "visible": true,
+        "VisibilityLayer": 0,
+        "modelOptimization": 0,
+        "streamingLayer": "",
+        "attributes": [
+          2,
+          4
+        ],
+        "isTrigger": false,
+        "collidable": true,
+        "physicalLayer": 0,
+        "physicalMaterial": null,
+        "aoiSetting": 0,
+        "initialTypes": {},
+        "componentList": [],
+        "prefabVariant": null,
+        "activeGroupMapping": {
+          "": [
+            "WVcI4wL6"
+          ],
+          "entityTag50320028": [],
+          "entityTag34903933": [],
+          "entityTag74721730": [],
+          "entityTag81020176": [],
+          "entityTag21234458": [],
+          "entityTag39054755": [],
+          "entityTag32883213": [],
+          "entityTag35568987": [
+            "h0ReqTo4"
+          ],
+          "entityTag72256492": [],
+          "entityTag97594827": [
+            "Msq61aci"
+          ],
+          "entityTag55908710": [
+            "ED1wC0gQ"
+          ]
+        }
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": {
+        "prefabFile": {
+          "fileId": "yozdra8kthj-mnco3p5a-gsk6qmfqcmi",
+          "filePath": "Assets\\Characters\\Maki\\Maki_Original.prefab",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "Prefab"
+        },
+        "snapShots": {
+          "HN3ivp7V": {
+            "_entityId": "CLY66LjG",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "scale": {
+              "x": 125,
+              "y": 125,
+              "z": 125
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": false,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [
+              "AvatarAble",
+              "Collider",
+              "ColliderShape",
+              "AnimationControllerAble"
+            ],
+            "entityTagData": {
+              "tagPointers": []
+            },
+            "materials": [],
+            "colliders": [
+              {
+                "enable": true,
+                "colliderType": "MeshCollider",
+                "meshUUID": {
+                  "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Halo.mesh",
+                  "fileType": "mesh"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "size": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "radius": 0.5,
+                "height": 1,
+                "isConvexIfMesh": false
+              }
+            ],
+            "IsNPC": false,
+            "isCreateAsEmpty": false,
+            "Rigidbody": {
+              "Type": 1,
+              "Mass": 1,
+              "CenterOfMass": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "UseGravity": true,
+              "Drag": 0.05,
+              "AngularDrag": 0.05,
+              "FreezePosX": false,
+              "FreezeRotX": false,
+              "FreezePosY": false,
+              "FreezeRotY": false,
+              "FreezePosZ": false,
+              "FreezeRotZ": false
+            },
+            "ecaScripts": [],
+            "ecaProps": {
+              "CustomLevelObject": {},
+              "LevelObject": {},
+              "Transform": {},
+              "Entity": {},
+              "Visibility": {},
+              "AvatarAble": {},
+              "Collider": {},
+              "ColliderShape": {},
+              "AnimationControllerAble": {
+                "acRef": {
+                  "fileId": "bdi6fy100oi-mncnqhms-v26b2ru6k7n",
+                  "filePath": "Assets\\Characters\\Maki\\Maki_Original.ac",
+                  "fileType": "ac"
+                }
+              },
+              "MeshRender": {}
+            },
+            "propsData": {},
+            "entityVersion": 3,
+            "skeleton": {
+              "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original.sk",
+              "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original.sk",
+              "fileType": "sk"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true
+          },
+          "rI3IoNUC": {
+            "_entityName": "Maki_Original",
+            "_entityId": "LPb6nmXd",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "physicalMaterial": null,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "activeGroupMapping": {
+              "": [
+                "WVcI4wL6"
+              ],
+              "entityTag50320028": [],
+              "entityTag34903933": [],
+              "entityTag74721730": [],
+              "entityTag81020176": [],
+              "entityTag21234458": [],
+              "entityTag39054755": [],
+              "entityTag32883213": [],
+              "entityTag35568987": [
+                "h0ReqTo4"
+              ],
+              "entityTag72256492": [],
+              "entityTag97594827": [
+                "Msq61aci"
+              ],
+              "entityTag55908710": [
+                "ED1wC0gQ"
+              ]
+            }
+          },
+          "FQxEqKHM": {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_entityId": "WVcI4wL6",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true
+          },
+          "t604mpM3": {
+            "_entityName": "Maki_Original_Body.mesh",
+            "_entityId": "CwkOnZLC",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Body.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Body.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "2wak86kp6i3-mncnqhpx-e47kp9r35yv",
+                "filePath": "Assets\\Characters\\Maki\\Body.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "i3xkcc8zai8-mncnqhx5-r3bgdor6ys",
+                "filePath": "Assets\\Characters\\Maki\\Face.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "wwh4047nzo-mncnqi0p-dcu9j8p3h8v",
+                "filePath": "Assets\\Characters\\Maki\\Hair.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "5x7a1dj6e5x-mncnqhu9-o994kjqux9b",
+                "filePath": "Assets\\Characters\\Maki\\EyeMouth.mat",
+                "fileType": "material"
+              },
+              {
+                "fileId": "wwh4047nzo-mncnqi0p-dcu9j8p3h8v",
+                "filePath": "Assets\\Characters\\Maki\\Hair.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "YdEy8Zvs": {
+            "_entityName": "Maki_Original_Mount_outline.mesh",
+            "_entityId": "vCFkfR14",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Mount_outline.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Mount_outline.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "6rr9jrcoy3l-mncnqi8w-bp8lpu7vub",
+                "filePath": "Assets\\Characters\\Maki\\Mount.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "mmB05Y1q": {
+            "_entityName": "Maki_Original_Weapon.mesh",
+            "_entityId": "h6bq6X3e",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "i8vfilwzi4l-mncnqibh-asgplorgycc",
+                "filePath": "Assets\\Characters\\Maki\\Weapon.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "AQIEtWaz": {
+            "_entityName": "Halo",
+            "_entityId": "Msq61aci",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag97594827",
+            "enable": true
+          },
+          "eOaMUhxz": {
+            "_entityName": "Maki_Original_Halo.mesh",
+            "_entityId": "ACePT37P",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "vp4ahkortjr-mncntjs1-gu6sg9arpxw-Maki_Original_Halo.~@FFFUB",
+              "filePath": "fab://Assets\\Characters\\Maki\\Maki_Original.fbx\\Maki_Original_Halo.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "gu63ki2vf2k-mncnqi3b-e8n2vcusrgn",
+                "filePath": "Assets\\Characters\\Maki\\halo.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "Bip001 Head",
+              "bindType": 1
+            },
+            "position": {
+              "x": -0.004,
+              "y": -0.001,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 180
+            }
+          },
+          "iA5Zq3In": {
+            "_entityId": "ED1wC0gQ",
+            "_entityName": "prop",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag55908710",
+            "enable": true
+          },
+          "V2fFyjRz": {
+            "_entityId": "h0ReqTo4",
+            "_entityName": "Maki_weapon",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag35568987",
+            "enable": true
+          },
+          "tjuHeuBE": {
+            "_entityId": "TyAjZ27Z",
+            "_entityName": "Hina_weapon",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "entityTag35568987",
+            "enable": false
+          },
+          "mkmCk2MP": {
+            "_entityId": "upWrD4gA",
+            "_entityName": "CH0230_Weapon.mesh",
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "_mesh": {
+              "fileId": "dfk6pt5zh14-mn1jxoj7-9j123c27jai-CH0230_Weapon.~@FFSKIN",
+              "filePath": "fab://Assets\\Characters\\D_Hina\\CH0230.fbx\\CH0230_Weapon.mesh",
+              "fileType": "mesh"
+            },
+            "_cloth": null,
+            "partType": 0,
+            "causeAnimationTypeChange": false,
+            "outwardType": 0,
+            "materials": [
+              {
+                "fileId": "yenmvtk7z8-mn1k3ppa-xt4ocd6vp",
+                "filePath": "Assets\\Characters\\D_Hina\\Weapon.mat",
+                "fileType": "material"
+              }
+            ],
+            "avatarPartInfo": {
+              "bone": "bone_root",
+              "bindType": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "_entityName": "Maki_Trigger",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "Fe0VlpdQ",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -36.32692337036133,
+        "y": 0.009999999776482582,
+        "z": 15.625
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": true,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "ColliderShape",
+        "Collider",
+        "CustomComponent39337248"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Box",
+          "meshUUID": null,
+          "position": {
+            "x": 0,
+            "y": 0.5,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.5,
+          "height": 1,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 1,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": false,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": false,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "ColliderShape": {},
+        "Collider": {},
+        "MeshRender": {},
+        "CustomComponent39337248": {
+          "PROP_28297356": null
+        }
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "editorLockValue": false,
+      "editorVisibleValue": true
+    },
+    {
       "_entityName": "Trang Trí Tân Tiến",
       "_tag": {
         "type": "SceneEditEntity",
@@ -10236,6 +11669,76 @@
       "editorVisibleValue": true
     },
     {
+      "_entityName": "Trang Trí Tân Tiến (7)",
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "ecodXnGF",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -36.215667724609375,
+        "y": -0.019999999552965164,
+        "z": 17.527999877929688
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 270,
+        "y": 90,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": false,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "tempIndex": 21,
+      "itemID": 328,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "DummyLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "Collider": {}
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true
+    },
+    {
       "_entityName": "Đối tượng văn bản",
       "_tag": {
         "type": "SceneEditEntity",
@@ -10290,7 +11793,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 21,
+      "tempIndex": 22,
       "itemID": 222,
       "seParent": null,
       "ecaScripts": [
@@ -10330,6 +11833,102 @@
         "TextDisplay": "Đi vào các model để chọn nhân vật\n(Chọn duy nhất 1 lần)",
         "fontTypeRef": "UIFONT_LATIN"
       }
+    },
+    {
+      "_entityName": "Đối tượng văn bản (1)",
+      "_tag": {
+        "type": "SceneEditEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "OSY7y2B6",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": -0.682000458240509,
+        "y": 0.05000000074505806,
+        "z": 1.138947606086731
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 90,
+        "y": 180,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "tempIndex": 23,
+      "itemID": 222,
+      "seParent": null,
+      "ecaScripts": [
+        null
+      ],
+      "ecaProps": {
+        "TextEntity": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {}
+      },
+      "propsData": {
+        "TextKey": "Vùng thử nghiệm nhân vật tùy chỉnh trang phục\n[ffba00][i]Nếu sắp tới có nhân vật mới ra mắt mà nằm ở đây thì tôi tiên đoán chuẩn rồi đấy :)))\n-Long Sensei-",
+        "fontColor": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "IsBillboard": false,
+        "fontStyleRef": {
+          "bold": false,
+          "italic": false,
+          "underline": false
+        },
+        "FontSize": 40,
+        "IgnoreDepth": false,
+        "AlwaysInScreen": false,
+        "Depth": 0,
+        "Width": 100,
+        "Height": 100,
+        "FondOverFlowMod": 2,
+        "fontType": "UIFONT_LATIN",
+        "fontStyle": 0,
+        "_levelObjectID": 2,
+        "TextDisplay": "Vùng thử nghiệm nhân vật tùy chỉnh trang phục\n[ffba00][i]Nếu sắp tới có nhân vật mới ra mắt mà nằm ở đây thì tôi tiên đoán chuẩn rồi đấy :)))\n-Long Sensei-",
+        "fontTypeRef": "UIFONT_LATIN"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true
     },
     {
       "_entityName": "Kei_B_day",
@@ -11220,7 +12819,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 22,
+          "tempIndex": 24,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [
@@ -11402,7 +13001,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 23,
+          "tempIndex": 25,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [

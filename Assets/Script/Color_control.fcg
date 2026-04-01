@@ -1,0 +1,28 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Math.fcc" as Math
+import "List.fcc" as List
+
+[platform_client]
+graph Script {
+    event OnAwake() {
+        // Tạo một mảng (List) chứa 7 mã màu giống như Định nghĩa mảng trong ECA
+        var rainbowColors List<Color> = List<Color>{}
+        Append(rainbowColors, #FF0000) // [0] Đỏ
+        Append(rainbowColors, #FF7F00) // [1] Cam
+        Append(rainbowColors, #FFFF00) // [2] Vàng
+        Append(rainbowColors, #00FF00) // [3] Lục
+        Append(rainbowColors, #0000FF) // [4] Lam
+        Append(rainbowColors, #4B0082) // [5] Chàm
+        Append(rainbowColors, #8B00FF) // [6] Tím
+        
+        // Sinh số ngẫu nhiên từ 0 đến 6 để làm chỉ mục mảng
+        var randomIndex int = Math.RandomInt(0, 7)
+        var randomColor Color = rainbowColors[randomIndex]
+
+        for i, thucthecon in GetChildren(thisEntity) {
+            //Lệnh cấp phát màu ngẫu nhiên cho vật thể
+            thucthecon<BasicAppearance>.DiffuseColor = randomColor
+        }
+    }
+}

@@ -1,0 +1,19 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import S_Player_ECA from "EditorGenLib.fcc"
+
+graph Test {
+    //Executed when entity is created
+    event OnAwake() {
+        start PrintExStatusEvery3s()
+    }
+
+    // Quest: Theo dõi trạng thái 'Đang trong EX' của Sensei liên tục! 
+    async func PrintExStatusEvery3s() {
+        while true {
+            var exValue = thisEntity<S_Player_ECA>.Dang_trong_EX
+            LogInfo("[Quest Update] Trạng thái 'Đang trong EX': " + (exValue as string))
+            WaitForMillisecond(3000)
+        }
+    }
+}
