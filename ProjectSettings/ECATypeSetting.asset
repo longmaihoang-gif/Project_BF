@@ -25,7 +25,7 @@
         "LevelObject"
       ],
       "ecaScripts": [],
-      "typeID": 100000,
+      "typeID": 100043,
       "PropDefines": [
         {
           "propID": 100041,
@@ -821,7 +821,37 @@
           }
         }
       ]
+    },
+    "CustomComponent96471482": {
+      "label": "CusTeam",
+      "name": "CustomComponent96471482",
+      "bases": [
+        "Component",
+        "Entity"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "riv409p46s-mntqj2xx-os1r9jagtk",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 100064,
+      "PropDefines": [
+        {
+          "propID": 100067,
+          "name": "PROP_90758456",
+          "label": "Team",
+          "type": "Team",
+          "value": null,
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
+        }
+      ]
     }
   }
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4326539","c":{"FF":5001},"s":100}

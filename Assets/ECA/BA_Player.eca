@@ -181,7 +181,7 @@
                         "V": {
                           "shadow": {
                             "type": "tyd",
-                            "id": "bG(ptrdF,2eiNOXlRe^L",
+                            "id": "C,tYuG:NG1$#l~B(RoQe",
                             "extraState": "Player"
                           },
                           "block": {
@@ -286,6 +286,267 @@
             }
           }
         }
+      },
+      {
+        "type": "fna",
+        "id": "=@w}mulo;q;|27PEn{?0",
+        "x": 738,
+        "y": 207,
+        "extraState": [
+          {
+            "id": "_arg2184",
+            "name": "Player",
+            "type": "Player",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "cưỡi ngựa",
+          "_arg2184": {
+            "name": "Player",
+            "type": "Player"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "a",
+              "id": "k59UZ@^m/7^aQOq:KE#[",
+              "extraState": {
+                "X": 49,
+                "L": [
+                  1,
+                  2,
+                  3
+                ],
+                "O": [
+                  "o",
+                  "",
+                  ""
+                ],
+                "T": "CreateLevelObject",
+                "OT": null
+              },
+              "fields": {
+                "P1": {
+                  "name": "Ngựa",
+                  "type": "Horse"
+                }
+              },
+              "inputs": {
+                "P2": {
+                  "shadow": {
+                    "type": "ipv",
+                    "id": ",7S@EV5jZNr1R7c4Vl%}",
+                    "fields": {
+                      "V1": 0,
+                      "V2": 0,
+                      "V3": 0
+                    }
+                  },
+                  "block": {
+                    "type": "prg",
+                    "id": "U[GfB%6L9-QaFI^s?dC4",
+                    "extraState": {
+                      "X": 1,
+                      "T": "Vector3"
+                    },
+                    "fields": {
+                      "P": "DirectPositionVec3:Player"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "WlwuEIh7X?]-JBap`E7(",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "3j|slv-$N3qGzVS^NQ9[",
+                          "extraState": "=@w}mulo;q;|27PEn{?0_arg2184",
+                          "fields": {
+                            "VR": "Player"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "P3": {
+                  "shadow": {
+                    "type": "pkdc",
+                    "id": "vRUrqP@a~lI:nAVx#d8H",
+                    "fields": {
+                      "V": ""
+                    }
+                  },
+                  "block": {
+                    "type": "ipi",
+                    "id": "mSJ)PAIstJL6(4O_WBl4",
+                    "fields": {
+                      "V": 401
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "a",
+                  "id": "HcQn9KM%L%ohwth?r!6~",
+                  "extraState": {
+                    "X": 622,
+                    "L": [
+                      1,
+                      2,
+                      3,
+                      4
+                    ],
+                    "O": [
+                      "",
+                      "",
+                      "",
+                      "o"
+                    ],
+                    "T": "GetInTheVehicle",
+                    "OT": null
+                  },
+                  "fields": {
+                    "P4": {
+                      "name": "Có thành công không",
+                      "type": "Bool"
+                    }
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "bbAb(35h6:8z(]#~NR}/",
+                        "extraState": "Player"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "0DHH3#f!-L/FVWtpc_Kf",
+                        "extraState": "=@w}mulo;q;|27PEn{?0_arg2184",
+                        "fields": {
+                          "VR": "Player"
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "+9oKw}Is4D:hdiEgerfw",
+                        "extraState": "Vehicle"
+                      },
+                      "block": {
+                        "type": "tya",
+                        "id": "stya_dup_block",
+                        "fields": {
+                          "T": "Horse"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "#KVP/5l0Lu5vmfB_a!kx",
+                              "extraState": "any"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "w@,.*@o!s0G3ISX6+u/0",
+                              "extraState": "k59UZ@^m/7^aQOq:KE#[P1",
+                              "fields": {
+                                "VR": "Ngựa"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "P3": {
+                      "shadow": {
+                        "type": "ipe",
+                        "id": "iD##Hu;!gv:k^)r);rj0",
+                        "extraState": "SeatType",
+                        "fields": {
+                          "I": "Driver"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "a",
+        "id": "w_5Xy6(zL29[Z/QH#fv9",
+        "x": 717,
+        "y": 109,
+        "extraState": {
+          "X": 30,
+          "L": [
+            1
+          ],
+          "O": [
+            ""
+          ],
+          "T": "WaitForSeconds",
+          "OT": null
+        },
+        "inputs": {
+          "P1": {
+            "shadow": {
+              "type": "ipi",
+              "id": "Z!(U7ETG-ryxR9aE[`uI",
+              "fields": {
+                "V": 5000
+              }
+            }
+          }
+        },
+        "next": {
+          "block": {
+            "type": "fca",
+            "id": "d3(zNdn8nOm6,[EE[D=J",
+            "extraState": {
+              "id": "=@w}mulo;q;|27PEn{?0",
+              "name": "cưỡi ngựa",
+              "params": [
+                {
+                  "id": "_arg2184",
+                  "name": "Player",
+                  "type": "Player",
+                  "isOut": false
+                }
+              ],
+              "returnType": null
+            },
+            "fields": {
+              "T": "W"
+            },
+            "inputs": {
+              "_arg2184": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "y[(NQa]bDYH{;Tqmg;0G",
+                  "extraState": "Player"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "XL#6JCJqo9MEu35[KLHp",
+                  "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                  "fields": {
+                    "VR": "player"
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     ]
   },
@@ -296,4 +557,4 @@
     "platform": 2
   }
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4326539","c":{"FF":5001},"s":100}

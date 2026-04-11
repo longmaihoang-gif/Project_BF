@@ -1,19 +1,40 @@
 import "StdLibrary.fcc" as StdLib
+import "Convert.fcc" as convert
 import "EditorGenLib.fcc" as EditorLib
 import S_Player_ECA from "EditorGenLib.fcc"
 
 graph Test {
-    //Executed when entity is created
-    event OnAwake() {
-        start PrintExStatusEvery3s()
+    // 1. Hàm có giá trị trả về (Dùng từ khóa return)
+    // Cú pháp: func Tên_Hàm(tham số) Kiểu_Dữ_Trả_Về { ... }
+    func Tinh_Sat_Thuong_Co_Ban(atk int, def int) int {
+        var dmg = atk - def
+        if dmg < 0 {
+            dmg = 0
+        }
+        return dmg
     }
 
-    // Quest: Theo dõi trạng thái 'Đang trong EX' của Sensei liên tục! 
-    async func PrintExStatusEvery3s() {
-        while true {
-            var exValue = thisEntity<S_Player_ECA>.Dang_trong_EX
-            LogInfo("[Quest Update] Trạng thái 'Đang trong EX': " + (exValue as string))
-            WaitForMillisecond(3000)
-        }
+    // 2. Hàm không có giá trị trả về (Void)
+    func Thong_Bao(msg string) {
+        LogInfo("[Aris Log] " + msg)
+    }
+
+    event OnAwake() {
+        // Quest: Thử nghiệm hàm tính toán
+        var sat_thuong = Tinh_Sat_Thuong_Co_Ban(100, 30)
+        
+        // Sử dụng kết quả trả về
+        Thong_Bao("Sát thương tính được: " + ToString(sat_thuong))
+        
+        // Quest: Thử nghiệm hàm Async có giá trị trả về (Dùng out var)
+        start Cho_Doi_Va_Tra_Ket_Qua(2000, out var complete)
+    }
+
+    // 3. Hàm ASYNC có giá trị trả về (Dùng out var)
+    // Lưu ý: Async func thường dùng "out var" để trả kết quả vì nó chạy song song
+    async func Cho_Doi_Va_Tra_Ket_Qua(delay int, out var thanh_cong bool) {
+        WaitForMillisecond(delay)
+        thanh_cong = true
+        LogInfo(">>> [Aris] Đã hoàn thành tác vụ sau " + ToString(delay) + "ms! <<<")
     }
 }
