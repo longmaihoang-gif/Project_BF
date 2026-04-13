@@ -199,7 +199,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 56,
+      "tempIndex": 26,
       "itemID": 273,
       "seParent": null,
       "ecaScripts": [
@@ -317,7 +317,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 57,
+      "tempIndex": 27,
       "itemID": 143,
       "seParent": null,
       "ecaScripts": [
@@ -423,7 +423,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 58,
+          "tempIndex": 28,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -582,7 +582,7 @@
               "entityTagData": {
                 "tagPointers": []
               },
-              "tempIndex": 59,
+              "tempIndex": 29,
               "itemID": 224,
               "seParent": null,
               "ecaScripts": [
@@ -794,7 +794,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 60,
+      "tempIndex": 30,
       "itemID": 223,
       "seParent": null,
       "ecaScripts": [
@@ -916,7 +916,7 @@
               "entityTagData": {
                 "tagPointers": []
               },
-              "tempIndex": 61,
+              "tempIndex": 31,
               "itemID": 297,
               "seParent": null,
               "ecaScripts": [
@@ -998,7 +998,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 62,
+          "tempIndex": 32,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -1079,9 +1079,9 @@
             "valueTag": "unlockedValue"
           },
           "position": {
-            "x": -18.114009857177734,
+            "x": -19.166629791259766,
             "y": 0,
-            "z": 0.13899993896484375
+            "z": 0.13899999856948853
           },
           "scale": {
             "x": 1,
@@ -1114,7 +1114,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 63,
+          "tempIndex": 33,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -11166,6 +11166,1077 @@
           "editorVisibleValue": true
         },
         {
+          "_entityName": "Haruna_Original",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "NXldsrk6",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -15.551616668701172,
+            "y": 0,
+            "z": -0.11840033531188965
+          },
+          "scale": {
+            "x": 125,
+            "y": 62.5,
+            "z": 125
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "Collider",
+            "ColliderShape",
+            "AnimationControllerAble"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "mesh": null,
+          "materials": [],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "Collider": {},
+            "ColliderShape": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "7bb1dwpl6j3-mnvaq6s5-imnxjszf7eh",
+                "filePath": "Assets\\Characters\\Haruna\\Haruna_Original.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            },
+            "MeshRender": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "skeleton": {
+            "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original.sk",
+            "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_entityName": "Haruna_Original",
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "_entityId": "MNmGNYHD",
+            "children": [
+              {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "vPTEqcIg",
+                "children": [
+                  {
+                    "_entityName": "Haruna_Original_Body.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "lL7BsZhX",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Body.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Body.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "4ffqp6zf6mi-mnvaq6va-vz0fg6fck8",
+                        "filePath": "Assets\\Characters\\Haruna\\Body.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "km68zu6wq1-mnvaq70k-223vojfo13j",
+                        "filePath": "Assets\\Characters\\Haruna\\Face.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "s0lopq902za-mnvaq6y0-0rsj710usnlc",
+                        "filePath": "Assets\\Characters\\Haruna\\EyeMouth.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "5992juz1055-mnvaq72o-3bia0o6gu5q",
+                        "filePath": "Assets\\Characters\\Haruna\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "5992juz1055-mnvaq72o-3bia0o6gu5q",
+                        "filePath": "Assets\\Characters\\Haruna\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityName": "Haruna_Original_Fishshapedbun_Weapon.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "nYfKtGhZ",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Fishshapedbun_Weapon.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Fishshapedbun_Weapon.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "ptce0qy48t8-mnvaq796-ugye17drw89",
+                        "filePath": "Assets\\Characters\\Haruna\\outline.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityName": "Haruna_Original_Orangebox.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "YCowhnpd",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Orangebox.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Orangebox.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "k9zz7fu1vrb-mnvb0w33-dram18bo2m",
+                        "filePath": "Assets\\Characters\\Haruna\\outline (1).mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityName": "Haruna_Original_Weapon.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "iU1ibqcz",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Weapon.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Weapon.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "czp849ee25n-mnvaq7ci-m2a2e52fp4",
+                        "filePath": "Assets\\Characters\\Haruna\\Weapon.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "Halo",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "uqXC6qVC",
+                "children": [
+                  {
+                    "_entityName": "Haruna_Original_Halo.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "k7DRFf8j",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Halo.~@FFFUB",
+                      "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Halo.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "9nbyjai6e4-mnvaq74z-rnxx4ibwpzl",
+                        "filePath": "Assets\\Characters\\Haruna\\halo.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "Bip001 Head",
+                      "bindType": 1
+                    },
+                    "position": {
+                      "x": -0.005,
+                      "y": -0.001,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 0.3,
+                      "y": 0.3,
+                      "z": 0.3
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": -90,
+                      "z": 180
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "entityTag97594827",
+                "enable": true,
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "discriminator": "ISceneLike",
+            "activeGroupMapping": {},
+            "prefabVariant": null
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "s1c6s855f9d-mnvbafg8-c4khw6t1rk9",
+              "filePath": "Assets\\Characters\\Haruna\\Haruna_Original.prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "NXldsrk6": {
+                "_entityId": "OdUsAY17",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "scale": {
+                  "x": 125,
+                  "y": 125,
+                  "z": 125
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "AvatarAble",
+                  "Collider",
+                  "ColliderShape",
+                  "AnimationControllerAble"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "mesh": null,
+                "materials": [],
+                "colliders": [],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "AvatarAble": {},
+                  "Collider": {},
+                  "ColliderShape": {},
+                  "AnimationControllerAble": {
+                    "acRef": {
+                      "fileId": "7bb1dwpl6j3-mnvaq6s5-imnxjszf7eh",
+                      "filePath": "Assets\\Characters\\Haruna\\Haruna_Original.ac",
+                      "fileType": "ac"
+                    }
+                  },
+                  "MeshRender": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "skeleton": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original.sk",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original.sk",
+                  "fileType": "sk"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "MNmGNYHD": {
+                "_entityName": "Haruna_Original",
+                "_entityId": "JkuEFPiU",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [],
+                "discriminator": "ISceneLike",
+                "activeGroupMapping": {}
+              },
+              "vPTEqcIg": {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_entityId": "OPSDHoaz",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true
+              },
+              "lL7BsZhX": {
+                "_entityName": "Haruna_Original_Body.mesh",
+                "_entityId": "B91WPd18",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Body.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "4ffqp6zf6mi-mnvaq6va-vz0fg6fck8",
+                    "filePath": "Assets\\Characters\\Haruna\\Body.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "km68zu6wq1-mnvaq70k-223vojfo13j",
+                    "filePath": "Assets\\Characters\\Haruna\\Face.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "s0lopq902za-mnvaq6y0-0rsj710usnlc",
+                    "filePath": "Assets\\Characters\\Haruna\\EyeMouth.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "5992juz1055-mnvaq72o-3bia0o6gu5q",
+                    "filePath": "Assets\\Characters\\Haruna\\Hair.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "5992juz1055-mnvaq72o-3bia0o6gu5q",
+                    "filePath": "Assets\\Characters\\Haruna\\Hair.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "nYfKtGhZ": {
+                "_entityName": "Haruna_Original_Fishshapedbun_Weapon.mesh",
+                "_entityId": "MFxihv44",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Fishshapedbun_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Fishshapedbun_Weapon.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "ptce0qy48t8-mnvaq796-ugye17drw89",
+                    "filePath": "Assets\\Characters\\Haruna\\outline.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "YCowhnpd": {
+                "_entityName": "Haruna_Original_Orangebox.mesh",
+                "_entityId": "eGBkYQin",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Orangebox.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Orangebox.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "k9zz7fu1vrb-mnvb0w33-dram18bo2m",
+                    "filePath": "Assets\\Characters\\Haruna\\outline (1).mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "iU1ibqcz": {
+                "_entityName": "Haruna_Original_Weapon.mesh",
+                "_entityId": "L27eweya",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Weapon.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "czp849ee25n-mnvaq7ci-m2a2e52fp4",
+                    "filePath": "Assets\\Characters\\Haruna\\Weapon.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "uqXC6qVC": {
+                "_entityName": "Halo",
+                "_entityId": "ITKao11g",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "entityTag97594827",
+                "enable": true
+              },
+              "k7DRFf8j": {
+                "_entityName": "Haruna_Original_Halo.mesh",
+                "_entityId": "PjhMO8RE",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "rbqfv9082ur-mnvayp3q-y8nyib4257-Haruna_Original_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Haruna\\Haruna_Original.fbx\\Haruna_Original_Halo.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "9nbyjai6e4-mnvaq74z-rnxx4ibwpzl",
+                    "filePath": "Assets\\Characters\\Haruna\\halo.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": -0.005,
+                  "y": -0.001,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 0.3,
+                  "y": 0.3,
+                  "z": 0.3
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": -90,
+                  "z": 180
+                }
+              }
+            }
+          }
+        },
+        {
+          "_entityName": "Haruna_Trigger",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "JgKDg51Q",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -15.563766479492188,
+            "y": 0,
+            "z": -0.27300000190734863
+          },
+          "scale": {
+            "x": 1,
+            "y": 0.5,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": true,
+          "collidable": true,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "ColliderShape",
+            "Collider",
+            "CustomComponent39337248"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [],
+          "colliders": [
+            {
+              "enable": true,
+              "colliderType": "Box",
+              "meshUUID": null,
+              "position": {
+                "x": 0,
+                "y": 0.5,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "radius": 0.5,
+              "height": 1,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "ColliderShape": {},
+            "Collider": {},
+            "MeshRender": {},
+            "CustomComponent39337248": {
+              "PROP_28297356": null
+            }
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "editorLockValue": false,
+          "editorVisibleValue": true
+        },
+        {
           "_entityName": "Trang Trí Tân Tiến",
           "_tag": {
             "type": "SceneEditEntity",
@@ -11220,7 +12291,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 64,
+          "tempIndex": 34,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11300,7 +12371,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 65,
+          "tempIndex": 35,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11382,7 +12453,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 66,
+          "tempIndex": 36,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11464,7 +12535,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 67,
+          "tempIndex": 37,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11546,7 +12617,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 68,
+          "tempIndex": 38,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11628,7 +12699,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 69,
+          "tempIndex": 39,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11710,7 +12781,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 70,
+          "tempIndex": 40,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11792,7 +12863,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 71,
+          "tempIndex": 41,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11874,7 +12945,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 72,
+          "tempIndex": 42,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -11904,6 +12975,88 @@
           }
         },
         {
+          "_entityName": "Trang Trí Tân Tiến (9)",
+          "_tag": {
+            "type": "SceneEditEntity",
+            "resourceId": "Primitive/Empty"
+          },
+          "_entityId": "mPTIJZVJ",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -15.604869842529297,
+            "y": -0.014999999664723873,
+            "z": 1.6299999952316284
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 0.5
+          },
+          "rotation": {
+            "x": 270,
+            "y": 90,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "tempIndex": 54,
+          "itemID": 328,
+          "seParent": null,
+          "ecaScripts": [
+            null
+          ],
+          "ecaProps": {
+            "DummyLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "Collider": {}
+          },
+          "_performanceConfigData": {
+            "ItemID": 328,
+            "MeshCount": 80,
+            "MaterialCount": 1,
+            "AnimationCount": 0,
+            "BoneCount": 0,
+            "ParticleEmitterCount": 0,
+            "ParticleCount": 0,
+            "TextureMemory": 175032,
+            "ModelMemory": 9428,
+            "AudioMemory": 0
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true
+        },
+        {
           "_entityName": "Đối tượng văn bản",
           "_tag": {
             "type": "SceneEditEntity",
@@ -11923,14 +13076,14 @@
           "editorLockValue": true,
           "editorVisibleValue": true,
           "position": {
-            "x": -7.523998260498047,
+            "x": -9.246269226074219,
             "y": 0.019999999552965164,
-            "z": 3.2729997634887695
+            "z": 3.2730002403259277
           },
           "scale": {
-            "x": 1.0000009536743164,
-            "y": 1.0000004768371582,
-            "z": 0.5000002384185791
+            "x": 1,
+            "y": 1,
+            "z": 0.5
           },
           "rotation": {
             "x": 90,
@@ -11958,7 +13111,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 73,
+          "tempIndex": 43,
           "itemID": 222,
           "seParent": null,
           "ecaScripts": [
@@ -12527,7 +13680,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 74,
+      "tempIndex": 44,
       "itemID": 222,
       "seParent": null,
       "ecaScripts": [
@@ -13090,7 +14243,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 75,
+          "tempIndex": 45,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [
@@ -13284,7 +14437,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 76,
+          "tempIndex": 46,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [
@@ -14518,971 +15671,6 @@
       "entityVersion": 3,
       "editorLockValue": false,
       "editorVisibleValue": true
-    },
-    {
-      "_entityName": "Aru_EX_Explode",
-      "_tag": {
-        "type": "UGCSceneEntity",
-        "resourceId": ""
-      },
-      "_entityId": "z46ILaAS",
-      "children": [
-        {
-          "_entityName": "VFX",
-          "_tag": {
-            "type": "SceneEditEntity",
-            "resourceId": "Primitive/Empty"
-          },
-          "_entityId": "Q2ZCKzA3",
-          "children": [],
-          "activeValue": {
-            "selfValue": true,
-            "valueTag": "activeValue"
-          },
-          "unlockedValue": {
-            "selfValue": true,
-            "valueTag": "unlockedValue"
-          },
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 6,
-            "y": 6,
-            "z": 6
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "BTPath": [
-            null
-          ],
-          "visible": true,
-          "VisibilityLayer": 0,
-          "modelOptimization": 0,
-          "streamingLayer": "",
-          "attributes": [
-            2,
-            4
-          ],
-          "isTrigger": false,
-          "collidable": true,
-          "physicalLayer": 0,
-          "aoiSetting": 0,
-          "initialTypes": {},
-          "componentList": [],
-          "entityTagData": {
-            "tagPointers": []
-          },
-          "tempIndex": 77,
-          "itemID": 224,
-          "seParent": null,
-          "ecaScripts": [
-            null
-          ],
-          "ecaProps": {
-            "EffectEntityGenerator": {},
-            "ItemContainerGenerator": {},
-            "Entity": {},
-            "EffectEntity": {},
-            "Playable": {},
-            "Loopable": {},
-            "LevelObject": {},
-            "Transform": {},
-            "Visibility": {}
-          },
-          "propsData": {
-            "effectColor": {
-              "r": 255,
-              "g": 155,
-              "b": 145,
-              "a": 1
-            },
-            "playSpeed": 125,
-            "autoPlay": true,
-            "effectTypeResId": "",
-            "effectTexture": "",
-            "effectTextureRef": null,
-            "effectTypeRef": {
-              "fileId": "EffectType_UGC_T_37_WZY_WS_VFX8",
-              "filePath": "lib://ffEffects/T_37_WZY_WS_VFX8",
-              "_tag": {
-                "type": "GFileRefer"
-              },
-              "fileType": "effecttype"
-            },
-            "effectType": "UGC_T_37_WZY_WS_VFX8",
-            "isLoop": 0
-          },
-          "_performanceConfigData": {
-            "ItemID": 224,
-            "MeshCount": 0,
-            "MaterialCount": 0,
-            "AnimationCount": 0,
-            "BoneCount": 0,
-            "ParticleEmitterCount": 0,
-            "ParticleCount": 0,
-            "TextureMemory": 0,
-            "ModelMemory": 0,
-            "AudioMemory": 0
-          },
-          "editorLockValue": false,
-          "editorVisibleValue": true,
-          "prefabVariant": null
-        },
-        {
-          "_entityName": "VFX1",
-          "_tag": {
-            "type": "SceneEditEntity",
-            "resourceId": "Primitive/Empty"
-          },
-          "_entityId": "gfSzG9cr",
-          "children": [],
-          "activeValue": {
-            "selfValue": true,
-            "valueTag": "activeValue"
-          },
-          "unlockedValue": {
-            "selfValue": true,
-            "valueTag": "unlockedValue"
-          },
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 8,
-            "y": 8,
-            "z": 8
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "BTPath": [
-            null
-          ],
-          "visible": true,
-          "VisibilityLayer": 0,
-          "modelOptimization": 0,
-          "streamingLayer": "",
-          "attributes": [
-            2,
-            4
-          ],
-          "isTrigger": false,
-          "collidable": true,
-          "physicalLayer": 0,
-          "aoiSetting": 0,
-          "initialTypes": {},
-          "componentList": [],
-          "entityTagData": {
-            "tagPointers": []
-          },
-          "tempIndex": 78,
-          "itemID": 224,
-          "seParent": null,
-          "ecaScripts": [
-            null
-          ],
-          "ecaProps": {
-            "EffectEntityGenerator": {},
-            "ItemContainerGenerator": {},
-            "Entity": {},
-            "EffectEntity": {},
-            "Playable": {},
-            "Loopable": {},
-            "LevelObject": {},
-            "Transform": {},
-            "Visibility": {}
-          },
-          "propsData": {
-            "effectColor": {
-              "r": 255,
-              "g": 155,
-              "b": 145,
-              "a": 1
-            },
-            "playSpeed": 100,
-            "autoPlay": true,
-            "effectTypeResId": "",
-            "effectTexture": "",
-            "effectTextureRef": null,
-            "effectTypeRef": {
-              "fileId": "EffectType_UGC_T_37_WZY_WS_VFX2",
-              "filePath": "lib://ffEffects/T_37_WZY_WS_VFX2",
-              "_tag": {
-                "type": "GFileRefer"
-              },
-              "fileType": "effecttype"
-            },
-            "effectType": "UGC_T_37_WZY_WS_VFX2",
-            "isLoop": 0
-          },
-          "_performanceConfigData": {
-            "ItemID": 224,
-            "MeshCount": 0,
-            "MaterialCount": 0,
-            "AnimationCount": 0,
-            "BoneCount": 0,
-            "ParticleEmitterCount": 0,
-            "ParticleCount": 0,
-            "TextureMemory": 0,
-            "ModelMemory": 0,
-            "AudioMemory": 0
-          },
-          "editorLockValue": false,
-          "editorVisibleValue": true,
-          "prefabVariant": null
-        },
-        {
-          "_entityName": "VFX2",
-          "_tag": {
-            "type": "SceneEditEntity",
-            "resourceId": "Primitive/Empty"
-          },
-          "_entityId": "sBAmpGob",
-          "children": [],
-          "activeValue": {
-            "selfValue": true,
-            "valueTag": "activeValue"
-          },
-          "unlockedValue": {
-            "selfValue": true,
-            "valueTag": "unlockedValue"
-          },
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "scale": {
-            "x": 1,
-            "y": 10,
-            "z": 1
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "BTPath": [
-            null
-          ],
-          "visible": true,
-          "VisibilityLayer": 0,
-          "modelOptimization": 0,
-          "streamingLayer": "",
-          "attributes": [
-            2,
-            4
-          ],
-          "isTrigger": false,
-          "collidable": true,
-          "physicalLayer": 0,
-          "aoiSetting": 0,
-          "initialTypes": {},
-          "componentList": [],
-          "entityTagData": {
-            "tagPointers": []
-          },
-          "tempIndex": 79,
-          "itemID": 224,
-          "seParent": null,
-          "ecaScripts": [
-            null
-          ],
-          "ecaProps": {
-            "EffectEntityGenerator": {},
-            "ItemContainerGenerator": {},
-            "Entity": {},
-            "EffectEntity": {},
-            "Playable": {},
-            "Loopable": {},
-            "LevelObject": {},
-            "Transform": {},
-            "Visibility": {}
-          },
-          "propsData": {
-            "effectColor": {
-              "r": 254,
-              "g": 254,
-              "b": 254,
-              "a": 0.5
-            },
-            "playSpeed": 100,
-            "autoPlay": true,
-            "effectTypeResId": "",
-            "effectTexture": "",
-            "effectTextureRef": null,
-            "effectTypeRef": {
-              "fileId": "EffectType_UGC_T_34_LY_WS_VFX2",
-              "filePath": "lib://ffEffects/T_34_LY_WS_VFX2",
-              "_tag": {
-                "type": "GFileRefer"
-              },
-              "fileType": "effecttype"
-            },
-            "effectType": "UGC_T_34_LY_WS_VFX2",
-            "isLoop": 1
-          },
-          "_performanceConfigData": {
-            "ItemID": 224,
-            "MeshCount": 0,
-            "MaterialCount": 0,
-            "AnimationCount": 0,
-            "BoneCount": 0,
-            "ParticleEmitterCount": 0,
-            "ParticleCount": 0,
-            "TextureMemory": 0,
-            "ModelMemory": 0,
-            "AudioMemory": 0
-          },
-          "editorLockValue": false,
-          "editorVisibleValue": true,
-          "prefabVariant": null
-        }
-      ],
-      "activeValue": {
-        "selfValue": false,
-        "valueTag": "activeValue"
-      },
-      "unlockedValue": {
-        "selfValue": true,
-        "valueTag": "unlockedValue"
-      },
-      "position": {
-        "x": -47.121490478515625,
-        "y": 0.009999999776482582,
-        "z": 22.695117950439453
-      },
-      "scale": {
-        "x": 1,
-        "y": 1,
-        "z": 1
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "BTPath": [
-        null
-      ],
-      "visible": true,
-      "VisibilityLayer": 0,
-      "modelOptimization": 0,
-      "streamingLayer": "",
-      "attributes": [
-        2,
-        4
-      ],
-      "isTrigger": true,
-      "collidable": true,
-      "physicalLayer": 0,
-      "aoiSetting": 0,
-      "initialTypes": {},
-      "componentList": [
-        "Collider",
-        "ColliderShape"
-      ],
-      "entityTagData": {
-        "tagPointers": []
-      },
-      "mesh": null,
-      "materials": [],
-      "colliders": [
-        {
-          "colliderType": "Sphere",
-          "enable": true,
-          "isTrigger": false,
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "size": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "radius": 3,
-          "height": 1
-        }
-      ],
-      "IsNPC": false,
-      "isCreateAsEmpty": false,
-      "Rigidbody": {
-        "Type": 1,
-        "Mass": 1,
-        "CenterOfMass": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "UseGravity": true,
-        "Drag": 0.05,
-        "AngularDrag": 0.05,
-        "FreezePosX": false,
-        "FreezeRotX": false,
-        "FreezePosY": false,
-        "FreezeRotY": false,
-        "FreezePosZ": false,
-        "FreezeRotZ": false
-      },
-      "ecaScripts": [
-        {
-          "fileId": "q0av06glcth-mnu6hvn0-4w0lnndb6q",
-          "filePath": "Assets\\Characters\\Aru\\Aru_EX_Explode.eca",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "eca"
-        }
-      ],
-      "ecaProps": {
-        "CustomLevelObject": {},
-        "LevelObject": {},
-        "Transform": {},
-        "Entity": {},
-        "Visibility": {},
-        "Particles": {
-          "ResRef": {
-            "fileId": "t6ih5c2rmh-mnrmnvx5-hxqfm8ps1ud",
-            "filePath": "Assets\\Materials\\Aru_EX.particles",
-            "_tag": {
-              "type": "GFileRefer"
-            },
-            "fileType": "particles"
-          }
-        },
-        "Playable": {},
-        "Loopable": {},
-        "MeshRender": {},
-        "Collider": {},
-        "ColliderShape": {}
-      },
-      "propsData": {},
-      "entityVersion": 3,
-      "editorLockValue": false,
-      "editorVisibleValue": true,
-      "prefabVariant": {
-        "prefabFile": {
-          "fileId": "l2d10qwkcv-mnshumbh-x43wzk1cbu",
-          "filePath": "Assets\\Characters\\Aru\\Aru_EX.prefab",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "Prefab"
-        },
-        "snapShots": {
-          "z46ILaAS": {
-            "_entityId": "OryeatuN",
-            "activeValue": {
-              "selfValue": true,
-              "valueTag": "activeValue"
-            },
-            "unlockedValue": {
-              "selfValue": true,
-              "valueTag": "unlockedValue"
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "BTPath": [
-              null
-            ],
-            "visible": true,
-            "VisibilityLayer": 0,
-            "modelOptimization": 0,
-            "streamingLayer": "",
-            "attributes": [
-              2,
-              4
-            ],
-            "isTrigger": false,
-            "collidable": true,
-            "physicalLayer": 0,
-            "aoiSetting": 0,
-            "initialTypes": {},
-            "componentList": [
-              "Particles"
-            ],
-            "entityTagData": {
-              "tagPointers": []
-            },
-            "mesh": null,
-            "materials": [],
-            "colliders": [],
-            "IsNPC": false,
-            "isCreateAsEmpty": false,
-            "Rigidbody": {
-              "Type": 1,
-              "Mass": 1,
-              "CenterOfMass": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-              },
-              "UseGravity": true,
-              "Drag": 0.05,
-              "AngularDrag": 0.05,
-              "FreezePosX": false,
-              "FreezeRotX": false,
-              "FreezePosY": false,
-              "FreezeRotY": false,
-              "FreezePosZ": false,
-              "FreezeRotZ": false
-            },
-            "ecaScripts": [
-              {
-                "fileId": "q0av06glcth-mnu6hvn0-4w0lnndb6q",
-                "filePath": "Assets\\Characters\\Aru\\Aru_EX_Explode.eca",
-                "fileType": "eca"
-              }
-            ],
-            "ecaProps": {
-              "CustomLevelObject": {},
-              "LevelObject": {},
-              "Transform": {},
-              "Entity": {},
-              "Visibility": {},
-              "Particles": {
-                "ResRef": {
-                  "fileId": "t6ih5c2rmh-mnrmnvx5-hxqfm8ps1ud",
-                  "filePath": "Assets\\Materials\\Aru_EX.particles",
-                  "fileType": "particles"
-                }
-              },
-              "Playable": {},
-              "Loopable": {},
-              "MeshRender": {}
-            },
-            "propsData": {},
-            "entityVersion": 3,
-            "editorLockValue": false,
-            "editorVisibleValue": true
-          },
-          "Q2ZCKzA3": {
-            "_entityName": "Hiệu ứng hình ảnh",
-            "_entityId": "aP8ibHTl",
-            "activeValue": {
-              "selfValue": true,
-              "valueTag": "activeValue"
-            },
-            "unlockedValue": {
-              "selfValue": true,
-              "valueTag": "unlockedValue"
-            },
-            "position": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "scale": {
-              "x": 5,
-              "y": 5,
-              "z": 5
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "BTPath": [
-              null
-            ],
-            "visible": true,
-            "VisibilityLayer": 0,
-            "modelOptimization": 0,
-            "streamingLayer": "",
-            "attributes": [
-              2,
-              4
-            ],
-            "isTrigger": false,
-            "collidable": true,
-            "physicalLayer": 0,
-            "aoiSetting": 0,
-            "initialTypes": {},
-            "componentList": [],
-            "entityTagData": {
-              "tagPointers": []
-            },
-            "itemID": 224,
-            "seParent": null,
-            "ecaScripts": [
-              null
-            ],
-            "ecaProps": {
-              "EffectEntityGenerator": {},
-              "ItemContainerGenerator": {},
-              "Entity": {},
-              "EffectEntity": {},
-              "Playable": {},
-              "Loopable": {},
-              "LevelObject": {},
-              "Transform": {},
-              "Visibility": {}
-            },
-            "propsData": {
-              "effectColor": {
-                "r": 255,
-                "g": 155,
-                "b": 145,
-                "a": 1
-              },
-              "playSpeed": 150,
-              "autoPlay": true,
-              "effectTypeResId": "",
-              "effectTexture": "",
-              "effectTextureRef": null,
-              "effectTypeRef": {
-                "fileId": "EffectType_UGC_T_38_WZY_WS_VFX8",
-                "filePath": "lib://ffEffects/T_38_WZY_WS_VFX7",
-                "fileType": "effecttype"
-              },
-              "effectType": "UGC_T_38_WZY_WS_VFX8",
-              "isLoop": 0
-            },
-            "_performanceConfigData": {
-              "ItemID": 224,
-              "MeshCount": 0,
-              "MaterialCount": 0,
-              "AnimationCount": 0,
-              "BoneCount": 0,
-              "ParticleEmitterCount": 0,
-              "ParticleCount": 0,
-              "TextureMemory": 0,
-              "ModelMemory": 0,
-              "AudioMemory": 0
-            },
-            "editorLockValue": false,
-            "editorVisibleValue": true
-          },
-          "gfSzG9cr": {
-            "_entityName": "Hiệu ứng hình ảnh (1)",
-            "_entityId": "CF1Z970m",
-            "activeValue": {
-              "selfValue": true,
-              "valueTag": "activeValue"
-            },
-            "unlockedValue": {
-              "selfValue": true,
-              "valueTag": "unlockedValue"
-            },
-            "position": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "scale": {
-              "x": 5,
-              "y": 5,
-              "z": 5
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "BTPath": [
-              null
-            ],
-            "visible": true,
-            "VisibilityLayer": 0,
-            "modelOptimization": 0,
-            "streamingLayer": "",
-            "attributes": [
-              2,
-              4
-            ],
-            "isTrigger": false,
-            "collidable": true,
-            "physicalLayer": 0,
-            "aoiSetting": 0,
-            "initialTypes": {},
-            "componentList": [],
-            "entityTagData": {
-              "tagPointers": []
-            },
-            "itemID": 224,
-            "seParent": null,
-            "ecaScripts": [
-              null
-            ],
-            "ecaProps": {
-              "EffectEntityGenerator": {},
-              "ItemContainerGenerator": {},
-              "Entity": {},
-              "EffectEntity": {},
-              "Playable": {},
-              "Loopable": {},
-              "LevelObject": {},
-              "Transform": {},
-              "Visibility": {}
-            },
-            "propsData": {
-              "effectColor": {
-                "r": 255,
-                "g": 155,
-                "b": 145,
-                "a": 1
-              },
-              "playSpeed": 150,
-              "autoPlay": true,
-              "effectTypeResId": "",
-              "effectTexture": "",
-              "effectTextureRef": null,
-              "effectTypeRef": {
-                "fileId": "EffectType_UGC_T_38_WZY_WS_VFX8",
-                "filePath": "lib://ffEffects/T_38_WZY_WS_VFX7",
-                "fileType": "effecttype"
-              },
-              "effectType": "UGC_T_38_WZY_WS_VFX8",
-              "isLoop": 0
-            },
-            "_performanceConfigData": {
-              "ItemID": 224,
-              "MeshCount": 0,
-              "MaterialCount": 0,
-              "AnimationCount": 0,
-              "BoneCount": 0,
-              "ParticleEmitterCount": 0,
-              "ParticleCount": 0,
-              "TextureMemory": 0,
-              "ModelMemory": 0,
-              "AudioMemory": 0
-            },
-            "editorLockValue": false,
-            "editorVisibleValue": true
-          },
-          "sBAmpGob": {
-            "_entityName": "Hiệu ứng hình ảnh (2)",
-            "_entityId": "tep9Ib3a",
-            "activeValue": {
-              "selfValue": true,
-              "valueTag": "activeValue"
-            },
-            "unlockedValue": {
-              "selfValue": true,
-              "valueTag": "unlockedValue"
-            },
-            "position": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "scale": {
-              "x": 2,
-              "y": 2,
-              "z": 2
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0
-            },
-            "BTPath": [
-              null
-            ],
-            "visible": true,
-            "VisibilityLayer": 0,
-            "modelOptimization": 0,
-            "streamingLayer": "",
-            "attributes": [
-              2,
-              4
-            ],
-            "isTrigger": false,
-            "collidable": true,
-            "physicalLayer": 0,
-            "aoiSetting": 0,
-            "initialTypes": {},
-            "componentList": [],
-            "entityTagData": {
-              "tagPointers": []
-            },
-            "itemID": 224,
-            "seParent": null,
-            "ecaScripts": [
-              null
-            ],
-            "ecaProps": {
-              "EffectEntityGenerator": {},
-              "ItemContainerGenerator": {},
-              "Entity": {},
-              "EffectEntity": {},
-              "Playable": {},
-              "Loopable": {},
-              "LevelObject": {},
-              "Transform": {},
-              "Visibility": {}
-            },
-            "propsData": {
-              "effectColor": {
-                "r": 255,
-                "g": 155,
-                "b": 145,
-                "a": 1
-              },
-              "playSpeed": 125,
-              "autoPlay": true,
-              "effectTypeResId": "",
-              "effectTexture": "",
-              "effectTextureRef": null,
-              "effectTypeRef": {
-                "fileId": "EffectType_WS_VFX_LIGHTING",
-                "filePath": "lib://ffEffects/T_47_HJ_WS_VFX_LIGHTING",
-                "fileType": "effecttype"
-              },
-              "effectType": "WS_VFX_LIGHTING",
-              "isLoop": 0
-            },
-            "_performanceConfigData": {
-              "ItemID": 224,
-              "MeshCount": 0,
-              "MaterialCount": 0,
-              "AnimationCount": 0,
-              "BoneCount": 0,
-              "ParticleEmitterCount": 0,
-              "ParticleCount": 0,
-              "TextureMemory": 0,
-              "ModelMemory": 0,
-              "AudioMemory": 0
-            },
-            "editorLockValue": false,
-            "editorVisibleValue": true
-          }
-        }
-      }
-    },
-    {
-      "_entityName": "Hộp",
-      "_tag": {
-        "type": "SceneEditEntity",
-        "resourceId": "Primitive/Empty"
-      },
-      "_entityId": "QF60Xj8G",
-      "children": [],
-      "prefabVariant": null,
-      "activeValue": {
-        "selfValue": true,
-        "valueTag": "activeValue"
-      },
-      "unlockedValue": {
-        "selfValue": true,
-        "valueTag": "unlockedValue"
-      },
-      "editorLockValue": false,
-      "editorVisibleValue": true,
-      "position": {
-        "x": -38.245121002197266,
-        "y": 0,
-        "z": 22.69695281982422
-      },
-      "scale": {
-        "x": 10,
-        "y": 2,
-        "z": 1
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "BTPath": [
-        null
-      ],
-      "visible": true,
-      "VisibilityLayer": 0,
-      "modelOptimization": 0,
-      "streamingLayer": "",
-      "attributes": [
-        2,
-        4
-      ],
-      "isTrigger": false,
-      "collidable": true,
-      "physicalLayer": 0,
-      "aoiSetting": 0,
-      "initialTypes": {},
-      "componentList": [],
-      "entityTagData": {
-        "tagPointers": []
-      },
-      "tempIndex": 80,
-      "itemID": 91,
-      "seParent": null,
-      "ecaScripts": [
-        null
-      ],
-      "ecaProps": {
-        "BasicScalableItem": {},
-        "LevelObject": {},
-        "Transform": {},
-        "Entity": {},
-        "Visibility": {},
-        "Appearance": {},
-        "Collider": {}
-      },
-      "objColor": {
-        "surfaceColor": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1
-        },
-        "borderColor": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 0
-        }
-      },
-      "objTex": {
-        "surfaceTexRef": {
-          "fileId": "387b17e837dcbb606c2e6c6bdde6c3e3",
-          "filePath": "lib://fftextures/WorkshopItemTexture/SceneEdit_Cube_frame_Texture_01.png",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "texture"
-        },
-        "borderTexRef": null
-      },
-      "propsData": {
-        "scale": {
-          "x": 1,
-          "y": 1,
-          "z": 1
-        }
-      },
-      "_performanceConfigData": {
-        "ItemID": 91,
-        "MeshCount": 12,
-        "MaterialCount": 1,
-        "AnimationCount": 0,
-        "BoneCount": 0,
-        "ParticleEmitterCount": 0,
-        "ParticleCount": 0,
-        "TextureMemory": 22108,
-        "ModelMemory": 4152,
-        "AudioMemory": 0
-      }
     }
   ],
   "prefabVariant": null,
