@@ -199,7 +199,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 26,
+      "tempIndex": 89,
       "itemID": 273,
       "seParent": null,
       "ecaScripts": [
@@ -317,7 +317,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 27,
+      "tempIndex": 90,
       "itemID": 143,
       "seParent": null,
       "ecaScripts": [
@@ -423,7 +423,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 28,
+          "tempIndex": 91,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -582,7 +582,7 @@
               "entityTagData": {
                 "tagPointers": []
               },
-              "tempIndex": 29,
+              "tempIndex": 92,
               "itemID": 224,
               "seParent": null,
               "ecaScripts": [
@@ -794,7 +794,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 30,
+      "tempIndex": 93,
       "itemID": 223,
       "seParent": null,
       "ecaScripts": [
@@ -916,7 +916,7 @@
               "entityTagData": {
                 "tagPointers": []
               },
-              "tempIndex": 31,
+              "tempIndex": 94,
               "itemID": 297,
               "seParent": null,
               "ecaScripts": [
@@ -998,7 +998,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 32,
+          "tempIndex": 95,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -1114,7 +1114,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 33,
+          "tempIndex": 96,
           "itemID": 91,
           "seParent": null,
           "ecaScripts": [
@@ -12237,6 +12237,968 @@
           "editorVisibleValue": true
         },
         {
+          "_entityName": "Yuuka_Original",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "PJbY452I",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -16.97765350341797,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 125,
+            "y": 62.5,
+            "z": 125
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "Collider",
+            "ColliderShape",
+            "AnimationControllerAble"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "mesh": null,
+          "materials": [],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "Collider": {},
+            "ColliderShape": {},
+            "MeshRender": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "vmlzgwi7u4d-mo5m3r87-mh3ntkpi8ca",
+                "filePath": "Assets\\Characters\\Yuuka\\Yuuka_Original.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            }
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "skeleton": {
+            "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original.sk",
+            "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_entityName": "Yuuka_Original",
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "_entityId": "tHSsYNio",
+            "children": [
+              {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "ocAAm1cj",
+                "children": [
+                  {
+                    "_entityName": "Yuuka_Original_Body.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "rUlICLxr",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Body.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Body.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "5rs0tvzgqcf-mo5m3rg9-m6ylrgozphl",
+                        "filePath": "Assets\\Characters\\Yuuka\\Body.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "57yhzs10w04-mo5m3rmh-6yq7vb16wqd",
+                        "filePath": "Assets\\Characters\\Yuuka\\Face.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "1kfp3gil0sn-mo5m3rqe-xyzkiwdwdtn",
+                        "filePath": "Assets\\Characters\\Yuuka\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "1kfp3gil0sn-mo5m3rqe-xyzkiwdwdtn",
+                        "filePath": "Assets\\Characters\\Yuuka\\Hair.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      },
+                      {
+                        "fileId": "htaqb9739lw-mo5m3rjj-9z6ps1bp4w",
+                        "filePath": "Assets\\Characters\\Yuuka\\EyeMouth.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_Calculator",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityName": "Yuuka_Original_Calculator.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "bMhzIILZ",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Calculator.~@FFSKIN",
+                      "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Calculator.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "1ff321kh88y-mo5m3rzw-iy2nwevtth",
+                        "filePath": "Assets\\Characters\\Yuuka\\outline.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_Calculator",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "prefabVariant": null
+                  },
+                  {
+                    "_entityName": "Yuuka_Original_Weapon.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "kJlQoCEy",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": null,
+                    "_mesh": {
+                      "fileId": "k9ub32l21eh-m6c95rd5-5acf30q3wsf-Yuuka_Original_Weapon.~@FFFUB",
+                      "filePath": "fab://Assets\\Characters\\Yuuka\\AnyConv.com__Yuuka_Original_Weapon.fbx\\Yuuka_Original_Weapon.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "mykteyvjot8-mo5m3s2p-s8k6p1d48dr",
+                        "filePath": "Assets\\Characters\\Yuuka\\Weapon.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "Bip001_Weapon_R",
+                      "bindType": 1
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": -0.0005,
+                      "z": 0.001
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 90,
+                      "z": 180
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true,
+                "prefabVariant": null
+              },
+              {
+                "_entityName": "Halo",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "nbMScigR",
+                "children": [
+                  {
+                    "_entityName": "Yuuka_Original_Halo.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "MKjXzBPQ",
+                    "children": [],
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "_mesh": {
+                      "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Halo.~@FFFUB",
+                      "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Halo.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "1993cou5372-mo5m3rtp-5nu66cjsoxf",
+                        "filePath": "Assets\\Characters\\Yuuka\\halo.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "Bip001 Head",
+                      "bindType": 1
+                    },
+                    "position": {
+                      "x": -0.004,
+                      "y": -0.0005,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": -90,
+                      "z": 180
+                    },
+                    "prefabVariant": null
+                  }
+                ],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "entityTag97594827",
+                "enable": true,
+                "prefabVariant": null
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "discriminator": "ISceneLike",
+            "activeGroupMapping": {},
+            "prefabVariant": null
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "vyjnehwly5-mo5mjodw-w8n3cick3mh",
+              "filePath": "Assets\\Characters\\Yuuka\\Yuuka_Original.prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "PJbY452I": {
+                "_entityId": "q2yU63I1",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "scale": {
+                  "x": 125,
+                  "y": 125,
+                  "z": 125
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": false,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "AvatarAble",
+                  "Collider",
+                  "ColliderShape",
+                  "AnimationControllerAble"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "mesh": null,
+                "materials": [],
+                "colliders": [],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 1,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "AvatarAble": {},
+                  "Collider": {},
+                  "ColliderShape": {},
+                  "MeshRender": {},
+                  "AnimationControllerAble": {
+                    "acRef": {
+                      "fileId": "vmlzgwi7u4d-mo5m3r87-mh3ntkpi8ca",
+                      "filePath": "Assets\\Characters\\Yuuka\\Yuuka_Original.ac",
+                      "fileType": "ac"
+                    }
+                  }
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "skeleton": {
+                  "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original.sk",
+                  "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original.sk",
+                  "fileType": "sk"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "tHSsYNio": {
+                "_entityName": "Yuuka_Original",
+                "_entityId": "Ag4H4a7U",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [],
+                "discriminator": "ISceneLike",
+                "activeGroupMapping": {}
+              },
+              "ocAAm1cj": {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_entityId": "BFxtZRXK",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true
+              },
+              "rUlICLxr": {
+                "_entityName": "Yuuka_Original_Body.mesh",
+                "_entityId": "NCITlvf4",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Body.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "5rs0tvzgqcf-mo5m3rg9-m6ylrgozphl",
+                    "filePath": "Assets\\Characters\\Yuuka\\Body.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "57yhzs10w04-mo5m3rmh-6yq7vb16wqd",
+                    "filePath": "Assets\\Characters\\Yuuka\\Face.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "1kfp3gil0sn-mo5m3rqe-xyzkiwdwdtn",
+                    "filePath": "Assets\\Characters\\Yuuka\\Hair.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "1kfp3gil0sn-mo5m3rqe-xyzkiwdwdtn",
+                    "filePath": "Assets\\Characters\\Yuuka\\Hair.mat",
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "htaqb9739lw-mo5m3rjj-9z6ps1bp4w",
+                    "filePath": "Assets\\Characters\\Yuuka\\EyeMouth.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_Calculator",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "bMhzIILZ": {
+                "_entityName": "Yuuka_Original_Calculator.mesh",
+                "_entityId": "P9bkpMFr",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Calculator.~@FFSKIN",
+                  "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Calculator.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "1ff321kh88y-mo5m3rzw-iy2nwevtth",
+                    "filePath": "Assets\\Characters\\Yuuka\\outline.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_Calculator",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "kJlQoCEy": {
+                "_entityName": "Yuuka_Original_Weapon.mesh",
+                "_entityId": "j1e4WHuJ",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "_mesh": {
+                  "fileId": "k9ub32l21eh-m6c95rd5-5acf30q3wsf-Yuuka_Original_Weapon.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Yuuka\\AnyConv.com__Yuuka_Original_Weapon.fbx\\Yuuka_Original_Weapon.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "mykteyvjot8-mo5m3s2p-s8k6p1d48dr",
+                    "filePath": "Assets\\Characters\\Yuuka\\Weapon.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001_Weapon_R",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": 0,
+                  "y": -0.0005,
+                  "z": 0.001
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 90,
+                  "z": 180
+                }
+              },
+              "nbMScigR": {
+                "_entityName": "Halo",
+                "_entityId": "Z2w1JYSl",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "entityTag97594827",
+                "enable": true
+              },
+              "MKjXzBPQ": {
+                "_entityName": "Yuuka_Original_Halo.mesh",
+                "_entityId": "CnkvYhqd",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Halo.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "1993cou5372-mo5m3rtp-5nu66cjsoxf",
+                    "filePath": "Assets\\Characters\\Yuuka\\halo.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": -0.004,
+                  "y": -0.0005,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": -90,
+                  "z": 180
+                }
+              }
+            }
+          }
+        },
+        {
+          "_entityName": "Yuuka_Trigger",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "Cp2weg6J",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -16.940723419189453,
+            "y": 0,
+            "z": -0.27300000190734863
+          },
+          "scale": {
+            "x": 1,
+            "y": 0.5,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": true,
+          "collidable": true,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "ColliderShape",
+            "Collider",
+            "CustomComponent39337248"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "materials": [],
+          "colliders": [
+            {
+              "enable": true,
+              "colliderType": "Box",
+              "meshUUID": null,
+              "position": {
+                "x": 0,
+                "y": 0.5,
+                "z": 0
+              },
+              "size": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "radius": 0.5,
+              "height": 1,
+              "isConvexIfMesh": false
+            }
+          ],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 1,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "ColliderShape": {},
+            "Collider": {},
+            "MeshRender": {},
+            "CustomComponent39337248": {
+              "PROP_28297356": null
+            }
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "editorLockValue": false,
+          "editorVisibleValue": true
+        },
+        {
           "_entityName": "Trang Trí Tân Tiến",
           "_tag": {
             "type": "SceneEditEntity",
@@ -12291,7 +13253,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 34,
+          "tempIndex": 97,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12371,7 +13333,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 35,
+          "tempIndex": 98,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12453,7 +13415,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 36,
+          "tempIndex": 99,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12535,7 +13497,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 37,
+          "tempIndex": 100,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12617,7 +13579,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 38,
+          "tempIndex": 101,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12699,7 +13661,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 39,
+          "tempIndex": 102,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12781,7 +13743,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 40,
+          "tempIndex": 103,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12863,7 +13825,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 41,
+          "tempIndex": 104,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -12945,7 +13907,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 42,
+          "tempIndex": 105,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -13027,7 +13989,89 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 54,
+          "tempIndex": 106,
+          "itemID": 328,
+          "seParent": null,
+          "ecaScripts": [
+            null
+          ],
+          "ecaProps": {
+            "DummyLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "Collider": {}
+          },
+          "_performanceConfigData": {
+            "ItemID": 328,
+            "MeshCount": 80,
+            "MaterialCount": 1,
+            "AnimationCount": 0,
+            "BoneCount": 0,
+            "ParticleEmitterCount": 0,
+            "ParticleCount": 0,
+            "TextureMemory": 175032,
+            "ModelMemory": 9428,
+            "AudioMemory": 0
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true
+        },
+        {
+          "_entityName": "Trang Trí Tân Tiến (10)",
+          "_tag": {
+            "type": "SceneEditEntity",
+            "resourceId": "Primitive/Empty"
+          },
+          "_entityId": "njNfeANK",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": -16.833332061767578,
+            "y": -0.014999999664723873,
+            "z": 1.6299999952316284
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 0.5
+          },
+          "rotation": {
+            "x": 270,
+            "y": 90,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": false,
+          "physicalLayer": 0,
+          "physicalMaterial": null,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "tempIndex": 111,
           "itemID": 328,
           "seParent": null,
           "ecaScripts": [
@@ -13111,7 +14155,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 43,
+          "tempIndex": 107,
           "itemID": 222,
           "seParent": null,
           "ecaScripts": [
@@ -13680,7 +14724,7 @@
       "entityTagData": {
         "tagPointers": []
       },
-      "tempIndex": 44,
+      "tempIndex": 108,
       "itemID": 222,
       "seParent": null,
       "ecaScripts": [
@@ -14243,7 +15287,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 45,
+          "tempIndex": 109,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [
@@ -14437,7 +15481,7 @@
           "entityTagData": {
             "tagPointers": []
           },
-          "tempIndex": 46,
+          "tempIndex": 110,
           "itemID": 223,
           "seParent": null,
           "ecaScripts": [
@@ -15744,4 +16788,4 @@
     }
   }
 }
-//"{FE:{"v":"1.17.4326539","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

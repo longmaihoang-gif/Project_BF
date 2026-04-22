@@ -1,0 +1,2031 @@
+{
+  "_entityName": "ACEntity",
+  "_tag": {
+    "type": "ACEntity"
+  },
+  "_entityId": "J2BR1QMj",
+  "children": [
+    {
+      "_entityName": "Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "UYUleXFi",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "Fx4bygXT",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "BMgSMPrc",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": true
+    },
+    {
+      "_entityName": "Action",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "a0GPUCw9",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "WtmOhKGw",
+          "children": [
+            {
+              "_entityName": "CH0295_Cafe_Reaction.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "Zrp9GSnS",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Cafe_Reaction.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Cafe_Reaction.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 10.7
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "AT5oWMJe",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "Ji656EK8",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 33,
+            "EventFrameName": "Khung hình Sự kiện 2",
+            "startTime": 3.2,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile040"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "vyUTjRdc",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 120,
+            "EventFrameName": "Khung hình Sự kiện 3",
+            "startTime": 4,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile015"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "ilXlBCsD",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 129,
+            "EventFrameName": "Khung hình Sự kiện 4 (1)",
+            "startTime": 4.3,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile-2"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "lgKSmfLq",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 151,
+            "EventFrameName": "Khung hình Sự kiện 5",
+            "startTime": 5.033,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile021"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "RA7c1vPg",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 153,
+            "EventFrameName": "Khung hình Sự kiện 6",
+            "startTime": 5.1,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile-2"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "Wks4ftXP",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 161,
+            "EventFrameName": "Khung hình Sự kiện 7",
+            "startTime": 5.366,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile021"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "GncbwTaZ",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 163,
+            "EventFrameName": "Khung hình Sự kiện 8",
+            "startTime": 5.433,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile-2"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "hvanLfNx",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 183,
+            "EventFrameName": "Khung hình Sự kiện 9",
+            "startTime": 6.1,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile021"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "CVN6GTXi",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 195,
+            "EventFrameName": "Khung hình Sự kiện 4",
+            "startTime": 8.4,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile013"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "EhEgeXe5",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 291,
+            "EventFrameName": "Khung hình Sự kiện 10",
+            "startTime": 9.7,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "Default"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Walk",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "Gp75c7VA",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "yvxGYLJV",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Carrier2_Walk.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "hbHVwIuj",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Cafe_Walk.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Cafe_Walk.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 2.5
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "hnEpqWEg",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "EX",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "F3Pe3uBe",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "HBlrCN3f",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Exs01.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "IpTUwiQA",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Exs.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Exs.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 2.333
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "rSvOhTlJ",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "dEBP0BgE",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 45,
+            "EventFrameName": "Khung hình Sự kiện 3",
+            "startTime": 1.4,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "Bật_khiên"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "qpXp3Qn3",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 117,
+            "EventFrameName": "Khung hình Sự kiện 2",
+            "startTime": 2.3,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "EX_End"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "EX (1)",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "PDqWyjhp",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "z3G8GHVi",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Exs01.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "C7tzLUvf",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": null,
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 4
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "KrxqvXzL",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Fire",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "C9Ixz5nN",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "SEAadrtz",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Normal_Attack_Ing.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "Ggp0qtnY",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Normal_Attack_Ing.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Normal_Attack_Ing.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 0.6
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "NpvCO9fL",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "F3gMMZM8",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 18,
+            "EventFrameName": "Khung hình Sự kiện 3",
+            "startTime": 0.1,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 1
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "qehf31DW",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "startTime": 0.233,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 1
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "_events": [],
+            "from": "ACState",
+            "FrameIndex": 7,
+            "EventFrameName": "Khung Sự kiện 2",
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "pFi1mFgJ",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "startTime": 0.366,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "bắn"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 1
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "_events": [],
+            "from": "ACState",
+            "FrameIndex": 11,
+            "EventFrameName": "Khung Sự kiện 3",
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Booyah",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "KehqkyxC",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "juZyHeBU",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Victory_Start.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "VwiGiCYo",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Victory_Start.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Victory_Start.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 3,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 2.966
+            },
+            {
+              "_entityName": "Yuuka_Original_Victory_End.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "B5Ke8qR2",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Victory_End.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Victory_End.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 2,
+              "postExtrapolate": 0,
+              "startTime": 2.966,
+              "endTime": 41.366
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "Jz1jPbvH",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "b6IQHMlS",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 0,
+            "EventFrameName": "Khung hình Sự kiện 1",
+            "startTime": 0,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile018"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "y5rJ8gEC",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 12,
+            "EventFrameName": "Khung hình Sự kiện 2",
+            "startTime": 0.4,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile005"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          },
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "Gj6NOHW8",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 57,
+            "EventFrameName": "Khung hình Sự kiện 3",
+            "startTime": 1.9,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile006"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Booyah (1)",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "j2a89QdB",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "p446CeSj",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Victory_Start_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "hi7ena08",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Victory_Start_Random.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Victory_Start_Random.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 2.966
+            },
+            {
+              "_entityName": "Yuuka_Original_Victory_End.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "HI9ZM6Pu",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Victory_End_Random.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Victory_End_Random.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 2,
+              "postExtrapolate": 0,
+              "startTime": 2.966,
+              "endTime": 19.966
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "smvzdv63",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "lQV19Uqg",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 0,
+            "EventFrameName": "Khung hình Sự kiện 1",
+            "startTime": 0,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_28638259",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": "Biểu cảm (Tên ảnh)",
+                    "newValue": "tile-5"
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Knockdown",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "FkJ0m520",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "XClBivHv",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Vital_Dying_Ing.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "Eq3eTmjz",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Vital_Panic.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Vital_Panic.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 2,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 38.4
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "QuJPgQl5",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Die",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "nG5Of1AR",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "hZcviWsG",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Vital_Death.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "Lt2rn2f6",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Vital_Death.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Vital_Death.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 1,
+              "startTime": 0,
+              "endTime": 1.866
+            },
+            {
+              "_entityName": "Yuuka_Original_Vital_Death.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "byuf17Ua",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Vital_Death.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Vital_Death.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 59,
+              "endTime": 60
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "CcWIhoyX",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Reload",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "hCK8xOZj",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "UySfS4X8",
+          "children": [
+            {
+              "_entityName": "Yuuka_Original_Normal_Reload.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "smTsIgGX",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Normal_Reload.Anim",
+                "filePath": "fab://Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Normal_Reload.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 3,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 1.933
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "nakGINIO",
+        "children": [
+          {
+            "_entityName": "",
+            "_tag": {
+              "type": "EventFrameEntity"
+            },
+            "_entityId": "AqMAFm2v",
+            "children": [],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "from": "ACState",
+            "FrameIndex": 57,
+            "EventFrameName": "Khung hình Sự kiện 1",
+            "startTime": 1.7,
+            "EventList": [
+              {
+                "eventKeyValue": "AnimationControllerAble::signal_23183885",
+                "paramList": [
+                  {
+                    "type": "String",
+                    "label": " Loại hành động",
+                    "newValue": "reload_end"
+                  },
+                  {
+                    "type": "Float",
+                    "label": "Phần_trăm_ATK",
+                    "newValue": 0
+                  }
+                ],
+                "hideParam": false
+              }
+            ],
+            "dsada": "Sphere",
+            "enable": false
+          }
+        ],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "version": 3,
+  "preModel": {
+    "fileId": "vyjnehwly5-mo5mjodw-w8n3cick3mh",
+    "filePath": "Assets\\Characters\\Yuuka\\Yuuka_Original.prefab",
+    "_tag": {
+      "type": "GFileRefer"
+    },
+    "fileType": "prefab"
+  },
+  "bpcFile": null,
+  "aliasName": "ACEntity"
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}
