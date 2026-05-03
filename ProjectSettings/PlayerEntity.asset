@@ -58,10 +58,7 @@
       "PROP_92841564": true
     },
     "FightingEntity": {},
-    "AimableEntity": {
-      "PROP_73212736": 1,
-      "PROP_20802540": false
-    },
+    "AimableEntity": {},
     "Entity": {},
     "ScoreableEntity": {},
     "RankableEntity": {},
@@ -104,7 +101,14 @@
       },
       "fileType": "eca"
     },
-    null
+    {
+      "fileId": "ulg9pq30bbs-mopo7x3j-853a8tudyle",
+      "filePath": "Assets\\ECA\\Người chơi.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    }
   ],
   "avatarInfo": null,
   "sceneData": {
@@ -328,10 +332,10 @@
     "ECCTParam_UsePhysicalCCT": false,
     "ECCTParam_UseCustomPushForce": false,
     "ECCTParam_CustomPushForce": 120,
-    "ECCTParam_JumpMaxCount": 0,
-    "ECCTParam_JumpHeight": 0.8,
+    "ECCTParam_JumpMaxCount": 1,
+    "ECCTParam_JumpHeight": 5,
     "ECCTParam_CanMoveInAir": false,
-    "ECCTParam_PlayerPhysicalLayer": 0,
+    "ECCTParam_PlayerPhysicalLayer": 2,
     "ECCTParam_EnableRotateWithGravity": false
   },
   "_entityName": "T_43_YU_WS_MODULE_PLAYER",
@@ -343,4 +347,4 @@
   "genderType": 0,
   "usePDV2": false
 }
-//"{FE:{"v":"1.17.4326539","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

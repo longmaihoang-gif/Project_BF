@@ -1,0 +1,17 @@
+import "StdLibrary.fcc" as iostream
+import "Hud.fcc" as hud
+import "Player.fcc" as player
+import "Math.fcc" as cmath
+
+[platform_client]
+graph main {
+        event OnDrag(player entity<Player>, startPosition Vector2, delta Vector2) {
+                var targetHUD = thisEntity<UIWidget>.ParentUI
+                var characterModel = GetWidgetByPath(player, targetHUD, "/Main/Widget_Character/3D_Model")
+                // Nếu tìm thấy mô hình, chúng ta sẽ thực hiện phép xoay!
+                if (characterModel != nil) {
+                    // Xoay mô hình 3D
+                    characterModel<UIWidgetContainer>.Rotation = characterModel<UIWidgetContainer>.Rotation - Vector3{0,delta.X,0}
+                }
+        }
+}

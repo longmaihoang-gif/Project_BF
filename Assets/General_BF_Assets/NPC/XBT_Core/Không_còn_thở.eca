@@ -1,0 +1,164 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 61,
+        "y": 282,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "fnr",
+              "id": "rf[^}Zxy+z=g.G4Y/qz7",
+              "extraState": {
+                "rt": "Bool"
+              },
+              "inputs": {
+                "R": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "y(U%rLNwR^8,WgQxV1X7",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "opc",
+                    "id": "sopc_dup_block",
+                    "fields": {
+                      "O": "LE"
+                    },
+                    "inputs": {
+                      "V1": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "(@R=N@V/j`W%r!UG_Z/t",
+                          "extraState": "number"
+                        },
+                        "block": {
+                          "type": "exv",
+                          "id": "(j{Er8xL/m[rsCklPcf%",
+                          "extraState": {
+                            "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                            "id": "ckh)MMOD5~`Gmzl0.RK4",
+                            "name": "Nhận thuộc tính công thức",
+                            "params": [
+                              {
+                                "id": "_arg3535",
+                                "name": "ID thuộc tính",
+                                "type": "String",
+                                "isOut": false
+                              },
+                              {
+                                "id": "_arg3723",
+                                "name": "Lấy giá trị ban đầu",
+                                "type": "Bool",
+                                "isOut": false
+                              }
+                            ],
+                            "returnType": "Int",
+                            "tooltip": "Assets\\General_BF_Assets\\General_ECA\\Hàm thuộc tính công thức V2.eca"
+                          },
+                          "inputs": {
+                            "H": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "B5np5[6x*Uw1LeeA;Ur{",
+                                "extraState": "Component"
+                              },
+                              "block": {
+                                "type": "lcg",
+                                "id": "+/sW7b!sIUCsvz{idR8J",
+                                "extraState": "TSnh:mMR.kG_ys0@2{JT_arg6151",
+                                "fields": {
+                                  "VR": "Owner"
+                                }
+                              }
+                            },
+                            "_arg3535": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "1pwRa#7VRAtEPD|s/l1X",
+                                "extraState": "String"
+                              },
+                              "block": {
+                                "type": "ipt",
+                                "id": "msq9GU6v.N.xBy6YOns~",
+                                "fields": {
+                                  "V": "HP"
+                                }
+                              }
+                            },
+                            "_arg3723": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "iPBG~yggbOwQ@51|0wsf",
+                                "extraState": "Bool"
+                              },
+                              "block": {
+                                "type": "ipb",
+                                "id": "*O!G;/5r)CUjd$=M0ERk",
+                                "fields": {
+                                  "V": "F"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "V2": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "2%T]71Z|Lnd1U7*ZV-EX",
+                          "extraState": "number"
+                        },
+                        "block": {
+                          "type": "ipn",
+                          "id": "A5nu(k]J*BTz[_8tHhK{",
+                          "fields": {
+                            "V": "0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vD8eGvSue",
+      "name": "Count",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

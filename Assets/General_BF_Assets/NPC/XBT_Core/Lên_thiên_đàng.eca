@@ -1,0 +1,459 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "G:?|d/.vBiUd2@RLO(+u",
+        "x": 421,
+        "y": 676,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayAction",
+          "R": "BTreeNodeState",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "fnr",
+              "id": "{QB@wSnsavt2xpY3vdxd",
+              "extraState": {
+                "rt": "BTreeNodeState"
+              },
+              "inputs": {
+                "R": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "8D[gb;;!|,hv$W$udvXi",
+                    "extraState": "BTreeNodeState"
+                  },
+                  "block": {
+                    "type": "prg",
+                    "id": "s%H:]/:MG{`BHdx#-#o4",
+                    "extraState": {
+                      "X": 1,
+                      "T": "BTreeNodeState"
+                    },
+                    "fields": {
+                      "P": "PROP_34677225:BehaviourTreeNode"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "2HGqA3I`U]^K,ziK(Ch`",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "5o6(.c{k.oo?9])0H)wa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "c8,I5yH[)Q~E^4w4DpWM",
+        "x": -292,
+        "y": 354,
+        "extraState": {
+          "X": 8004,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnNodeEnter",
+          "OT": "BehaviourTreeNode"
+        },
+        "fields": {
+          "P1": {
+            "name": "Tên nút",
+            "type": "String"
+          },
+          "P2": {
+            "name": "Người sở hữu",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": ",_@#SO!8x,_KS^leDL!s",
+            "fields": {
+              "P": "PROP_34677225:BehaviourTreeNode",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "oP+9=,ww!E=%$3v,$P/.",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "PaHQ9qGe8Ef{4Cjge22,"
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "sBU5AdJwmViwC*Ms.xPN",
+                  "extraState": "BTreeNodeState"
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "!T~N6urgh;W$B3]bF%/7",
+                  "extraState": 10024,
+                  "fields": {
+                    "I": "Running"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exs",
+                "id": "K6TZI2MyrVo0sKtwK=?M",
+                "fields": {
+                  "G": "pzdek2dqcg-mocyjmgr-m94e5ywknll",
+                  "VI": "vhnwmwlwn",
+                  "O": "AD"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "-*MBLDdo}iP@]Z0.bSSJ",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "E_x-yZ6OW8M~MjDQz*~T",
+                      "extraState": "c8,I5yH[)Q~E^4w4DpWMP2",
+                      "fields": {
+                        "VR": "Người sở hữu"
+                      }
+                    }
+                  },
+                  "V": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "oznQB^94Dj.M@5e[]){X",
+                      "extraState": "Int"
+                    },
+                    "block": {
+                      "type": "ipi",
+                      "id": "(-98`4{*$Mv`l(i^,fVd",
+                      "fields": {
+                        "V": 1
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "exs",
+                    "id": "kV;^4DUoIH+F;hG=b/PH",
+                    "fields": {
+                      "G": "pzdek2dqcg-mocyjmgr-m94e5ywknll",
+                      "VI": "v2IFNYERf",
+                      "O": "UK"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "-*MBLDdo}iP@]Z0.bSSJ",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "+UE|XFHzW~,b.g=SEDQZ",
+                          "extraState": "c8,I5yH[)Q~E^4w4DpWMP2",
+                          "fields": {
+                            "VR": "Người sở hữu"
+                          }
+                        }
+                      },
+                      "V": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "0kxvlJC5=7rTfnLIa.Hg",
+                          "extraState": "Bool"
+                        },
+                        "block": {
+                          "type": "ipb",
+                          "id": "BEq34to3OW:WaNKY)CMi",
+                          "fields": {
+                            "V": "T"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "a",
+                        "id": "ljW;30+e%YvX7W7-NZ].",
+                        "extraState": {
+                          "X": 8001,
+                          "L": [
+                            1,
+                            2,
+                            3,
+                            4
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "PlayAnimationByController",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "@4[=RTZ1lVQaPd#7.u}*",
+                              "extraState": "AnimationControllerAble"
+                            },
+                            "block": {
+                              "type": "tya",
+                              "id": "stya_dup_block",
+                              "fields": {
+                                "T": "any"
+                              },
+                              "inputs": {
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                    "extraState": "any"
+                                  },
+                                  "block": {
+                                    "type": "v",
+                                    "id": "P^FP2C@`{`m*wbk!GCvL",
+                                    "extraState": {
+                                      "X": 540,
+                                      "L": [
+                                        1,
+                                        2
+                                      ],
+                                      "O": [
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "GetChildByIndex",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "LrAmR_@JSiwZ{I%f;`[D",
+                                          "extraState": "Entity"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "nY7?vR/o0N{MM9GV(si|",
+                                          "extraState": "c8,I5yH[)Q~E^4w4DpWMP2",
+                                          "fields": {
+                                            "VR": "Người sở hữu"
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "ipi",
+                                          "id": "$m0bZ.=EcOOiRT0$m2BT",
+                                          "fields": {
+                                            "V": 0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "ast",
+                              "id": "rc)W`NunF*1Q6Q{.Kjvj",
+                              "fields": {
+                                "HD": "",
+                                "E": ""
+                              }
+                            },
+                            "block": {
+                              "type": "ipe",
+                              "id": "U`}N.t-[2R!+j:VJ*eHD",
+                              "extraState": 10025,
+                              "fields": {
+                                "I": "Die"
+                              }
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "ipf",
+                              "id": "jzTi/}_yXi.t!-3Zau=z",
+                              "fields": {
+                                "V": 1
+                              }
+                            }
+                          },
+                          "P4": {
+                            "shadow": {
+                              "type": "ipe",
+                              "id": "H=I.ehT-Eko*NW_mHB6q",
+                              "extraState": "AnimationOverrideLoopType",
+                              "fields": {
+                                "I": "DontChange"
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "a",
+                            "id": "3pUTZ9T[k)K^Fb~hg~.}",
+                            "extraState": {
+                              "X": 30,
+                              "L": [
+                                1
+                              ],
+                              "O": [
+                                ""
+                              ],
+                              "T": "WaitForSeconds",
+                              "OT": null
+                            },
+                            "inputs": {
+                              "P1": {
+                                "shadow": {
+                                  "type": "ipi",
+                                  "id": "WOUcj/*P8u`9gvm#6V~l",
+                                  "fields": {
+                                    "V": 5000
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "a",
+                                "id": "RzV}@$]EL~%#3nSHNe[2",
+                                "extraState": {
+                                  "X": 354,
+                                  "L": [
+                                    1
+                                  ],
+                                  "O": [
+                                    ""
+                                  ],
+                                  "T": "RemoveEntity",
+                                  "OT": null
+                                },
+                                "inputs": {
+                                  "P1": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "s(#cUGhu}!!NQ#(4F@Lx",
+                                      "extraState": "entity"
+                                    },
+                                    "block": {
+                                      "type": "lcg",
+                                      "id": "^MRKVqP74Qf^!*3h.j%}",
+                                      "extraState": "c8,I5yH[)Q~E^4w4DpWMP2",
+                                      "fields": {
+                                        "VR": "Người sở hữu"
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "prs",
+                                    "id": "JICPv2#?C*:ROV,H*Dkg",
+                                    "fields": {
+                                      "P": "PROP_34677225:BehaviourTreeNode",
+                                      "O": "UK"
+                                    },
+                                    "inputs": {
+                                      "H": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "oP+9=,ww!E=%$3v,$P/.",
+                                          "extraState": "Component"
+                                        },
+                                        "block": {
+                                          "type": "ent",
+                                          "id": "lj~RvoA8OgMvX*v8hC`e"
+                                        }
+                                      },
+                                      "V": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": ":t-r%?(Pl3OSXF5^Q34o",
+                                          "extraState": "BTreeNodeState"
+                                        },
+                                        "block": {
+                                          "type": "ipe",
+                                          "id": "Q%Dl#BoG%=cMH3GV]Aas",
+                                          "extraState": 10024,
+                                          "fields": {
+                                            "I": "Finish"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

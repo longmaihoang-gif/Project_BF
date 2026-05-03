@@ -40,33 +40,109 @@
                   "extraState": "bool"
                 },
                 "block": {
-                  "type": "v",
-                  "id": "-L.Y|zoe!]BCVAg?z~nw",
+                  "type": "opl",
+                  "id": "sopl_dup_block",
                   "extraState": {
-                    "X": 72,
-                    "L": [
-                      1
-                    ],
-                    "O": [
-                      ""
-                    ],
-                    "T": "Not",
-                    "OT": null
+                    "X": 1
+                  },
+                  "fields": {
+                    "O": "AND"
                   },
                   "inputs": {
-                    "P1": {
+                    "V1": {
                       "shadow": {
-                        "type": "ipb",
-                        "id": "ue|3*svUV;[c]*YJ%tp!",
-                        "fields": {
-                          "V": "F"
-                        }
+                        "type": "tys",
+                        "id": "GJZ`sc(@hSuHi5dC9kG4",
+                        "extraState": "bool"
                       },
                       "block": {
                         "type": "v",
-                        "id": "HTsoS;x.Ilpcm4];;1q1",
+                        "id": "-L.Y|zoe!]BCVAg?z~nw",
                         "extraState": {
-                          "X": 352,
+                          "X": 72,
+                          "L": [
+                            1
+                          ],
+                          "O": [
+                            ""
+                          ],
+                          "T": "Not",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "ipb",
+                              "id": "ue|3*svUV;[c]*YJ%tp!",
+                              "fields": {
+                                "V": "F"
+                              }
+                            },
+                            "block": {
+                              "type": "v",
+                              "id": "HTsoS;x.Ilpcm4];;1q1",
+                              "extraState": {
+                                "X": 352,
+                                "L": [
+                                  1,
+                                  2
+                                ],
+                                "O": [
+                                  "",
+                                  ""
+                                ],
+                                "T": "HasTag",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "8Vr}pi*f11#8M~%yK)?Y",
+                                    "extraState": "entity"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "peQW4W:YV=$U~qkJ#3WN",
+                                    "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
+                                    "fields": {
+                                      "VR": "Mục tiêu truy kích"
+                                    }
+                                  }
+                                },
+                                "P2": {
+                                  "shadow": {
+                                    "type": "iptag",
+                                    "id": "XkOC.X{CkyLGvungj9B3",
+                                    "fields": {
+                                      "P2": ""
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "ipt",
+                                    "id": "LG1)|%rp[P6@Vzs*p7I@",
+                                    "fields": {
+                                      "V": "Selected"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "NvMpN=:%.jNH=Qx+t[qo",
+                        "extraState": "bool"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "J?~g1zn3w|)VC5V*qqOy",
+                        "extraState": {
+                          "X": 751,
                           "L": [
                             1,
                             2
@@ -75,19 +151,19 @@
                             "",
                             ""
                           ],
-                          "T": "HasTag",
+                          "T": "HasComponent",
                           "OT": null
                         },
                         "inputs": {
                           "P1": {
                             "shadow": {
                               "type": "tys",
-                              "id": "8Vr}pi*f11#8M~%yK)?Y",
+                              "id": "6Aqv6rB%MpM?n@~-G_qW",
                               "extraState": "entity"
                             },
                             "block": {
                               "type": "lcg",
-                              "id": "peQW4W:YV=$U~qkJ#3WN",
+                              "id": "B7H:qik|)lVQq`_6clQ=",
                               "extraState": "/A?+}s?DZ:bZyzD#tO{@P1",
                               "fields": {
                                 "VR": "Mục tiêu truy kích"
@@ -96,17 +172,10 @@
                           },
                           "P2": {
                             "shadow": {
-                              "type": "iptag",
-                              "id": "XkOC.X{CkyLGvungj9B3",
+                              "type": "tyc",
+                              "id": "_jWu%t]e,k(TVE`bEQ#b",
                               "fields": {
-                                "P2": ""
-                              }
-                            },
-                            "block": {
-                              "type": "ipt",
-                              "id": "LG1)|%rp[P6@Vzs*p7I@",
-                              "fields": {
-                                "V": "Selected"
+                                "T": "Player"
                               }
                             }
                           }
@@ -181,7 +250,7 @@
                         "V": {
                           "shadow": {
                             "type": "tyd",
-                            "id": "C,tYuG:NG1$#l~B(RoQe",
+                            "id": "]u%1fUtqCTWo1=u6V=^5",
                             "extraState": "Player"
                           },
                           "block": {
@@ -484,8 +553,8 @@
       {
         "type": "a",
         "id": "w_5Xy6(zL29[Z/QH#fv9",
-        "x": 717,
-        "y": 109,
+        "x": 1154,
+        "y": -214,
         "extraState": {
           "X": 30,
           "L": [
@@ -532,7 +601,7 @@
               "_arg2184": {
                 "shadow": {
                   "type": "tys",
-                  "id": "y[(NQa]bDYH{;Tqmg;0G",
+                  "id": "mH`QG|)BG6qBpYw~|:5%",
                   "extraState": "Player"
                 },
                 "block": {
@@ -557,4 +626,4 @@
     "platform": 2
   }
 }
-//"{FE:{"v":"1.17.4326539","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

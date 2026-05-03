@@ -1,0 +1,701 @@
+{
+  "_entityName": "Enermy1_2",
+  "_tag": {
+    "type": "Prefab"
+  },
+  "_entityId": "FUyFJO9g",
+  "children": [
+    {
+      "_entityName": "Enermy1_2",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "W2GrQTWz",
+      "children": [
+        {
+          "_entityName": "SchoolGirl02_Sukeban_SR",
+          "_tag": {
+            "type": "UGCSceneEntity",
+            "resourceId": ""
+          },
+          "_entityId": "ntC9H84U",
+          "children": [],
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 125,
+            "y": 125,
+            "z": 125
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "BTPath": [
+            null
+          ],
+          "visible": true,
+          "VisibilityLayer": 0,
+          "modelOptimization": 0,
+          "streamingLayer": "",
+          "attributes": [
+            2,
+            4
+          ],
+          "isTrigger": false,
+          "collidable": true,
+          "physicalLayer": 0,
+          "aoiSetting": 0,
+          "initialTypes": {},
+          "componentList": [
+            "AvatarAble",
+            "AnimationControllerAble"
+          ],
+          "entityTagData": {
+            "tagPointers": []
+          },
+          "mesh": null,
+          "materials": [],
+          "colliders": [],
+          "IsNPC": false,
+          "isCreateAsEmpty": false,
+          "Rigidbody": {
+            "Type": 2,
+            "Mass": 1,
+            "CenterOfMass": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "UseGravity": true,
+            "Drag": 0.05,
+            "AngularDrag": 0.05,
+            "FreezePosX": false,
+            "FreezeRotX": false,
+            "FreezePosY": false,
+            "FreezeRotY": false,
+            "FreezePosZ": false,
+            "FreezeRotZ": false
+          },
+          "ecaScripts": [
+            {
+              "fileId": "qbejp4pxasj-modohf5x-mxmlcpyyicr",
+              "filePath": "Assets\\General_BF_Assets\\NPC\\XBT_Core\\Animator.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            },
+            {
+              "fileId": "zqz7diu056-mody85t9-ecuaohuf1rg",
+              "filePath": "Assets\\General_BF_Assets\\NPC\\XBT_Core\\Animator_Client.eca",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "eca"
+            }
+          ],
+          "ecaProps": {
+            "CustomLevelObject": {},
+            "LevelObject": {},
+            "Transform": {},
+            "Entity": {},
+            "Visibility": {},
+            "AvatarAble": {},
+            "FightingEntity": {},
+            "AimableEntity": {
+              "PROP_73212736": 1,
+              "PROP_20802540": false
+            },
+            "AimAssistEntity": {},
+            "AnimationControllerAble": {
+              "acRef": {
+                "fileId": "4024ed470b-68b5a4d1-876f189dc5c",
+                "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.ac",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "ac"
+              }
+            },
+            "Collider": {},
+            "ColliderShape": {},
+            "Rigidbody": {},
+            "PhysicalMover": {},
+            "MeshRender": {}
+          },
+          "propsData": {},
+          "entityVersion": 3,
+          "skeleton": {
+            "fileId": "fsilrfbriat-mojl8fe4-mymcpme4vof-SchoolGirl02_Sukeban_SR.sk",
+            "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.fbx\\SchoolGirl02_Sukeban_SR.sk",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sk"
+          },
+          "boneEntity": {
+            "_entityName": "SchoolGirl01_Sukeban_SMG_Mesh",
+            "_tag": {
+              "type": "BoneContentEntity"
+            },
+            "_entityId": "OAuSUqO1",
+            "children": [
+              {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_tag": {
+                  "type": "BoneMeshGroupEntity"
+                },
+                "_entityId": "bfqFwiMS",
+                "children": [
+                  {
+                    "_entityName": "SchoolGirl02_Sukeban_SR_Body.mesh",
+                    "_tag": {
+                      "type": "BoneMeshEntity"
+                    },
+                    "_entityId": "jguUIdRF",
+                    "children": [],
+                    "prefabVariant": null,
+                    "activeValue": {
+                      "selfValue": true,
+                      "valueTag": "activeValue"
+                    },
+                    "unlockedValue": {
+                      "selfValue": true,
+                      "valueTag": "unlockedValue"
+                    },
+                    "editorLockValue": false,
+                    "editorVisibleValue": true,
+                    "_mesh": {
+                      "fileId": "fsilrfbriat-mojl8fe4-mymcpme4vof-SchoolGirl02_Sukeban_SR_Body.~@FFSKIN",
+                      "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.fbx\\SchoolGirl02_Sukeban_SR_Body.mesh",
+                      "_tag": {
+                        "type": "GFileRefer"
+                      },
+                      "fileType": "mesh"
+                    },
+                    "_cloth": null,
+                    "partType": 0,
+                    "causeAnimationTypeChange": false,
+                    "outwardType": 0,
+                    "materials": [
+                      {
+                        "fileId": "1f502bde59-5ac66c5c-31e2625ac2b",
+                        "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\Body.mat",
+                        "_tag": {
+                          "type": "GFileRefer"
+                        },
+                        "fileType": "material"
+                      }
+                    ],
+                    "avatarPartInfo": {
+                      "bone": "bone_root",
+                      "bindType": 0
+                    },
+                    "position": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "rotation": {
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    }
+                  }
+                ],
+                "prefabVariant": null,
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true,
+                "groupId": "",
+                "enable": true
+              }
+            ],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "BTPath": [
+              null
+            ],
+            "visible": true,
+            "VisibilityLayer": 0,
+            "modelOptimization": 0,
+            "streamingLayer": "",
+            "attributes": [
+              2,
+              4
+            ],
+            "isTrigger": false,
+            "collidable": true,
+            "physicalLayer": 0,
+            "aoiSetting": 0,
+            "initialTypes": {},
+            "componentList": [],
+            "discriminator": "ISceneLike",
+            "activeGroupMapping": {}
+          },
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "prefabVariant": {
+            "prefabFile": {
+              "fileId": "j81faekq0w-moi4acp7-hd5037t9zpt",
+              "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl01_Sukeban_SR_Mesh (1).prefab",
+              "_tag": {
+                "type": "GFileRefer"
+              },
+              "fileType": "Prefab"
+            },
+            "snapShots": {
+              "ntC9H84U": {
+                "_entityId": "HlSriN1u",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "scale": {
+                  "x": 125,
+                  "y": 125,
+                  "z": 125
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [
+                  "AvatarAble",
+                  "AnimationControllerAble"
+                ],
+                "entityTagData": {
+                  "tagPointers": []
+                },
+                "mesh": null,
+                "materials": [],
+                "colliders": [],
+                "IsNPC": false,
+                "isCreateAsEmpty": false,
+                "Rigidbody": {
+                  "Type": 2,
+                  "Mass": 1,
+                  "CenterOfMass": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "UseGravity": true,
+                  "Drag": 0.05,
+                  "AngularDrag": 0.05,
+                  "FreezePosX": false,
+                  "FreezeRotX": false,
+                  "FreezePosY": false,
+                  "FreezeRotY": false,
+                  "FreezePosZ": false,
+                  "FreezeRotZ": false
+                },
+                "ecaScripts": [
+                  {
+                    "fileId": "qbejp4pxasj-modohf5x-mxmlcpyyicr",
+                    "filePath": "Assets\\General_BF_Assets\\NPC\\XBT_Core\\Animator.eca",
+                    "fileType": "eca"
+                  },
+                  {
+                    "fileId": "zqz7diu056-mody85t9-ecuaohuf1rg",
+                    "filePath": "Assets\\General_BF_Assets\\NPC\\XBT_Core\\Animator_Client.eca",
+                    "fileType": "eca"
+                  }
+                ],
+                "ecaProps": {
+                  "CustomLevelObject": {},
+                  "LevelObject": {},
+                  "Transform": {},
+                  "Entity": {},
+                  "Visibility": {},
+                  "AvatarAble": {},
+                  "FightingEntity": {},
+                  "AimableEntity": {
+                    "PROP_73212736": 1,
+                    "PROP_20802540": false
+                  },
+                  "AimAssistEntity": {},
+                  "AnimationControllerAble": {
+                    "acRef": {
+                      "fileId": "4024ed470b-68b5a4d1-876f189dc5c",
+                      "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl01_Sukeban_SR.ac",
+                      "fileType": "ac"
+                    }
+                  },
+                  "Collider": {},
+                  "ColliderShape": {},
+                  "Rigidbody": {},
+                  "PhysicalMover": {},
+                  "MeshRender": {}
+                },
+                "propsData": {},
+                "entityVersion": 3,
+                "skeleton": {
+                  "fileId": "fsilrfbriat-mojl8fe4-mymcpme4vof-SchoolGirl02_Sukeban_SR.sk",
+                  "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.fbx\\SchoolGirl02_Sukeban_SR.sk",
+                  "fileType": "sk"
+                },
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              "OAuSUqO1": {
+                "_entityName": "SchoolGirl01_Sukeban_SMG_Mesh",
+                "_entityId": "suLzbig0",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "BTPath": [
+                  null
+                ],
+                "visible": true,
+                "VisibilityLayer": 0,
+                "modelOptimization": 0,
+                "streamingLayer": "",
+                "attributes": [
+                  2,
+                  4
+                ],
+                "isTrigger": false,
+                "collidable": true,
+                "physicalLayer": 0,
+                "aoiSetting": 0,
+                "initialTypes": {},
+                "componentList": [],
+                "discriminator": "ISceneLike",
+                "activeGroupMapping": {}
+              },
+              "bfqFwiMS": {
+                "_entityName": "Nhóm Ngoại Hình",
+                "_entityId": "GzNW5kYr",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "groupId": "",
+                "enable": true
+              },
+              "jguUIdRF": {
+                "_entityName": "SchoolGirl02_Sukeban_SR_Body.mesh",
+                "_entityId": "pJGC6zan",
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": null,
+                "_mesh": {
+                  "fileId": "fsilrfbriat-mojl8fe4-mymcpme4vof-SchoolGirl02_Sukeban_SR_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.fbx\\SchoolGirl02_Sukeban_SR_Body.mesh",
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "8k6ar2brphn-mo9olpl3-ic66imqtkdb",
+                    "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_1\\Body.mat",
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              }
+            }
+          }
+        }
+      ],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        {
+          "fileId": "9d7tpt77hov-mo9pqzpw-csbk01yrc5",
+          "filePath": "Assets\\General_BF_Assets\\NPC\\XBT_Core\\AI_NPC.xbt",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "xbt"
+        }
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        4,
+        3
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 2,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "Collider",
+        "ColliderShape",
+        "CustomComponent96471482",
+        "Rigidbody",
+        "PhysicalMover",
+        "AimAssistEntity",
+        "FightingEntity",
+        "AnimationControllerAble",
+        "AimableEntity",
+        "BehaviourTreeAttachable"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "mesh": null,
+      "materials": [],
+      "colliders": [
+        {
+          "colliderType": "Capsule",
+          "enable": true,
+          "isTrigger": false,
+          "position": {
+            "x": 0,
+            "y": 0.6,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "radius": 0.2,
+          "height": 1.2,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": true,
+      "Rigidbody": {
+        "Type": 2,
+        "Mass": 60,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.25,
+        "AngularDrag": 0.05,
+        "FreezePosX": false,
+        "FreezeRotX": true,
+        "FreezePosY": false,
+        "FreezeRotY": true,
+        "FreezePosZ": false,
+        "FreezeRotZ": true
+      },
+      "ecaScripts": [
+        {
+          "fileId": "v05jol0s58c-mm678008-89tvvum86pk",
+          "filePath": "Assets\\General_BF_Assets\\General_ECA\\Combat.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        },
+        {
+          "fileId": "pzdek2dqcg-mocyjmgr-m94e5ywknll",
+          "filePath": "Assets\\ECA\\NPC_Behaviour_Recovery.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        },
+        {
+          "fileId": "549422e273-39393c94-5f54c3ea82a",
+          "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\Sukeban_SR.eca",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "CustomComponent96471482": {
+          "PROP_90758456": "Team A"
+        },
+        "Rigidbody": {},
+        "PhysicalMover": {},
+        "AimableEntity": {
+          "PROP_73212736": 1,
+          "PROP_20802540": false
+        },
+        "AimAssistEntity": {},
+        "FightingEntity": {},
+        "AnimationControllerAble": {
+          "acRef": {
+            "fileId": "4024ed470b-68b5a4d1-876f189dc5c",
+            "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_2\\SchoolGirl02_Sukeban_SR.ac",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ac"
+          }
+        },
+        "MeshRender": {},
+        "BehaviourTreeAttachable": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": null,
+      "physicalMaterial": {
+        "fileId": "fntxlocaknw-mof4686j-ys2iwek9so",
+        "filePath": "Assets\\chất liệu vật lý.phymat",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "phymat"
+      }
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "HintCraftlandCombineMesh": false,
+  "discriminator": "ISceneLike"
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

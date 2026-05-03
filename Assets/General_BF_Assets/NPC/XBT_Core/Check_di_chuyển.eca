@@ -1,0 +1,204 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 61,
+        "y": 282,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "grs",
+              "id": "~}f-I|*B;I._`q|REFm8",
+              "fields": {
+                "VR": "vD8eGvSue",
+                "O": "AD"
+              },
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "REpIK2=7wd{Ez+8r{V~m",
+                    "extraState": "Int"
+                  },
+                  "block": {
+                    "type": "ipi",
+                    "id": "4Tums/0%wWN-=_R+C5{|",
+                    "fields": {
+                      "V": 1
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "ife1",
+                  "id": ":|#/Wy78huKCkj7BD~/Y",
+                  "extraState": {
+                    "X": 2,
+                    "CIDS": []
+                  },
+                  "inputs": {
+                    "C": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "5RZnq|;6mz#9^R/|59dR",
+                        "extraState": "bool"
+                      },
+                      "block": {
+                        "type": "opc",
+                        "id": "sopc_dup_block",
+                        "fields": {
+                          "O": "GE"
+                        },
+                        "inputs": {
+                          "V1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "?Y$2sC|!A^x?V+@Sqk[w",
+                              "extraState": "number"
+                            },
+                            "block": {
+                              "type": "grg",
+                              "id": "ac%w!^hKgWLGgCU1_V-V",
+                              "fields": {
+                                "VR": "vD8eGvSue"
+                              }
+                            }
+                          },
+                          "V2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "s/xoybx1:yn|4]s(sq9,",
+                              "extraState": "number"
+                            },
+                            "block": {
+                              "type": "ipn",
+                              "id": "{2aEGALLl:DK]uKq4I7f",
+                              "fields": {
+                                "V": "15"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "D": {
+                      "block": {
+                        "type": "grs",
+                        "id": "$$(*Q,Ye,9J=4~VNN(/(",
+                        "fields": {
+                          "VR": "vD8eGvSue",
+                          "O": "UK"
+                        },
+                        "inputs": {
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "R,MDnmQisC(LOfIb3|b=",
+                              "extraState": "Int"
+                            },
+                            "block": {
+                              "type": "ipi",
+                              "id": "}3QHbstRp^m0vCvzT]~a",
+                              "fields": {
+                                "V": 0
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "fnr",
+                            "id": "aUn9+`{5I)Z/p|dR6~a;",
+                            "extraState": {
+                              "rt": "Bool"
+                            },
+                            "inputs": {
+                              "R": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "4{]GNwy/n~?,$PkdYEfw",
+                                  "extraState": "Bool"
+                                },
+                                "block": {
+                                  "type": "ipb",
+                                  "id": ".FM7]-wT,k#(2O`3O!oN",
+                                  "fields": {
+                                    "V": "T"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "D_else": {
+                      "block": {
+                        "type": "fnr",
+                        "id": "rf[^}Zxy+z=g.G4Y/qz7",
+                        "extraState": {
+                          "rt": "Bool"
+                        },
+                        "inputs": {
+                          "R": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "{{oBC)GS%x0LFO:PXx,}",
+                              "extraState": "Bool"
+                            },
+                            "block": {
+                              "type": "ipb",
+                              "id": "rk+pCz$Ffq4[S[vS-|%;",
+                              "fields": {
+                                "V": "F"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vD8eGvSue",
+      "name": "Count",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

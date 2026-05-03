@@ -1,0 +1,25 @@
+import "StdLibrary.fcc" as std
+import "Math.fcc" as math
+import "List.fcc" as list
+import "Workflow.fcc" as Workflow
+
+// Script xử lý đổi màu hộp cơ bản qua 7 vòng
+graph Box_Color_Quest {
+
+    Colors List<Color> = List<Color>{}
+
+    event OnAwake() {
+        list.Append(Colors, #FF0000) // Đỏ
+        list.Append(Colors, #FF7F00) // Cam
+        list.Append(Colors, #FFFF00) // Vàng
+        list.Append(Colors, #00FF00) // Lục
+        list.Append(Colors, #0000FF) // Lam
+        list.Append(Colors, #4B0082) // Chàm
+        list.Append(Colors, #8B00FF) // Tím
+        list.Shuffle(Colors)
+    }
+    // Sự kiện bắt đầu Quest (Ví dụ: Khi game bắt đầu hoặc khi được kích hoạt)
+    event OnRoundStart(IndexRound int) {
+        thisEntity<BasicAppearance>.DiffuseColor = Colors[IndexRound]
+    }
+}

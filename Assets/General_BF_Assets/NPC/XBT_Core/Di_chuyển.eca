@@ -1,0 +1,239 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "G:?|d/.vBiUd2@RLO(+u",
+        "x": 460,
+        "y": 384,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayAction",
+          "R": "BTreeNodeState",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "fnr",
+              "id": "{QB@wSnsavt2xpY3vdxd",
+              "extraState": {
+                "rt": "BTreeNodeState"
+              },
+              "inputs": {
+                "R": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "g8WtU0VgR.Z.L{f}yIi0",
+                    "extraState": "BTreeNodeState"
+                  },
+                  "block": {
+                    "type": "prg",
+                    "id": "s%H:]/:MG{`BHdx#-#o4",
+                    "extraState": {
+                      "X": 1,
+                      "T": "BTreeNodeState"
+                    },
+                    "fields": {
+                      "P": "PROP_34677225:BehaviourTreeNode"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "2HGqA3I`U]^K,ziK(Ch`",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "5o6(.c{k.oo?9])0H)wa"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "c8,I5yH[)Q~E^4w4DpWM",
+        "x": -205,
+        "y": 341,
+        "extraState": {
+          "X": 8004,
+          "L": [
+            1,
+            2
+          ],
+          "O": [
+            "o",
+            "o"
+          ],
+          "T": "OnNodeEnter",
+          "OT": "BehaviourTreeNode"
+        },
+        "fields": {
+          "P1": {
+            "name": "Tên nút",
+            "type": "String"
+          },
+          "P2": {
+            "name": "Người sở hữu",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": ",_@#SO!8x,_KS^leDL!s",
+            "fields": {
+              "P": "PROP_34677225:BehaviourTreeNode",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "oP+9=,ww!E=%$3v,$P/.",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "PaHQ9qGe8Ef{4Cjge22,"
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "dtCssJD=j(~ly_wb~;DI",
+                  "extraState": "BTreeNodeState"
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "!T~N6urgh;W$B3]bF%/7",
+                  "extraState": 10024,
+                  "fields": {
+                    "I": "Running"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exa",
+                "id": "ki6A$l3`9V}@_Y5J!5c_",
+                "extraState": {
+                  "graphId": "pzdek2dqcg-mocyjmgr-m94e5ywknll",
+                  "id": "`plMat[+%h/8$:8^1?-h",
+                  "name": "Di chuyển trong vùng",
+                  "params": [
+                    {
+                      "id": "_arg2713",
+                      "name": "Time (ms)",
+                      "type": "Int",
+                      "isOut": false
+                    }
+                  ],
+                  "tooltip": "Assets\\ECA\\NPC_Behaviour_Recovery.eca"
+                },
+                "fields": {
+                  "T": "W"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "p|!cb;.`C44M}1).#19$",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "n#+_ab=WT1F-`($Q*|-6",
+                      "extraState": "c8,I5yH[)Q~E^4w4DpWMP2",
+                      "fields": {
+                        "VR": "Người sở hữu"
+                      }
+                    }
+                  },
+                  "_arg2713": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "GFy]La|=-kN/FXKP0:go",
+                      "extraState": "Int"
+                    },
+                    "block": {
+                      "type": "ipi",
+                      "id": "zkEL31a861D**t/wfE6N",
+                      "fields": {
+                        "V": 6000
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "prs",
+                    "id": "JICPv2#?C*:ROV,H*Dkg",
+                    "fields": {
+                      "P": "PROP_34677225:BehaviourTreeNode",
+                      "O": "UK"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "oP+9=,ww!E=%$3v,$P/.",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "lj~RvoA8OgMvX*v8hC`e"
+                        }
+                      },
+                      "V": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "hFA1+9=S!vdF=+G5#CBc",
+                          "extraState": "BTreeNodeState"
+                        },
+                        "block": {
+                          "type": "ipe",
+                          "id": "Q%Dl#BoG%=cMH3GV]Aas",
+                          "extraState": 10024,
+                          "fields": {
+                            "I": "Finish"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

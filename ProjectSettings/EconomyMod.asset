@@ -1,19 +1,195 @@
 {
-  "_entityName": "T_43_YU_WS_MODULE_ECONOMY",
+  "_entityName": "Economy模组",
   "_tag": {
     "type": "ff.economy"
   },
-  "_entityId": "EdE86f05",
+  "_entityId": "iA6NEWoR",
   "children": [],
   "prefabVariant": null,
-  "activeValue": null,
-  "unlockedValue": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
   "editorLockValue": false,
   "editorVisibleValue": true,
   "modId": 25,
   "modOpen": true,
-  "customEconomyTypes": [],
+  "customEconomyTypes": [
+    {
+      "id": "moneyType91275221",
+      "name": "Credit",
+      "icon": {
+        "fileId": "xtxuf37lhpa-mop9ajhi-7kouhory7vo",
+        "filePath": "Assets\\Tiền_tệ\\Credit.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType52033176",
+      "name": "ABYDOS",
+      "icon": {
+        "fileId": "j8ww6f2icu-moohezcv-kf8q5363w9",
+        "filePath": "Assets\\Tiền_tệ\\Coin_ABYDOS.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType62676802",
+      "name": "Arius",
+      "icon": {
+        "fileId": "g4t563i8xls-moohezjj-djsvutj276i",
+        "filePath": "Assets\\Tiền_tệ\\Coin_Arius.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType13255399",
+      "name": "EX_Token_1",
+      "icon": {
+        "fileId": "cpt1ho9liaj-mop91n1f-e5fkangck2t",
+        "filePath": "Assets\\Tiền_tệ\\EX_Token_1.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType61022321",
+      "name": "EX_Token_2",
+      "icon": {
+        "fileId": "dwc6nxlpxw7-mop91n58-bugzwfcmrib",
+        "filePath": "Assets\\Tiền_tệ\\EX_Token_2.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType65890240",
+      "name": "GEHENNA",
+      "icon": {
+        "fileId": "aa5bd9up53u-moohezof-x3h113bp9rl",
+        "filePath": "Assets\\Tiền_tệ\\Coin_GEHENNA.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType21780017",
+      "name": "HYAKKIYAKO",
+      "icon": {
+        "fileId": "lpurtx8by8r-moohezrt-6bmscy5rl5f",
+        "filePath": "Assets\\Tiền_tệ\\Coin_HYAKKIYAKO.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType48986839",
+      "name": "MILLENNIUM",
+      "icon": {
+        "fileId": "ikf2vd7abb-moohezv2-hhn3tsu7eon",
+        "filePath": "Assets\\Tiền_tệ\\Coin_MILLENNIUM.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType84330584",
+      "name": "SCHALE",
+      "icon": {
+        "fileId": "iszoezy75d-moogcy5p-13xohpgtn3d",
+        "filePath": "Assets\\Tiền_tệ\\Coin_SCHALE.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType54848345",
+      "name": "TRINITY",
+      "icon": {
+        "fileId": "0jvksmxbs2bi-moohezy2-xi5yiglzr9r",
+        "filePath": "Assets\\Tiền_tệ\\Coin_TRINITY.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType21375275",
+      "name": "VALKYRIE",
+      "icon": {
+        "fileId": "jmvuurgznt-moohf019-9iouktjexuh",
+        "filePath": "Assets\\Tiền_tệ\\Coin_VALKYRIE.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType46178088",
+      "name": "WILDHUNT",
+      "icon": {
+        "fileId": "cbl0lu5f0ts-moohf04m-nhwhv58f5n",
+        "filePath": "Assets\\Tiền_tệ\\Coin_WILDHUNT.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    },
+    {
+      "id": "moneyType90421797",
+      "name": "Pyroxene",
+      "icon": {
+        "fileId": "ew4mqc3npa8-mopak02f-3x76q9oodu",
+        "filePath": "Assets\\Tiền_tệ\\Pyroxene.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "color": "#FFFFFF"
+    }
+  ],
   "customEconomyShops": [],
   "showSwitch": true
 }
-//"{FE:{"v":"1.15.3997714","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

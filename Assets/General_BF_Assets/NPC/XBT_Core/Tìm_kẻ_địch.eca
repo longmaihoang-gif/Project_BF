@@ -1,0 +1,364 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "TSnh:mMR.kG_ys0@2{JT",
+        "x": 32,
+        "y": 216,
+        "extraState": [
+          {
+            "id": "_arg6151",
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "PlayConditon",
+          "R": "Bool",
+          "_arg6151": {
+            "name": "Owner",
+            "type": "BehaviourTreeAttachable"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "exa",
+              "id": "du4~[_du^[Ssr!::4]$E",
+              "extraState": {
+                "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                "id": "P-SGGqV4.hK[={P;1%A?",
+                "name": "Quét kẻ địch xung quanh",
+                "params": [
+                  {
+                    "id": "_arg2777",
+                    "name": "Chủ",
+                    "type": "Component",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg1302",
+                    "name": "Bán kính",
+                    "type": "Float",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg2440",
+                    "name": "Xuyên vật thể",
+                    "type": "Bool",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg7503",
+                    "name": "Trọng tâm",
+                    "type": "Vector3",
+                    "isOut": false
+                  },
+                  {
+                    "id": "_arg5850",
+                    "name": "Kẻ địch gần nhất",
+                    "type": "Entity",
+                    "isOut": true
+                  },
+                  {
+                    "id": "_arg9198",
+                    "name": "Danh sách kẻ địch",
+                    "type": "ListT_any",
+                    "isOut": true
+                  }
+                ],
+                "tooltip": "Assets\\General_BF_Assets\\General_ECA\\Toàn bản đồ.eca"
+              },
+              "fields": {
+                "T": "W",
+                "_arg5850": {
+                  "name": "Kẻ địch gần nhất",
+                  "type": "Entity"
+                },
+                "_arg9198": {
+                  "name": "Danh sách kẻ địch",
+                  "type": "ListT_any"
+                }
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "CA)}}pqd/lbo|.BLvri}",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "gI|T:uB6L:s$7:40H0[K",
+                    "extraState": {
+                      "X": 95,
+                      "L": [],
+                      "O": [],
+                      "T": "GetGlobalEntity",
+                      "OT": null
+                    }
+                  }
+                },
+                "_arg2777": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "NN3[4/#qR$#9FEHxnk/M",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "5VhXpx+vrum9)sStFVOb",
+                    "extraState": "TSnh:mMR.kG_ys0@2{JT_arg6151",
+                    "fields": {
+                      "VR": "Owner"
+                    }
+                  }
+                },
+                "_arg1302": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "54YTFH]YoqS?[3r%kT^h",
+                    "extraState": "Float"
+                  },
+                  "block": {
+                    "type": "exv",
+                    "id": "2HbVMOZ;Bq@g4C5#4ouT",
+                    "extraState": {
+                      "graphId": "84m6y99o9v-mm67baw1-zt7gg4nmdap",
+                      "id": "ckh)MMOD5~`Gmzl0.RK4",
+                      "name": "Nhận thuộc tính công thức",
+                      "params": [
+                        {
+                          "id": "_arg3535",
+                          "name": "ID thuộc tính",
+                          "type": "String",
+                          "isOut": false
+                        },
+                        {
+                          "id": "_arg3723",
+                          "name": "Lấy giá trị ban đầu",
+                          "type": "Bool",
+                          "isOut": false
+                        }
+                      ],
+                      "returnType": "Int",
+                      "tooltip": "Assets\\General_BF_Assets\\General_ECA\\Hàm thuộc tính công thức V2.eca"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "G_wkOBx~?k[J]IIcsa+T",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "LC[~mLHQQ*z{ee]mZ;]T",
+                          "extraState": "TSnh:mMR.kG_ys0@2{JT_arg6151",
+                          "fields": {
+                            "VR": "Owner"
+                          }
+                        }
+                      },
+                      "_arg3535": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": ")gi@^M$s9^L=M5tH]9F5",
+                          "extraState": "String"
+                        },
+                        "block": {
+                          "type": "ipt",
+                          "id": "3H/3$H{K7MsWgi3rE,L#",
+                          "fields": {
+                            "V": "Normal_Attack_Range"
+                          }
+                        }
+                      },
+                      "_arg3723": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "cQ8lr^L{p=x6(P602E^P",
+                          "extraState": "Bool"
+                        },
+                        "block": {
+                          "type": "ipb",
+                          "id": ")+FUG{?~,tYiVS*xQ;v+",
+                          "fields": {
+                            "V": "F"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "_arg2440": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "L!!h1AfLeZ{z(Hs]|HJ9",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "ipb",
+                    "id": "{GU4jx{p{X*=T+.QA1d3",
+                    "fields": {
+                      "V": "F"
+                    }
+                  }
+                },
+                "_arg7503": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "{kk@(7_nXRwj|!RJsy@_",
+                    "extraState": "Vector3"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "dn)u)8x;a)hgFYyuRsT`",
+                    "extraState": {
+                      "X": 56,
+                      "L": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "O": [
+                        "",
+                        "",
+                        ""
+                      ],
+                      "T": "NewVector",
+                      "OT": null
+                    },
+                    "inputs": {
+                      "P1": {
+                        "shadow": {
+                          "type": "ipf",
+                          "id": "-`#XbYH~R7/X/i([dPik",
+                          "fields": {
+                            "V": 0
+                          }
+                        }
+                      },
+                      "P2": {
+                        "shadow": {
+                          "type": "ipf",
+                          "id": "ci^PIph!t[5(S$Sre?Ml",
+                          "fields": {
+                            "V": 0.9
+                          }
+                        }
+                      },
+                      "P3": {
+                        "shadow": {
+                          "type": "ipf",
+                          "id": "+(bULe=L]8gc10#--Q7A",
+                          "fields": {
+                            "V": 0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "fnr",
+                  "id": "rf[^}Zxy+z=g.G4Y/qz7",
+                  "extraState": {
+                    "rt": "Bool"
+                  },
+                  "inputs": {
+                    "R": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "TEGp9qVw2nD`7{%z|=8A",
+                        "extraState": "Bool"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "S7.SO3DTGqj|?1x93-SF",
+                        "extraState": {
+                          "X": 72,
+                          "L": [
+                            1
+                          ],
+                          "O": [
+                            ""
+                          ],
+                          "T": "Not",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "ipb",
+                              "id": "ze=oL*]OxQ(1_9efUX6Z",
+                              "fields": {
+                                "V": "F"
+                              }
+                            },
+                            "block": {
+                              "type": "v",
+                              "id": "U8^l!2meKJd45,VK?^xN",
+                              "extraState": {
+                                "X": 70,
+                                "L": [
+                                  1
+                                ],
+                                "O": [
+                                  ""
+                                ],
+                                "T": "IsNil",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "Bz[#k1.Fwe_%%#lv@gH4",
+                                    "extraState": "Object"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "`|Y`$aaN0*.(Lf*[n.LX",
+                                    "extraState": "du4~[_du^[Ssr!::4]$E_arg5850",
+                                    "fields": {
+                                      "VR": "Kẻ địch gần nhất"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vD8eGvSue",
+      "name": "Count",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "BehaviourTreeNode",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

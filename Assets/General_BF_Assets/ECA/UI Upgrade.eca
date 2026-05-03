@@ -1,0 +1,1003 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "g7hwZGO[[fT!}YTaO4#C",
+        "x": 159,
+        "y": 136,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": "[.J_M?z1`G(#/RV=a:LV",
+            "fields": {
+              "P": "ActiveSelf:HudWidget",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "NDW9lC8p(cB(#05I`}$_",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "Q|}-%|;7*S?fJ#^xe5~-",
+                  "extraState": {
+                    "X": 315,
+                    "L": [
+                      1,
+                      2,
+                      3
+                    ],
+                    "O": [
+                      "",
+                      "",
+                      ""
+                    ],
+                    "T": "GetWidgetFromCustomHudByString",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "iM%u3~CZS[6j3:|D~O;c",
+                        "extraState": "PlayerOrObserver"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "s760_dup_block",
+                        "extraState": {
+                          "X": 760,
+                          "L": [],
+                          "O": [],
+                          "T": "LocalPlayer",
+                          "OT": null
+                        }
+                      }
+                    },
+                    "P2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "PwRu7`oo|y^0xD9~`1oT",
+                        "extraState": "CustomHud"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": "|tsu~etxC-{M$//AuPTW"
+                      }
+                    },
+                    "P3": {
+                      "shadow": {
+                        "type": "ipt",
+                        "id": "G!/|,Yw:0)dS=zK0I#cg",
+                        "fields": {
+                          "V": "/Main/Widget_Upgrade/LV_Upgrade_Widget"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "~a4eBNDsdKPW!L/pt+o]",
+                  "extraState": "Bool"
+                },
+                "block": {
+                  "type": "ipb",
+                  "id": "@)B|X;eNPH0d(}/KJS;P",
+                  "fields": {
+                    "V": "F"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fna",
+        "id": "GZm3e:7$umJ-Xou2F6+M",
+        "x": -1787,
+        "y": 307,
+        "extraState": [
+          {
+            "id": "_arg224",
+            "name": "Hiện EX",
+            "type": "Bool",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "Ẩn hiện Widget EX, Stats",
+          "_arg224": {
+            "name": "Hiện EX",
+            "type": "Bool"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "prs",
+              "id": "[:]7S1@1OT}q(iVpM-+h",
+              "fields": {
+                "P": "ActiveSelf:HudWidget",
+                "O": "UK"
+              },
+              "inputs": {
+                "H": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "NDW9lC8p(cB(#05I`}$_",
+                    "extraState": "Component"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "eRL1~Wp`(qd!9XQp@a6Q",
+                    "extraState": {
+                      "X": 315,
+                      "L": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "O": [
+                        "",
+                        "",
+                        ""
+                      ],
+                      "T": "GetWidgetFromCustomHudByString",
+                      "OT": null
+                    },
+                    "inputs": {
+                      "P1": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "iM%u3~CZS[6j3:|D~O;c",
+                          "extraState": "PlayerOrObserver"
+                        },
+                        "block": {
+                          "type": "v",
+                          "id": "j7%K#LF%AW)by8wpOvga",
+                          "extraState": {
+                            "X": 760,
+                            "L": [],
+                            "O": [],
+                            "T": "LocalPlayer",
+                            "OT": null
+                          }
+                        }
+                      },
+                      "P2": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "PwRu7`oo|y^0xD9~`1oT",
+                          "extraState": "CustomHud"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "oTuEo}?zBe~ZY(kkjyRA"
+                        }
+                      },
+                      "P3": {
+                        "shadow": {
+                          "type": "ipt",
+                          "id": "6S;Pg[6I{VS-G`4vt+ct",
+                          "fields": {
+                            "V": "/Main/Widget_Upgrade/EX_Upgrade_Widget"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "V": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "DVK,7}__@vs*;~vCkCN_",
+                    "extraState": "Bool"
+                  },
+                  "block": {
+                    "type": "lcg",
+                    "id": "9qRdxW#0}$YH@jQT=9mn",
+                    "extraState": "GZm3e:7$umJ-Xou2F6+M_arg224",
+                    "fields": {
+                      "VR": "Hiện EX"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "prs",
+                  "id": ".f$Xai$m;Icgxl.jSQrf",
+                  "fields": {
+                    "P": "ActiveSelf:HudWidget",
+                    "O": "UK"
+                  },
+                  "inputs": {
+                    "H": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "NDW9lC8p(cB(#05I`}$_",
+                        "extraState": "Component"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "UquErdS}@lYN~Gcc9^V9",
+                        "extraState": {
+                          "X": 315,
+                          "L": [
+                            1,
+                            2,
+                            3
+                          ],
+                          "O": [
+                            "",
+                            "",
+                            ""
+                          ],
+                          "T": "GetWidgetFromCustomHudByString",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "iM%u3~CZS[6j3:|D~O;c",
+                              "extraState": "PlayerOrObserver"
+                            },
+                            "block": {
+                              "type": "v",
+                              "id": "kUPtscEx$UdN]a4`9q?{",
+                              "extraState": {
+                                "X": 760,
+                                "L": [],
+                                "O": [],
+                                "T": "LocalPlayer",
+                                "OT": null
+                              }
+                            }
+                          },
+                          "P2": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "PwRu7`oo|y^0xD9~`1oT",
+                              "extraState": "CustomHud"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "14(0rR8C;]]5}I$dLo0`"
+                            }
+                          },
+                          "P3": {
+                            "shadow": {
+                              "type": "ipt",
+                              "id": "2o)KNw=Tx1psO%A$!;-K",
+                              "fields": {
+                                "V": "/Main/Widget_Upgrade/LV_Upgrade_Widget"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "DJ91/_L;a`zwxh$7?RT4",
+                        "extraState": "Bool"
+                      },
+                      "block": {
+                        "type": "v",
+                        "id": "Tk1/GDF8Ap{;tW~AM?-E",
+                        "extraState": {
+                          "X": 72,
+                          "L": [
+                            1
+                          ],
+                          "O": [
+                            ""
+                          ],
+                          "T": "Not",
+                          "OT": null
+                        },
+                        "inputs": {
+                          "P1": {
+                            "shadow": {
+                              "type": "ipb",
+                              "id": "miO[f1O[7q(Fng?|(w!j",
+                              "fields": {
+                                "V": "F"
+                              }
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": "G^^bUMd#P-zTB_OhH7z[",
+                              "extraState": "GZm3e:7$umJ-Xou2F6+M_arg224",
+                              "fields": {
+                                "VR": "Hiện EX"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "ife1",
+                      "id": "??8xjfS|$?PZ:0G:lacV",
+                      "extraState": {
+                        "X": 2,
+                        "CIDS": []
+                      },
+                      "inputs": {
+                        "C": {
+                          "shadow": {
+                            "type": "tys",
+                            "id": "cg9_YW?ktu+N;0/P#d9Q",
+                            "extraState": "bool"
+                          },
+                          "block": {
+                            "type": "lcg",
+                            "id": "EFa9:WoZGe]NGZ4,30mR",
+                            "extraState": "GZm3e:7$umJ-Xou2F6+M_arg224",
+                            "fields": {
+                              "VR": "Hiện EX"
+                            }
+                          }
+                        },
+                        "D": {
+                          "block": {
+                            "type": "prs",
+                            "id": "X_oQxe0F,]-v4-qQ2yn?",
+                            "fields": {
+                              "P": "SpriteName:HudButtonWidget",
+                              "O": "UK"
+                            },
+                            "inputs": {
+                              "H": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "NDW9lC8p(cB(#05I`}$_",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "tya",
+                                  "id": "stya_dup_block",
+                                  "fields": {
+                                    "T": "HudButtonWidget"
+                                  },
+                                  "inputs": {
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                        "extraState": "any"
+                                      },
+                                      "block": {
+                                        "type": "v",
+                                        "id": "kI8M%WR@~p_F3{hj{M$~",
+                                        "extraState": {
+                                          "X": 315,
+                                          "L": [
+                                            1,
+                                            2,
+                                            3
+                                          ],
+                                          "O": [
+                                            "",
+                                            "",
+                                            ""
+                                          ],
+                                          "T": "GetWidgetFromCustomHudByString",
+                                          "OT": null
+                                        },
+                                        "inputs": {
+                                          "P1": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "iM%u3~CZS[6j3:|D~O;c",
+                                              "extraState": "PlayerOrObserver"
+                                            },
+                                            "block": {
+                                              "type": "v",
+                                              "id": "EP*dxoaRXl.BzNK7Ys?V",
+                                              "extraState": {
+                                                "X": 760,
+                                                "L": [],
+                                                "O": [],
+                                                "T": "LocalPlayer",
+                                                "OT": null
+                                              }
+                                            }
+                                          },
+                                          "P2": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "PwRu7`oo|y^0xD9~`1oT",
+                                              "extraState": "CustomHud"
+                                            },
+                                            "block": {
+                                              "type": "ent",
+                                              "id": "VM~]~P1V-/*.2@t#-iN?"
+                                            }
+                                          },
+                                          "P3": {
+                                            "shadow": {
+                                              "type": "ipt",
+                                              "id": "xv+d~/8*#s|!GRUkD./s",
+                                              "fields": {
+                                                "V": "/Main/Widget_Upgrade/EX_Skill_Btn"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "V": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "Lf_hq(vrd}6-:kyn~F$u",
+                                  "extraState": "SpriteID"
+                                },
+                                "block": {
+                                  "type": "pin",
+                                  "id": "A^cX~4:aC9mlWraRcdEH",
+                                  "fields": {
+                                    "V": "c38fd0f58c2a9484c1f94ba2c1c170e2"
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "prs",
+                                "id": "x?Wga]A_q|7^%)krPf;W",
+                                "fields": {
+                                  "P": "SpriteName:HudButtonWidget",
+                                  "O": "UK"
+                                },
+                                "inputs": {
+                                  "H": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "NDW9lC8p(cB(#05I`}$_",
+                                      "extraState": "Component"
+                                    },
+                                    "block": {
+                                      "type": "tya",
+                                      "id": "NkRc(Apb}M@%GlkXv(Aw",
+                                      "fields": {
+                                        "T": "HudButtonWidget"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                            "extraState": "any"
+                                          },
+                                          "block": {
+                                            "type": "v",
+                                            "id": "EFqw)^.wVqA++#es:+yg",
+                                            "extraState": {
+                                              "X": 315,
+                                              "L": [
+                                                1,
+                                                2,
+                                                3
+                                              ],
+                                              "O": [
+                                                "",
+                                                "",
+                                                ""
+                                              ],
+                                              "T": "GetWidgetFromCustomHudByString",
+                                              "OT": null
+                                            },
+                                            "inputs": {
+                                              "P1": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "iM%u3~CZS[6j3:|D~O;c",
+                                                  "extraState": "PlayerOrObserver"
+                                                },
+                                                "block": {
+                                                  "type": "v",
+                                                  "id": "Wy=3ndkMlm+eW^m]n7MF",
+                                                  "extraState": {
+                                                    "X": 760,
+                                                    "L": [],
+                                                    "O": [],
+                                                    "T": "LocalPlayer",
+                                                    "OT": null
+                                                  }
+                                                }
+                                              },
+                                              "P2": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "PwRu7`oo|y^0xD9~`1oT",
+                                                  "extraState": "CustomHud"
+                                                },
+                                                "block": {
+                                                  "type": "ent",
+                                                  "id": "$#.EY)_eg0NuV)*J|Uxo"
+                                                }
+                                              },
+                                              "P3": {
+                                                "shadow": {
+                                                  "type": "ipt",
+                                                  "id": "P$5?PTY}j8,mN3]P;a-g",
+                                                  "fields": {
+                                                    "V": "/Main/Widget_Upgrade/Stats_Btn"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "V": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": ".E0Q1skiKe,9Sx({Z^_Y",
+                                      "extraState": "SpriteID"
+                                    },
+                                    "block": {
+                                      "type": "pin",
+                                      "id": "46L=Pj`w/4Y40iFlv?ca",
+                                      "fields": {
+                                        "V": "6a549a0fce1374982403dde200730c6a"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "D_else": {
+                          "block": {
+                            "type": "prs",
+                            "id": "`otZFDs^Hjv2bF6*|p|l",
+                            "fields": {
+                              "P": "SpriteName:HudButtonWidget",
+                              "O": "UK"
+                            },
+                            "inputs": {
+                              "H": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "NDW9lC8p(cB(#05I`}$_",
+                                  "extraState": "Component"
+                                },
+                                "block": {
+                                  "type": "tya",
+                                  "id": "iF5$qFAr}*-w^aCg,S79",
+                                  "fields": {
+                                    "T": "HudButtonWidget"
+                                  },
+                                  "inputs": {
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                        "extraState": "any"
+                                      },
+                                      "block": {
+                                        "type": "v",
+                                        "id": ")!vTzs30iT;3~W/ayUB2",
+                                        "extraState": {
+                                          "X": 315,
+                                          "L": [
+                                            1,
+                                            2,
+                                            3
+                                          ],
+                                          "O": [
+                                            "",
+                                            "",
+                                            ""
+                                          ],
+                                          "T": "GetWidgetFromCustomHudByString",
+                                          "OT": null
+                                        },
+                                        "inputs": {
+                                          "P1": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "iM%u3~CZS[6j3:|D~O;c",
+                                              "extraState": "PlayerOrObserver"
+                                            },
+                                            "block": {
+                                              "type": "v",
+                                              "id": "me#:L.H3*f@v$IiQ.@}X",
+                                              "extraState": {
+                                                "X": 760,
+                                                "L": [],
+                                                "O": [],
+                                                "T": "LocalPlayer",
+                                                "OT": null
+                                              }
+                                            }
+                                          },
+                                          "P2": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "PwRu7`oo|y^0xD9~`1oT",
+                                              "extraState": "CustomHud"
+                                            },
+                                            "block": {
+                                              "type": "ent",
+                                              "id": ",2|2lEpu{jT_Z~0@]O)S"
+                                            }
+                                          },
+                                          "P3": {
+                                            "shadow": {
+                                              "type": "ipt",
+                                              "id": "!U$`;P^LuT[,8Mlg:-ZD",
+                                              "fields": {
+                                                "V": "/Main/Widget_Upgrade/EX_Skill_Btn"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "V": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "i09+hu4-f)U:d:G(y1U#",
+                                  "extraState": "SpriteID"
+                                },
+                                "block": {
+                                  "type": "pin",
+                                  "id": "/~%I9h|x,yFX2U`U[|PN",
+                                  "fields": {
+                                    "V": "1b7d5ab0ab15e085cdca32e6039eaed2"
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "prs",
+                                "id": "QU=oG/lnue3_{@z{1pjg",
+                                "fields": {
+                                  "P": "SpriteName:HudButtonWidget",
+                                  "O": "UK"
+                                },
+                                "inputs": {
+                                  "H": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "NDW9lC8p(cB(#05I`}$_",
+                                      "extraState": "Component"
+                                    },
+                                    "block": {
+                                      "type": "tya",
+                                      "id": "T_4R~tAC*%xT5ulz$##7",
+                                      "fields": {
+                                        "T": "HudButtonWidget"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "#KVP/5l0Lu5vmfB_a!kx",
+                                            "extraState": "any"
+                                          },
+                                          "block": {
+                                            "type": "v",
+                                            "id": ".?jcrAHW#Gh].F{Vuz`~",
+                                            "extraState": {
+                                              "X": 315,
+                                              "L": [
+                                                1,
+                                                2,
+                                                3
+                                              ],
+                                              "O": [
+                                                "",
+                                                "",
+                                                ""
+                                              ],
+                                              "T": "GetWidgetFromCustomHudByString",
+                                              "OT": null
+                                            },
+                                            "inputs": {
+                                              "P1": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "iM%u3~CZS[6j3:|D~O;c",
+                                                  "extraState": "PlayerOrObserver"
+                                                },
+                                                "block": {
+                                                  "type": "v",
+                                                  "id": "f#:xvDs7Vxf3yzwPZ,qT",
+                                                  "extraState": {
+                                                    "X": 760,
+                                                    "L": [],
+                                                    "O": [],
+                                                    "T": "LocalPlayer",
+                                                    "OT": null
+                                                  }
+                                                }
+                                              },
+                                              "P2": {
+                                                "shadow": {
+                                                  "type": "tys",
+                                                  "id": "PwRu7`oo|y^0xD9~`1oT",
+                                                  "extraState": "CustomHud"
+                                                },
+                                                "block": {
+                                                  "type": "ent",
+                                                  "id": "ZHLS|goBm}O%VdSK`E(j"
+                                                }
+                                              },
+                                              "P3": {
+                                                "shadow": {
+                                                  "type": "ipt",
+                                                  "id": "0M2$Sx_@_{h~YNfoC?di",
+                                                  "fields": {
+                                                    "V": "/Main/Widget_Upgrade/Stats_Btn"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "V": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "/=)?Fc^@V`YppH*~ft[j",
+                                      "extraState": "SpriteID"
+                                    },
+                                    "block": {
+                                      "type": "pin",
+                                      "id": "`LSD-!)YQn]XPlQqlu!n",
+                                      "fields": {
+                                        "V": "c38fd0f58c2a9484c1f94ba2c1c170e2"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "hbe",
+        "id": "/Ff#_,U[5+Bo4Ysvt[l3",
+        "x": 167,
+        "y": 273,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "EX Skill",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "fca",
+            "id": "!LR~In=PT0/2+bjSMM8{",
+            "extraState": {
+              "id": "GZm3e:7$umJ-Xou2F6+M",
+              "name": "Ẩn hiện Widget EX, Stats",
+              "params": [
+                {
+                  "id": "_arg224",
+                  "name": "Hiện EX",
+                  "type": "Bool",
+                  "isOut": false
+                }
+              ],
+              "returnType": null
+            },
+            "fields": {
+              "T": "W"
+            },
+            "inputs": {
+              "_arg224": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "Yhwm`@dadSd%+xKlIU.e",
+                  "extraState": "Bool"
+                },
+                "block": {
+                  "type": "ipb",
+                  "id": "S~K!mZgyTBnPVaA!03o-",
+                  "fields": {
+                    "V": "T"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "hbe",
+        "id": "7(E5V-Yq;Rx7;UEoB7Q[",
+        "x": 170,
+        "y": 384,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "Stats",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "fca",
+            "id": "lU9S(5;ZGA(aI|VF+eG!",
+            "extraState": {
+              "id": "GZm3e:7$umJ-Xou2F6+M",
+              "name": "Ẩn hiện Widget EX, Stats",
+              "params": [
+                {
+                  "id": "_arg224",
+                  "name": "Hiện EX",
+                  "type": "Bool",
+                  "isOut": false
+                }
+              ],
+              "returnType": null
+            },
+            "fields": {
+              "T": "W"
+            },
+            "inputs": {
+              "_arg224": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "4ttq-s4-;!5kiIdrhcU;",
+                  "extraState": "Bool"
+                },
+                "block": {
+                  "type": "ipb",
+                  "id": "ImhM9uMYD+7fEAp$uh25",
+                  "fields": {
+                    "V": "F"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "hbe",
+        "id": "VXV-y]d-yxfvkm#;*G]~",
+        "x": 161,
+        "y": 490,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "Close",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "$?fF62@84A~Q1D@bN26)",
+            "extraState": {
+              "X": 354,
+              "L": [
+                1
+              ],
+              "O": [
+                ""
+              ],
+              "T": "RemoveEntity",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "2h/_J9eD%W=_iGho-_^t",
+                  "extraState": "entity"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "xk]%Pw%OGL](mSmNuE?C"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomHud",
+    "isStatic": false,
+    "platform": 1
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

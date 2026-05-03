@@ -1,0 +1,576 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "9%zV(;S|fp5N(?p!E6UD",
+        "x": -615,
+        "y": 129,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "prs",
+            "id": "$P1{5ML+rfv[^7iB835?",
+            "fields": {
+              "P": "PROP_65527156:Component",
+              "O": "UK"
+            },
+            "inputs": {
+              "H": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "IRht#6{kt0q95QDy~Jen",
+                  "extraState": "Component"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "bg-dWSIajfSFF)du;#H["
+                }
+              },
+              "V": {
+                "shadow": {
+                  "type": "tys",
+                  "id": ".wD7PomxC-B)1;!+56`a",
+                  "extraState": "String"
+                },
+                "block": {
+                  "type": "ipt",
+                  "id": "h|{x%W9ejX_LuaqVR(T2",
+                  "fields": {
+                    "V": "sukeban_smg"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exa",
+                "id": "v6MVQ[+BY,ICt9`zI+yj",
+                "extraState": {
+                  "graphId": "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt",
+                  "id": "jKJrfO;Fu,JB=U~mUzGZ",
+                  "name": "Lắp bộ thuộc tính",
+                  "params": [
+                    {
+                      "id": "_arg3047",
+                      "name": "Thực thể",
+                      "type": "Component",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg5082",
+                      "name": "ID bộ thuộc tính",
+                      "type": "String",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg497",
+                      "name": "ID CSV",
+                      "type": "CsvID",
+                      "isOut": false
+                    }
+                  ],
+                  "tooltip": "Assets\\General_BF_Assets\\General_ECA\\Toàn bản đồ.eca"
+                },
+                "fields": {
+                  "T": "W"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "Lbu*-f)Q62ElaLdho]C/",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "h8O1)KcdMo#xcZ|,3fUP",
+                      "extraState": {
+                        "X": 95,
+                        "L": [],
+                        "O": [],
+                        "T": "GetGlobalEntity",
+                        "OT": null
+                      }
+                    }
+                  },
+                  "_arg3047": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "H-OiW~b{b|[[ij]dzJBq",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "ent",
+                      "id": "+Y@[m3jd/?9rNb4BI6t("
+                    }
+                  },
+                  "_arg5082": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "Lahw86.iTmXHk}p/dn6H",
+                      "extraState": "String"
+                    },
+                    "block": {
+                      "type": "ipt",
+                      "id": "i%_.ulH0gV:XpTu9Yae[",
+                      "fields": {
+                        "V": "sukeban_smg"
+                      }
+                    }
+                  },
+                  "_arg497": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "AeLdR6fwexqOt]c)NY]}",
+                      "extraState": "CsvID"
+                    },
+                    "block": {
+                      "type": "pcv",
+                      "id": "TCf+2|17yO.YhBm:4Ysg",
+                      "fields": {
+                        "V": "eupi58bie3-mo9win1d-o9y0jumyhgc"
+                      }
+                    }
+                  }
+                },
+                "next": {
+                  "block": {
+                    "type": "prs",
+                    "id": "r.ub;.Dl1{CFSuwRrfP`",
+                    "fields": {
+                      "P": "PROP_35012420:Component",
+                      "O": "UK"
+                    },
+                    "inputs": {
+                      "H": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "hH=8U9$%3VHK`m4MrjV8",
+                          "extraState": "Component"
+                        },
+                        "block": {
+                          "type": "ent",
+                          "id": "O{_$q9tMMzV9)*q-7_6v"
+                        }
+                      },
+                      "V": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "wlj36h75wBR-jgrO~%h#",
+                          "extraState": "Map"
+                        },
+                        "block": {
+                          "type": "lid",
+                          "id": "2bQ5;Rt@Gb6USh0]4%5i",
+                          "extraState": {
+                            "X": 4
+                          },
+                          "fields": {
+                            "T1": "String",
+                            "T2": "any"
+                          },
+                          "inputs": {
+                            "K0": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "~Vc([ZRDd=X.d%mvI-;o",
+                                "extraState": "String__Key"
+                              },
+                              "block": {
+                                "type": "ipt",
+                                "id": "[OB*b6[/OQHY]~t@Qg4s",
+                                "fields": {
+                                  "V": "Hit_VFX"
+                                }
+                              }
+                            },
+                            "V0": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": ":H_D$(IPJa2eCSL]oKOZ",
+                                "extraState": "any__Value"
+                              },
+                              "block": {
+                                "type": "pfb",
+                                "id": "=^]b_FAq?i_pr@pg5LAi",
+                                "fields": {
+                                  "E": "issmskkkg5l-moeakofn-o7g4uad28fk"
+                                }
+                              }
+                            },
+                            "K1": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "fTEmtw;B5?=ObBM@x,mc",
+                                "extraState": "String__Key"
+                              },
+                              "block": {
+                                "type": "ipt",
+                                "id": "@Ddgw6hjtR,mrJx!$9]d",
+                                "fields": {
+                                  "V": "Ammo_VFX"
+                                }
+                              }
+                            },
+                            "V1": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "^kU#C0Z-zy|2HpPoxmjl",
+                                "extraState": "any__Value"
+                              },
+                              "block": {
+                                "type": "pfb",
+                                "id": "A3DC0LO:@yaZ6suL0*md",
+                                "fields": {
+                                  "E": "p5haev73gc-moeako9l-wnra1v43w9"
+                                }
+                              }
+                            },
+                            "K2": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "--xPd4z-,Twpj,59~JGJ",
+                                "extraState": "String__Key"
+                              },
+                              "block": {
+                                "type": "ipt",
+                                "id": "a?8APcu?nbFI:t)#AZNH",
+                                "fields": {
+                                  "V": "Fire_VFX"
+                                }
+                              }
+                            },
+                            "V2": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": ";XaqEKI#z7?N%:^g_PBe",
+                                "extraState": "any__Value"
+                              },
+                              "block": {
+                                "type": "pfb",
+                                "id": "$7(rg,}{D!?UKnd~Mjw,",
+                                "fields": {
+                                  "E": "iybg1ok4v7-moeakod1-zzmoa8uchhq"
+                                }
+                              }
+                            },
+                            "K3": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "4[{e_`rb(E[U9grMAjE$",
+                                "extraState": "String__Key"
+                              },
+                              "block": {
+                                "type": "ipt",
+                                "id": "`u#otP(Q?`tjQ-)NW,_3",
+                                "fields": {
+                                  "V": "Fire_SFX"
+                                }
+                              }
+                            },
+                            "V3": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "NXs-]l~cY)`:3=C;jFRD",
+                                "extraState": "any__Value"
+                              },
+                              "block": {
+                                "type": "psd",
+                                "id": "1h3U@wdfB4X?8hGz`t$0",
+                                "fields": {
+                                  "V": "e208acb46fb0ef068efe2f7da9493dd9"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "exs",
+                        "id": "zk:S.?bhl3+u^Q(s+d#J",
+                        "fields": {
+                          "G": "pzdek2dqcg-mocyjmgr-m94e5ywknll",
+                          "VI": "vLfnfw3sK",
+                          "O": "UK"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "${6b0]8s#d`C!.K9Cidb",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "ent",
+                              "id": "Lj[Hy3%Z1qY,dU@]7.W$"
+                            }
+                          },
+                          "V": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "MFAGb[OK.(vv`h$EoEi#",
+                              "extraState": "ListT_Vector3"
+                            },
+                            "block": {
+                              "type": "lic",
+                              "id": "7WZIiW$:/#kZ`Z1.t!#.",
+                              "extraState": {
+                                "X": 4
+                              },
+                              "fields": {
+                                "T": "Vector3"
+                              },
+                              "inputs": {
+                                "I0": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "^i_V=3U^#v(}(L?23A2X",
+                                    "extraState": "Vector3"
+                                  },
+                                  "block": {
+                                    "type": "v",
+                                    "id": "0l%-vhxt?GV|d]I4tDjx",
+                                    "extraState": {
+                                      "X": 56,
+                                      "L": [
+                                        1,
+                                        2,
+                                        3
+                                      ],
+                                      "O": [
+                                        "",
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "NewVector",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "#thsvlaji?9*HH$Lqz$C",
+                                          "fields": {
+                                            "V": -5
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "*?aE-CG`ouE0{~_]K3}u",
+                                          "fields": {
+                                            "V": 0
+                                          }
+                                        }
+                                      },
+                                      "P3": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "EuPl(X}y5Om+HaQkz[mj",
+                                          "fields": {
+                                            "V": -5
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "I1": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "z*07a1WVvuL*v%hN;q(!",
+                                    "extraState": "Vector3"
+                                  },
+                                  "block": {
+                                    "type": "v",
+                                    "id": "~{D?[#neMQS:v66|Fahp",
+                                    "extraState": {
+                                      "X": 56,
+                                      "L": [
+                                        1,
+                                        2,
+                                        3
+                                      ],
+                                      "O": [
+                                        "",
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "NewVector",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "C@vE(PEefK^}$Pn-c-pj",
+                                          "fields": {
+                                            "V": 45
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "LFvG](^aIWMA07i},:?s",
+                                          "fields": {
+                                            "V": 0
+                                          }
+                                        }
+                                      },
+                                      "P3": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "QJTcH`z9=FBXu0A]Qv:o",
+                                          "fields": {
+                                            "V": -5
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "I2": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "(zjh+8R6?[HD}MZ^6/oO",
+                                    "extraState": "Vector3"
+                                  },
+                                  "block": {
+                                    "type": "v",
+                                    "id": "E!|R4jEdJyb??e5T77_=",
+                                    "extraState": {
+                                      "X": 56,
+                                      "L": [
+                                        1,
+                                        2,
+                                        3
+                                      ],
+                                      "O": [
+                                        "",
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "NewVector",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "b!fA;H#F%@9VP=^^Hh}_",
+                                          "fields": {
+                                            "V": -5
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "7BVzH]~+=Y$G02GA$^nv",
+                                          "fields": {
+                                            "V": 0
+                                          }
+                                        }
+                                      },
+                                      "P3": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "AgcfN)zL!^l7}(PFJ0L=",
+                                          "fields": {
+                                            "V": 45
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "I3": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "hqS_8G9pK=;9Y$==,-Y-",
+                                    "extraState": "Vector3"
+                                  },
+                                  "block": {
+                                    "type": "v",
+                                    "id": "cFXle2Qh],TEuUjS)68#",
+                                    "extraState": {
+                                      "X": 56,
+                                      "L": [
+                                        1,
+                                        2,
+                                        3
+                                      ],
+                                      "O": [
+                                        "",
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "NewVector",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "j).NEIKjAHji3R/94A]S",
+                                          "fields": {
+                                            "V": 45
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "CsX12W#o.EEw-`,|Q($_",
+                                          "fields": {
+                                            "V": 0
+                                          }
+                                        }
+                                      },
+                                      "P3": {
+                                        "shadow": {
+                                          "type": "ipf",
+                                          "id": "daD+3POQljt$w0.6a8si",
+                                          "fields": {
+                                            "V": 45
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Entity",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}

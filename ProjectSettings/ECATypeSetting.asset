@@ -275,308 +275,6 @@
       ],
       "IsPartial": true
     },
-    "CustomComponent69248688": {
-      "label": "Nhân vật",
-      "name": "CustomComponent69248688",
-      "bases": [
-        "Component"
-      ],
-      "ecaScripts": [],
-      "typeID": 100013,
-      "PropDefines": [
-        {
-          "propID": 100017,
-          "name": "PROP_64294803",
-          "label": "HP",
-          "type": "Int",
-          "value": 100,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100019,
-          "name": "PROP_89677012",
-          "label": "Max_HP",
-          "type": "Int",
-          "value": 100,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100021,
-          "name": "PROP_80495566",
-          "label": "DEF",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100023,
-          "name": "PROP_62818034",
-          "label": "Healing",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100024,
-          "name": "PROP_85653665",
-          "label": "Crit_Res",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100025,
-          "name": "PROP_60131149",
-          "label": "Crit_DMG_Res",
-          "type": "Float",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        },
-        {
-          "propID": 100027,
-          "name": "PROP_56678400",
-          "label": "CC_Power",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100028,
-          "name": "PROP_51241278",
-          "label": "CC_Res",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100031,
-          "name": "PROP_37239249",
-          "label": "Move_Speed",
-          "type": "Int",
-          "value": 1000,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100033,
-          "name": "PROP_76757107",
-          "label": "DMG_Dealt_Rate",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        },
-        {
-          "propID": 100015,
-          "name": "PROP_80555382",
-          "label": "DMG_Resist_Rate",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        },
-        {
-          "propID": 100018,
-          "name": "PROP_31500304",
-          "label": "EX_DMG_Dealt_Rate",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        },
-        {
-          "propID": 100020,
-          "name": "PROP_60263185",
-          "label": "EX_DMG_Resist_Rate",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        }
-      ]
-    },
-    "CustomComponent66995561": {
-      "label": "Vũ khí tấn công",
-      "name": "CustomComponent66995561",
-      "bases": [
-        "Component"
-      ],
-      "ecaScripts": [],
-      "typeID": 100026,
-      "PropDefines": [
-        {
-          "propID": 100029,
-          "name": "PROP_90094561",
-          "label": "ATK",
-          "type": "Int",
-          "value": 10,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100030,
-          "name": "PROP_89262212",
-          "label": "DEF_Piercing",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100032,
-          "name": "PROP_23349817",
-          "label": "Crit",
-          "type": "Int",
-          "value": 0,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100034,
-          "name": "PROP_47520624",
-          "label": "Crit_DMG",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        },
-        {
-          "propID": 100035,
-          "name": "PROP_88994474",
-          "label": "Range",
-          "type": "Int",
-          "value": 20,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100036,
-          "name": "PROP_54984013",
-          "label": "Max_Ammo",
-          "type": "Int",
-          "value": 5,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100037,
-          "name": "PROP_24518322",
-          "label": "Current_Ammo",
-          "type": "Int",
-          "value": 5,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100038,
-          "name": "PROP_20761948",
-          "label": "ATK_Speed",
-          "type": "Float",
-          "value": 1,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "precision": 2
-          }
-        }
-      ]
-    },
     "FormulableEntity": {
       "label": "Thực thể có thuộc tính công thức hóa",
       "name": "FormulableEntity",
@@ -698,44 +396,9 @@
       "bases": [
         "Entity"
       ],
-      "ecaScripts": [
-        {
-          "fileId": "g6echgkgd5b-ml3jhvz5-rixgapfs0bg",
-          "_tag": {
-            "type": "GFileRefer"
-          },
-          "fileType": "eca"
-        }
-      ],
+      "ecaScripts": [],
       "typeID": 107,
-      "PropDefines": [
-        {
-          "propID": 100001,
-          "name": "PROP_73212736",
-          "label": "HP",
-          "type": "Int",
-          "value": 1,
-          "observable": true,
-          "disabledType": true,
-          "param": {
-            "precision": 0,
-            "min": -2147483648,
-            "max": 2147483647
-          }
-        },
-        {
-          "propID": 100039,
-          "name": "PROP_20802540",
-          "label": "Có_độ_bền",
-          "type": "Bool",
-          "value": false,
-          "observable": false,
-          "disabledType": true,
-          "param": {
-            "size": "small"
-          }
-        }
-      ],
+      "PropDefines": [],
       "IsPartial": true
     },
     "Weapon": {
@@ -844,13 +507,54 @@
           "propID": 100067,
           "name": "PROP_90758456",
           "label": "Team",
-          "type": "Team",
-          "value": null,
+          "type": "any",
+          "value": "",
           "observable": false,
           "autoStorage": false,
           "disabledType": true
         }
       ]
+    },
+    "BehaviourTreeNode": {
+      "label": "Tùy chỉnh nút cây hành vi",
+      "name": "BehaviourTreeNode",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 292,
+      "PropDefines": [
+        {
+          "propID": 100063,
+          "name": "PROP_34677225",
+          "label": "Trạngthái",
+          "type": "BTreeNodeState",
+          "value": null,
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
+        }
+      ],
+      "IsPartial": true
+    },
+    "HudButtonWidget": {
+      "label": "按钮控件",
+      "name": "HudButtonWidget",
+      "bases": [
+        "HudWidget"
+      ],
+      "ecaScripts": [],
+      "typeID": 41,
+      "PropDefines": [
+        {
+          "name": "HudButtonWidget_47692545_custom",
+          "label": "ButtonParameter",
+          "type": "Int",
+          "value": 0,
+          "propID": 100000
+        }
+      ],
+      "IsPartial": true
     }
   }
 }
