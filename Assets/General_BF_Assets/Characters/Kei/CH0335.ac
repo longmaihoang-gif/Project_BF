@@ -761,8 +761,14 @@
             "_entityId": "Tgxnjka2",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -798,8 +804,14 @@
             "_entityId": "OUvpNHvf",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -835,8 +847,14 @@
             "_entityId": "gB8Kofg8",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -1942,6 +1960,103 @@
       "DisableChanged": false
     },
     {
+      "_entityName": "Formation Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "pvlXowBi",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "sk4ES5oM",
+          "children": [
+            {
+              "_entityName": "CH0334_Formation_Idle_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "w4zX18QS",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Formation_Idle_Random.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\Kei\\CH0335.fbx\\CH0335_Formation_Idle_Random.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 3.966
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "qd8hUdQn",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
       "_entityName": "EX_Outline_Start",
       "_tag": {
         "type": "ACStateEntity"
@@ -2072,8 +2187,14 @@
             "_entityId": "gqekphbU",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -2215,8 +2336,14 @@
             "_entityId": "bf3p8yJC",
             "children": [],
             "prefabVariant": null,
-            "activeValue": null,
-            "unlockedValue": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": {
+              "selfValue": true,
+              "valueTag": "unlockedValue"
+            },
             "editorLockValue": false,
             "editorVisibleValue": true,
             "from": "ACState",
@@ -2326,6 +2453,7 @@
     },
     "fileType": "prefab"
   },
-  "bpcFile": null
+  "bpcFile": null,
+  "aliasName": "ACEntity"
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

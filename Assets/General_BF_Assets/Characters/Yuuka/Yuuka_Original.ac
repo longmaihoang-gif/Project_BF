@@ -2003,6 +2003,103 @@
       "selectedBodyparts": [],
       "muteEvent": false,
       "DisableChanged": false
+    },
+    {
+      "_entityName": "Formation Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "aPkEsgfq",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "RUJyiZRd",
+          "children": [
+            {
+              "_entityName": "CH0334_Formation_Idle_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "xoyAmj3V",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "d5t2cko5wj6-mo5m2te1-f2kr5cpleg-Yuuka_Original_Formation_Idle.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\Yuuka\\Yuuka_Original.fbx\\Yuuka_Original_Formation_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 3.2
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "xly4op0K",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
     }
   ],
   "prefabVariant": null,
@@ -2028,4 +2125,4 @@
   "bpcFile": null,
   "aliasName": "ACEntity"
 }
-//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

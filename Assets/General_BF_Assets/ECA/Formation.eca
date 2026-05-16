@@ -1,0 +1,100 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "Op@5~tM$MGNV-(+Q]A4t",
+        "x": 72,
+        "y": 158,
+        "extraState": {
+          "X": 138,
+          "L": [],
+          "O": [],
+          "T": "OnAwake",
+          "OT": "Entity"
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "LmF@a$L^QBvBj_PT*a-=",
+            "extraState": {
+              "X": 8001,
+              "L": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "O": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "T": "PlayAnimationByController",
+              "OT": null
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "gLEa(p%+J_Z6)f+^6D;p",
+                  "extraState": "AnimationControllerAble"
+                },
+                "block": {
+                  "type": "ent",
+                  "id": "mpXAl+4El2QQEpl~F2,%"
+                }
+              },
+              "P2": {
+                "shadow": {
+                  "type": "ast",
+                  "id": "7`g[[leMu{t=yT/Y|Qe`",
+                  "fields": {
+                    "HD": "",
+                    "E": ""
+                  }
+                },
+                "block": {
+                  "type": "ipe",
+                  "id": "O8[Hl`k=$rt_?N2~crH}",
+                  "extraState": 10025,
+                  "fields": {
+                    "I": "Formation Idle"
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "ipf",
+                  "id": ",n0C|uhsBI61G1~joQPm",
+                  "fields": {
+                    "V": 1
+                  }
+                }
+              },
+              "P4": {
+                "shadow": {
+                  "type": "ipe",
+                  "id": "3!g@76I{x}}Z0Mke81n%",
+                  "extraState": "AnimationOverrideLoopType",
+                  "fields": {
+                    "I": "Loop"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "AnimationControllerAble",
+    "isStatic": false,
+    "platform": 1
+  }
+}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

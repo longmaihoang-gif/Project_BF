@@ -124,13 +124,71 @@
       "isCustom": true,
       "isDirty": false,
       "typeID": 100015
+    },
+    "CustomEnum59640714": {
+      "label": "Chỉ số thuộc tính",
+      "key": "CustomEnum59640714",
+      "type": "Int",
+      "typeID": 100030,
+      "info": [
+        {
+          "label": "Rank_EXP",
+          "key": "E21118482",
+          "value": 0,
+          "type": "Int"
+        },
+        {
+          "label": "Level_EXP",
+          "key": "E30994204",
+          "value": 1,
+          "type": "Int"
+        },
+        {
+          "label": "EX_Level",
+          "key": "E88293680",
+          "value": 2,
+          "type": "Int"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
+    },
+    "CustomEnum78281422": {
+      "label": "Loại giao dịch",
+      "key": "CustomEnum78281422",
+      "type": "Int",
+      "typeID": 100036,
+      "info": [
+        {
+          "label": "Cộng",
+          "key": "E86748774",
+          "value": 1,
+          "type": "Int"
+        },
+        {
+          "label": "Trừ",
+          "key": "E66662936",
+          "value": -1,
+          "type": "Int"
+        },
+        {
+          "label": "Linh_hoạt",
+          "key": "E14323779",
+          "value": 2,
+          "type": "Int"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
     }
   },
   "enumNameMap": {
     "Trạng thái ưu tiên": "CustomEnum53935633",
     "Trạng thái": "CustomEnum19889981",
-    "Loại tính": "CustomEnum19796761"
+    "Loại tính": "CustomEnum19796761",
+    "Chỉ số thuộc tính": "CustomEnum59640714",
+    "Loại giao dịch": "CustomEnum78281422"
   },
   "children": []
 }
-//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

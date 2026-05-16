@@ -1915,6 +1915,103 @@
       "selectedBodyparts": [],
       "muteEvent": false,
       "DisableChanged": false
+    },
+    {
+      "_entityName": "Formation Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "BAa7spF5",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "L2cm9NBh",
+          "children": [
+            {
+              "_entityName": "CH0334_Formation_Idle_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "w4y9YwBu",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "ckxtnvonjue-mmwte216-txp7i1s7aj-CH0258_02_Formation_Idle.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\B_Hoshino\\CH0258_02.fbx\\CH0258_02_Formation_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 3.966
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "VxqgmIob",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
     }
   ],
   "prefabVariant": null,
@@ -1937,6 +2034,7 @@
     },
     "fileType": "prefab"
   },
-  "bpcFile": null
+  "bpcFile": null,
+  "aliasName": "ACEntity"
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

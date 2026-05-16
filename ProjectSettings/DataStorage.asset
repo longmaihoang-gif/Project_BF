@@ -18,33 +18,12 @@
   "editorVisibleValue": true,
   "modId": 31,
   "storageOpen": true,
-  "rankSheets": [
-    {
-      "sheetOrder": 1,
-      "sheetName": "Bảng Xếp Hạng1",
-      "sheetId": "kOzz7l3F",
-      "type": "Int",
-      "keyType": "String",
-      "usePlayerID": true,
-      "columns": [
-        {
-          "name": "col1",
-          "type": "Int",
-          "saved": true
-        },
-        {
-          "name": "col2",
-          "type": "Float",
-          "saved": true
-        }
-      ]
-    }
-  ],
+  "rankSheets": [],
   "dataSheets": [
     {
-      "sheetName": "Kho Dữ Liệu1",
-      "sheetId": "wrbebhEh",
-      "type": "Int",
+      "sheetName": "Tiền_tệ_người_chơi",
+      "sheetId": "eUuNzWXQ",
+      "type": "ListT_Int",
       "keyType": "String"
     }
   ],
@@ -89,28 +68,18 @@
       "type": "MultiColumn",
       "columns": [
         {
-          "name": "Level",
-          "type": "Int",
+          "name": "Rank_EXP",
+          "type": "ListT_Int",
           "saved": true
         },
         {
-          "name": "StarGrade",
-          "type": "Int",
+          "name": "Level_EXP",
+          "type": "ListT_Int",
           "saved": true
         },
         {
-          "name": "ElephCount",
-          "type": "Int",
-          "saved": true
-        },
-        {
-          "name": "ExpCurrent",
-          "type": "Int",
-          "saved": true
-        },
-        {
-          "name": "SkillLv",
-          "type": "Int",
+          "name": "EX_Level",
+          "type": "ListT_Int",
           "saved": true
         }
       ],
@@ -119,38 +88,7 @@
   ],
   "craftlandLeadboard": null,
   "showSwitch": true,
-  "multicolumnSheetsClient": [
-    {
-      "sheetName": "Kho Dữ Liệu Cục Bộ Đa Cột1",
-      "sheetId": "i6VlFYXa",
-      "type": "MultiColumnClient",
-      "columns": [
-        {
-          "name": "col1",
-          "type": "Int",
-          "saved": true
-        },
-        {
-          "name": "col2",
-          "type": "Float",
-          "saved": true
-        },
-        {
-          "name": "col3",
-          "type": "Bool",
-          "saved": true
-        }
-      ],
-      "keyType": "String"
-    }
-  ],
-  "dataSheetsClient": [
-    {
-      "sheetName": "Kho Dữ Liệu Cục Bộ1",
-      "sheetId": "ulbhhR02",
-      "type": "Int",
-      "keyType": "String"
-    }
-  ]
+  "multicolumnSheetsClient": [],
+  "dataSheetsClient": []
 }
-//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

@@ -1,5 +1,5 @@
 {
-  "_entityName": "Prefab",
+  "_entityName": "SchoolGirl01_Sukeban_SMG_Mesh",
   "_tag": {
     "type": "Prefab"
   },
@@ -115,8 +115,8 @@
       "propsData": {},
       "entityVersion": 3,
       "skeleton": {
-        "fileId": "mprgvl7t6i-mo9ok65y-bx81vuclsdo-SchoolGirl01_Sukeban_SMG_Mesh.sk",
-        "filePath": "fab://Assets\\General_BF_Assets\\NPC\\SchoolGirl01_Sukeban_SMG_Mesh.fbx\\SchoolGirl01_Sukeban_SMG_Mesh.sk",
+        "fileId": "mprgvl7t6i-mo9ok65y-bx81vuclsdo-SchoolGirl01_Sukeban_SMG.sk",
+        "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_1\\SchoolGirl01_Sukeban_SMG.fbx\\SchoolGirl01_Sukeban_SMG.sk",
         "_tag": {
           "type": "GFileRefer"
         },
@@ -134,26 +134,26 @@
             "_tag": {
               "type": "BoneMeshGroupEntity"
             },
-            "_entityId": "OvNbvQKg",
+            "_entityId": "NvGIj4HP",
             "children": [
               {
                 "_entityName": "SchoolGirl01_Sukeban_SMG_Body.mesh",
                 "_tag": {
                   "type": "BoneMeshEntity"
                 },
-                "_entityId": "cUO9wKPM",
+                "_entityId": "o99J5tSx",
                 "children": [],
+                "prefabVariant": null,
                 "activeValue": {
                   "selfValue": true,
                   "valueTag": "activeValue"
                 },
-                "unlockedValue": {
-                  "selfValue": true,
-                  "valueTag": "unlockedValue"
-                },
+                "unlockedValue": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true,
                 "_mesh": {
                   "fileId": "mprgvl7t6i-mo9ok65y-bx81vuclsdo-SchoolGirl01_Sukeban_SMG_Body.~@FFSKIN",
-                  "filePath": "fab://Assets\\General_BF_Assets\\NPC\\SchoolGirl01_Sukeban_SMG_Mesh.fbx\\SchoolGirl01_Sukeban_SMG_Body.mesh",
+                  "filePath": "fab://Assets\\General_BF_Assets\\NPC\\Enermy1_1\\SchoolGirl01_Sukeban_SMG.fbx\\SchoolGirl01_Sukeban_SMG_Body.mesh",
                   "_tag": {
                     "type": "GFileRefer"
                   },
@@ -166,7 +166,7 @@
                 "materials": [
                   {
                     "fileId": "8k6ar2brphn-mo9olpl3-ic66imqtkdb",
-                    "filePath": "Assets\\General_BF_Assets\\NPC\\Body.mat",
+                    "filePath": "Assets\\General_BF_Assets\\NPC\\Enermy1_1\\Body.mat",
                     "_tag": {
                       "type": "GFileRefer"
                     },
@@ -191,28 +191,29 @@
                   "x": 0,
                   "y": 0,
                   "z": 0
-                },
-                "prefabVariant": null
+                }
               }
             ],
+            "prefabVariant": null,
             "activeValue": {
               "selfValue": true,
               "valueTag": "activeValue"
             },
             "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
             "groupId": "",
-            "enable": true,
-            "prefabVariant": null
+            "enable": true
           }
         ],
+        "prefabVariant": null,
         "activeValue": {
           "selfValue": true,
           "valueTag": "activeValue"
         },
-        "unlockedValue": {
-          "selfValue": true,
-          "valueTag": "unlockedValue"
-        },
+        "unlockedValue": null,
+        "editorLockValue": false,
+        "editorVisibleValue": true,
         "position": {
           "x": 0,
           "y": 0,
@@ -246,8 +247,7 @@
         "initialTypes": {},
         "componentList": [],
         "discriminator": "ISceneLike",
-        "activeGroupMapping": {},
-        "prefabVariant": null
+        "activeGroupMapping": {}
       },
       "editorLockValue": false,
       "editorVisibleValue": true,
@@ -255,8 +255,14 @@
     }
   ],
   "prefabVariant": null,
-  "activeValue": null,
-  "unlockedValue": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
   "editorLockValue": false,
   "editorVisibleValue": true,
   "HintCraftlandCombineMesh": false,

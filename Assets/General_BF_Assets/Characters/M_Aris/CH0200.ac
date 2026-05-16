@@ -2017,6 +2017,187 @@
       "selectedBodyparts": [],
       "muteEvent": false,
       "DisableChanged": false
+    },
+    {
+      "_entityName": "Formation Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "XZw54J8w",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "XJAbyKMt",
+          "children": [
+            {
+              "_entityName": "CH0334_Formation_Idle_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "gA61kghO",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "99tqfb4qq0h-mmcz84yi-aley6wghyc9-CH0200_Formation_Idle.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\M_Aris\\CH0200.fbx\\CH0200_Formation_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 3.966
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "m9FDm747",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
+    },
+    {
+      "_entityName": "Running",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "USGFXiGZ",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "smEW9YyU",
+          "children": [
+            {
+              "_entityName": "CH0200_Move_Ing.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "oG5w9ZJk",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "99tqfb4qq0h-mmcz84yi-aley6wghyc9-CH0200_Move_Ing.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\M_Aris\\CH0200.fbx\\CH0200_Move_Ing.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 0.633
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "qM2law1k",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": null,
+        "unlockedValue": null,
+        "editorLockValue": false,
+        "editorVisibleValue": true,
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
     }
   ],
   "prefabVariant": null,
@@ -2039,6 +2220,7 @@
     },
     "fileType": "prefab"
   },
-  "bpcFile": null
+  "bpcFile": null,
+  "aliasName": "ACEntity"
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

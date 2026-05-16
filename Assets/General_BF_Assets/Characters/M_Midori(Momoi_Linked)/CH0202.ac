@@ -1890,6 +1890,103 @@
       "selectedBodyparts": [],
       "muteEvent": false,
       "DisableChanged": false
+    },
+    {
+      "_entityName": "Formation Idle",
+      "_tag": {
+        "type": "ACStateEntity"
+      },
+      "_entityId": "oDfn0Bml",
+      "children": [
+        {
+          "_entityName": "Base Layer",
+          "_tag": {
+            "type": "ACLayerEntity"
+          },
+          "_entityId": "ULOxBSBA",
+          "children": [
+            {
+              "_entityName": "CH0334_Formation_Idle_Random.anim",
+              "_tag": {
+                "type": "ACClipEntity"
+              },
+              "_entityId": "E7d2iN6w",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": {
+                "selfValue": true,
+                "valueTag": "activeValue"
+              },
+              "unlockedValue": {
+                "selfValue": true,
+                "valueTag": "unlockedValue"
+              },
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "hbyzk8eu1h4-mmlytowv-57t584p5jqi-CH0202_Formation_Idle.Anim",
+                "filePath": "fab://Assets\\General_BF_Assets\\Characters\\M_Midori(Momoi_Linked)\\CH0202.fbx\\CH0202_Formation_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "postExtrapolate": 0,
+              "startTime": 0,
+              "endTime": 3.966
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": {
+            "selfValue": true,
+            "valueTag": "activeValue"
+          },
+          "unlockedValue": {
+            "selfValue": true,
+            "valueTag": "unlockedValue"
+          },
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "isLoop": true,
+      "_eventFrameList": [],
+      "eventFrameGroup": {
+        "_entityName": "",
+        "_tag": {
+          "type": "ACEventFrameGroup"
+        },
+        "_entityId": "BkZOng9T",
+        "children": [],
+        "prefabVariant": null,
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "DisableChanged": false
+      },
+      "selectedBodyparts": [],
+      "muteEvent": false,
+      "DisableChanged": false
     }
   ],
   "prefabVariant": null,
@@ -1905,13 +2002,14 @@
   "editorVisibleValue": true,
   "version": 3,
   "preModel": {
-    "fileId": "7nj8fz731x-mmm5aret-7vhk72yccj",
-    "filePath": "Assets\\Characters\\M_Midori(Momoi_Linked)\\CH0202.prefab",
+    "fileId": "k8xcgcpo381-2kbk3lpv-v003sfa9uv8",
+    "filePath": "Assets\\General_BF_Assets\\Characters\\M_Midori(Momoi_Linked)\\CH0202_3D.prefab",
     "_tag": {
       "type": "GFileRefer"
     },
     "fileType": "prefab"
   },
-  "bpcFile": null
+  "bpcFile": null,
+  "aliasName": "ACEntity"
 }
-//"{FE:{"v":"1.16.4231768","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

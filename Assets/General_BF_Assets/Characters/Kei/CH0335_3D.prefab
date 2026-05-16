@@ -1,0 +1,621 @@
+{
+  "_entityName": "CH0335_3D",
+  "_tag": {
+    "type": "Prefab"
+  },
+  "_entityId": "nUKhg9zF",
+  "children": [
+    {
+      "_entityName": "Chìa khóa",
+      "_tag": {
+        "type": "UGCSceneEntity",
+        "resourceId": ""
+      },
+      "_entityId": "ClYWMC7l",
+      "children": [],
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 85,
+        "y": 85,
+        "z": 85
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": false,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [
+        "AvatarAble",
+        "Collider",
+        "ColliderShape",
+        "AnimationControllerAble"
+      ],
+      "entityTagData": {
+        "tagPointers": []
+      },
+      "materials": [],
+      "colliders": [
+        {
+          "enable": true,
+          "colliderType": "Capsule",
+          "meshUUID": {
+            "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Halo.~@FFFUB",
+            "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335_Halo.mesh",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "mesh"
+          },
+          "position": {
+            "x": 0,
+            "y": 0.0045,
+            "z": 0
+          },
+          "size": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "radius": 0.0016,
+          "height": 0.009,
+          "isConvexIfMesh": false
+        }
+      ],
+      "IsNPC": false,
+      "isCreateAsEmpty": false,
+      "Rigidbody": {
+        "Type": 1,
+        "Mass": 60,
+        "CenterOfMass": {
+          "x": 0,
+          "y": 0.004,
+          "z": 0
+        },
+        "UseGravity": true,
+        "Drag": 0.05,
+        "AngularDrag": 0.2,
+        "FreezePosX": false,
+        "FreezeRotX": true,
+        "FreezePosY": false,
+        "FreezeRotY": false,
+        "FreezePosZ": true,
+        "FreezeRotZ": false
+      },
+      "ecaScripts": [],
+      "ecaProps": {
+        "CustomLevelObject": {},
+        "LevelObject": {},
+        "Transform": {},
+        "Entity": {},
+        "Visibility": {},
+        "AvatarAble": {},
+        "Collider": {},
+        "ColliderShape": {},
+        "AnimationControllerAble": {
+          "acRef": {
+            "fileId": "hu0zqux9ivp-mmai8kc5-2qq3uejo13t",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Kei\\CH0335.ac",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ac"
+          }
+        },
+        "MeshRender": {},
+        "PhysicalCCT": {
+          "SlopeLimit": 45,
+          "StepOffset": 0.3,
+          "SkinWidth": 0.08,
+          "MinMoveDistance": 0,
+          "Radius": 0.3,
+          "Height": 1.34,
+          "Gravity": {
+            "x": 0,
+            "y": -9.8,
+            "z": 0
+          },
+          "Mass": 50,
+          "IsServerDriven": true,
+          "UsePhysicalCCT": true,
+          "UseCustomPushForce": false,
+          "CustomPushForce": 120,
+          "EnableRotateWithGravity": false
+        },
+        "Rigidbody": {},
+        "PhysicalMover": {}
+      },
+      "propsData": {},
+      "entityVersion": 3,
+      "skeleton": {
+        "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335.sk",
+        "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335.sk",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "sk"
+      },
+      "boneEntity": {
+        "_entityName": "CH0335",
+        "_tag": {
+          "type": "BoneContentEntity"
+        },
+        "_entityId": "pmPzFKX3",
+        "children": [
+          {
+            "_entityName": "Nhóm Ngoại Hình",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "PxXNI5aG",
+            "children": [
+              {
+                "_entityName": "brush_01.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "SOVQvFzX",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-brush_01.~@FFSKIN",
+                  "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\brush_01.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "fnqle4052w6-mkcb5485-2szqhh81zys",
+                    "filePath": "Assets\\Character\\Kei\\outline.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              {
+                "_entityName": "CH0335_Body.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "Tkq2RyQl",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Body.~@FFSKIN",
+                  "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335_Body.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "vq2ur49ol7n-mkcb542b-rldsz1yp2kp",
+                    "filePath": "Assets\\Character\\Kei\\Face.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "sqyfhb792uj-mkcb5447-lf95su2ge7o",
+                    "filePath": "Assets\\Character\\Kei\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "m2dmuupdj8b-sonozwkr-2qot26xmls1",
+                    "filePath": "Assets\\Character\\Kei\\EyeMouth_3D.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "vq2ur49ol7n-mkcb542b-rldsz1yp2kp",
+                    "filePath": "Assets\\Character\\Kei\\Face.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "sqyfhb792uj-mkcb5447-lf95su2ge7o",
+                    "filePath": "Assets\\Character\\Kei\\Hair.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  },
+                  {
+                    "fileId": "fz63e2vc44d-mkcb53xh-w6imxoz6kbr",
+                    "filePath": "Assets\\Character\\Kei\\Body.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              {
+                "_entityName": "CH0335_Prop_Outlline.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "Ot7loKdf",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Prop_Outlline.~@FFSKIN",
+                  "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335_Prop_Outlline.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "fnqle4052w6-mkcb5485-2szqhh81zys",
+                    "filePath": "Assets\\Character\\Kei\\outline.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              },
+              {
+                "_entityName": "CH0335_Weapon.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "D0Jyhajo",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Weapon.~@FFSKIN",
+                  "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335_Weapon.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "nrrscrbw5y-mkcb54a0-nwovskwlscd",
+                    "filePath": "Assets\\Character\\Kei\\Weapon.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "bone_root",
+                  "bindType": 0
+                },
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "prefabVariant": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              }
+            ],
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "groupId": "",
+            "enable": true,
+            "prefabVariant": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true
+          },
+          {
+            "_entityName": "Halo",
+            "_tag": {
+              "type": "BoneMeshGroupEntity"
+            },
+            "_entityId": "FHC5po29",
+            "children": [
+              {
+                "_entityName": "CH0335_Halo.mesh",
+                "_tag": {
+                  "type": "BoneMeshEntity"
+                },
+                "_entityId": "WFIkPDCf",
+                "children": [],
+                "activeValue": {
+                  "selfValue": true,
+                  "valueTag": "activeValue"
+                },
+                "unlockedValue": {
+                  "selfValue": true,
+                  "valueTag": "unlockedValue"
+                },
+                "_mesh": {
+                  "fileId": "dt5u7aawtta-mkmqqli4-msfqisg9ud-CH0335_Halo.~@FFFUB",
+                  "filePath": "fab://Assets\\Character\\Kei\\CH0335.fbx\\CH0335_Halo.mesh",
+                  "_tag": {
+                    "type": "GFileRefer"
+                  },
+                  "fileType": "mesh"
+                },
+                "_cloth": null,
+                "partType": 0,
+                "causeAnimationTypeChange": false,
+                "outwardType": 0,
+                "materials": [
+                  {
+                    "fileId": "p2gc2eml2be-mkcb5468-yhhl0r71jqh",
+                    "filePath": "Assets\\Character\\Kei\\halo.mat",
+                    "_tag": {
+                      "type": "GFileRefer"
+                    },
+                    "fileType": "material"
+                  }
+                ],
+                "avatarPartInfo": {
+                  "bone": "Bip001 Head",
+                  "bindType": 1
+                },
+                "position": {
+                  "x": 0.007,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": -90,
+                  "z": -180
+                },
+                "prefabVariant": null,
+                "editorLockValue": false,
+                "editorVisibleValue": true
+              }
+            ],
+            "prefabVariant": null,
+            "activeValue": {
+              "selfValue": true,
+              "valueTag": "activeValue"
+            },
+            "unlockedValue": null,
+            "editorLockValue": false,
+            "editorVisibleValue": true,
+            "groupId": "entityTag97594827",
+            "enable": true
+          }
+        ],
+        "activeValue": {
+          "selfValue": true,
+          "valueTag": "activeValue"
+        },
+        "unlockedValue": {
+          "selfValue": true,
+          "valueTag": "unlockedValue"
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "BTPath": [
+          null
+        ],
+        "visible": true,
+        "VisibilityLayer": 0,
+        "modelOptimization": 0,
+        "streamingLayer": "",
+        "attributes": [
+          2,
+          4
+        ],
+        "isTrigger": false,
+        "collidable": true,
+        "physicalLayer": 0,
+        "physicalMaterial": null,
+        "aoiSetting": 0,
+        "initialTypes": {},
+        "componentList": [],
+        "prefabVariant": null,
+        "editorLockValue": false,
+        "editorVisibleValue": true
+      },
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "prefabVariant": null
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "HintCraftlandCombineMesh": false,
+  "discriminator": "ISceneLike"
+}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

@@ -1,40 +1,43 @@
-import "StdLibrary.fcc" as StdLib
+import "StdLibrary.fcc" as std
+import "CSVData.fcc" as csv
+import "List.fcc" as list
+import "Math.fcc" as math
 import "Convert.fcc" as convert
-import "EditorGenLib.fcc" as EditorLib
-import S_Player_ECA from "EditorGenLib.fcc"
+import "EditorGenLib.fcc" as EditorGenLib
+import "Hud.fcc" as Hud
+import UI_Upgrade_Backend from "EditorGenLib.fcc"
+import Resource_Management_CLI from "EditorGenLib.fcc"
+import "./Touchpad.fcg" as Touchpad
 
+[platform_client]
 graph Test {
-    // 1. Hàm có giá trị trả về (Dùng từ khóa return)
-    // Cú pháp: func Tên_Hàm(tham số) Kiểu_Dữ_Trả_Về { ... }
-    func Tinh_Sat_Thuong_Co_Ban(atk int, def int) int {
-        var dmg = atk - def
-        if dmg < 0 {
-            dmg = 0
+    // Đây là hàm nén gọn lại toàn bộ đống Block của Sensei
+    event OnUpdate() {
+        // Lấy UI hiện tại
+        var player = GetLocalPlayer()
+        var ui = thisEntity<CustomUI>
+        
+        // Gọi hàm "Lấy và xử lý giá trị nhập trong widget" (đã mã hóa)
+        ui<UI_Upgrade_Backend>.Lay_va_xu_ly_gia_tri_nhap_trong_widget(out var thanhCong, out var giaTri)
+        
+        if (thanhCong) {
+            // Đọc bảng CSV và lấy EXP tối đa (Cột 1)
+            var expTable = ReadCSVColumn(EResCSV.Level_Upgrade_Prices, 1)
+            StringToInt(expTable[Length(expTable) - 1],out var maxExp, out var Thanhcong)
+            
+            // Lấy thông số nhân vật (Dùng tên hàm đã mã hóa trong Resource_Client_ECA)
+            // __LA8ay6sA9N... = Lấy số lượng tiền tệ
+            // __DTA9Jc6ch... = Đọc chỉ số nhân vật (Level_EXP = 1)
+            var xuHienCo = player<Resource_Management_CLI>.Lay_so_luong_tien_te_nhan_vat_su_dung(ui<UI_Upgrade_Backend>.CharacterID)
+            var expHienTai = player<Resource_Management_CLI>.Doc_chi_so_nhan_vat(ui<UI_Upgrade_Backend>.CharacterID, Chi_so_thuoc_tinh.LevelEXP) 
+            
+            // Logic tính toán Clamp
+            var xuCanMax = maxExp - expHienTai
+            var giaTriToiDa = math.Min(xuHienCo, xuCanMax)
+            var TrueInt = Clamp(giaTri, 0, giaTriToiDa)
+            
+            // Cập nhật lại kết quả vào biến của UI
+            ui<UI_Upgrade_Backend>.So_luong_xu = TrueInt as int
         }
-        return dmg
-    }
-
-    // 2. Hàm không có giá trị trả về (Void)
-    func Thong_Bao(msg string) {
-        LogInfo("[Aris Log] " + msg)
-    }
-
-    event OnAwake() {
-        // Quest: Thử nghiệm hàm tính toán
-        var sat_thuong = Tinh_Sat_Thuong_Co_Ban(100, 30)
-        
-        // Sử dụng kết quả trả về
-        Thong_Bao("Sát thương tính được: " + ToString(sat_thuong))
-        
-        // Quest: Thử nghiệm hàm Async có giá trị trả về (Dùng out var)
-        start Cho_Doi_Va_Tra_Ket_Qua(2000, out var complete)
-    }
-
-    // 3. Hàm ASYNC có giá trị trả về (Dùng out var)
-    // Lưu ý: Async func thường dùng "out var" để trả kết quả vì nó chạy song song
-    async func Cho_Doi_Va_Tra_Ket_Qua(delay int, out var thanh_cong bool) {
-        WaitForMillisecond(delay)
-        thanh_cong = true
-        LogInfo(">>> [Aris] Đã hoàn thành tác vụ sau " + ToString(delay) + "ms! <<<")
     }
 }

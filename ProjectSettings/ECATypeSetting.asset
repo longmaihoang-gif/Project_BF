@@ -200,7 +200,7 @@
           "fileType": "eca"
         },
         {
-          "fileId": "7354yulhbyt-mmu8zfxg-55fk9ydpe9c",
+          "fileId": "q7n5gtxb0vh-mowsjimf-f3z5ilk4gpf",
           "_tag": {
             "type": "GFileRefer"
           },
@@ -325,6 +325,26 @@
             "compType": "InputEditor",
             "disabled": true
           }
+        },
+        {
+          "propID": 100029,
+          "name": "PROP_81952907",
+          "label": "Ví_người_chơi",
+          "type": "Map",
+          "value": null,
+          "observable": true,
+          "autoStorage": false,
+          "disabledType": true
+        },
+        {
+          "propID": 100031,
+          "name": "PROP_61612505",
+          "label": "Kho_chỉ_số_nhân_vật",
+          "type": "Map",
+          "value": null,
+          "observable": true,
+          "autoStorage": false,
+          "disabledType": true
         }
       ],
       "IsPartial": true
@@ -351,6 +371,26 @@
             "min": -2147483648,
             "max": 2147483647
           }
+        },
+        {
+          "propID": 100034,
+          "name": "PROP_19664143",
+          "label": "Lượng_quy_đổi_xu_ra_EXP",
+          "type": "Int",
+          "value": 800,
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
+        },
+        {
+          "propID": 100035,
+          "name": "PROP_75526582",
+          "label": "Lượng_tiêu_hao_credit_trên_1xu",
+          "type": "Int",
+          "value": 1500,
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
         }
       ],
       "IsPartial": true
@@ -538,20 +578,56 @@
       "IsPartial": true
     },
     "HudButtonWidget": {
-      "label": "按钮控件",
+      "label": "UI nút Widget",
       "name": "HudButtonWidget",
       "bases": [
         "HudWidget"
       ],
       "ecaScripts": [],
       "typeID": 41,
+      "PropDefines": [],
+      "IsPartial": true
+    },
+    "HudLabelWidget": {
+      "label": "UI Widget nhãn văn bản",
+      "name": "HudLabelWidget",
+      "bases": [
+        "HudWidget"
+      ],
+      "ecaScripts": [],
+      "typeID": 40,
       "PropDefines": [
         {
-          "name": "HudButtonWidget_47692545_custom",
-          "label": "ButtonParameter",
-          "type": "Int",
-          "value": 0,
-          "propID": 100000
+          "propID": 100032,
+          "name": "PROP_81825695",
+          "label": "Văn_bản_nền",
+          "type": "String",
+          "value": "",
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
+        }
+      ],
+      "IsPartial": true
+    },
+    "HudInputWidget": {
+      "label": "UI Widget InputLable",
+      "name": "HudInputWidget",
+      "bases": [
+        "HudWidget"
+      ],
+      "ecaScripts": [],
+      "typeID": 42,
+      "PropDefines": [
+        {
+          "propID": 100033,
+          "name": "PROP_18712851",
+          "label": "Lịch_sử_nhập",
+          "type": "String",
+          "value": "",
+          "observable": false,
+          "autoStorage": false,
+          "disabledType": true
         }
       ],
       "IsPartial": true

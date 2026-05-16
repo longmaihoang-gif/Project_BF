@@ -7,7 +7,58 @@
     "Components": {
       "CustomComponent96471482": {
         "label": "CusTeam",
-        "props": {}
+        "props": {
+          "100067": {
+            "label": "Team"
+          }
+        }
+      },
+      "CustomComponent58979682": {
+        "label": "Blue_Archive_Entity",
+        "props": {
+          "100041": {
+            "label": "ATG"
+          },
+          "100044": {
+            "label": "MaxATG"
+          },
+          "100045": {
+            "label": "Groggygauge"
+          },
+          "100049": {
+            "label": "MaxGroggy"
+          }
+        }
+      },
+      "CustomComponent72836610": {
+        "label": "Ten_lua",
+        "props": {
+          "100011": {
+            "label": "DMG"
+          },
+          "100014": {
+            "label": "Speed"
+          },
+          "100016": {
+            "label": "Target"
+          }
+        }
+      },
+      "CustomComponent61606995": {
+        "label": "Thuc_the_ap_dung_hieu_ung",
+        "props": {
+          "100048": {
+            "label": "Danhsachhieuung"
+          }
+        }
+      },
+      "CustomComponent39337248": {
+        "label": "Character_Select_Trigger",
+        "props": {
+          "100022": {
+            "label": "ECAPlayer"
+          }
+        }
       }
     },
     "Events": {
@@ -22,40 +73,2206 @@
         "vars": {
           "vEODY982X": {
             "label": "Dang_trong_EX"
+          },
+          "vRqKF9Y3U": {
+            "label": "tu_the_nguoi_choi"
+          },
+          "vP4BwuqI5": {
+            "label": "UI"
+          },
+          "vr5K1sBdm": {
+            "label": "Bieu_cam_mac_dinh"
+          },
+          "vO2NnpefB": {
+            "label": "Thuoc_tinh_don_danh_tay"
+          },
+          "vtQWOqxIq": {
+            "label": "EnableFire"
+          },
+          "vl22qFSDy": {
+            "label": "PlayerPointer"
           }
         },
-        "funcs": {}
+        "funcs": {
+          "29l;eZae3/WJgV@D$t!!": {
+            "label": "Bat_tat_nut_thong_thuong",
+            "params": {
+              "_arg7515": {
+                "label": "trang_thai"
+              },
+              "_arg1891": {
+                "label": "co_bao_gom_nut_tan_cong"
+              }
+            }
+          },
+          "@s(woV2H78TKHi`Go}tX": {
+            "label": "Ngan_chan_hoat_anh_thuong",
+            "params": {}
+          },
+          "-Jb/aJ38*vk3Ke3qGOA{": {
+            "label": "Tro_ve_bieu_cam_mac_dinh",
+            "params": {}
+          },
+          "Z^W-^f3V|OaJq]hsC@AM": {
+            "label": "Refresh_vu_khi",
+            "params": {}
+          },
+          "c7Ee3m3uH=fcv52B/jHV": {
+            "label": "Tro_ve_cam_mac_dinh",
+            "params": {}
+          },
+          "nuwPlPb|$yo~HGXwnPyJ": {
+            "label": "Set_trang_thai_cua_EX_Skill",
+            "params": {
+              "_arg9279": {
+                "label": "Mo"
+              }
+            }
+          },
+          "w%fpm8OI~6.7C{jv!r9Z": {
+            "label": "Chuyen_chuoi_thanh_anh_Bieu_cam",
+            "params": {
+              "_arg238": {
+                "label": "Input"
+              }
+            }
+          }
+        }
       },
       "9iqum2sxzgs-mh3boce9-0i0o16ww0lrt": {
-        "label": "",
-        "vars": {},
+        "label": "Toan_ban_do_ECA",
+        "vars": {
+          "vBNvU6p7S": {
+            "label": "Chu_ki"
+          }
+        },
         "funcs": {
           "r={pXo:=G6X^9rR*`VK.": {
-            "label": "GetObjectPosition"
+            "label": "GetObjectPosition",
+            "params": {
+              "_arg1954": {
+                "label": "Entity"
+              },
+              "_arg7822": {
+                "label": "Co_thanh_cong"
+              },
+              "_arg4795": {
+                "label": "Vi_tri"
+              }
+            }
+          },
+          "+z?;;X9B-XqZ.i#r{{`P": {
+            "label": "Hien_thi_hieu_ungphu_kien",
+            "params": {
+              "_arg8220": {
+                "label": "Loai"
+              },
+              "_arg8390": {
+                "label": "Trang_thai"
+              }
+            }
+          },
+          "=BIsZX#a:9qpy.O_GA-S": {
+            "label": "Tao_am_thanh_nhanh",
+            "params": {
+              "_arg8220": {
+                "label": "tai_nguyen"
+              },
+              "_arg8390": {
+                "label": "tam_toi_thieu"
+              },
+              "_arg854": {
+                "label": "tam_toi_da"
+              },
+              "_arg4063": {
+                "label": "vi_tri"
+              },
+              "_arg8051": {
+                "label": "Thoi_gian_ton_taims"
+              },
+              "_arg8745": {
+                "label": "Doi_tuong_theo_doi_neu_co"
+              }
+            }
+          },
+          "jKJrfO;Fu,JB=U~mUzGZ": {
+            "label": "Lap_bo_thuoc_tinh",
+            "params": {
+              "_arg3047": {
+                "label": "Thuc_the"
+              },
+              "_arg5082": {
+                "label": "ID_bo_thuoc_tinh"
+              },
+              "_arg497": {
+                "label": "ID_CSV"
+              }
+            }
+          },
+          "LJHak(,3](=)g;q#=-!c": {
+            "label": "Tao_vung_sat_thuong_no",
+            "params": {
+              "_arg9407": {
+                "label": "Trung_tam"
+              },
+              "_arg1302": {
+                "label": "Ban_kinh"
+              },
+              "_arg4456": {
+                "label": "Sat_thuong_toi_da"
+              },
+              "_arg3246": {
+                "label": "Sat_thuong_toi_thieu"
+              }
+            }
+          },
+          "sxDiW#}E3i;N4t(2v{Hi": {
+            "label": "Tao_hieu_ung_nhanh",
+            "params": {
+              "_arg8220": {
+                "label": "tai_nguyen"
+              },
+              "_arg773": {
+                "label": "Mau"
+              },
+              "_arg4063": {
+                "label": "vi_tri"
+              },
+              "_arg8390": {
+                "label": "xoay"
+              },
+              "_arg854": {
+                "label": "kich_thuoc"
+              },
+              "_arg8051": {
+                "label": "Thoi_gian_ton_taims"
+              }
+            }
+          },
+          "WFwG.x/eq[/|j|irhcD^": {
+            "label": "Tao_vung_sat_thuong_no_V2",
+            "params": {
+              "_arg2777": {
+                "label": "Chu"
+              },
+              "_arg9407": {
+                "label": "Trung_tam"
+              },
+              "_arg1302": {
+                "label": "Ban_kinh"
+              },
+              "_arg4456": {
+                "label": "Sat_thuong"
+              },
+              "_arg2440": {
+                "label": "Xuyen_vat_the"
+              },
+              "_arg3466": {
+                "label": "Thuoc_tinh_sat_thuong"
+              }
+            }
+          },
+          "P-SGGqV4.hK[={P;1%A?": {
+            "label": "Quet_ke_dich_xung_quanh",
+            "params": {
+              "_arg2777": {
+                "label": "Chu"
+              },
+              "_arg1302": {
+                "label": "Ban_kinh"
+              },
+              "_arg2440": {
+                "label": "Xuyen_vat_the"
+              },
+              "_arg7503": {
+                "label": "Trong_tam"
+              },
+              "_arg5850": {
+                "label": "Ke_dich_gan_nhat"
+              },
+              "_arg9198": {
+                "label": "Danh_sach_ke_dich"
+              }
+            }
+          },
+          "{-iIT(By79IuvAM!C;Ua": {
+            "label": "Kiem_tra_uu_tien_phai_co_bien_uutien",
+            "params": {
+              "_arg2630": {
+                "label": "Nut"
+              },
+              "_arg8937": {
+                "label": "Goc"
+              }
+            }
+          },
+          "S`FgGsT~eC.o%u-zWBpt": {
+            "label": "Lay_vi_tri_trung_tam_cua_nguoi_choi",
+            "params": {
+              "_arg1929": {
+                "label": "Nguoi_choi"
+              }
+            }
+          },
+          "Xg!jW)0;;[qRwE0YcCnh": {
+            "label": "Co_nam_trong_ngay_dinh_san",
+            "params": {}
           }
         }
       },
       "htcp9knml2s-mnjyw61r-nlr1emit0rr": {
-        "label": "",
+        "label": "AruOriginal_ECA",
         "vars": {
           "vuIFWTdR9": {
-            "label": "Tham_so_raycast"
+            "label": "Thamsoraycast"
+          },
+          "vhtT9f999": {
+            "label": "thuc_the_di_chuyen"
           }
         },
         "funcs": {}
       },
       "anvnk1izo3w-moo7taq3-44xrlisas6y": {
+        "label": "UI_Upgrade_Backend",
+        "vars": {
+          "v9aDyP7Au": {
+            "label": "CharacterID"
+          },
+          "vumGFAkji": {
+            "label": "So_luong_xu"
+          }
+        },
+        "funcs": {
+          "GZm3e:7$umJ-Xou2F6+M": {
+            "label": "Visible_Widgets",
+            "params": {
+              "_arg224": {
+                "label": "Hien_EX"
+              }
+            }
+          },
+          "yogVX9nM1^0up^PpVOPU": {
+            "label": "Lay_level_hien_tai"
+          },
+          "2*ep;QYN8kdJ1k,qT)2n": {
+            "label": "Lay_Level_hien_tai_dua_tren_level_nen"
+          },
+          "ph6=Z[thl29CVWk:vBiF": {
+            "label": "Update_UI",
+            "params": {}
+          },
+          "`xjyhY.6m`)_So3ZVe]%": {
+            "label": "Hien_thi_nhan",
+            "params": {
+              "_arg7371": {
+                "label": "Tags"
+              }
+            }
+          },
+          "bacZ1i^#Lut(T7WCetr^": {
+            "label": "Swap_widget_xuong_cuoi",
+            "params": {
+              "_arg9217": {
+                "label": "Widget_cha"
+              },
+              "_arg9761": {
+                "label": "Widget_con"
+              }
+            }
+          },
+          "0UZ@KRYs}^w`2dr]nj{H": {
+            "label": "Hien_thi_nguyen_lieu_nang_cap",
+            "params": {
+              "_arg4412": {
+                "label": "StudentInformation"
+              },
+              "_arg1535": {
+                "label": "EXLevel"
+              },
+              "_arg973": {
+                "label": "CreditNumber"
+              },
+              "_arg5712": {
+                "label": "Loai_xu"
+              },
+              "_arg2840": {
+                "label": "So_luong_xu_truong"
+              }
+            }
+          },
+          "Gs@0Er~om?,otc6e2X.^": {
+            "label": "Update_thanh_LV",
+            "params": {}
+          },
+          "Rw#tQJpJ$j=_7Byo`Z;B": {
+            "label": "Lay_va_xu_ly_gia_tri_nhap_trong_widget",
+            "params": {
+              "_arg3956": {
+                "label": "Thanh_cong"
+              },
+              "_arg9666": {
+                "label": "Gia_tri"
+              }
+            }
+          },
+          "]Oj^$D1l|eFKHIhiC*Xm": {
+            "label": "Xu_ly_mo_ta_EX",
+            "params": {
+              "_arg7452": {
+                "label": "EXDesc"
+              },
+              "_arg85": {
+                "label": "EXValue"
+              }
+            }
+          }
+        }
+      },
+      "axgmr7bc9te-mcyecgxq-tidvew226xl": {
+        "label": "Ham_thuoc_tinh_cong_thuc_ECA",
+        "vars": {},
+        "funcs": {
+          "tHGoQ^F0AY?|fqv@|=0e": {
+            "label": "Toan_tu_hoi"
+          },
+          "7jG4qvc!aFnK}8X8b-hI": {
+            "label": "Tao_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg9278": {
+                "label": "Thanh_phan"
+              },
+              "_arg6854": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg62": {
+                "label": "Gia_tri_co_ban"
+              }
+            }
+          },
+          "9.bWE,9*F+:=6bHL,Rqs": {
+            "label": "Them_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg7029": {
+                "label": "Thanh_phan"
+              },
+              "_arg4524": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg8663": {
+                "label": "Loai_tinh"
+              },
+              "_arg1860": {
+                "label": "Dao_nguoc"
+              },
+              "_arg3245": {
+                "label": "Gia_tri"
+              },
+              "_arg6304": {
+                "label": "Co_thanh_cong"
+              }
+            }
+          },
+          "Scu:9TepU[;jQs]O2J7E": {
+            "label": "Xoa_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg7029": {
+                "label": "Thanh_phan"
+              },
+              "_arg4524": {
+                "label": "ID_thuoc_tinh"
+              }
+            }
+          },
+          "h;lzgL{kSb!2%0g1OOgA": {
+            "label": "Dat_lai_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg9278": {
+                "label": "Thanh_phan"
+              },
+              "_arg6854": {
+                "label": "ID_thuoc_tinh"
+              }
+            }
+          },
+          "ckh)MMOD5~`Gmzl0.RK4": {
+            "label": "Nhan_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg8223": {
+                "label": "Thanh_phan"
+              },
+              "_arg3535": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg3723": {
+                "label": "Lay_gia_tri_ban_dau"
+              }
+            }
+          },
+          "xQe^S6=xRu71}=$*p%B4": {
+            "label": "Nhan_lay_phan_nguyen",
+            "params": {
+              "_arg128": {
+                "label": "int"
+              },
+              "_arg9409": {
+                "label": "so"
+              }
+            }
+          }
+        }
+      },
+      "84m6y99o9v-mm67baw1-zt7gg4nmdap": {
+        "label": "Ham_thuoc_tinh_cong_thuc_V2_ECA",
+        "vars": {},
+        "funcs": {
+          "tHGoQ^F0AY?|fqv@|=0e": {
+            "label": "Toan_tu_hoi",
+            "params": {
+              "_arg3017": {
+                "label": "Dieu_kien"
+              },
+              "_arg7755": {
+                "label": "True"
+              },
+              "_arg1205": {
+                "label": "False"
+              }
+            }
+          },
+          "7jG4qvc!aFnK}8X8b-hI": {
+            "label": "Tao_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg6854": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg62": {
+                "label": "Gia_tri_co_ban"
+              }
+            }
+          },
+          "9.bWE,9*F+:=6bHL,Rqs": {
+            "label": "Them_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg4524": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg8663": {
+                "label": "Loai_tinh"
+              },
+              "_arg1860": {
+                "label": "Dao_nguoc"
+              },
+              "_arg3245": {
+                "label": "Gia_tri"
+              },
+              "_arg6304": {
+                "label": "Co_thanh_cong"
+              }
+            }
+          },
+          "Scu:9TepU[;jQs]O2J7E": {
+            "label": "Xoa_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg4524": {
+                "label": "ID_thuoc_tinh"
+              }
+            }
+          },
+          "h;lzgL{kSb!2%0g1OOgA": {
+            "label": "Dat_lai_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg6854": {
+                "label": "ID_thuoc_tinh"
+              }
+            }
+          },
+          "ckh)MMOD5~`Gmzl0.RK4": {
+            "label": "Nhan_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg3535": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg3723": {
+                "label": "Lay_gia_tri_ban_dau"
+              }
+            }
+          },
+          "xQe^S6=xRu71}=$*p%B4": {
+            "label": "Nhan_lay_phan_nguyen",
+            "params": {
+              "_arg128": {
+                "label": "int"
+              },
+              "_arg9409": {
+                "label": "so"
+              }
+            }
+          }
+        }
+      },
+      "gs9qng2m1ht-mowhpt81-i8gp5fx1l8q": {
+        "label": "Resource_Management_CLI",
+        "vars": {},
+        "funcs": {
+          "`mPl5U/P-IV-zj||w:{a": {
+            "label": "Da_so_huu_nhan_vat",
+            "params": {
+              "_arg9061": {
+                "label": "Ten_nhan_vat"
+              },
+              "_arg3346": {
+                "label": "Co_so_huu"
+              },
+              "_arg8434": {
+                "label": "RankEXP"
+              },
+              "_arg49": {
+                "label": "LevelEXP"
+              },
+              "_arg3920": {
+                "label": "EXLevel"
+              }
+            }
+          },
+          "^f9ZA1we`.pRa`dC$Zs@": {
+            "label": "Doc_chi_so_nhan_vat",
+            "params": {
+              "_arg3657": {
+                "label": "Ten_nhan_vat"
+              },
+              "_arg6366": {
+                "label": "Loai_chi_so"
+              }
+            }
+          },
+          "jW/=UdgCGWQv83c?dY6_": {
+            "label": "Xem_so_tien",
+            "params": {
+              "_arg6366": {
+                "label": "Ten_tien_te"
+              }
+            }
+          },
+          "yogVX9nM1^0up^PpVOPU": {
+            "label": "Lay_Level_hien_tai",
+            "params": {
+              "_arg5112": {
+                "label": "EXPLevel"
+              }
+            }
+          },
+          "2nyMDz2h,muZu!Cd5Q|_": {
+            "label": "Lay_so_luong_tien_te_nhan_vat_su_dung",
+            "params": {
+              "_arg7246": {
+                "label": "ID_nhan_vat"
+              }
+            }
+          }
+        }
+      },
+      "7m2hfg50vnh-mo5ekj88-qjizgwuo23": {
+        "label": "Untitled1_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "w5g2f6g1yt-mmakesu2-ul0xuyyow7a": {
+        "label": "BAPlayer_ECA",
+        "vars": {},
+        "funcs": {
+          "=@w}mulo;q;|27PEn{?0": {
+            "label": "cuoi_ngua",
+            "params": {
+              "_arg2184": {
+                "label": "Player"
+              }
+            }
+          }
+        }
+      },
+      "iee3gtfrhm-mhuonjib-euu6m1m5ct": {
+        "label": "Bomb_ECA",
+        "vars": {
+          "v5JtKYT4t": {
+            "label": "DMG"
+          },
+          "vLRrfNN25": {
+            "label": "So_lan_va_cham_cho_phep"
+          }
+        },
+        "funcs": {}
+      },
+      "0vbe2jqjew8-mgxpeqch-o6raa251tsc": {
+        "label": "BOSS_ECA",
+        "vars": {
+          "vbFecxBUs": {
+            "label": "Con_song"
+          },
+          "vjimNKJ4K": {
+            "label": "Muc_tieu_tan_cong"
+          },
+          "vQYQCmH6v": {
+            "label": "Trang_thai"
+          },
+          "vXuMENEFX": {
+            "label": "EX_points"
+          },
+          "v1TdUgYqb": {
+            "label": "Xoay_khi_dung_chieu"
+          },
+          "vzRGFQPV7": {
+            "label": "ATGSkill"
+          }
+        },
+        "funcs": {
+          "2NfGV/|xYjWVFxtC0-!$": {
+            "label": "Hoi_mau",
+            "params": {
+              "_arg9860": {
+                "label": "Luong_HP"
+              }
+            }
+          },
+          "SZ(];ttPic76q%ny=Es|": {
+            "label": "Gay_sat_thuong",
+            "params": {
+              "_arg9860": {
+                "label": "DMG"
+              }
+            }
+          },
+          "aYg.csj_otc.^ceIh_r%": {
+            "label": "Quet_tim_nguoi_choi_gan_nhat",
+            "params": {
+              "_arg6884": {
+                "label": "Range"
+              },
+              "_arg2908": {
+                "label": "Xuyen_vat_the"
+              },
+              "_arg7918": {
+                "label": "Co_tim_thay_dich"
+              }
+            }
+          }
+        }
+      },
+      "jff7bu897z-mh49u9ou-ivinxyn7shp": {
+        "label": "CH0263_Animator_ECA",
+        "vars": {
+          "vhddduZ7w": {
+            "label": "Main"
+          },
+          "v5F4ywggH": {
+            "label": "cache"
+          }
+        },
+        "funcs": {
+          ".(m`!8hm5XCuxps$h(iZ": {
+            "label": "Kich_hoat_luu_dan",
+            "params": {
+              "_arg5518": {
+                "label": "Luu"
+              },
+              "_arg1833": {
+                "label": "Vi_tri_muc_tieu"
+              },
+              "_arg1729": {
+                "label": "DMGMAX"
+              },
+              "_arg2727": {
+                "label": "DMGMIN"
+              }
+            }
+          }
+        }
+      },
+      "t2m0dg6fnq9-mh64htlc-689ytoop3yt": {
+        "label": "CH0263EX02Outline_ECA",
+        "vars": {
+          "v2v5F8pb5": {
+            "label": "so_lan_va_cham"
+          },
+          "vZgazW3dj": {
+            "label": "CD"
+          }
+        },
+        "funcs": {}
+      },
+      "jkurbsnczof-mgxdn1mm-hd0lzmrz6kc": {
+        "label": "Client_ECA",
+        "vars": {
+          "vsqal5Nct": {
+            "label": "Phu_kien_lien_ket"
+          },
+          "vSikMGbqK": {
+            "label": "Hieu_ung_khai_hoa"
+          }
+        },
+        "funcs": {}
+      },
+      "dp6mor5wfev-mhzvukry-djmhp6fle5p": {
+        "label": "DMG_area_ECA",
+        "vars": {
+          "vTXceObtP": {
+            "label": "Quan_ly_nguoi_choi_trong_vung"
+          }
+        },
+        "funcs": {}
+      },
+      "97iz8ei3pxv-mhpxa6ro-k3r6ejc5paa": {
+        "label": "EX03_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "hkw7z3acxw8-mjfh9zy1-q9w155qzj8": {
+        "label": "Hop_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "igtgj7aoid-mmhb37vu-rhxts7evhk9": {
+        "label": "Nguoi_choi_1_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "ur88va1bxy-mmne64lg-rfzvags0tgd": {
+        "label": "SceneChip_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "58a0mb874db-mhnjqaic-92lgrn083c": {
+        "label": "ten_lua_ECA",
+        "vars": {
+          "vBMtBdG6q": {
+            "label": "Con_nguyen"
+          }
+        },
+        "funcs": {}
+      },
+      "y04eik6yo8-moss98qu-d1be4fqt8xi": {
+        "label": "UI_Test_1_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "kxisjrujg6b-mhovlywe-whc8d4262g": {
+        "label": "UI_Test_ECA",
+        "vars": {},
+        "funcs": {
+          "eSV^g?0L%raHubXBwL]g": {
+            "label": "Thu_phong_camera_EX",
+            "params": {
+              "_arg5373": {
+                "label": "Player"
+              },
+              "_arg7625": {
+                "label": "Truong_nhin"
+              },
+              "_arg9344": {
+                "label": "Do_lech"
+              }
+            }
+          }
+        }
+      },
+      "36fte9jgtiy-mkr0r8q2-l4peighewf7": {
+        "label": "UI_thanh_mau_xep_tang_ECA",
+        "vars": {
+          "vmQLf4pjw": {
+            "label": "Danh_sach_mau"
+          },
+          "v2DB85exL": {
+            "label": "Luong_HP_toi_da_tren_1_thanh"
+          }
+        },
+        "funcs": {
+          "F!rJY3JLO@yQ#@_sT;h)": {
+            "label": "Update_thanh_HP",
+            "params": {
+              "_arg4976": {
+                "label": "HP"
+              },
+              "_arg1116": {
+                "label": "Max_HP"
+              }
+            }
+          }
+        }
+      },
+      "f0monez69ac-mhupcacx-nygqr5katy7": {
+        "label": "Vung_tha_bom_ECA",
+        "vars": {
+          "vqJTfbdc6": {
+            "label": "Vi_tri_tha"
+          },
+          "vpbSncIFr": {
+            "label": "DMG"
+          }
+        },
+        "funcs": {
+          "HVb3{YJ`x;l_8?}?6_U5": {
+            "label": "Tha_bom",
+            "params": {
+              "_arg7157": {
+                "label": "Vi_tri"
+              }
+            }
+          },
+          "/1{]uqA17~C%4?bXz8$;": {
+            "label": "Kich_hoat_bo_dieu_khien",
+            "params": {}
+          }
+        }
+      },
+      "g6echgkgd5b-ml3jhvz5-rixgapfs0bg": {
+        "label": "Vat_the_co_the_pha_huy_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "q0av06glcth-mnu6hvn0-4w0lnndb6q": {
+        "label": "AruEXExplode_ECA",
+        "vars": {
+          "v2MCk5aZ4": {
+            "label": "Chu"
+          }
+        },
+        "funcs": {}
+      },
+      "noaaf0xldxk-mmfy0kyt-5yqwx1bc7fw": {
+        "label": "BArisEXDMGTrigger_ECA",
+        "vars": {
+          "v0GJT88wa": {
+            "label": "Danh_sach_nguoi_choi_dinh_don"
+          },
+          "vRpwD9huL": {
+            "label": "Chu"
+          },
+          "vWEx02aqF": {
+            "label": "Phan_tram_ATK"
+          }
+        },
+        "funcs": {}
+      },
+      "csgraiuw1ie-mma69jkx-y7oz01ar15l": {
+        "label": "CH0334_ECA",
+        "vars": {
+          "vqRElbDlm": {
+            "label": "LaserEX"
+          }
+        },
+        "funcs": {}
+      },
+      "r397nvag64-mmu8wnuw-083qs0wyyrkc": {
+        "label": "BHoshinoShield_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "nhdd5d71y9-mmwujrjc-mxy3hh8vel": {
+        "label": "CH0258_ECA",
+        "vars": {
+          "vntxHiz6C": {
+            "label": "EXShield"
+          },
+          "vdbmjzWXl": {
+            "label": "BuffEndTime"
+          }
+        },
+        "funcs": {
+          ":b5YD?wDB/H$7^d4s4eL": {
+            "label": "Tao_khien",
+            "params": {}
+          },
+          "r)FMVd)fOop}EY7OEi(=": {
+            "label": "Pha_huy_khien",
+            "params": {
+              "_arg985": {
+                "label": "thuc_the"
+              }
+            }
+          }
+        }
+      },
+      "22dicatt4gni-mn1k3p9p-iv9t68rgsz": {
+        "label": "CH0230_ECA",
+        "vars": {
+          "vQSZvU1QW": {
+            "label": "vi_tri"
+          },
+          "v0XN7PovM": {
+            "label": "EX_Firing"
+          },
+          "vLoxyaz5Q": {
+            "label": "EXDurationRemaining"
+          }
+        },
+        "funcs": {
+          "!RK26J.#+!Tl9T3L;qI{": {
+            "label": "Kiem_tra_thoi_gian_EX",
+            "params": {}
+          },
+          "!D!@SC6OFESY2AF}E_PM": {
+            "label": "Reset_ve_trang_thai_ban_dau",
+            "params": {}
+          }
+        }
+      },
+      "iacypqruo1d-mn32vte1-67bcs724ag": {
+        "label": "DHinaDMGTrigger_ECA",
+        "vars": {
+          "vAbUovJ8y": {
+            "label": "chu"
+          },
+          "vONTYIBCg": {
+            "label": "Phan_tram_ATK"
+          },
+          "vJi2e0i4I": {
+            "label": "Diem_dau"
+          },
+          "vuIbDfXOA": {
+            "label": "Luong_sat_thuong_tieu_hao"
+          },
+          "vDO4BEKa5": {
+            "label": "Ho_tro_di_chuyen"
+          },
+          "vTmyzrDYV": {
+            "label": "SFX"
+          }
+        },
+        "funcs": {
+          ",pbRR[x{l7(tIrKp6rD[": {
+            "label": "Gay_DMG",
+            "params": {
+              "_arg1669": {
+                "label": "Muc_tieu_truy_kich"
+              }
+            }
+          }
+        }
+      },
+      "v2q5jsycegg-mnvh2u1g-2ny1pj37dpy": {
+        "label": "HarunaDMGTrigger_ECA",
+        "vars": {
+          "vAbUovJ8y": {
+            "label": "chu"
+          },
+          "vONTYIBCg": {
+            "label": "Phan_tram_ATK"
+          },
+          "vJi2e0i4I": {
+            "label": "Diem_dau"
+          },
+          "vuIbDfXOA": {
+            "label": "Luong_sat_thuong_tieu_hao"
+          },
+          "vDO4BEKa5": {
+            "label": "Ho_tro_di_chuyen"
+          }
+        },
+        "funcs": {
+          ",pbRR[x{l7(tIrKp6rD[": {
+            "label": "Gay_DMG",
+            "params": {
+              "_arg1669": {
+                "label": "Muc_tieu_truy_kich"
+              }
+            }
+          }
+        }
+      },
+      "1hu0fpam24r-mnvaq6tv-s2m5wib282": {
+        "label": "HarunaOriginal_ECA",
+        "vars": {
+          "vuIFWTdR9": {
+            "label": "Huong_sung"
+          },
+          "vhtT9f999": {
+            "label": "thuc_the_di_chuyen"
+          }
+        },
+        "funcs": {
+          "!D!@SC6OFESY2AF}E_PM": {
+            "label": "Reset_ve_trang_thai_ban_dau",
+            "params": {}
+          }
+        }
+      },
+      "wjjwllu1q8-mmai8kch-ctgfnt8rjlt": {
+        "label": "CH0335_ECA",
+        "vars": {
+          "vQSZvU1QW": {
+            "label": "vi_tri"
+          }
+        },
+        "funcs": {}
+      },
+      "3x5kxe7q0fk-mmirihk6-ph9fsej6swk": {
+        "label": "KeiEXEntity_ECA",
+        "vars": {
+          "vx3PJ0KAB": {
+            "label": "Danh_sach_nguoi_choi_di_vao"
+          },
+          "vvXfsUtnH": {
+            "label": "chu"
+          },
+          "vA5do73XU": {
+            "label": "kich_hoat"
+          },
+          "vQ6p0rFLY": {
+            "label": "ATKcongthem"
+          }
+        },
+        "funcs": {
+          "GOSNlkA4P-0J5tAd0,3A": {
+            "label": "Pha_huy_thuc_the",
+            "params": {}
+          }
+        }
+      },
+      "eliizakght8-mmirn4qe-o3vju9j0m9g": {
+        "label": "KeiEXOutline_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "3feza8u4pst-mnepp50y-uqc54emuzbj": {
+        "label": "MakiEXHitVFX_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "oijoo54fugg-mncnqhok-da889x0tfql": {
+        "label": "MakiOriginal_ECA",
+        "vars": {},
+        "funcs": {
+          "*z5?}3jwoB!,b+n4Hx+!": {
+            "label": "Reset_hieu_ung",
+            "params": {}
+          }
+        }
+      },
+      "onuqnyxztp-mmdd5eo4-psj3s3pr9hf": {
+        "label": "CH0200_ECA",
+        "vars": {
+          "vuIFWTdR9": {
+            "label": "Huong_sung"
+          },
+          "vhtT9f999": {
+            "label": "thuc_the_di_chuyen"
+          }
+        },
+        "funcs": {}
+      },
+      "sxzo5mqumll-mmh6lfk5-pezbi60no2": {
+        "label": "MArisDMGTrigger_ECA",
+        "vars": {
+          "vAbUovJ8y": {
+            "label": "chu"
+          },
+          "vONTYIBCg": {
+            "label": "Phan_tram_ATK"
+          },
+          "vJi2e0i4I": {
+            "label": "Diem_dau_cuoi"
+          }
+        },
+        "funcs": {
+          "IVN|E6s:]HwY2wXuda2{": {
+            "label": "Tao_hieu_ung_no",
+            "params": {}
+          },
+          ",pbRR[x{l7(tIrKp6rD[": {
+            "label": "Gay_DMG",
+            "params": {
+              "_arg1669": {
+                "label": "Muc_tieu_truy_kich"
+              }
+            }
+          }
+        }
+      },
+      "dlowku7ugco-mmlyebs6-ssbzwotr86a": {
+        "label": "CH0202_ECA",
+        "vars": {},
+        "funcs": {
+          "*z5?}3jwoB!,b+n4Hx+!": {
+            "label": "Reset_hieu_ung",
+            "params": {}
+          }
+        }
+      },
+      "rrrfj51525b-mmlyduuv-slk54s0pr39": {
+        "label": "CH0201_ECA",
+        "vars": {
+          "vphmcR0MX": {
+            "label": "Co_cuong_hoa_vu_khi"
+          },
+          "vEJpWlDxh": {
+            "label": "TimeRemoveEnhancedGun"
+          }
+        },
+        "funcs": {}
+      },
+      "u5ry1iqjxro-mo5m3rac-uy58htip0yh": {
+        "label": "YuukaOriginal_ECA",
+        "vars": {
+          "vuIFWTdR9": {
+            "label": "Huong_sung"
+          },
+          "vhtT9f999": {
+            "label": "thuc_the_di_chuyen"
+          }
+        },
+        "funcs": {}
+      },
+      "tszfacsypa-mmvfotpb-a0gd06jqu9o": {
+        "label": "C_Player_2_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "3m3usckvnl9-mj2t0ed2-io82zfocpp": {
+        "label": "C_player_ECA",
+        "vars": {
+          "vRVipRmpp": {
+            "label": "ready"
+          },
+          "vsvj10Jpy": {
+            "label": "SFXCD"
+          },
+          "vbhLNFPwx": {
+            "label": "Mouth"
+          },
+          "vMgJY0doD": {
+            "label": "CharacterModel"
+          },
+          "vBV2ejfZQ": {
+            "label": "co_gui_tin_hieu_huong"
+          }
+        },
+        "funcs": {
+          "neQ1Y=]fgub+tt11(IEy": {
+            "label": "Tao_diem_danh_dau",
+            "params": {
+              "_arg323": {
+                "label": "VFX"
+              },
+              "_arg1148": {
+                "label": "vi_tri"
+              },
+              "_arg9087": {
+                "label": "Huong"
+              }
+            }
+          },
+          "|kBrHq!jd3UmDTT,6LHR": {
+            "label": "Tao_hieu_ung_dan",
+            "params": {
+              "_arg287": {
+                "label": "VFX_dan"
+              },
+              "_arg4826": {
+                "label": "VFX_trung"
+              },
+              "_arg1148": {
+                "label": "Vi_tri_ban_dau"
+              },
+              "_arg1576": {
+                "label": "Vi_tri_dich"
+              },
+              "_arg1690": {
+                "label": "Huong"
+              }
+            }
+          },
+          "=BIsZX#a:9qpy.O_GA-S": {
+            "label": "Tao_am_thanh_nhanh",
+            "params": {
+              "_arg8220": {
+                "label": "tai_nguyen"
+              },
+              "_arg8390": {
+                "label": "tam_toi_thieu"
+              },
+              "_arg854": {
+                "label": "tam_toi_da"
+              },
+              "_arg4063": {
+                "label": "vi_tri"
+              },
+              "_arg8051": {
+                "label": "Thoi_gian_ton_taims"
+              }
+            }
+          },
+          "Nh.SCyUs|,ekaNV^rkk;": {
+            "label": "Thay_doi_bieu_cam",
+            "params": {
+              "_arg4682": {
+                "label": "Bieu_cam"
+              }
+            }
+          },
+          "wgkyx)K_fodqJ2EbD[Fw": {
+            "label": "Set_Mouth_location",
+            "params": {}
+          },
+          "6@)My|KpDI:J}`CAUI=]": {
+            "label": "Tia_chieu_tam_sung",
+            "params": {
+              "_arg9350": {
+                "label": "Range"
+              },
+              "_arg4863": {
+                "label": "Do_no_tam"
+              },
+              "_arg5048": {
+                "label": "Thuc_the_trung"
+              },
+              "_arg9497": {
+                "label": "Diem_trung"
+              },
+              "_arg6679": {
+                "label": "Phap_tuyen_be_mat"
+              },
+              "_arg4218": {
+                "label": "Trung_khong_khi"
+              }
+            }
+          }
+        }
+      },
+      "v05jol0s58c-mm678008-89tvvum86pk": {
+        "label": "Combat_ECA",
+        "vars": {
+          "vrzblIrL9": {
+            "label": "He_thong_tu_sinh_cost"
+          },
+          "v2AB5pSoO": {
+            "label": "CurrentShieldPoint"
+          },
+          "vucxCg7kX": {
+            "label": "MaxShieldPoint"
+          },
+          "vbFfH5QgQ": {
+            "label": "Thoi_diem_het_han"
+          },
+          "vjKNTwqcC": {
+            "label": "ShieldVFX"
+          }
+        },
+        "funcs": {
+          "a%N7*?@rrB9=qZ)%$kM;": {
+            "label": "Gay_DMG",
+            "params": {
+              "_arg2876": {
+                "label": "Muc_tieu"
+              },
+              "_arg8456": {
+                "label": "DMG"
+              },
+              "_arg4453": {
+                "label": "Thuoc_tinh_sat_thuong"
+              },
+              "_arg363": {
+                "label": "Sat_thuong_cuoi_cung"
+              },
+              "_arg2667": {
+                "label": "Tinh_chat_sat_thuong"
+              }
+            }
+          },
+          "NqvNndFBE0^6AsQ^G;pg": {
+            "label": "Xu_ly_thuoc_tinh",
+            "params": {
+              "_arg2876": {
+                "label": "Muc_tieu"
+              },
+              "_arg4453": {
+                "label": "Thuoc_tinh_sat_thuong"
+              },
+              "_arg3290": {
+                "label": "Ket_qua"
+              }
+            }
+          },
+          "wk*_fYKvf5aZC,V80pzm": {
+            "label": "Xu_ly_khien",
+            "params": {
+              "_arg5003": {
+                "label": "Ke_thu"
+              },
+              "_arg4820": {
+                "label": "DMG"
+              },
+              "_arg2790": {
+                "label": "Thuoc_tinh_sat_thuong"
+              },
+              "_arg2167": {
+                "label": "Sat_thuong_con_lai"
+              },
+              "_arg4251": {
+                "label": "Co_tac_dong_khien"
+              }
+            }
+          },
+          "vn7@72jf8vZMyhk|?z]j": {
+            "label": "Them_khien",
+            "params": {
+              "_arg7920": {
+                "label": "Gia_tri"
+              },
+              "_arg5707": {
+                "label": "Thoi_gian_T_10T1s"
+              }
+            }
+          },
+          "N%V*$+-dTR15utum`q;J": {
+            "label": "Pha_huy_khien",
+            "params": {}
+          }
+        }
+      },
+      "ktyey1pmr68-mjl5jagv-sp1f7wlatc": {
+        "label": "CSVData_ECA",
+        "vars": {},
+        "funcs": {
+          "J.o@{F{NfJ5o[f*+$uu}": {
+            "label": "Doc_hang_CSV_theo_ID",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              }
+            }
+          },
+          "h-H/uK:K?`P%yM:)m%0x": {
+            "label": "Doc_o_CSV_theo_ID_va_ten",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              },
+              "_arg437": {
+                "label": "Ten"
+              }
+            }
+          },
+          "pjC!lR}nf~?M:TNSSicX": {
+            "label": "Doc_o_CSV_theo_ID_va_ten_chung",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              },
+              "_arg437": {
+                "label": "Ten"
+              }
+            }
+          }
+        }
+      },
+      "csvdataclient-mjl5-jagv-sp1f-7wlatc": {
+        "label": "CSVDataClient_ECA",
+        "vars": {},
+        "funcs": {
+          "J.o@{F{NfJ5o[f*+$uu}": {
+            "label": "Doc_hang_CSV_theo_ID",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              }
+            }
+          },
+          "h-H/uK:K?`P%yM:)m%0x": {
+            "label": "Doc_o_CSV_theo_ID_va_ten",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              },
+              "_arg437": {
+                "label": "Ten"
+              }
+            }
+          },
+          "pjC!lR}nf~?M:TNSSicX": {
+            "label": "Doc_o_CSV_theo_ID_va_ten_chung",
+            "params": {
+              "_arg5912": {
+                "label": "CSV"
+              },
+              "_arg7855": {
+                "label": "ID"
+              },
+              "_arg437": {
+                "label": "Ten"
+              }
+            }
+          }
+        }
+      },
+      "riv409p46s-mntqj2xx-os1r9jagtk": {
+        "label": "CusTeam_ECA",
+        "vars": {},
+        "funcs": {
+          "X|S}I8`sV06xM%|1?CTW": {
+            "label": "Lakedich",
+            "params": {
+              "_arg4398": {
+                "label": "Target"
+              }
+            }
+          }
+        }
+      },
+      "6jyzklvb5eb-mjnylc5q-8yewbxx517u": {
+        "label": "Hieu_ung_buff_neft_ECA",
+        "vars": {},
+        "funcs": {
+          ")6JrP1oTbF;b8=e@0Tl#": {
+            "label": "Them_hieu_ung",
+            "params": {
+              "_arg3980": {
+                "label": "ID_Hieu_ung"
+              },
+              "_arg656": {
+                "label": "Loai_Buff"
+              },
+              "_arg1491": {
+                "label": "Cuong_do"
+              },
+              "_arg6499": {
+                "label": "Thoi_gian_T_10_T__1s"
+              },
+              "_arg8872": {
+                "label": "The_neu_co"
+              }
+            }
+          }
+        }
+      },
+      "5g47w2xblf7-mmirdgmk-w2z1pv34r8l": {
+        "label": "Ham_thuoc_tinh_cong_thuc_V2_Client_ECA",
+        "vars": {},
+        "funcs": {
+          "xQe^S6=xRu71}=$*p%B4": {
+            "label": "Nhan_lay_phan_nguyen",
+            "params": {
+              "_arg128": {
+                "label": "int"
+              },
+              "_arg9409": {
+                "label": "so"
+              }
+            }
+          },
+          "ckh)MMOD5~`Gmzl0.RK4": {
+            "label": "Nhan_thuoc_tinh_cong_thuc",
+            "params": {
+              "_arg3535": {
+                "label": "ID_thuoc_tinh"
+              },
+              "_arg3723": {
+                "label": "Lay_gia_tri_ban_dau"
+              }
+            }
+          },
+          "tHGoQ^F0AY?|fqv@|=0e": {
+            "label": "Toan_tu",
+            "params": {
+              "_arg3017": {
+                "label": "Dieu_kien"
+              },
+              "_arg7755": {
+                "label": "True"
+              },
+              "_arg1205": {
+                "label": "False"
+              }
+            }
+          }
+        }
+      },
+      "c8cmyjrvfr-mmexvtep-1mta9iicsfu": {
+        "label": "Ham_UI_Damage_ECA",
+        "vars": {},
+        "funcs": {
+          "|Oy`1S@8K@2Z(x-$Dg7F": {
+            "label": "In_sat_thuong",
+            "params": {
+              "_arg1209": {
+                "label": "Sat_thuong"
+              },
+              "_arg5326": {
+                "label": "Muc_tieu"
+              },
+              "_arg4442": {
+                "label": "Mau"
+              },
+              "_arg2377": {
+                "label": "UI"
+              }
+            }
+          },
+          "ZP_BdPQoWR9Qzk~;XDi9": {
+            "label": "Them_anh_nen",
+            "params": {
+              "_arg1968": {
+                "label": "UI_Damage"
+              },
+              "_arg1070": {
+                "label": "Tai_nguyen"
+              },
+              "_arg2779": {
+                "label": "Vi_tri"
+              },
+              "_arg7437": {
+                "label": "Kich_co"
+              }
+            }
+          },
+          "%qhw9gV9b]`.)%4.DQ8q": {
+            "label": "Chay_hieu_ung",
+            "params": {
+              "_arg2059": {
+                "label": "Widget"
+              }
+            }
+          }
+        }
+      },
+      "q7n5gtxb0vh-mowsjimf-f3z5ilk4gpf": {
+        "label": "HamtienloiCLI_ECA",
+        "vars": {},
+        "funcs": {
+          "NsZ!#J$qPBUtok!esO^0": {
+            "label": "Xac_dinh_kieu_Int_Float",
+            "params": {
+              "_arg4165": {
+                "label": "Input"
+              },
+              "_arg1831": {
+                "label": "Ma_tra_ve"
+              },
+              "_arg2556": {
+                "label": "Gia_tri"
+              }
+            }
+          },
+          "Jl7PSu=Pc;BMk7q[lJ-U": {
+            "label": "Thay_doi_thanh_gia_tri",
+            "params": {
+              "_arg3212": {
+                "label": "Widget_chinh_cha"
+              },
+              "_arg9007": {
+                "label": "Gia_tri_hien_tai"
+              },
+              "_arg2961": {
+                "label": "Gia_tri_cuc_dai"
+              },
+              "_arg367": {
+                "label": "Mau_Neu_co"
+              },
+              "_arg4860": {
+                "label": "Chi_muc_Widget"
+              }
+            }
+          },
+          "IRE.@1FrJ,#v.%A=i~zz": {
+            "label": "Cat_2_lop_danh_sach",
+            "params": {
+              "_arg6827": {
+                "label": "Input"
+              }
+            }
+          },
+          "rT8mtcf+YuMG(/n])YIp": {
+            "label": "Loc_van_ban_xoa__ra_khoi_van_ban",
+            "params": {
+              "_arg2979": {
+                "label": "Input"
+              }
+            }
+          },
+          "xWf`Y-)xe5qvw6.IxVOJ": {
+            "label": "Chia_co_lam_tron_len"
+          }
+        }
+      },
+      "bxyzguhdast-mon14bhj-asb17nrughr": {
+        "label": "Hinh_nom_ECA",
+        "vars": {
+          "vLZmlWeJn": {
+            "label": "SumDMG"
+          }
+        },
+        "funcs": {}
+      },
+      "2vm9d50lzfs-mmvve7lr-aktpt04pdo": {
+        "label": "Mask_ECA",
+        "vars": {
+          "vo6eYYNjN": {
+            "label": "Object"
+          }
+        },
+        "funcs": {}
+      },
+      "ulg9pq30bbs-mopo7x3j-853a8tudyle": {
+        "label": "Quanlytainguyen_ECA",
+        "vars": {
+          "vw7R86qGa": {
+            "label": "IsReady"
+          }
+        },
+        "funcs": {
+          "i!b225Oh6jQ(!@aJu(fr": {
+            "label": "Bien_dong_so_du",
+            "params": {
+              "_arg4000": {
+                "label": "Ten_tien_te"
+              },
+              "_arg6881": {
+                "label": "So_du_thay_doi"
+              }
+            }
+          },
+          "|=%q6n|hQ-}RZtpP*4!L": {
+            "label": "Them_gia_tri",
+            "params": {
+              "_arg4000": {
+                "label": "Ten_nhan_vat"
+              },
+              "_arg4991": {
+                "label": "Loai_chi_so"
+              },
+              "_arg6881": {
+                "label": "Gia_tri"
+              }
+            }
+          },
+          "aRJ.[m;`xVj[,0AqzHw0": {
+            "label": "Ghi_thuoc_tinh_vao_database",
+            "params": {}
+          },
+          "`mPl5U/P-IV-zj||w:{a": {
+            "label": "Da_so_huu_nhan_vat",
+            "params": {
+              "_arg9061": {
+                "label": "Ten_nhan_vat"
+              },
+              "_arg3346": {
+                "label": "Co_so_huu"
+              },
+              "_arg8434": {
+                "label": "RankEXP"
+              },
+              "_arg49": {
+                "label": "LevelEXP"
+              },
+              "_arg3920": {
+                "label": "EXLevel"
+              }
+            }
+          },
+          "^f9ZA1we`.pRa`dC$Zs@": {
+            "label": "Doc_chi_so_nhan_vat",
+            "params": {
+              "_arg3657": {
+                "label": "Ten_nhan_vat"
+              },
+              "_arg6366": {
+                "label": "Loai_chi_so"
+              }
+            }
+          },
+          "jW/=UdgCGWQv83c?dY6_": {
+            "label": "Xem_so_tien",
+            "params": {
+              "_arg6366": {
+                "label": "Ten_tien_te"
+              }
+            }
+          },
+          "yogVX9nM1^0up^PpVOPU": {
+            "label": "Lay_Level_hien_tai",
+            "params": {
+              "_arg5112": {
+                "label": "EXPLevel"
+              }
+            }
+          },
+          "2nyMDz2h,muZu!Cd5Q|_": {
+            "label": "Lay_so_luong_tien_te_nhan_vat_su_dung",
+            "params": {
+              "_arg7246": {
+                "label": "ID_nhan_vat"
+              }
+            }
+          },
+          "O[}^zEk`RtpLv+sm;EJ[": {
+            "label": "Giao_dich_hang_loat"
+          }
+        }
+      },
+      "tv3qmdgzidc-moleyt4n-elvcjorm3fb": {
+        "label": "Touchpad_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "gae00t1olyb-mor0qq40-wcyzf9jh69": {
+        "label": "Trung_tam_du_lieu_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "3pyty1b0ttn-mm60myh4-desagx7q6l9": {
+        "label": "UI_Game_ECA",
+        "vars": {
+          "vn4byD0bt": {
+            "label": "co_the_kich_hoat_EX"
+          }
+        },
+        "funcs": {
+          "gr*aR5#I0SL.u]~@zIuP": {
+            "label": "Update_thanh_HP",
+            "params": {}
+          },
+          ",8+9]fg/8}LxY+T}(b9g": {
+            "label": "Update_thong_tin_vu_khi",
+            "params": {}
+          },
+          "Jl7PSu=Pc;BMk7q[lJ-U": {
+            "label": "Thay_doi_thanh_gia_tri",
+            "params": {
+              "_arg3212": {
+                "label": "Widget_chinh_cha"
+              },
+              "_arg9007": {
+                "label": "Gia_tri_hien_tai"
+              },
+              "_arg2961": {
+                "label": "Gia_tri_cuc_dai"
+              },
+              "_arg367": {
+                "label": "Mau_Neu_co"
+              },
+              "_arg4860": {
+                "label": "Chi_muc_Widget"
+              }
+            }
+          },
+          "eSV^g?0L%raHubXBwL]g": {
+            "label": "Thu_phong_camera_EX",
+            "params": {
+              "_arg7625": {
+                "label": "Truong_nhin"
+              },
+              "_arg9344": {
+                "label": "Do_lech"
+              }
+            }
+          },
+          "Gs@0Er~om?,otc6e2X.^": {
+            "label": "Update_thanh_mana",
+            "params": {}
+          },
+          "jyo7By2-Kcid;J{v|MF|": {
+            "label": "PlayEX",
+            "params": {}
+          },
+          "uYnCX[,$GfQb_~r@lzUA": {
+            "label": "Update_thanh_khien",
+            "params": {}
+          }
+        }
+      },
+      "ctf8e25dsie-mlncfnlg-xa3nhvmshos": {
+        "label": "UI_Story_V2_ECA",
+        "vars": {
+          "vVK9OoqY9": {
+            "label": "Chi_muc_doan_thoai_toi_da"
+          },
+          "vPmVNKrnv": {
+            "label": "Next"
+          },
+          "vOSBIUK4t": {
+            "label": "ID_Dialogue"
+          },
+          "vUwPrfGAB": {
+            "label": "Chi_muc_doan_thoai_hien_tai"
+          },
+          "vmrGsdflo": {
+            "label": "SFX"
+          },
+          "vxmxdOO7s": {
+            "label": "Ma_thuc_thi_hien_tai"
+          },
+          "vV6efQ9jE": {
+            "label": "so_lua_chon"
+          }
+        },
+        "funcs": {
+          "!W03)^M?fhYC;yWX,Obw": {
+            "label": "Update_cot_truyen",
+            "params": {}
+          },
+          "JN2:zwBXhY@+8cXXI:b_": {
+            "label": "An_hien_nut_dieu_khien",
+            "params": {
+              "_arg564": {
+                "label": "Hien_thi"
+              }
+            }
+          },
+          "?~#*fJH/.E=)aP+j4^Q8": {
+            "label": "Xu_ly_hien_thi_lua_chon",
+            "params": {
+              "_arg7987": {
+                "label": "Loi_thoai_lua_chon"
+              }
+            }
+          },
+          "[AXFzNd;$MuHzE4Kk%~W": {
+            "label": "Xu_ly_ma_thuc_thi",
+            "params": {
+              "_arg1741": {
+                "label": "Ma_thuc_thi"
+              }
+            }
+          },
+          "uGe`q8g836@r;.HE]!t7": {
+            "label": "Xu_ly_lua_chon_cua_nguoi_choi",
+            "params": {
+              "_arg2748": {
+                "label": "Nut"
+              },
+              "_arg61": {
+                "label": "Phan_hoi"
+              }
+            }
+          }
+        }
+      },
+      "0clddx01c2gj-mm00nm71-1emnwne3zfc": {
+        "label": "Vu_khi_client_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "y88fzaemg2q-mm2x4bbz-x8mp95qlnmq": {
+        "label": "Vu_khi_sever_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "7ymxeuernkn-mn4neh97-orqq6nypd8l": {
+        "label": "EventTrigger_ECA",
+        "vars": {
+          "vMM2zLmJV": {
+            "label": "PlayerList"
+          },
+          "visS7fgS6": {
+            "label": "ID_plot"
+          },
+          "vijJswqaX": {
+            "label": "Text"
+          }
+        },
+        "funcs": {}
+      },
+      "yvu389orvub-mn4gbltc-zqsnci0jwd8": {
+        "label": "plotUI_ECA",
+        "vars": {
+          "va1NLd4SV": {
+            "label": "ID_plot"
+          }
+        },
+        "funcs": {}
+      },
+      "904pue2d2m-moi432ns-5h52n6qdtx4": {
+        "label": "SukebanSMG_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "549422e273-39393c94-5f54c3ea82a": {
+        "label": "SukebanSR_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "l3ju4vqne5k-moi47ahk-gkmoj31vyvf": {
+        "label": "SukebanHMG_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "qbejp4pxasj-modohf5x-mxmlcpyyicr": {
+        "label": "Animator_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "zqz7diu056-mody85t9-ecuaohuf1rg": {
+        "label": "AnimatorClient_ECA",
+        "vars": {},
+        "funcs": {}
+      },
+      "kcwjyevzs1-mofeee76-9hpvqkiyead": {
+        "label": "Checkdichuyen_ECA",
+        "vars": {
+          "vD8eGvSue": {
+            "label": "Count"
+          }
+        },
+        "funcs": {
+          "TSnh:mMR.kG_ys0@2{JT": {
+            "label": "PlayConditon",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "o2rjua17e8-mofeflpv-x85adxd27zk": {
+        "label": "Dichuyen_ECA",
+        "vars": {},
+        "funcs": {
+          "G:?|d/.vBiUd2@RLO(+u": {
+            "label": "PlayAction",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "v76qdkljrq-moh26bkm-7i94zr7gv5": {
+        "label": "Khongcontho_ECA",
+        "vars": {
+          "vD8eGvSue": {
+            "label": "Count"
+          }
+        },
+        "funcs": {
+          "TSnh:mMR.kG_ys0@2{JT": {
+            "label": "PlayConditon",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "qp86px8roe-moh26e0v-yucn0q6isum": {
+        "label": "Lenthiendang_ECA",
+        "vars": {},
+        "funcs": {
+          "G:?|d/.vBiUd2@RLO(+u": {
+            "label": "PlayAction",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "pzdek2dqcg-mocyjmgr-m94e5ywknll": {
+        "label": "NPCBehaviour_ECA",
+        "vars": {
+          "vhjBXGj2K": {
+            "label": "Muc_tieu"
+          },
+          "vLfnfw3sK": {
+            "label": "vi_tri_gioi_han"
+          },
+          "v2IFNYERf": {
+            "label": "die"
+          },
+          "vhnwmwlwn": {
+            "label": "funcID"
+          }
+        },
+        "funcs": {
+          "C+!T:)3^^7Fa#B.++X]k": {
+            "label": "Theo_duoi_muc_tieu",
+            "params": {
+              "_arg8593": {
+                "label": "Thuc_the"
+              }
+            }
+          },
+          "R;f5:uZCyl^{q?wng0vP": {
+            "label": "BanNap_dan",
+            "params": {
+              "_arg9567": {
+                "label": "CurrentID"
+              }
+            }
+          },
+          "3aubfD]P!U5d5I)v907v": {
+            "label": "Tan_cong",
+            "params": {}
+          },
+          "Yg:;r2fu8_zUwOA#M`[@": {
+            "label": "Gay_DMG_danh_thuong",
+            "params": {}
+          },
+          "`plMat[+%h/8$:8^1?-h": {
+            "label": "Di_chuyen_trong_vung",
+            "params": {
+              "_arg2713": {
+                "label": "Time_ms"
+              }
+            }
+          },
+          "GDETjz*WE@KucR$I!*1N": {
+            "label": "Cap_ID_cho_ham",
+            "params": {}
+          }
+        }
+      },
+      "63e6agm4hr8-mognj9bt-j7qalid0yee": {
+        "label": "Solo1vs1_ECA",
+        "vars": {},
+        "funcs": {
+          "G:?|d/.vBiUd2@RLO(+u": {
+            "label": "PlayAction",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "q8x7yry29kd-mogniv7h-ml4k07lb7nd": {
+        "label": "Timkedich_ECA",
+        "vars": {
+          "vD8eGvSue": {
+            "label": "Count"
+          }
+        },
+        "funcs": {
+          "TSnh:mMR.kG_ys0@2{JT": {
+            "label": "PlayConditon",
+            "params": {
+              "_arg6151": {
+                "label": "Owner"
+              }
+            }
+          }
+        }
+      },
+      "u4p2rtheni-mp6lvnl7-kitkj7mzdr": {
         "label": "",
         "vars": {},
         "funcs": {
-          "GZm3e:7$umJ-Xou2F6+M": {
-            "label": "Visible_Widgets"
+          "A%l%w(g9I/_8EN8gdoZ5": {
+            "label": "Update_dieu_kien_nang_LV"
+          },
+          "J0ghzc(%W`@/z0fcIubR": {
+            "label": "Update_dieu_kien_nang_EX"
+          },
+          "I#X(VmIXt0e0bcR[`_Vi": {
+            "label": "Update_trang_thai_nang_cap"
+          },
+          "@L|hcdnGtM2iUs{jkRm2": {
+            "label": "Cho_phep_nang_EX"
+          },
+          "a8e%-;Tr6G.H]?d9;!8E": {
+            "label": "Cho_phep_nang_LV"
           }
         }
       }
     },
-    "Enums": {}
+    "Enums": {
+      "CustomEnum59640714": {
+        "label": "Chi_so_thuoc_tinh",
+        "members": {
+          "E21118482": {
+            "label": "RankEXP"
+          },
+          "E30994204": {
+            "label": "LevelEXP"
+          },
+          "E88293680": {
+            "label": "EXLevel"
+          }
+        }
+      },
+      "CustomEnum53935633": {
+        "label": "Trang_thai_uu_tien",
+        "members": {
+          "E12367954": {
+            "label": "Uutien"
+          },
+          "E14225057": {
+            "label": "Cungbac"
+          },
+          "E77312757": {
+            "label": "Khonguutien"
+          }
+        }
+      },
+      "CustomEnum19889981": {
+        "label": "Trang_thai",
+        "members": {
+          "E26019769": {
+            "label": "Ranh"
+          },
+          "E14140918": {
+            "label": "Dangban"
+          },
+          "E48954540": {
+            "label": "Dangnap"
+          },
+          "E28918009": {
+            "label": "DangthucthiEX"
+          }
+        }
+      },
+      "CustomEnum19796761": {
+        "label": "Loai_tinh",
+        "members": {
+          "E60604668": {
+            "label": "Giatricoban"
+          },
+          "E12125774": {
+            "label": "Hesocoban"
+          },
+          "E80703182": {
+            "label": "Max"
+          },
+          "E94634340": {
+            "label": "Min"
+          },
+          "E64700483": {
+            "label": "Hesonhan"
+          },
+          "E48715391": {
+            "label": "Botichluynhan"
+          },
+          "E89370127": {
+            "label": "Botichluytruoc"
+          },
+          "E54013547": {
+            "label": "Botichluysau"
+          }
+        }
+      },
+      "CustomEnum78281422": {
+        "label": "Loai_giao_dich",
+        "members": {}
+      }
+    }
   },
   "children": []
 }
-//"{FE:{"v":"1.17.4335043","c":{"FF":5001},"s":100}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

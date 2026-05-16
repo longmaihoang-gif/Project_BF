@@ -1,0 +1,56 @@
+import "StdLibrary.fcc" as StdLib
+import "SafeZone.fcc" as SafeZone
+import "Math.fcc" as Math
+import "List.fcc" as List
+
+graph VIP_Safezone_by_Sensei {
+
+    Global_FuncID int = 0
+
+    func Cap_ID_Moi() int {
+        Global_FuncID += 1
+        return Global_FuncID
+    }
+
+    async func BoV2(Tam_vong_bo List<Vector3>, Ban_kinh_bo List<float>, Tgian_cho List<float>, Tgian_thu List<float>, Sat_thuong List<int>) {
+        var My_FuncID = Cap_ID_Moi()
+    
+        for i = 0, Length(Tam_vong_bo), 1 {
+        
+            if (Global_FuncID != My_FuncID) {
+                return
+            }
+            DisableSafeZone()
+            var Trung_tam_dau = Tam_vong_bo[i]
+            var Ban_kinh_dau = Ban_kinh_bo[i]
+            var Damage = Sat_thuong[i]
+
+            var Trung_tam_sau = Trung_tam_dau
+            var Ban_kinh_sau = Ban_kinh_dau
+
+            if (i + 1 < Length(Tam_vong_bo)) {
+                Trung_tam_sau = Tam_vong_bo[i + 1]
+                Ban_kinh_sau = Ban_kinh_bo[i + 1]
+            }
+
+            EnableMovingSafeZone(Trung_tam_dau, 
+                                Trung_tam_sau, 
+                                Ban_kinh_dau, 
+                                Ban_kinh_sau, 
+                                9999999, 
+                                Damage)
+
+            WaitForMillisecond(Round(Tgian_cho[i] * 1000))
+
+            EnableMovingSafeZone(
+                Trung_tam_dau, 
+                Trung_tam_sau, 
+                Ban_kinh_dau, 
+                Ban_kinh_sau, 
+                Tgian_thu[i], 
+                Damage)
+
+            WaitForMillisecond(Round(Tgian_thu[i] * 1000))
+    }
+}
+}

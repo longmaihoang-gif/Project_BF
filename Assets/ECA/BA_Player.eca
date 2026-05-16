@@ -250,7 +250,7 @@
                         "V": {
                           "shadow": {
                             "type": "tyd",
-                            "id": "]u%1fUtqCTWo1=u6V=^5",
+                            "id": "AfVt@z}#kQdegWpSgJW)",
                             "extraState": "Player"
                           },
                           "block": {
@@ -345,6 +345,150 @@
                                 }
                               }
                             }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "a",
+                              "id": "f^Rz#Rf5)#5/*[{*M-%s",
+                              "extraState": {
+                                "X": 30,
+                                "L": [
+                                  1
+                                ],
+                                "O": [
+                                  ""
+                                ],
+                                "T": "WaitForSeconds",
+                                "OT": null
+                              },
+                              "inputs": {
+                                "P1": {
+                                  "shadow": {
+                                    "type": "ipi",
+                                    "id": "fZ+-fw9~^1WnhO8tugLq",
+                                    "fields": {
+                                      "V": 1000
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "exa",
+                                  "id": "m^*75$2leKuJr`|m;8-A",
+                                  "extraState": {
+                                    "id": "|=%q6n|hQ-}RZtpP*4!L",
+                                    "name": "Thêm giá trị",
+                                    "params": [
+                                      {
+                                        "id": "_arg4000",
+                                        "name": "Tên nhân vật",
+                                        "type": "String",
+                                        "isOut": false
+                                      },
+                                      {
+                                        "id": "_arg4991",
+                                        "name": "Loại chỉ số",
+                                        "type": "CustomEnum59640714",
+                                        "isOut": false
+                                      },
+                                      {
+                                        "id": "_arg6881",
+                                        "name": "Giá trị",
+                                        "type": "Int",
+                                        "isOut": false
+                                      }
+                                    ],
+                                    "returnType": null,
+                                    "graphId": "ulg9pq30bbs-mopo7x3j-853a8tudyle"
+                                  },
+                                  "fields": {
+                                    "T": "W"
+                                  },
+                                  "inputs": {
+                                    "H": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "pmgb+}=Fyn0aCn*r0av:",
+                                        "extraState": "Component"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "H2xbg,I=`FH?Jy#B:yEz",
+                                        "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                                        "fields": {
+                                          "VR": "player"
+                                        }
+                                      }
+                                    },
+                                    "_arg4000": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "|]vi+K30?#km|OqoA0?|",
+                                        "extraState": "String"
+                                      },
+                                      "block": {
+                                        "type": "prg",
+                                        "id": "sV}0tCDYYVgt/!G@[f,7",
+                                        "extraState": {
+                                          "X": 1,
+                                          "T": "String"
+                                        },
+                                        "fields": {
+                                          "P": "PROP_65527156:Component"
+                                        },
+                                        "inputs": {
+                                          "H": {
+                                            "shadow": {
+                                              "type": "tys",
+                                              "id": "vEpxan4)9)l:)@dksOw`",
+                                              "extraState": "Component"
+                                            },
+                                            "block": {
+                                              "type": "lcg",
+                                              "id": "532#~~9ykcG+/,3VOEgt",
+                                              "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
+                                              "fields": {
+                                                "VR": "player"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "_arg4991": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "28H@qt;!o!ayqKTgRUSW",
+                                        "extraState": "CustomEnum59640714"
+                                      },
+                                      "block": {
+                                        "type": "ipe",
+                                        "id": "f^,lnCYa|AAmRaM2/Pv2",
+                                        "extraState": "CustomEnum59640714",
+                                        "fields": {
+                                          "I": "E21118482"
+                                        }
+                                      }
+                                    },
+                                    "_arg6881": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "H-A3=cJ-cmUI9o/U:Du8",
+                                        "extraState": "Int"
+                                      },
+                                      "block": {
+                                        "type": "ipi",
+                                        "id": "1NVENjyu[i%qI9x[dIKN",
+                                        "fields": {
+                                          "V": 1
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
                           }
                         }
                       }
@@ -359,8 +503,8 @@
       {
         "type": "fna",
         "id": "=@w}mulo;q;|27PEn{?0",
-        "x": 738,
-        "y": 207,
+        "x": 1940,
+        "y": -101,
         "extraState": [
           {
             "id": "_arg2184",
@@ -543,73 +687,6 @@
                         }
                       }
                     }
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "a",
-        "id": "w_5Xy6(zL29[Z/QH#fv9",
-        "x": 1154,
-        "y": -214,
-        "extraState": {
-          "X": 30,
-          "L": [
-            1
-          ],
-          "O": [
-            ""
-          ],
-          "T": "WaitForSeconds",
-          "OT": null
-        },
-        "inputs": {
-          "P1": {
-            "shadow": {
-              "type": "ipi",
-              "id": "Z!(U7ETG-ryxR9aE[`uI",
-              "fields": {
-                "V": 5000
-              }
-            }
-          }
-        },
-        "next": {
-          "block": {
-            "type": "fca",
-            "id": "d3(zNdn8nOm6,[EE[D=J",
-            "extraState": {
-              "id": "=@w}mulo;q;|27PEn{?0",
-              "name": "cưỡi ngựa",
-              "params": [
-                {
-                  "id": "_arg2184",
-                  "name": "Player",
-                  "type": "Player",
-                  "isOut": false
-                }
-              ],
-              "returnType": null
-            },
-            "fields": {
-              "T": "W"
-            },
-            "inputs": {
-              "_arg2184": {
-                "shadow": {
-                  "type": "tys",
-                  "id": "mH`QG|)BG6qBpYw~|:5%",
-                  "extraState": "Player"
-                },
-                "block": {
-                  "type": "lcg",
-                  "id": "XL#6JCJqo9MEu35[KLHp",
-                  "extraState": "nw3,g0YcUFc+aoH~`Y3wVD",
-                  "fields": {
-                    "VR": "player"
                   }
                 }
               }
