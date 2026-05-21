@@ -59,6 +59,20 @@
             "label": "ECAPlayer"
           }
         }
+      },
+      "Component": {
+        "label": "",
+        "props": {
+          "PROP_67151468": {
+            "label": "Thuoc_tinh_cong_thuc_hoa"
+          },
+          "PROP_52040726": {
+            "label": "Bieu_cam"
+          },
+          "PROP_35012420": {
+            "label": "Thong_so"
+          }
+        }
       }
     },
     "Events": {
@@ -425,6 +439,12 @@
                 "label": "EXValue"
               }
             }
+          },
+          "uS`XnBP);ys{*1x;]2]D": {
+            "label": "Update_Rank"
+          },
+          "M~fq0f279gNo;-_#^||^": {
+            "label": "Load_model_3D"
           }
         }
       },
@@ -668,6 +688,12 @@
                 "label": "ID_nhan_vat"
               }
             }
+          },
+          "PMhnLE~},;{aJ#O9pp3s": {
+            "label": "Lay_loai_xu_nhan_vat_su_dung"
+          },
+          "}Z2z7DPp^)m4m|0qNgg2": {
+            "label": "Lay_cap_do_rank_hien_tai"
           }
         }
       },
@@ -850,29 +876,9 @@
         "funcs": {}
       },
       "y04eik6yo8-moss98qu-d1be4fqt8xi": {
-        "label": "UI_Test_1_ECA",
+        "label": "UI_Test_CLI",
         "vars": {},
         "funcs": {}
-      },
-      "kxisjrujg6b-mhovlywe-whc8d4262g": {
-        "label": "UI_Test_ECA",
-        "vars": {},
-        "funcs": {
-          "eSV^g?0L%raHubXBwL]g": {
-            "label": "Thu_phong_camera_EX",
-            "params": {
-              "_arg5373": {
-                "label": "Player"
-              },
-              "_arg7625": {
-                "label": "Truong_nhin"
-              },
-              "_arg9344": {
-                "label": "Do_lech"
-              }
-            }
-          }
-        }
       },
       "36fte9jgtiy-mkr0r8q2-l4peighewf7": {
         "label": "UI_thanh_mau_xep_tang_ECA",
@@ -1649,7 +1655,7 @@
         }
       },
       "q7n5gtxb0vh-mowsjimf-f3z5ilk4gpf": {
-        "label": "HamtienloiCLI_ECA",
+        "label": "Extension_Func_CLI",
         "vars": {},
         "funcs": {
           "NsZ!#J$qPBUtok!esO^0": {
@@ -1726,7 +1732,7 @@
         "funcs": {}
       },
       "ulg9pq30bbs-mopo7x3j-853a8tudyle": {
-        "label": "Quanlytainguyen_ECA",
+        "label": "Resource_Management",
         "vars": {
           "vw7R86qGa": {
             "label": "IsReady"
@@ -1819,6 +1825,21 @@
           },
           "O[}^zEk`RtpLv+sm;EJ[": {
             "label": "Giao_dich_hang_loat"
+          },
+          "PMhnLE~},;{aJ#O9pp3s": {
+            "label": "Lay_loai_xu_nhan_vat_su_dung"
+          },
+          "}Z2z7DPp^)m4m|0qNgg2": {
+            "label": "Lay_cap_do_rank_hien_tai"
+          },
+          ";S@p(*xSI5l%yGsj7nUK": {
+            "label": "Check_nang_LV"
+          },
+          "Z)/QrS(CnHal+@9kIzzG": {
+            "label": "Check_nang_EX"
+          },
+          ":s$E!lMkuu4X|T|uD3/H": {
+            "label": "Lay_he_so_suc_manh_EX_base_x1"
           }
         }
       },
@@ -2190,6 +2211,24 @@
             "label": "Cho_phep_nang_LV"
           }
         }
+      },
+      "mbftruk5p2-mp72crfg-u4462ndkrf": {
+        "label": "C_Player_3_ECA",
+        "vars": {
+          "vL1pxGvRw": {
+            "label": "UI_Temp"
+          }
+        },
+        "funcs": {}
+      },
+      "5ivmmy6jfwi-mpetv6at-gve3ihear0p": {
+        "label": "Extension_Func",
+        "vars": {},
+        "funcs": {
+          "IRE.@1FrJ,#v.%A=i~zz": {
+            "label": "Cat_2_lop_danh_sach"
+          }
+        }
       }
     },
     "Enums": {
@@ -2269,7 +2308,17 @@
       },
       "CustomEnum78281422": {
         "label": "Loai_giao_dich",
-        "members": {}
+        "members": {
+          "E86748774": {
+            "label": "Cong"
+          },
+          "E66662936": {
+            "label": "Tru"
+          },
+          "E14323779": {
+            "label": "Linh_hoat"
+          }
+        }
       }
     }
   },

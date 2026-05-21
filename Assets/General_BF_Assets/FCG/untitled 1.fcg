@@ -1,0 +1,14 @@
+import "StdLibrary.fcc" as std
+import "List.fcc" as list
+import "EditorGenLib.fcc" as editorlib
+import "Map.fcc" as map
+import "Time.fcc" as time
+import"Convert.fcc" as convert
+[platform_server]
+graph FCGScript {
+    event OnAwake() {
+        var NewMap = Map<string, int>{"Aris":1,"Momoi":2}
+        //EpochTime chạy theo local, not global
+        LogInfo(TimestampToLocalString(1780246800, TimestampFormatStyleType.DateTime)) // 1-6-2026 00:00:00
+    }
+}

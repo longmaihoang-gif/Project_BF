@@ -1,0 +1,26 @@
+import "Convert.fcc" as Convert
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "CSVData.fcc" as CSV
+import "Map.fcc" as Map
+import Ham_thuoc_tinh_cong_thuc_V2_ECA from "EditorGenLib.fcc"
+import Resource_Management from "EditorGenLib.fcc"
+// import Component from "EditorGenLib.fcc"
+
+[platform_server]
+graph Dong_bo_chi_so {
+    func Sync_Properties() {
+        StringToFloat( ToString( ReadCSVCell( EResCSV.Level_Upgrade_Prices, thisEntity<Resource_Management>.Lay_Level_hien_tai( thisEntity<Resource_Management>.Doc_chi_so_nhan_vat( thisEntity<EditorLib.Component>.ID_Character, Chi_so_thuoc_tinh.LevelEXP)) + 1, 2)), out var Strength_Level, out var IsSuccessA)
+        var Current_Rank = thisEntity<Resource_Management>.Lay_cap_do_rank_hien_tai( thisEntity<Resource_Management>.Doc_chi_so_nhan_vat( thisEntity<EditorLib.Component>.ID_Character, Chi_so_thuoc_tinh.RankEXP))
+        StringToFloat( ToString( ReadCSVCell( EResCSV.Rank_Reqiure, Current_Rank + 1, 2)), out var Strength_Rank, out var IsSuccessB)
+        var Strength = (1 + Strength_Level)*Strength_Rank
+        thisEntity<Ham_thuoc_tinh_cong_thuc_V2_ECA>.Them_thuoc_tinh_cong_thuc("ATK", Loai_tinh.Hesocoban, false, Strength, out var IsSuccess1)
+        thisEntity<Ham_thuoc_tinh_cong_thuc_V2_ECA>.Them_thuoc_tinh_cong_thuc("Max_HP", Loai_tinh.Hesocoban, false, Strength, out var IsSuccess2)
+        thisEntity<Ham_thuoc_tinh_cong_thuc_V2_ECA>.Them_thuoc_tinh_cong_thuc("Healing", Loai_tinh.Hesocoban, false, Strength, out var IsSuccess3)
+        if(Current_Rank >= 5 && !HasTag(thisEntity,"Enhanced_EX")) {
+            thisEntity<Ham_thuoc_tinh_cong_thuc_V2_ECA>.Them_thuoc_tinh_cong_thuc("EX_Skill_DMG_Dealt (%)", Loai_tinh.Botichluytruoc, false, 10, out var IsSuccess4)
+            AddTag(thisEntity, "Enhanced_EX")
+        }
+        // LogInfo("Gọi hàm đồng bộ")
+    }
+}

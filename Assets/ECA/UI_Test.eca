@@ -1,0 +1,115 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "hbe",
+        "id": "A1_RR(6J+5kUhbEswHJ0",
+        "x": -307,
+        "y": 196,
+        "extraState": {
+          "X": 135,
+          "L": [
+            1
+          ],
+          "O": [
+            "o"
+          ],
+          "T": "OnClick",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "N": "Callback7106",
+          "H": {
+            "name": "Button",
+            "type": "HudButtonWidget"
+          },
+          "P1": {
+            "name": "Người chơi",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "imz2-B,6LX:IB]%uTxt,",
+            "extraState": {
+              "X": 919,
+              "L": [
+                1,
+                2,
+                3
+              ],
+              "O": [
+                "o",
+                "",
+                ""
+              ],
+              "T": "CreateCustomHudV2",
+              "OT": null
+            },
+            "fields": {
+              "P1": {
+                "name": "Thực thể được tạo",
+                "type": "CustomHud"
+              }
+            },
+            "inputs": {
+              "P2": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "g+ISK7a!=^!c_QJuqzVi",
+                  "extraState": "PlayerOrObserver"
+                },
+                "block": {
+                  "type": "v",
+                  "id": "s121_dup_block",
+                  "extraState": {
+                    "X": 121,
+                    "L": [
+                      1
+                    ],
+                    "O": [
+                      ""
+                    ],
+                    "T": "GetEntityOwner",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "p4xH{vh*Nbii;.~E8@w[",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "ent",
+                        "id": ",#4^nwh[0wh)2OT[l,[i"
+                      }
+                    }
+                  }
+                }
+              },
+              "P3": {
+                "shadow": {
+                  "type": "pkh",
+                  "id": "4p|!~1=k=6H)g9Q,t$8+",
+                  "fields": {
+                    "HD": "s08z9h8br4p-mio8itdw-n981ny2gf6j"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "CustomHud",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}

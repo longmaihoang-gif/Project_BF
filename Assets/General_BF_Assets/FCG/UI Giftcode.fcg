@@ -1,0 +1,29 @@
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Database.fcc" as Database
+import "List.fcc" as List
+import "Strings.fcc" as String
+import "Hud.fcc" as Hud
+import "Time.fcc" as Time
+import "./Giftcode_Storage.fcg" as GiftcodeSys
+
+[platform_server]
+graph Script {
+    event OnAwake() {
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Widget/Error_log")<UIWidget>.IsVisible = false
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Sucess_Widget")<UIWidget>.IsVisible = false
+    }
+    async func Redeem (Button entity<UIWidgetButton>, Player entity<Player>) {
+        var Input_Code = GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Widget/Hộp thoại")<UIWidgetInputLabel>.ActiveText
+        wait GetOwner(thisEntity)<GiftcodeSys>.Redeem_Code(ToUpper(Input_Code), out var Result)
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Widget/Error_log")<UIWidget>.IsVisible = !Result
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Sucess_Widget")<UIWidget>.IsVisible = Result
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Widget/Hộp thoại")<UIWidgetInputLabel>.ActiveText = ""
+    }
+    func CloseUI (Button entity<UIWidgetButton>, Player entity<Player>) {
+        Destroy(thisEntity)
+    }
+    func CloseSucessWidget (Button entity<UIWidgetButton>, Player entity<Player>) {
+        GetWidgetByPath(GetOwner(thisEntity), thisEntity<CustomUI>, "/Sucess_Widget")<UIWidget>.IsVisible = false
+    }
+}

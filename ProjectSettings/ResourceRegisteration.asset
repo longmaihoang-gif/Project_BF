@@ -6,7 +6,20 @@
   "Resource": {
     "ui": {
       "id": "ui",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "dmcikputdv4-mole7sss-c0g126ufbmg",
+            "filePath": "Assets\\General_BF_Assets\\UI\\UI Upgrade.ui",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ui"
+          },
+          "scriptName": "UIUpgrade",
+          "children": []
+        }
+      ]
     },
     "scene": {
       "id": "scene",
@@ -145,14 +158,26 @@
             "fileType": "prefab"
           },
           "scriptName": "yuuka_3D",
-          "children": [],
-          "_isNewInSession": true
+          "children": []
         }
       ]
     },
     "ugcscript": {
       "id": "ugcscript",
-      "children": []
+      "children": [
+        {
+          "refer": {
+            "fileId": "ypdwmmrfsfm-mpb0k525-4grloe7q4b1",
+            "filePath": "Assets\\General_BF_Assets\\FCG\\Đồng_bộ_chỉ số_chung.fcg",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "ugcscript"
+          },
+          "scriptName": "Dong_bo_chi_so",
+          "children": []
+        }
+      ]
     },
     "eca": {
       "id": "eca",
@@ -940,6 +965,138 @@
           },
           "scriptName": "SKILLICON_CH0230_EXSKILL",
           "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6jifp4r1wtd-mp9v09wz-hdkwo2klcr",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Aru\\Student_Portrait_Aru.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "aru_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "p1awpkp26fq-mp9uex3y-8rbpgka6zkv",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\B_Aris\\Arisu_(Battle).png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "aris_armed_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "ijfrd37b6wk-mp8hfeoj-6n2tlqrdysf",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Kei\\Kei.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "kei_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "si8xekcp8g-mp9v0a16-tfbjv5wgvpm",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\M_Aris\\Student_Portrait_CH0200.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "aris_maid_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "vowkmr3ntre-mp9v0a4c-46il425uu9n",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\M_Momoi\\Student_Portrait_CH0201.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "momoi_maid_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "on2wuz04pkp-mp9v0a7m-cl6vs8ppnig",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\M_Midori(Momoi_Linked)\\Student_Portrait_CH0202.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "midori_maid_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "8w2cfspp1ze-mp9v0ads-u3qakhcrx8m",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\B_Hoshino\\Student_Portrait_CH0258.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "hoshino_armed_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "crsd0fodpnd-mp9v0aap-1c7zh61y6ai",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\D_Hina\\Student_Portrait_CH0230.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "hina_dress_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "w2abzyi8b1-mp9v0alh-ukdljsskwp",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Maki\\Student_Portrait_Maki.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "maki_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "pfmk9yxquuh-mp9v0ahu-3wofkcwsgba",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Haruna\\Student_Portrait_Haruna.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "haruna_icon_img",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "oqpjadp7jyl-mp9v0aoo-6pi5ajxryot",
+            "filePath": "Assets\\General_BF_Assets\\Characters\\Yuuka\\Student_Portrait_Yuuka.png",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "texture"
+          },
+          "scriptName": "yuuka_icon_img",
+          "children": []
         }
       ]
     },
@@ -1045,6 +1202,18 @@
           },
           "scriptName": "Kei_B_Day_3",
           "children": []
+        },
+        {
+          "refer": {
+            "fileId": "e9b7570635c39ca247b83d973a8cd403",
+            "filePath": "lib://ffsounds/WorkshopAudio/T_38_WZY_WS_SOUND18.wav",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "sound"
+          },
+          "scriptName": "Click",
+          "children": []
         }
       ]
     },
@@ -1086,6 +1255,79 @@
           },
           "scriptName": "Level_Upgrade_Prices",
           "children": []
+        },
+        {
+          "refer": {
+            "fileId": "e74hray8vcg-moqtgsm4-3cungeawdnk",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\Student_Infomation.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "Student_Infomation",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "r57o02t9i7n-mjl28fse-cdavtic5xjc",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\Thuộc tính 1.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "Properties_1",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "eupi58bie3-mo9win1d-o9y0jumyhgc",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\Thuộc tính 2.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "Properties_2",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "6q3rgzpgur2-moti0ult-i781h9mvj28",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\EX_Upgrade_Prices.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "EX_Upgrade_Prices",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "tecbk8fk6ub-mp3wqx0n-dd6k4ui2gyl",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\Rank_Reqiure.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "Rank_Reqiure",
+          "children": []
+        },
+        {
+          "refer": {
+            "fileId": "7exyxag080g-mpdn3p6m-350lfi3v2gp",
+            "filePath": "Assets\\General_BF_Assets\\Localization\\Giftcode.csv",
+            "_tag": {
+              "type": "GFileRefer"
+            },
+            "fileType": "csv"
+          },
+          "scriptName": "Giftcode",
+          "children": [],
+          "_isNewInSession": true
         }
       ]
     },

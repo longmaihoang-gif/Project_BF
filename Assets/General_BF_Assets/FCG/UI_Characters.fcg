@@ -1,0 +1,79 @@
+import "Convert.fcc" as Convert
+import "StdLibrary.fcc" as StdLib
+import "EditorGenLib.fcc" as EditorLib
+import "Hud.fcc" as Hud
+import "List.fcc" as List
+import "CSVData.fcc" as CSV
+import Resource_Management_CLI from "EditorGenLib.fcc"
+import CSVDataClient_ECA from "EditorGenLib.fcc"
+import UI_Upgrade_Backend from "EditorGenLib.fcc"
+import Res from "EditorGenLib.fcc"
+import C_Player_3_ECA from "EditorGenLib.fcc"
+import "Strings.fcc" as Strings
+[platform_client]
+graph Script {
+    ThisPlayer entity<Player>
+    UI_Upgrade entity<CustomUI> 
+    event OnAwake() {
+        GetWidgetByPath(ThisPlayer,thisEntity<CustomUI>,"/Character_widget_template")<UIWidget>.IsVisible = false
+        ThisPlayer = GetLocalPlayer()
+        CreateCustomUIClient(out var UIUpgrade, EResUI.UIUpgrade)
+        UIUpgrade<UI_Upgrade_Backend>.Linked_UI = thisEntity<CustomUI>
+        UI_Upgrade = UIUpgrade
+        UIUpgrade<Entity>.ActiveSelf = false
+        ThisPlayer<C_Player_3_ECA>.UI_Temp= UIUpgrade
+        WaitForNextFrame()
+        Update_Money()
+        Update_Character_UI()
+    }
+    func Close_UI (Button entity<UIWidgetButton>, Player entity<Player>) {
+        Destroy(thisEntity)
+    }
+    func Click_SFX (Button entity<UIWidgetButton>, Player entity<Player>) {
+        PlayOneShotSoundV2(EResSound.Click, 1)
+    }
+    func Update_Money () {
+        // Định dạng tiền credit
+        var strCredit = Convert.NumToString(ThisPlayer<Resource_Management_CLI>.Xem_so_tien("credit"), "N")
+        GetWidgetByPath(ThisPlayer, thisEntity<CustomUI>,"/Main/Title/Credit_BG/Credit_IMG/Credit_value")<UIWidgetLabel>.Content = Strings.Replace(strCredit, ".00", "")
+        // Định dạng tiền pyroxene
+        var strPyroxene = Convert.NumToString(ThisPlayer<Resource_Management_CLI>.Xem_so_tien("pyroxene"), "N")
+        GetWidgetByPath(ThisPlayer, thisEntity<CustomUI>,"/Main/Title/Pyroxene_BG/Pyroxene_IMG/Pyroxene_value")<UIWidgetLabel>.Content = Strings.Replace(strPyroxene, ".00", "")
+    }
+    func Update_Character_UI () {
+        Clear_Character_Store()
+        for index, ID_Character in ReadCSVColumn(EResCSV.Student_Infomation,1) {
+            if (index != 0) {
+                var String_ID = ToString(ID_Character)
+                var So_Huu = ThisPlayer<Resource_Management_CLI>.Doc_chi_so_nhan_vat(String_ID, Chi_so_thuoc_tinh.RankEXP) > 0
+                if(So_Huu) {
+                    StdLib.Clone(out var Template_Widget, GetWidgetByPath(ThisPlayer,thisEntity<CustomUI>,"/Character_widget_template"))
+                    Template_Widget<UIWidget>.IsVisible = true
+                    SetWidgetParent(GetWidgetByPath(ThisPlayer, thisEntity<CustomUI>,"/Main/Character_Store/Bố cục"), Template_Widget<UIWidget>)
+                    Template_Widget<Entity>.Name = String_ID
+                    // Thay đổi icon nhân vật
+                    GetChildByName(Template_Widget,"Character_IMG")<UIWidgetImage>.SpriteName = Res.Sprite[(String_ID + "_icon_img") as EResKeySprite]
+                    // Thêm tên nhân vật
+                    GetChildByName(Template_Widget,"Name")<UIWidgetLabel>.Content = globalEntity<CSVDataClient_ECA>.Doc_o_CSV_theo_ID_va_ten_chung(EResCSV.Student_Infomation, String_ID, "Name")
+                    // Thay đổi level nhân vật
+                    GetChildByName(Template_Widget,"Level")<UIWidgetLabel>.Content = "Lv." + ThisPlayer<Resource_Management_CLI>.Lay_Level_hien_tai(ThisPlayer<Resource_Management_CLI>.Doc_chi_so_nhan_vat(String_ID, Chi_so_thuoc_tinh.LevelEXP))
+                    // Thay đổi màu sắc theo cấp
+                    var Color_list = List<Color>{#00FF00, #0088ff, #ff00aa, #ffbb00, #ff0909}
+                    GetChildByName(Template_Widget,"Tier_color")<UIWidgetImage>.Color = Color_list[ThisPlayer<Resource_Management_CLI>.Lay_cap_do_rank_hien_tai(ThisPlayer<Resource_Management_CLI>.Doc_chi_so_nhan_vat(String_ID, Chi_so_thuoc_tinh.RankEXP)) - 1]
+                }
+            }    
+        }
+    }
+    func Clear_Character_Store () {
+        for i, Widget in GetChildren(GetWidgetByPath(ThisPlayer, thisEntity<CustomUI>,"/Main/Character_Store/Bố cục")) {
+            Destroy(Widget)
+        }
+    }
+    func Select_Character (Button entity<UIWidgetButton>, Player entity<Player>) {
+        var String_ID = GetParent(Button)<Entity>.Name
+        UI_Upgrade<UI_Upgrade_Backend>.CharacterID = String_ID
+        UI_Upgrade<Entity>.ActiveSelf = true
+        UI_Upgrade<UI_Upgrade_Backend>.Update_UI()
+        thisEntity<Entity>.ActiveSelf = false
+    }
+}

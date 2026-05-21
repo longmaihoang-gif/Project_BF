@@ -1,0 +1,92 @@
+import "StdLibrary.fcc" as std
+import "Database.fcc" as DB
+import "CSVData.fcc" as CSV
+import "List.fcc" as list
+import "Strings.fcc" as String
+import "EditorGenLib.fcc" as EditorLib
+import "Convert.fcc" as Convert
+import Resource_Management from "EditorGenLib.fcc"
+import CSVData_ECA from "EditorGenLib.fcc"
+import Extension_Func from "EditorGenLib.fcc"
+[platform_server]
+graph Giftcode_Storage {
+
+    // === BIẾN NGƯỜI CHƠI (cache nhanh trong trận) ===
+    Redeemed_Codes List<string> = List<string>{}
+    Is_Ready bool = false // Trạng thái tải dữ liệu để tránh Race Condition
+
+    event OnAwake(){
+        var UID = thisEntity<Player>.UserUID
+        //Mình biết chắc chắn nó trả về list<string> rồi, hạn chế ép kiểu phức tạp
+        wait ReadFromDataStore("Giftcode_storage", UID, "redeemed_code", out var Giftcode_list,"" ,out var ReadStatus)
+        if (Giftcode_list != nil) {
+            Redeemed_Codes = Giftcode_list as List<string>
+        }
+        var Giftcode_sheet = ReadCSVColumn(EResCSV.Giftcode, 1)
+        RemoveAt(Giftcode_sheet, 0)
+        var i = 0
+        while (i< list.Length(Redeemed_Codes)) {
+            var Giftcode = Redeemed_Codes[i]
+            if (IndexOf(Giftcode_sheet, Giftcode) == -1) {
+                list.Remove(Redeemed_Codes, Giftcode)
+                i--
+            }
+            i++
+        }
+        WriteToDataStoreV2("Giftcode_storage", UID, "redeemed_code", Redeemed_Codes, "", out var WriteStatus)
+        Is_Ready = true
+    }
+    func Co_the_dung (Giftcode string) bool {
+        var xac_nhan = false
+        var Giftcode_sheet = ReadCSVColumn(EResCSV.Giftcode, 1)
+        RemoveAt(Giftcode_sheet, 0)
+        for i, GiftCode_ton_tai in Giftcode_sheet {
+            if (ToString(GiftCode_ton_tai) == Giftcode) {
+                // Đọc thời điểm hết hạn và so sánh với thời gian thực tế của Server
+                var het_han_str = globalEntity<CSVData_ECA>.Doc_o_CSV_theo_ID_va_ten_chung(EResCSV.Giftcode, Giftcode, "Thời điểm hết hạn (Epoch Time Local)")
+                StringToInt(het_han_str, out var Het_han, out var IsConverted)
+                if (IsConverted && GetServerTimestamp() > Het_han) { return false /* Code đã hết hạn, không thể dùng*/ }
+                xac_nhan = true
+                break
+            }
+        }
+        if (!xac_nhan) { return false }
+        return !list.Contain(Redeemed_Codes, Giftcode)
+    }
+    async func Redeem_Code (Giftcode string, out var IsSucess bool) {
+        IsSucess = Co_the_dung(Giftcode) && Is_Ready
+        if (IsSucess) {
+            Is_Ready = false
+            // Ghi nhận code đã dùng vào bộ đệm và database
+            list.Append(Redeemed_Codes, Giftcode)
+            wait UpdateToDataStore("Giftcode_storage", thisEntity<Player>.UserUID, "redeemed_code", Redeemed_Codes, "", out var WriteStatus)
+            if (WriteStatus != StatusCode.NoError) {
+                IsSucess = false
+                list.Remove(Redeemed_Codes, Giftcode)
+                Is_Ready = true
+                return
+            }
+            // Đọc phần thưởng từ cột "Reward" trong CSV thông qua ECA
+            var reward_str = globalEntity<CSVData_ECA>.Doc_o_CSV_theo_ID_va_ten_chung(EResCSV.Giftcode, Giftcode, "Reward")       
+            // Phân tách phần thưởng dưới dạng List<object>
+            var rewards_list_raw = thisEntity<Extension_Func>.Cat_2_lop_danh_sach(reward_str)
+            var rewards_map = Map<string, int>{}
+            for i, reward in rewards_list_raw {
+                // Ép kiểu từng phần tử con thành List<string> (chứa [Tên_tiền_tệ, Số_lượng])
+                var reward_info = reward as List<string>
+                if (reward_info != nil && list.Length(reward_info) >= 2) {
+                    var currency_name = reward_info[0]
+                    StringToInt(reward_info[1], out var amount, out var IsRead)
+                    if (IsRead) {
+                        rewards_map[currency_name] = amount
+                    } else {
+                        rewards_map[currency_name] = 0
+                    }
+                }
+            }
+            // Thực hiện giao dịch cộng tài nguyên hàng loạt qua ECA Resource_Management
+            thisEntity<Resource_Management>.Giao_dich_hang_loat(rewards_map, Loai_giao_dich.Cong, out var IsSucess1)
+            Is_Ready = true
+        }
+    }
+}

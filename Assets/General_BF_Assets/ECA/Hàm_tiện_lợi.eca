@@ -1,0 +1,318 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fnv",
+        "id": "IRE.@1FrJ,#v.%A=i~zz",
+        "x": 627,
+        "y": 103,
+        "extraState": [
+          {
+            "id": "_arg6827",
+            "name": "Input",
+            "type": "String",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "Cắt 2 lớp danh sách",
+          "R": "ListT_any",
+          "_arg6827": {
+            "name": "Input",
+            "type": "String"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "ipcm",
+              "id": "~.er^jv:ol;1w9GDb=iE",
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "ipta",
+                    "id": "KaPXm^p)5GHFj)ex8O~W",
+                    "fields": {
+                      "V": "Dùng để tách chuỗi kép dưới dạng danh sách 2\nchiều:\n/ dùng để tách mảng\n| dùng để tách phẩn tử trong mảng"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "ipcm",
+                  "id": "#)5UEb:91]nm`)9x}L#Q",
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "ipta",
+                        "id": "jNU0w;XkXHM[r.(Q={Te",
+                        "fields": {
+                          "V": "Hàm trả về list<list<string>>"
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "lcd",
+                      "id": "!^gvo+?l,*sa){jCC1hG",
+                      "fields": {
+                        "VD": {
+                          "name": "Output",
+                          "type": "ListT_ListT_String"
+                        },
+                        "T": "$Auto"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tyd",
+                            "id": "g^VlaRMmRtl=Y${D{1We",
+                            "extraState": "$Auto"
+                          },
+                          "block": {
+                            "type": "lic",
+                            "id": "G.G,)5t(Qw@;%U/iQx.3",
+                            "extraState": {
+                              "X": 0
+                            },
+                            "fields": {
+                              "T": "ListT_String"
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "lcd",
+                          "id": "ErO-B/m%YFs$_6TFBW5u",
+                          "fields": {
+                            "VD": {
+                              "name": "danh sách mảng",
+                              "type": "ListT_any"
+                            },
+                            "T": "ListT_any"
+                          },
+                          "inputs": {
+                            "V": {
+                              "shadow": {
+                                "type": "tyd",
+                                "id": "a5[N,et~Tj#5BxI-Ol37",
+                                "extraState": "ListT_any"
+                              },
+                              "block": {
+                                "type": "v",
+                                "id": "cv_*b}}|5VGxk;PD(1Dk",
+                                "extraState": {
+                                  "X": 654,
+                                  "L": [
+                                    1,
+                                    2
+                                  ],
+                                  "O": [
+                                    "",
+                                    ""
+                                  ],
+                                  "T": "SplitString",
+                                  "OT": null
+                                },
+                                "inputs": {
+                                  "P1": {
+                                    "shadow": {
+                                      "type": "ipt",
+                                      "id": "i.LZq$SS.QW;j`RolsvD",
+                                      "fields": {
+                                        "V": ""
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "lcg",
+                                      "id": "Am*!;ZB~u#LrPu^Dely]",
+                                      "extraState": "IRE.@1FrJ,#v.%A=i~zz_arg6827",
+                                      "fields": {
+                                        "VR": "Input"
+                                      }
+                                    }
+                                  },
+                                  "P2": {
+                                    "shadow": {
+                                      "type": "ipt",
+                                      "id": "[nH,DX|#w#@V]/)HrCy4",
+                                      "fields": {
+                                        "V": "/"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "lpe",
+                              "id": "A7H{GOFZO!:Bub}um9t;",
+                              "fields": {
+                                "X": {
+                                  "name": "key",
+                                  "type": "Int"
+                                },
+                                "I": {
+                                  "name": "Mảng chuỗi lần 1",
+                                  "type": "any"
+                                }
+                              },
+                              "inputs": {
+                                "RN": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "hWq^88gQP6;fSW4)ddcA",
+                                    "extraState": "List|Map__Danh sách và Từ điển"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "hY#*$)MG]Ig.~/V3Hji|",
+                                    "extraState": "ErO-B/m%YFs$_6TFBW5uVD",
+                                    "fields": {
+                                      "VR": "danh sách mảng"
+                                    }
+                                  }
+                                },
+                                "D": {
+                                  "block": {
+                                    "type": "a",
+                                    "id": "upKzKdjLulMQB1)amlWq",
+                                    "extraState": {
+                                      "X": 47,
+                                      "L": [
+                                        1,
+                                        2
+                                      ],
+                                      "O": [
+                                        "",
+                                        ""
+                                      ],
+                                      "T": "ListAppend",
+                                      "OT": null
+                                    },
+                                    "inputs": {
+                                      "P1": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "qRJC+OS^7Nw%Oqd+5ivu",
+                                          "extraState": "List"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "L_*iLjI?^J$e)yeagX9+",
+                                          "extraState": "!^gvo+?l,*sa){jCC1hGVD",
+                                          "fields": {
+                                            "VR": "Output"
+                                          }
+                                        }
+                                      },
+                                      "P2": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": ".B{4uhe|-Sy-qF7|HBv)",
+                                          "extraState": "ListT_String"
+                                        },
+                                        "block": {
+                                          "type": "v",
+                                          "id": "!%!X|1hQEB}uJ:fth/q9",
+                                          "extraState": {
+                                            "X": 654,
+                                            "L": [
+                                              1,
+                                              2
+                                            ],
+                                            "O": [
+                                              "",
+                                              ""
+                                            ],
+                                            "T": "SplitString",
+                                            "OT": null
+                                          },
+                                          "inputs": {
+                                            "P1": {
+                                              "shadow": {
+                                                "type": "ipt",
+                                                "id": "i.LZq$SS.QW;j`RolsvD",
+                                                "fields": {
+                                                  "V": ""
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "lcg",
+                                                "id": "A}?7(H_vY%AQrS[X-;c:",
+                                                "extraState": "A7H{GOFZO!:Bub}um9t;I",
+                                                "fields": {
+                                                  "VR": "Mảng chuỗi lần 1"
+                                                }
+                                              }
+                                            },
+                                            "P2": {
+                                              "shadow": {
+                                                "type": "ipt",
+                                                "id": "pIoUNY,zMJy)8-4NCc!B",
+                                                "fields": {
+                                                  "V": "|"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "fnr",
+                                  "id": "9TY_-(m}se3jde`}Xf0O",
+                                  "extraState": {
+                                    "rt": "ListT_any"
+                                  },
+                                  "inputs": {
+                                    "R": {
+                                      "shadow": {
+                                        "type": "tys",
+                                        "id": "ZM-+Z6~PD^#FSci[!i8U",
+                                        "extraState": "ListT_any"
+                                      },
+                                      "block": {
+                                        "type": "lcg",
+                                        "id": "IV(E|Z=#y?a2:eC[rB8m",
+                                        "extraState": "!^gvo+?l,*sa){jCC1hGVD",
+                                        "fields": {
+                                          "VR": "Output"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Component",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"1.17.4368367","c":{"FF":5001},"s":100}
